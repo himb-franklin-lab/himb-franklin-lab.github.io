@@ -8,7 +8,7 @@ view: citation
 #banner:
   #caption: ''
   #image: ''
----
+
 **Peer-Reviewed Publications** (* = Franklin lab student, + = other student) \
 Last update as of: October 2024
 
@@ -179,4 +179,4 @@ Franklin EC, Oyafuso ZS* (in revision) A rare example of a random, non-aggregati
 2. [NOAA] National Oceanic and Atmospheric Administration (2000) Tortugas Ecological Reserve: Final Supplemental Environmental Impact Statement/Final Supplemental Management Plan. 315 pp.\
 1. Franklin EC (1998) Battling a coral disease in the Florida Keys National Marine Sanctuary. Oceanic Resources Foundation Newsletter. Winter 1998.\
 
-
+---
