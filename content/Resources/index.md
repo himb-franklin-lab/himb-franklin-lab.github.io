@@ -57,7 +57,7 @@ Marine Aquarium Societies of North America Scholarship\
 **Training**\
 [Data Carpentry](https://datacarpentry.org/)\
 [National Institute for Mathematical and Biological Synthesis Tutorials](https://www.nimbios.org/)\
-[Software Carpentry](https://software-carpentry.org/)\
+[Software Carpentry](https://software-carpentry.org/)
 
 **Scientific Employment in Hawaii**\
 [AECOS, Inc.](https://www.aecos.com/)\
@@ -66,4 +66,4 @@ Marine Aquarium Societies of North America Scholarship\
 [NOAA](https://www.usajobs.gov/Search/?k=NOAA)\
 [Oceanit](https://oceanit.com/join-us/)\
 [State of Hawaii](https://dhrd.hawaii.gov/job-seekers/civil-service-hawaii-state-government-jobs/)\
-[University of Hawaii](https://www.schooljobs.com/careers/hawaiiedu)\
+[University of Hawaii](https://www.schooljobs.com/careers/hawaiiedu)
