@@ -2,7 +2,7 @@
 title: Resources
 ---
 **Computing**\
-[AD Model Builder Corridor Design DB Browser for SQLite](https://www.admb-project.org/)\ 
+[AD Model Builder Corridor Design DB Browser for SQLite](https://www.admb-project.org/)\
 [DEM Surface Tools DIVA-GIS EPD Canopy](https://www.jennessent.com/arcgis/surface_area.htm) \
 [Filezilla](https://filezilla-project.org/)  \
 [GitforWindows](https://gitforwindows.org/)\
@@ -32,7 +32,7 @@ title: Resources
 [PADI Foundation](https://www.padi.com/aware/community-grants)\
 [SeaWorld & Busch Gardens Conservation Fund](https://swbg-conservationfund.org/grant-seekers/)\
 [Strategic Environmental Research and Development Program (SERDP)](https://serdp-estcp.mil/workwithus/fundingprocess)\
-[Alfred P. Sloan Foundation Grants](https://sloan.org/grants/apply)\
+[Alfred P. Sloan Foundation Grants](https://sloan.org/grants/apply)
 
 **Student Grants & Fellowships**\
 [AFS Berkeley Marine Conservation Fellowship](https://mfs.fisheries.org/?page_id=155)\
@@ -43,16 +43,16 @@ title: Resources
 [Explorers Club Student Grants](https://www.explorers.org/grants/)\
 [Ford Foundation Fellowship Program](https://www.fordfoundation.org/work/investing-in-individuals/the-ford-global-fellowship/)\
 [International Society for Reef Studies Graduate Fellowship](https://coralreefs.org/student-travel-grants/graduate-fellowships/)\
-[[L’Oréal USA For Women in Science fellowship program](https://www.loreal.com/en/usa/pages/group/fwis/)\
+[L’Oréal USA For Women in Science fellowship program](https://www.loreal.com/en/usa/pages/group/fwis/)\
 Marine Aquarium Societies of North America Scholarship\
-[[Marine Stewardship Council Scholarship Research Program](https://www.msc.org/what-we-are-doing/science-and-research/student-research-grant)]\
+[Marine Stewardship Council Scholarship Research Program](https://www.msc.org/what-we-are-doing/science-and-research/student-research-grant)]\
 [National Defense Science & Engineering Graduate Fellowship](https://ndseg.sysplus.com/)\
 [NOAA Hollings Scholarship Program](https://www.noaa.gov/office-education/hollings-scholarship)\
 [NOAA Fisheries/Sea Grant Population Dynamics Fellowship Program](https://seagrant.noaa.gov/communities/students/graduate-fellows/nmfs-sg-fellowship/)\
 [NRC Research Associateship Program](https://www.nationalacademies.org/our-work/rap/for-applicants)\
 [NSF Graduate Research Fellowship Program](https://www.nsfgrfp.org/)\
 [US Federal Opportunities for Graduate Students](https://www.justice.gov/enrd/pathways-students-and-recent-graduates-federal-careers)\
-[Women Divers Hall of Fame Scholarships and Training Grants](https://www.wdhof.org/scholarships/scholarship-descriptions)\
+[Women Divers Hall of Fame Scholarships and Training Grants](https://www.wdhof.org/scholarships/scholarship-descriptions)
 
 **Training**\
 [Data Carpentry](https://datacarpentry.org/)\
