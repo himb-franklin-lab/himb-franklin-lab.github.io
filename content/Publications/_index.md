@@ -9,7 +9,7 @@ banner:
   caption: ''
   image: ''
 ---
-Peer-Reviewed Publications (* = Franklin lab student, + = other student) 
+**Peer-Reviewed Publications** (* = Franklin lab student, + = other student) 
 Last update as of: October 2024
 
 76. Franklin EC, Platt MT*, Andrade P (accepted) Increased occurrence of the rare golden color morph of Pacific chub Kyphosus sandwicensis in a no-take marine reserve. Journal of Fish Biology. doi: 10.1111/jfb.15644
@@ -101,7 +101,7 @@ Transplantation to the R/V Columbus Iselin Grounding Site in the Florida Keys Na
 2. Franklin EC, Ault JS, Smith SG (2002) Utilization of a GIS in a fisheries assessment and management system. In: J. Breman (ed) Marine Geography: GIS for the Oceans and the Seas. Redlands, CA: ESRI Press.
 1. Miller SL, Swanson DW, Chiappone M, Ault JS, Smith SG, Meester GA, Luo J, Franklin EC, Bohnsack JA, Harper DE, McClellan DB (2001) An extensive deep reef terrace on the Tortugas Bank, Florida Keys National Marine Sanctuary. Coral Reefs 20:299-300.
 
-Working Papers
+**Working Papers**
 Franklin EC, Oyafuso ZS, Asher J (In prep) Model-based delineation of essential fish habitat for a data limited tropical snapper. ICES Journal of Marine Science
 
 Longenecker K, Langston R, Mamesah J, Natan Y, Pattinasarany M, Radjab AW, Romdon A, Ruli F, Simanjuntak P + , Sinaga FL + , Limmon GV, Franklin EC (In revision) Reproductive life history of the blacktip grouper Epinephelus fasciatus (Forsskål 1775): histological methods are critical for estimating parameters of a hermaphroditic fish. Journal of Fish Biology
@@ -123,7 +123,7 @@ carbunculus, between subregions of the Hawaiian archipelago. Canadian Journal of
 
 Franklin EC, Oyafuso ZS* (in revision) A rare example of a random, non-aggregating macroparasitic infection: the endoparasite Hirudinella ventricosa (Trematoda: Digenea) within wahoo Acanthocybium solandri (Perciformes: Scombridae). International Journal for Parasitology
 
-Technical Reports
+**Technical Reports**
 36. Franklin EC (2023) Western Pacific Stock Assessment Review: Stock Assessment of American Samoa Bottomfish, 2023, Panel Summary Report. Report to Western Pacific Regional Fishery Management Council, NOAA Fisheries PIFSC, NOAA Fisheries PIRO. 5 pp.
 35. Franklin EC (2023) Western Pacific Stock Assessment Review: Stock Assessment of American Samoa Bottomfish, 2023, Individual Reviewer Report. Report to Western Pacific Regional Fishery Management Council, NOAA Fisheries PIFSC, NOAA Fisheries PIRO. 30 pp.
 34. Franklin EC, Longenecker K, Langston R (2021) Specialist Training in Histology-based Reproductive Analysis of Tropical Fishes at Pattimura University, Ambon, Indonesia. Report prepared by the University of Hawaii at Manoa (UHM) for Tetra Tech’s Supplemental Technical Assistance to the USAID SEA Project and Walton Family Foundation. 26 pp.
