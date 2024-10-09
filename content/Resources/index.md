@@ -12,10 +12,10 @@ title: Resources
 [Marxan](https://marxansolutions.org/)\ 
 [MEGA MGET](https://megasoftware.net/)\
 [Mendeley](https://www.mendeley.com/search/)\
-[NOAA Fisheries Toolbox Notepad++ ](https://noaa-fisheries-integrated-toolbox.github.io/) \
+[NOAA Fisheries Toolbox Notepad++ ](https://noaa-fisheries-integrated-toolbox.github.io/)\
 [OpenNSPECT OSGeo4W Patch Analyst](https://www.csc.noaa.gov/digitalcoast/tools/opennspect)\
 [QGIS](https://qgis.org/)\
-[RStudio](https://posit.co/)
+[RStudio](https://posit.co/)\
 [Python](https://www.python.org/)\ 
 [SQLite](https://www.sqlite.org/)\
 [StarCluster](http://star.mit.edu/cluster/index.html)\
@@ -27,37 +27,37 @@ title: Resources
 [Department of Commerce](https://www.commerce.gov/work-with-us/grants-and-contract-opportunities)\
 [Environmental Protection Agency](https://www.epa.gov/grants)\
 [National Aeronautics and Space Administration](https://www.nasa.gov/centers-and-facilities/grants-2/)\
-[[National Geographic Society Committee for Research and Exploration Grant](https://www.nationalgeographic.org/society/grants-and-investments/)]\
-[[National Science Foundation](https://new.nsf.gov/funding/opportunities)]\
-[[PADI Foundation](https://www.padi.com/aware/community-grants)]\
-[[SeaWorld & Busch Gardens Conservation Fund](https://swbg-conservationfund.org/grant-seekers/)]\
-[[Strategic Environmental Research and Development Program (SERDP)](https://serdp-estcp.mil/workwithus/fundingprocess)]\
-[[Alfred P. Sloan Foundation Grants](https://sloan.org/grants/apply)]\
+[National Geographic Society Committee for Research and Exploration Grant](https://www.nationalgeographic.org/society/grants-and-investments/)\
+[National Science Foundation](https://new.nsf.gov/funding/opportunities)\
+[PADI Foundation](https://www.padi.com/aware/community-grants)\
+[SeaWorld & Busch Gardens Conservation Fund](https://swbg-conservationfund.org/grant-seekers/)\
+[Strategic Environmental Research and Development Program (SERDP)](https://serdp-estcp.mil/workwithus/fundingprocess)\
+[Alfred P. Sloan Foundation Grants](https://sloan.org/grants/apply)\
 
 **Student Grants & Fellowships**\
-[[AFS Berkeley Marine Conservation Fellowship](https://mfs.fisheries.org/?page_id=155)]\
-[[Boren Awards for International Study](https://www.borenawards.org/)]\
-[[Dr. Nancy Foster Scholarship Program, Office of National Marine Sanctuaries, NOAA](https://fosterscholars.noaa.gov/)]\
-[[East-West Center Graduate Degree Fellowship](https://www.eastwestcenter.org/education/ewc-graduate-degree-fellowship)]\
-[[EPA STAR Graduate Fellowship Program](https://www.epa.gov/research-fellowships/science-achieve-results-star-graduate-and-greater-research-opportunities-gro)]\
-[[Explorers Club Student Grants](https://www.explorers.org/grants/)]\
-[[Ford Foundation Fellowship Program](https://www.fordfoundation.org/work/investing-in-individuals/the-ford-global-fellowship/)]\
-[[International Society for Reef Studies Graduate Fellowship](https://coralreefs.org/student-travel-grants/graduate-fellowships/)]\
-[[L’Oréal USA For Women in Science fellowship program](https://www.loreal.com/en/usa/pages/group/fwis/)]\
+[AFS Berkeley Marine Conservation Fellowship](https://mfs.fisheries.org/?page_id=155)\
+[Boren Awards for International Study](https://www.borenawards.org/)\
+[Dr. Nancy Foster Scholarship Program, Office of National Marine Sanctuaries, NOAA](https://fosterscholars.noaa.gov/)\
+[East-West Center Graduate Degree Fellowship](https://www.eastwestcenter.org/education/ewc-graduate-degree-fellowship)\
+[EPA STAR Graduate Fellowship Program](https://www.epa.gov/research-fellowships/science-achieve-results-star-graduate-and-greater-research-opportunities-gro)\
+[Explorers Club Student Grants](https://www.explorers.org/grants/)\
+[Ford Foundation Fellowship Program](https://www.fordfoundation.org/work/investing-in-individuals/the-ford-global-fellowship/)\
+[International Society for Reef Studies Graduate Fellowship](https://coralreefs.org/student-travel-grants/graduate-fellowships/)\
+[[L’Oréal USA For Women in Science fellowship program](https://www.loreal.com/en/usa/pages/group/fwis/)\
 Marine Aquarium Societies of North America Scholarship\
 [[Marine Stewardship Council Scholarship Research Program](https://www.msc.org/what-we-are-doing/science-and-research/student-research-grant)]\
-[[National Defense Science & Engineering Graduate Fellowship](https://ndseg.sysplus.com/)]\
-[[NOAA Hollings Scholarship Program](https://www.noaa.gov/office-education/hollings-scholarship)]\
-[[NOAA Fisheries/Sea Grant Population Dynamics Fellowship Program](https://seagrant.noaa.gov/communities/students/graduate-fellows/nmfs-sg-fellowship/)]\
-[[NRC Research Associateship Program](https://www.nationalacademies.org/our-work/rap/for-applicants)]\
-[[NSF Graduate Research Fellowship Program](https://www.nsfgrfp.org/)]\
-[[US Federal Opportunities for Graduate Students](https://www.justice.gov/enrd/pathways-students-and-recent-graduates-federal-careers)]\
-[[Women Divers Hall of Fame Scholarships and Training Grants](https://www.wdhof.org/scholarships/scholarship-descriptions)]\
+[National Defense Science & Engineering Graduate Fellowship](https://ndseg.sysplus.com/)\
+[NOAA Hollings Scholarship Program](https://www.noaa.gov/office-education/hollings-scholarship)\
+[NOAA Fisheries/Sea Grant Population Dynamics Fellowship Program](https://seagrant.noaa.gov/communities/students/graduate-fellows/nmfs-sg-fellowship/)\
+[NRC Research Associateship Program](https://www.nationalacademies.org/our-work/rap/for-applicants)\
+[NSF Graduate Research Fellowship Program](https://www.nsfgrfp.org/)\
+[US Federal Opportunities for Graduate Students](https://www.justice.gov/enrd/pathways-students-and-recent-graduates-federal-careers)\
+[Women Divers Hall of Fame Scholarships and Training Grants](https://www.wdhof.org/scholarships/scholarship-descriptions)\
 
 **Training**\
-[[Data Carpentry](https://datacarpentry.org/)]\
-[[National Institute for Mathematical and Biological Synthesis Tutorials](https://www.nimbios.org/)]\
-[[Software Carpentry](https://software-carpentry.org/)]\
+[Data Carpentry](https://datacarpentry.org/)\
+[National Institute for Mathematical and Biological Synthesis Tutorials](https://www.nimbios.org/)\
+[Software Carpentry](https://software-carpentry.org/)\
 
 **Scientific Employment in Hawaii**\
 [AECOS, Inc.](https://www.aecos.com/)\
