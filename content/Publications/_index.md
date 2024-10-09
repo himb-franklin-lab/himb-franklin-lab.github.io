@@ -2,12 +2,12 @@
 title: Publications
 
 # Listing view
-view: citation
+#view: citation
 
 # Optional banner image (relative to `assets/media/` folder).
-banner:
-  caption: ''
-  image: ''
+#banner:
+  #caption: ''
+  #image: ''
 ---
 **Peer-Reviewed Publications** (* = Franklin lab student, + = other student) 
 Last update as of: October 2024
