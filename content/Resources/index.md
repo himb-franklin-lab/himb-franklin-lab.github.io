@@ -10,7 +10,6 @@ title: Resources
 [JAGS](https://mcmc-jags.sourceforge.io/)\
 [LASzip](https://laszip.org/)  \
 [Marxan](https://marxansolutions.org/)\
-
 [MEGA MGET](https://megasoftware.net/)\
 [Mendeley](https://www.mendeley.com/search/)\
 [NOAA Fisheries Toolbox Notepad++ ](https://noaa-fisheries-integrated-toolbox.github.io/)\
@@ -18,7 +17,6 @@ title: Resources
 [QGIS](https://qgis.org/)\
 [RStudio](https://posit.co/)\
 [Python](https://www.python.org/)\
- 
 [SQLite](https://www.sqlite.org/)\
 [StarCluster](http://star.mit.edu/cluster/index.html)\
 [WinBUGS](http://bes-qsig.github.io/fge/docs/IntroWinBUGSwithR/#:~:text=WinBUGS%20is%20a%20piece%20of,it%20is%20more%20computationally%20expensive.) \
