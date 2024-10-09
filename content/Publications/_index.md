@@ -9,7 +9,7 @@ view: citation
   #caption: ''
   #image: ''
 ---
-**Peer-Reviewed Publications** \ (* = Franklin lab student, + = other student) \
+**Peer-Reviewed Publications** (* = Franklin lab student, + = other student) \
 Last update as of: October 2024
 
 76. Franklin EC, Platt MT*, Andrade P (accepted) Increased occurrence of the rare golden color morph of Pacific chub Kyphosus sandwicensis in a no-take marine reserve. Journal of Fish Biology. doi: 10.1111/jfb.15644
