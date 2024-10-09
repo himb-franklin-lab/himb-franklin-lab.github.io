@@ -9,14 +9,16 @@ title: Resources
 [GitHub](https://github.com/)  \
 [JAGS](https://mcmc-jags.sourceforge.io/)\
 [LASzip](https://laszip.org/)  \
-[Marxan](https://marxansolutions.org/)\ 
+[Marxan](https://marxansolutions.org/)\
+
 [MEGA MGET](https://megasoftware.net/)\
 [Mendeley](https://www.mendeley.com/search/)\
 [NOAA Fisheries Toolbox Notepad++ ](https://noaa-fisheries-integrated-toolbox.github.io/)\
 [OpenNSPECT OSGeo4W Patch Analyst](https://www.csc.noaa.gov/digitalcoast/tools/opennspect)\
 [QGIS](https://qgis.org/)\
 [RStudio](https://posit.co/)\
-[Python](https://www.python.org/)\ 
+[Python](https://www.python.org/)\
+ 
 [SQLite](https://www.sqlite.org/)\
 [StarCluster](http://star.mit.edu/cluster/index.html)\
 [WinBUGS](http://bes-qsig.github.io/fge/docs/IntroWinBUGSwithR/#:~:text=WinBUGS%20is%20a%20piece%20of,it%20is%20more%20computationally%20expensive.) \
@@ -45,7 +47,7 @@ title: Resources
 [International Society for Reef Studies Graduate Fellowship](https://coralreefs.org/student-travel-grants/graduate-fellowships/)\
 [L’Oréal USA For Women in Science fellowship program](https://www.loreal.com/en/usa/pages/group/fwis/)\
 Marine Aquarium Societies of North America Scholarship\
-[Marine Stewardship Council Scholarship Research Program](https://www.msc.org/what-we-are-doing/science-and-research/student-research-grant)]\
+[Marine Stewardship Council Scholarship Research Program](https://www.msc.org/what-we-are-doing/science-and-research/student-research-grant)\
 [National Defense Science & Engineering Graduate Fellowship](https://ndseg.sysplus.com/)\
 [NOAA Hollings Scholarship Program](https://www.noaa.gov/office-education/hollings-scholarship)\
 [NOAA Fisheries/Sea Grant Population Dynamics Fellowship Program](https://seagrant.noaa.gov/communities/students/graduate-fellows/nmfs-sg-fellowship/)\
