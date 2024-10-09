@@ -1,5 +1,5 @@
 ---
-title: **Peer-Reviewed Publications** 
+title: Peer-Reviewed Publications
 caption: "*" = Franklin lab student, "+" = other student \
 Last update as of: October 2024
 # Listing view
