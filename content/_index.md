@@ -3,7 +3,6 @@
 title:
 date: 2022-10-24
 type: landing
-slug: 
 
 sections:
   - block: hero
