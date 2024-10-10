@@ -10,8 +10,8 @@ title: Peer-Reviewed Publications
 <input type="text" id="searchBar" placeholder="Search publications..." onkeyup="searchCitations()" style="margin-bottom: 20px; padding: 10px; width: 100%; max-width: 600px;">
 
 <div class="publication-entry">
-**Franklin EC**, Platt MT*, Andrade P (accepted) Increased occurrence of the rare golden color morph of Pacific chub Kyphosus sandwicensis in a no-take marine reserve. *Journal of Fish Biology*. [doi: 10.1111/jfb.15644](https://doi.org/10.1111/jfb.15644)  
-<a href="#" class="badge badge-secondary" onclick="showCitation('franklin2024')">Cite</a>
+    Franklin EC, Platt MT*, Andrade P (accepted). Increased occurrence of the rare golden color morph of Pacific chub Kyphosus sandwicensis in a no-take marine reserve. <em>Journal of Fish Biology</em>. [doi: <a href="https://doi.org/10.1111/jfb.15644">10.1111/jfb.15644</a>]  
+    <a href="#" class="badge badge-secondary" onclick="showCitation('franklin2024')">Cite</a>
 
 <!-- Hidden citation -->
 <div id="franklin2024" class="citation" style="display:none;">
