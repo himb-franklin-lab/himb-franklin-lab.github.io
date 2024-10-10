@@ -35,8 +35,8 @@ title: Resources
 [Alfred P. Sloan Foundation Grants](https://sloan.org/grants/apply)
 
 **Student Grants & Fellowships**\
-[AFS Berkeley Marine Conservation Fellowship](https://mfs.fisheries.org/?page_id=155)\
 [American Fisheries Society Allen Scholarship Award](https://fisheries.org/about/awards-recognition/call-for-award-nominations-section-awards/frances-allen-scholarship-award/)\
+[American Fisheries Society Berkeley Marine Conservation Fellowship](https://mfs.fisheries.org/?page_id=155)\
 [American Fisheries Society Mote Fisheries Fellowship](https://fisheries.org/about/awards-recognition/call-for-award-nominations/william-r-mote-fisheries-fellowship-award/)\
 [Boren Awards for International Study](https://www.borenawards.org/)\
 [Dr. Nancy Foster Scholarship Program, Office of National Marine Sanctuaries, NOAA](https://fosterscholars.noaa.gov/)\
@@ -47,7 +47,6 @@ title: Resources
 [Hauʻoli Mau Loa Graduate Fellowship](https://www.soest.hawaii.edu/soestwp/hauoli-mau-loa-graduate-fellowship/)\
 [International Society for Reef Studies Graduate Fellowship](https://coralreefs.org/student-travel-grants/graduate-fellowships/)\
 [L’Oréal USA For Women in Science fellowship program](https://www.loreal.com/en/usa/pages/group/fwis/)\
-Marine Aquarium Societies of North America Scholarship\
 [Marine Stewardship Council Scholarship Research Program](https://www.msc.org/what-we-are-doing/science-and-research/student-research-grant)\
 [National Defense Science & Engineering Graduate Fellowship](https://ndseg.sysplus.com/)\
 [NOAA Hollings Scholarship Program](https://www.noaa.gov/office-education/hollings-scholarship)\
