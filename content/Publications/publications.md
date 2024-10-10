@@ -1,24 +1,24 @@
 ---
 title: Peer-Reviewed Publications
-
-# Listing view
-view: citation
+date: 2024-10-10
+type: "publication"
+layout: "publications"
 
 # Optional banner image (relative to `assets/media/` folder).
-banner:
-  caption: ''
-  image: ''
+#banner:
+  #caption: ''
+  #image: ''
 ---
 
-Franklin EC, Platt MT*, Andrade P (accepted) Increased occurrence of the rare golden color morph of Pacific chub Kyphosus sandwicensis in a no-take marine reserve. Journal of Fish Biology. doi: 10.1111/jfb.15644 \
+- Franklin EC, Platt MT*, Andrade P (accepted) Increased occurrence of the rare golden color morph of Pacific chub Kyphosus sandwicensis in a no-take marine reserve. Journal of Fish Biology. doi: 10.1111/jfb.15644 \
 
-Winans WR+, Chen Q, Qiang Y, Franklin EC (2023) Large-area automatic detection of shoreline stranded marine debris using deep learning. International Journal of Applied Earth Observation and Geoinformation 124: 103515. doi: 10.1016/j.jag.2023.103515 \
+- Winans WR+, Chen Q, Qiang Y, Franklin EC (2023) Large-area automatic detection of shoreline stranded marine debris using deep learning. International Journal of Applied Earth Observation and Geoinformation 124: 103515. doi: 10.1016/j.jag.2023.103515 \
 
-Purwanto, Franklin EC, Mardiani SR, White AT (2023) Multiple-goal bioeconomic programming to address conflicting management objectives in Indonesian small pelagic fisheries. Marine Policy 150: 105519. doi: 10.1016/j.marpol.2023.105519 \
+- Purwanto, Franklin EC, Mardiani SR, White AT (2023) Multiple-goal bioeconomic programming to address conflicting management objectives in Indonesian small pelagic fisheries. Marine Policy 150: 105519. doi: 10.1016/j.marpol.2023.105519 \
 
-Carlson KM, Mora C, Xu J+, Setter RO+, Harangody M+, Franklin EC, Kantar MB, Lucas M, Menzo ZM+, Spirandelli D, Schanzenbach D, Warr CC, Wong AE+, Businger S (2022) Global rainbow distribution under current and future climates. Global Environmental Change 77: 10206. doi: 10.1016/j.gloenvcha.2022.102604 \
+- Carlson KM, Mora C, Xu J+, Setter RO+, Harangody M+, Franklin EC, Kantar MB, Lucas M, Menzo ZM+, Spirandelli D, Schanzenbach D, Warr CC, Wong AE+, Businger S (2022) Global rainbow distribution under current and future climates. Global Environmental Change 77: 10206. doi: 10.1016/j.gloenvcha.2022.102604 \
 
-Setter RO+, Franklin EC, Mora C (2022) Co-occurring anthropogenic stressors reduce the timeframe of environmental viability for the world’s coral reefs. PLoS Biology 20: e3001821. doi: 10.1371/journal.pbio.3001821 \
+- Setter RO+, Franklin EC, Mora C (2022) Co-occurring anthropogenic stressors reduce the timeframe of environmental viability for the world’s coral reefs. PLoS Biology 20: e3001821. doi: 10.1371/journal.pbio.3001821 \
 
 Barkley YM*, Sakai T, Oleson EM, Franklin EC (2022) Examining distribution patterns of foraging and non-foraging sperm whales in Hawaiian waters using visual and passive acoustic data. Frontiers in Remote Sensing 3: 940186 doi: 10.3389/frsen.2022.940186 \
 
