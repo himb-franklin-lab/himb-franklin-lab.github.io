@@ -40,7 +40,7 @@ Franklin EC, Platt MT*, Andrade P (accepted) Increased occurrence of the rare go
 </div>
 
 <div class="publication-entry">
-    Purwanto, Franklin EC, Mardiani SR, White AT (2023). Multiple-goal bioeconomic programming to address conflicting management objectives in Indonesian small pelagic fisheries. <em>Marine Policy</em> <strong>150</strong>: 105519. <a href="https://doi.org/10.1016/j.marpol.2023.105519">doi:10.1016/j.marpol.2023.105519</a>
+    Purwanto, Franklin EC, Mardiani SR, White AT (2023). Multiple-goal bioeconomic programming to address conflicting management objectives in Indonesian small pelagic fisheries. <em>Marine Policy</em> 150: 105519. <a href="https://doi.org/10.1016/j.marpol.2023.105519">doi:10.1016/j.marpol.2023.105519</a>
 
   <a href="#" class="badge badge-secondary" onclick="showCitation('purwanto2023')">Cite</a>
 
@@ -52,6 +52,7 @@ Franklin EC, Platt MT*, Andrade P (accepted) Increased occurrence of the rare go
 
 <div class="publication-entry">
     Carlson KM, Mora C, Xu J+, Setter RO+, Harangody M+, Franklin EC, Kantar MB, Lucas M, Menzo ZM+, Spirandelli D, Schanzenbach D, Warr CC, Wong AE+, Businger S (2022). Global rainbow distribution under current and future climates. <em>Global Environmental Change<em> 77: 102604. <a href="https://doi.org/10.1016/j.gloenvcha.2022.102604">doi:10.1016/j.gloenvcha.2022.102604</a>
+    
   <a href="#" class="badge badge-secondary" onclick="showCitation('carlson2022')">Cite</a>
 
 <!-- Hidden citation -->
