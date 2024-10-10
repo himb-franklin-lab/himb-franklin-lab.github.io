@@ -36,12 +36,15 @@ title: Resources
 
 **Student Grants & Fellowships**\
 [AFS Berkeley Marine Conservation Fellowship](https://mfs.fisheries.org/?page_id=155)\
+[American Fisheries Society Allen Scholarship Award](https://fisheries.org/about/awards-recognition/call-for-award-nominations-section-awards/frances-allen-scholarship-award/)\
+[American Fisheries Society Mote Fisheries Fellowship](https://fisheries.org/about/awards-recognition/call-for-award-nominations/william-r-mote-fisheries-fellowship-award/)\
 [Boren Awards for International Study](https://www.borenawards.org/)\
 [Dr. Nancy Foster Scholarship Program, Office of National Marine Sanctuaries, NOAA](https://fosterscholars.noaa.gov/)\
 [East-West Center Graduate Degree Fellowship](https://www.eastwestcenter.org/education/ewc-graduate-degree-fellowship)\
 [EPA STAR Graduate Fellowship Program](https://www.epa.gov/research-fellowships/science-achieve-results-star-graduate-and-greater-research-opportunities-gro)\
 [Explorers Club Student Grants](https://www.explorers.org/grants/)\
 [Ford Foundation Fellowship Program](https://www.fordfoundation.org/work/investing-in-individuals/the-ford-global-fellowship/)\
+[Hauʻoli Mau Loa Graduate Fellowship](https://www.soest.hawaii.edu/soestwp/hauoli-mau-loa-graduate-fellowship/)\
 [International Society for Reef Studies Graduate Fellowship](https://coralreefs.org/student-travel-grants/graduate-fellowships/)\
 [L’Oréal USA For Women in Science fellowship program](https://www.loreal.com/en/usa/pages/group/fwis/)\
 Marine Aquarium Societies of North America Scholarship\
