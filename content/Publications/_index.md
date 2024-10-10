@@ -6,24 +6,26 @@ title: Peer-Reviewed Publications
   #caption: ''
   #image: ''
 ---
+**Franklin EC**, Platt MT*, Andrade P (accepted) Increased occurrence of the rare golden color morph of Pacific chub Kyphosus sandwicensis in a no-take marine reserve. *Journal of Fish Biology*. [doi: 10.1111/jfb.15644](https://doi.org/10.1111/jfb.15644)  
+<a href="https://doi.org/10.1111/jfb.15644" class="badge badge-secondary">Cite</a>
 
-1. Franklin EC, Platt MT*, Andrade P (accepted) Increased occurrence of the rare golden color morph of Pacific chub Kyphosus sandwicensis in a no-take marine reserve. Journal of Fish Biology. doi: 10.1111/jfb.15644 \
+ Franklin EC, Platt MT*, Andrade P (accepted) Increased occurrence of the rare golden color morph of Pacific chub Kyphosus sandwicensis in a no-take marine reserve. Journal of Fish Biology. [doi: 10.1111/jfb.15644](https://doi.org/10.1111/jfb.15644) \
 
-2. Winans WR+, Chen Q, Qiang Y, Franklin EC (2023) Large-area automatic detection of shoreline stranded marine debris using deep learning. International Journal of Applied Earth Observation and Geoinformation 124: 103515. doi: 10.1016/j.jag.2023.103515 \
+ Winans WR+, Chen Q, Qiang Y, Franklin EC (2023) Large-area automatic detection of shoreline stranded marine debris using deep learning. International Journal of Applied Earth Observation and Geoinformation 124: 103515. [doi: 10.1016/j.jag.2023.103515](https://doi.org/10.1016/j.jag.2023.103515) \
 
-3. Purwanto, Franklin EC, Mardiani SR, White AT (2023) Multiple-goal bioeconomic programming to address conflicting management objectives in Indonesian small pelagic fisheries. Marine Policy 150: 105519. doi: 10.1016/j.marpol.2023.105519 \
+ Purwanto, Franklin EC, Mardiani SR, White AT (2023) Multiple-goal bioeconomic programming to address conflicting management objectives in Indonesian small pelagic fisheries. Marine Policy 150: 105519. [doi: 10.1016/j.marpol.2023.105519](https://doi.org/10.1016/j.marpol.2023.105519) \
 
-4. Carlson KM, Mora C, Xu J+, Setter RO+, Harangody M+, Franklin EC, Kantar MB, Lucas M, Menzo ZM+, Spirandelli D, Schanzenbach D, Warr CC, Wong AE+, Businger S (2022) Global rainbow distribution under current and future climates. Global Environmental Change 77: 10206. doi: 10.1016/j.gloenvcha.2022.102604 \
+ Carlson KM, Mora C, Xu J+, Setter RO+, Harangody M+, Franklin EC, Kantar MB, Lucas M, Menzo ZM+, Spirandelli D, Schanzenbach D, Warr CC, Wong AE+, Businger S (2022) Global rainbow distribution under current and future climates. Global Environmental Change 77: 10206. [doi: 10.1016/j.gloenvcha.2022.102604](https://doi.org/10.1016/j.gloenvcha.2022.102604) \
 
-- Setter RO+, Franklin EC, Mora C (2022) Co-occurring anthropogenic stressors reduce the timeframe of environmental viability for the world’s coral reefs. PLoS Biology 20: e3001821. doi: 10.1371/journal.pbio.3001821 \
+ Setter RO+, Franklin EC, Mora C (2022) Co-occurring anthropogenic stressors reduce the timeframe of environmental viability for the world’s coral reefs. PLoS Biology 20: e3001821. [doi: 10.1371/journal.pbio.3001821](https://doi.org/10.1371/journal.pbio.3001821) \
 
-Barkley YM*, Sakai T, Oleson EM, Franklin EC (2022) Examining distribution patterns of foraging and non-foraging sperm whales in Hawaiian waters using visual and passive acoustic data. Frontiers in Remote Sensing 3: 940186 doi: 10.3389/frsen.2022.940186 \
+Barkley YM*, Sakai T, Oleson EM, Franklin EC (2022) Examining distribution patterns of foraging and non-foraging sperm whales in Hawaiian waters using visual and passive acoustic data. Frontiers in Remote Sensing 3: 940186 [doi: 10.3389/frsen.2022.940186](https://doi.org/10.3389/frsen.2022.940186) \
 
-Akiona AK*, Popp BN, Toonen RJ, Siple MC, Kotubetey K, Kawelo H, Franklin EC (2022) Predatory fish diets shift toward an invasive mullet in a traditional Hawaiian aquaculture system. Aquaculture, Fish and Fisheries doi: 10.1002/aff2.68 \
+Akiona AK*, Popp BN, Toonen RJ, Siple MC, Kotubetey K, Kawelo H, Franklin EC (2022) Predatory fish diets shift toward an invasive mullet in a traditional Hawaiian aquaculture system. Aquaculture, Fish and Fisheries [doi: 10.1002/aff2.68](https://doi.org/10.1002/aff2.68) \
 
-Mora C, McKenzie T, Gaw IM+, Dean JM+, von Hammerstein H+, Knudson TA+, Setter RO+, Smith CZ+, Webster KM+, Patz JA, Franklin EC (2022) Over half of known human pathogenic diseases can be aggravated by climate change. Nature Climate Change 12: 869-875 doi: 10.1038/s41558-022-01426-1 \
+Mora C, McKenzie T, Gaw IM+, Dean JM+, von Hammerstein H+, Knudson TA+, Setter RO+, Smith CZ+, Webster KM+, Patz JA, Franklin EC (2022) Over half of known human pathogenic diseases can be aggravated by climate change. Nature Climate Change 12: 869-875 [doi: 10.1038/s41558-022-01426-1](https://doi.org/10.1038/s41558-022-01426-1) \
 
-Nichols RS*, DeMartini EE, Franklin EC (2022) No butts about it: using urogenital disparity in a deep water snapper, Etelis carbunculus (Lutjanidae), for field based sexual identification. Journal of Fish Biology doi: 10.1111/jfb.15166 \
+Nichols RS*, DeMartini EE, Franklin EC (2022) No butts about it: using urogenital disparity in a deep water snapper, Etelis carbunculus (Lutjanidae), for field based sexual identification. Journal of Fish Biology [doi: 10.1111/jfb.15166](https://doi.org/10.1111/jfb.15166) \
 
 Andrade P, Morishige K+, Mau A, Kapono L+, Franklin EC (2022) Re-imagining contemporary conservation to support ʻĀina Momona: Productive and thriving communities of people, place, and natural resources. Parks Stewardship Forum 38: 186–198 doi: 10.5070/P538257511 \
 
