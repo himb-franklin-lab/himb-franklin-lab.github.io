@@ -6,12 +6,12 @@ title: Peer-Reviewed Publications
   #caption: ''
   #image: ''
 ---
-**Franklin EC**, Platt MT*, Andrade P (accepted) Increased occurrence of the rare golden color morph of Pacific chub Kyphosus sandwicensis in a no-take marine reserve. *Journal of Fish Biology*. [doi: 10.1111/jfb.15644](https://doi.org/10.1111/jfb.15644)  
+Franklin EC, Platt MT*, Andrade P (accepted) Increased occurrence of the rare golden color morph of Pacific chub Kyphosus sandwicensis in a no-take marine reserve. *Journal of Fish Biology*. [doi: 10.1111/jfb.15644](https://doi.org/10.1111/jfb.15644)  
 <a href="#" class="badge badge-secondary" onclick="showCitation('franklin2024')">Cite</a>
 
 <!-- Hidden citation -->
 <div id="franklin2024" class="citation" style="display:none;">
-    Franklin EC, Platt MT*, Andrade P (accepted) Increased occurrence of the rare golden color morph of Pacific chub Kyphosus sandwicensis in a no-take marine reserve. Journal of Fish Biology. DOI: 10.1111/jfb.15644
+    Franklin EC, Platt MT*, Andrade P (accepted). Increased occurrence of the rare golden color morph of Pacific chub Kyphosus sandwicensis in a no-take marine reserve. Journal of Fish Biology. DOI: 10.1111/jfb.15644
 </div>
 
 <!-- Add this script to handle showing the citation -->
@@ -22,15 +22,71 @@ function showCitation(citationId) {
 }
 </script>
 
- Franklin EC, Platt MT*, Andrade P (accepted) Increased occurrence of the rare golden color morph of Pacific chub Kyphosus sandwicensis in a no-take marine reserve. Journal of Fish Biology. [doi: 10.1111/jfb.15644](https://doi.org/10.1111/jfb.15644) \
+ 
+ Winans WR+, Chen Q, Qiang Y, Franklin EC (2023). Large-area automatic detection of shoreline stranded marine debris using deep learning. *International Journal of Applied Earth Observation and Geoinformation* 124: 103515. [doi: 10.1016/j.jag.2023.103515](https://doi.org/10.1016/j.jag.2023.103515)  
+<a href="#" class="badge badge-secondary" onclick="showCitation('winans2023')">Cite</a>
 
- Winans WR+, Chen Q, Qiang Y, Franklin EC (2023) Large-area automatic detection of shoreline stranded marine debris using deep learning. International Journal of Applied Earth Observation and Geoinformation 124: 103515. [doi: 10.1016/j.jag.2023.103515](https://doi.org/10.1016/j.jag.2023.103515) \
+<!-- Hidden citation -->
+<div id="winans2023" class="citation" style="display:none;">
+    Winans WR+, Chen Q, Qiang Y, Franklin EC (2023). Large-area automatic detection of shoreline stranded marine debris using deep learning. International Journal of Applied Earth Observation and Geoinformation 124: 103515. DOI: 10.1016/j.jag.2023.103515
+</div>
 
- Purwanto, Franklin EC, Mardiani SR, White AT (2023) Multiple-goal bioeconomic programming to address conflicting management objectives in Indonesian small pelagic fisheries. Marine Policy 150: 105519. [doi: 10.1016/j.marpol.2023.105519](https://doi.org/10.1016/j.marpol.2023.105519) \
+<!-- Add this script to handle showing the citation -->
+<script>
+function showCitation(citationId) {
+    const citation = document.getElementById(citationId).innerText;
+    alert(citation);  // This will pop up the citation text
+}
+</script>
 
- Carlson KM, Mora C, Xu J+, Setter RO+, Harangody M+, Franklin EC, Kantar MB, Lucas M, Menzo ZM+, Spirandelli D, Schanzenbach D, Warr CC, Wong AE+, Businger S (2022) Global rainbow distribution under current and future climates. Global Environmental Change 77: 10206. [doi: 10.1016/j.gloenvcha.2022.102604](https://doi.org/10.1016/j.gloenvcha.2022.102604) \
+Purwanto, Franklin EC, Mardiani SR, White AT (2023). Multiple-goal bioeconomic programming to address conflicting management objectives in Indonesian small pelagic fisheries. *Marine Policy* 150: 105519. [doi: 10.1016/j.marpol.2023.105519](https://doi.org/10.1016/j.marpol.2023.105519)  
+<a href="#" class="badge badge-secondary" onclick="showCitation('purwanto2023')">Cite</a>
 
- Setter RO+, Franklin EC, Mora C (2022) Co-occurring anthropogenic stressors reduce the timeframe of environmental viability for the world’s coral reefs. PLoS Biology 20: e3001821. [doi: 10.1371/journal.pbio.3001821](https://doi.org/10.1371/journal.pbio.3001821) \
+<!-- Hidden citation -->
+<div id="purwanto2023" class="citation" style="display:none;">
+    Purwanto, Franklin EC, Mardiani SR, White AT (2023). Multiple-goal bioeconomic programming to address conflicting management objectives in Indonesian small pelagic fisheries. Marine Policy 150: 105519. DOI: 10.1016/j.marpol.2023.105519
+</div>
+
+<!-- Add this script to handle showing the citation -->
+<script>
+function showCitation(citationId) {
+    const citation = document.getElementById(citationId).innerText;
+    alert(citation);  // This will pop up the citation text
+}
+</script>
+
+
+ Carlson KM, Mora C, Xu J+, Setter RO+, Harangody M+, Franklin EC, Kantar MB, Lucas M, Menzo ZM+, Spirandelli D, Schanzenbach D, Warr CC, Wong AE+, Businger S (2022). Global rainbow distribution under current and future climates. *Global Environmental Change* 77: 102604. [doi: 10.1016/j.gloenvcha.2022.102604](https://doi.org/10.1016/j.gloenvcha.2022.102604)  
+<a href="#" class="badge badge-secondary" onclick="showCitation('carlson2022')">Cite</a>
+
+<!-- Hidden citation -->
+<div id="carlson2022" class="citation" style="display:none;">
+    Carlson KM, Mora C, Xu J+, Setter RO+, Harangody M+, Franklin EC, Kantar MB, Lucas M, Menzo ZM+, Spirandelli D, Schanzenbach D, Warr CC, Wong AE+, Businger S (2022). Global rainbow distribution under current and future climates. Global Environmental Change 77: 102604. DOI: 10.1016/j.gloenvcha.2022.102604
+</div>
+
+<!-- Add this script to handle showing the citation -->
+<script>
+function showCitation(citationId) {
+    const citation = document.getElementById(citationId).innerText;
+    alert(citation);  // This will pop up the citation text
+}
+</script>
+
+ Setter RO+, Franklin EC, Mora C (2022). Co-occurring anthropogenic stressors reduce the timeframe of environmental viability for the world’s coral reefs. *PLoS Biology* 20: e3001821. [doi: 10.1371/journal.pbio.3001821](https://doi.org/10.1371/journal.pbio.3001821)  
+<a href="#" class="badge badge-secondary" onclick="showCitation('setter2022')">Cite</a>
+
+<!-- Hidden citation -->
+<div id="setter2022" class="citation" style="display:none;">
+    Setter RO+, Franklin EC, Mora C (2022). Co-occurring anthropogenic stressors reduce the timeframe of environmental viability for the world’s coral reefs. PLoS Biology 20: e3001821. DOI: 10.1371/journal.pbio.3001821
+</div>
+
+<!-- Add this script to handle showing the citation -->
+<script>
+function showCitation(citationId) {
+    const citation = document.getElementById(citationId).innerText;
+    alert(citation);  // This will pop up the citation text
+}
+</script>
 
 Barkley YM*, Sakai T, Oleson EM, Franklin EC (2022) Examining distribution patterns of foraging and non-foraging sperm whales in Hawaiian waters using visual and passive acoustic data. Frontiers in Remote Sensing 3: 940186 [doi: 10.3389/frsen.2022.940186](https://doi.org/10.3389/frsen.2022.940186) \
 
