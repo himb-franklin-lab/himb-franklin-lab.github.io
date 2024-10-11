@@ -4,7 +4,15 @@
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 title: Franklin Lab at HIMB # Website name
-baseURL: 'https://example.com/' # Website URL
+baseURL: 'https://himb-franklin-lab.github.io/' # Website URL
+params:
+  enableAuthors: true  # Ensure this is set if applicable
+  author:
+    display: true
+    enable: true
+    show_social: true
+    show_interests: false
+    show_role: true
 
 ############################
 ## LANGUAGE
