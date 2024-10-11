@@ -6,5 +6,5 @@ user_groups: ["Principal Investigators", "Researchers"]
 social:
   email: erikcf@hawaii.edu
 image: 
- filename: /images/erik_franklin.jpeg
+  filename: /images/erik_franklin.jpeg
 ---
