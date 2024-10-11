@@ -6,6 +6,7 @@ sections:
     content:
       title: Published Data
       text: |
+        <div class="citation">
         Oyafuso ZS*, Drazen JC, Moore CH, Franklin EC (2017). Data from: Habitat-based species
         distribution modelling of the Hawaiian deepwater snapper-grouper complex. Dryad Digital
         Repository. http://dx.doi.org/10.5061/dryad.f78r6
@@ -16,6 +17,7 @@ sections:
         
         Franklin E and Craig M. Coral Reef Fishes Life History Data, Hawaiian Islands, USA,
         1994-2008 ecfranklin.3.2. http://knb.ecoinformatics.org/knb/metacat/ecfranklin.3.2/knb
+        </div>
         
   - block: hero
     content:
