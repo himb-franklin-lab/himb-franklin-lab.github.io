@@ -5,6 +5,8 @@ sections:
   - block: hero
     content:
       title: Published Data
+      subtitle: "* = Franklin lab graduate student or post-doc, + = UH graduate student or undergraduate
+         student"
       text: |
         <div class="citation">
         Oyafuso ZS*, Drazen JC, Moore CH, Franklin EC (2017). Data from: Habitat-based species
