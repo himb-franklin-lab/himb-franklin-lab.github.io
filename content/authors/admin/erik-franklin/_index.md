@@ -1,6 +1,4 @@
 ---
-authors:
-- <erik-franklin>
 title: Dr. Erik Franklin
 last_name: Franklin
 role: Associate Research Professor
