@@ -1,5 +1,7 @@
 ---
 title: Peer-Reviewed Publications
+authors:
+  - erik-franklin
 
 # Optional banner image (relative to `assets/media/` folder).
 #banner:
