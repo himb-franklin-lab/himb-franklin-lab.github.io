@@ -1,10 +1,18 @@
 ---
 title: About
+type: landing
 
-image:
-        filename: HIMB aerial.jpeg
+sections:
+  - block: slider
+    content:
+      slides:
+      - title: 👋 Welcome to the Franklin Lab!
+        background:
+          image:
+            filename: HIMB_aerial.jpeg
+            filters:
+              brightness: 0.7
 ---
-
 Welcome to the Franklin Lab!
 
 Dr. Erik C. Franklin directs the Franklin Lab at the Hawaii Institute of Marine Biology within the School of Ocean and Earth Science and Technology at the University of Hawaii at Manoa. The Franklin Lab pursues research interests in quantitative marine ecology, fisheries science, marine population dynamics, ecoinformatics, ecological restoration, and invasive species of tropical coastal and marine ecosystems with a focus on coral reefs. The Franklin Lab collaborates with the NOAA Pacific Island Fisheries Science Center on population assessment, life history, and essential fish habitat studies of coral reef associated organisms throughout the US Pacific (Hawaiian archipelago, Mariana archipelago, American Samoa, Pacific Remote Island Areas). Other ongoing coral reef projects occur throughout the Hawaiian Archipelago including the Papahanaumokuakea Marine National Monument in the Northwestern Hawaiian Islands. We work with many of the faculty at HIMB, as well as maintain active collaborations with researchers in Florida, Australia, and Colombia. A consistent emphasis of our research is the

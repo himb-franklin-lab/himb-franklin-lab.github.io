@@ -1,6 +1,6 @@
 ---
 title: Want to Join Us?
-type: landing
+
 ---
 Aloha! If you are a prospective student interested in joining the Franklin Lab, prior to contacting us please read the following information carefully.
 
