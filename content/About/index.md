@@ -1,12 +1,6 @@
 ---
 title: About
-date: 2024-10-10
-type: landing
-sections:
-  - block: hero  
-    background:
-      image: HIMB_aerial.jpeg
-      brightness: 0.7
+
 ---
 
 Welcome to the Franklin Lab!
