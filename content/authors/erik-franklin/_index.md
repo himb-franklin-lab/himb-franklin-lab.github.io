@@ -1,5 +1,7 @@
 ---
 title: Dr. Erik Franklin
+authors:
+- <erik-franklin>
 last_name: Franklin
 role: Associate Research Professor
 user_groups: ["Principal Investigators", "Researchers"]
@@ -8,3 +10,4 @@ social:
 image: 
   filename: /images/erik_franklin.jpeg
 ---
+
