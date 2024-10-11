@@ -2,12 +2,12 @@
 title: About
 date: 2024-10-22
 type: page
-sections:
-  - block: banner 
-    background:
-      image: "images/HIMB_aerial.jpeg"
-      brightness: 0.7
 ---
+
+<div class="full-width-banner">
+  <img src="/static/images/HIMB_aerial.jpeg" alt="Aerial view of HIMB">
+</div>
+
 Welcome to the Franklin Lab!
 
 Dr. Erik C. Franklin directs the Franklin Lab at the Hawaii Institute of Marine Biology within the
