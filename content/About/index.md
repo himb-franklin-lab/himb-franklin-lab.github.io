@@ -3,9 +3,9 @@ title: About
 date: 2024-10-22
 type: landing
 sections:
-  - block: banner  
+  - block: hero  
     background:
-      image: "HIMB aerial.jpeg"
+      image: "images/HIMB_aerial.jpeg"
       brightness: 0.7
 ---
 Welcome to the Franklin Lab!
