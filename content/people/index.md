@@ -3,8 +3,6 @@ title: People
 date: 2022-10-24
 
 type: landing
-widget: people
-headless: true
 
 sections:
   - block: people
