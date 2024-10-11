@@ -2,7 +2,7 @@
 title: Resources
 type: landing
 sections: 
-  - block: text
+  - block: hero
     content:
       title: Published Data
       text: |
@@ -17,7 +17,7 @@ sections:
         Franklin E and Craig M. Coral Reef Fishes Life History Data, Hawaiian Islands, USA,
         1994-2008 ecfranklin.3.2. http://knb.ecoinformatics.org/knb/metacat/ecfranklin.3.2/knb
         
-  - block: text
+  - block: hero
     content:
       title: Computing
       text: |
@@ -41,7 +41,7 @@ sections:
         [WinBUGS](http://bes-qsig.github.io/fge/docs/IntroWinBUGSwithR/) \
         [Zonation](https://zonationteam.github.io/Zonation5/)
 
-  - block: text
+  - block: hero
     content: 
       title: Funding
       text: |
@@ -56,7 +56,7 @@ sections:
         [Strategic Environmental Research and Development Program](https://serdp-estcp.mil/workwithus/fundingprocess) \
         [Alfred P. Sloan Foundation Grants](https://sloan.org/grants/apply)
 
-  - block: text
+  - block: hero
     content: 
       title: Student Grants & Fellowships
       text: | 
@@ -81,7 +81,7 @@ sections:
         [US Federal Opportunities for Graduate Students](https://www.justice.gov/enrd/pathways-students-and-recent-graduates-federal-careers) \
         [Women Divers Hall of Fame Scholarships and Training Grants](https://www.wdhof.org/scholarships/scholarship-descriptions)
 
-  - block: text
+  - block: hero
     content: 
       title: Training
       text:  |
@@ -89,7 +89,7 @@ sections:
         [National Institute for Mathematical and Biological Synthesis Tutorials](https://www.nimbios.org/) \
         [Software Carpentry](https://software-carpentry.org/)
 
-  - block: text
+  - block: hero
     content: 
       title: Scientific Employment in Hawaii
       text: |
