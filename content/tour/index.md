@@ -28,12 +28,12 @@ sections:
               brightness: 0.7
           position: center
           color: '#555'
-      - title: World-Class Semiconductor Lab
+      - title: Interested on joining?
         content: 'Just opened last month!'
         align: right
         background:
           image:
-            filename: welcome.jpg
+            filename: HIMB aerial.jpeg
             filters:
               brightness: 0.5
           position: center
@@ -42,7 +42,7 @@ sections:
           icon: graduation-cap
           icon_pack: fas
           text: Join Us
-          url: ../contact/
+          url: ../Want to Join Us?/
     design:
       # Slide height is automatic unless you force a specific height (e.g. '400px')
       slide_height: ''
