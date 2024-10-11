@@ -1,7 +1,5 @@
 ---
 title: About
-
-type: landing
 ---
 
 Welcome to the Franklin Lab!
