@@ -33,7 +33,7 @@ sections:
         align: right
         background:
           image:
-            filename: HIMB aerial.jpeg
+            filename: 
             filters:
               brightness: 0.5
           position: center
@@ -42,7 +42,7 @@ sections:
           icon: graduation-cap
           icon_pack: fas
           text: Join Us
-          url: ../Want to Join Us?/
+          url: ../contact/
     design:
       # Slide height is automatic unless you force a specific height (e.g. '400px')
       slide_height: ''
