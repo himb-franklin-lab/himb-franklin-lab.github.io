@@ -5,7 +5,7 @@ type: landing
 sections:
   - block: banner  
     background:
-      image: HIMB aerial.jpeg
+      image: "HIMB aerial.jpeg"
       brightness: 0.7
 ---
 Welcome to the Franklin Lab!
