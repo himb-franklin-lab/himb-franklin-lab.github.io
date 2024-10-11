@@ -2,11 +2,15 @@
 title: About
 date: 2024-10-22
 type: page
+resources:
+  - name: hero
+    src: "images/HIMB_aerial.jpeg"
 ---
 
-<div class="full-width-banner">
-  <img src="/static/images/HIMB_aerial.jpeg" alt="Aerial view of HIMB">
+<div style="width:100%; overflow:hidden;">
+    <img src="{{ .Resources.GetMatch "hero" | absURL }}" style="width: 100%; height: auto;" alt="Aerial view of HIMB">
 </div>
+
 
 Welcome to the Franklin Lab!
 
