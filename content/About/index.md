@@ -3,7 +3,7 @@ title: About
 date: 2024-10-22
 type: landing
 sections:
-  - block: hero  
+  - block: banner 
     background:
       image: "images/HIMB_aerial.jpeg"
       brightness: 0.7
