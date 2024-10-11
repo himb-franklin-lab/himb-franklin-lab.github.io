@@ -1,8 +1,8 @@
 ---
 title: Dr. Erik Franklin
 last_name: Franklin
-role: Principal Investigator
-user_groups: ["Principal Investigator"]
+role: Associate Research Professor
+user_groups: ["Principal Investigators"]
 social:
   email: erikcf@hawaii.edu
 image: 
