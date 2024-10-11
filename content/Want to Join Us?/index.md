@@ -7,9 +7,7 @@ sections:
   - block: hero
     content:
       title: |
-        Welcome to the Franklin Lab!
-      image:
-        filename: welcome.jpg
+        Want to Join Us?
       text: |
         <br>
         
