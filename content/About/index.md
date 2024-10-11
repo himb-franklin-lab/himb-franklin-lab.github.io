@@ -10,9 +10,7 @@ sections:
     background:
           image:
             filename: images/HIMB_aerial.jpeg
-            filters:
-              brightness: 0.7
-          position: right
           color: '#666'
+    align: center
 
 ---
