@@ -2,6 +2,11 @@
 title: About
 
 type: landing
+sections:
+  - block: hero  
+    background:
+      image: HIMB_aerial.jpeg
+      brightness: 0.7
 ---
 
 Welcome to the Franklin Lab!
