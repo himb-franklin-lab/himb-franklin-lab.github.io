@@ -1,5 +1,8 @@
 ---
 title: About
+type: landing
+image:
+        filename: HIMB_aerial.jpeg
 
 ---
 
