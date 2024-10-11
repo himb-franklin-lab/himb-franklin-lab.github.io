@@ -26,5 +26,5 @@ main:
     url: contact
     weight: 70
   - name: Want to Join Us?
-    url: Want to Join Us?
+    url: #content/Want to Join Us?/
     weight: 80
