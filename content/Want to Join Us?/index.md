@@ -1,6 +1,6 @@
 ---
 title: Want to Join Us?
-Date: 2024-10-10
+date: 2024-10-10
 type: landing
 ---
 Aloha! If you are a prospective student interested in joining the Franklin Lab, prior to contacting us please read the following information carefully.
