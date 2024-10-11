@@ -9,9 +9,6 @@ sections:
         filename: HIMB_aerial.jpeg
         filters:
           brightness: 0.7
-
-
-  - block: hero
     content:
       - title: Welcome to the Franklin Lab!
         text: |
