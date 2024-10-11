@@ -4,7 +4,7 @@ authors:
 - <erik-franklin>
 last_name: Franklin
 role: Associate Research Professor
-user_groups: ["Principal Investigators", "Researchers"]
+user_groups: ["Principal Investigators"]
 social:
   email: erikcf@hawaii.edu
 image: 
