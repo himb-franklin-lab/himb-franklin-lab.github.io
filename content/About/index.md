@@ -1,7 +1,7 @@
 ---
 title: About
 date: 2024-10-22
-type: landing
+type: page
 sections:
   - block: banner 
     background:
