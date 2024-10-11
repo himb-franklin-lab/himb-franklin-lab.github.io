@@ -1,6 +1,6 @@
 ---
 title: About
-
+date: 2024-10-10
 type: landing
 sections:
   - block: hero  
