@@ -28,12 +28,12 @@ sections:
               brightness: 0.7
           position: center
           color: '#555'
-      - title: Interested on joining?
+      - title: World-Class Semiconductor Lab
         content: 'Just opened last month!'
         align: right
         background:
           image:
-            filename: 
+            filename: welcome.jpg
             filters:
               brightness: 0.5
           position: center

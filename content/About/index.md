@@ -1,9 +1,8 @@
 ---
 title: About
-type: landing
-image:
-        filename: HIMB_aerial.jpeg
 
+image:
+        filename: HIMB aerial.jpeg
 ---
 
 Welcome to the Franklin Lab!
