@@ -1,5 +1,5 @@
 ---
-title: People
+title: Meet the Team
 date: 2022-10-24
 
 type: landing
@@ -23,6 +23,5 @@ sections:
       show_interests: false
       show_role: true
       show_social: true
-    active: true
 
 ---
