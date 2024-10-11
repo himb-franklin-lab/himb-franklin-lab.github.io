@@ -4,9 +4,6 @@ type: landing
 
 sections:
   - block: hero
-    background:
-      image:
-        filename: HIMB_aerial.jpeg
     content:
       - title: Welcome to the Franklin Lab!
         text: |-
