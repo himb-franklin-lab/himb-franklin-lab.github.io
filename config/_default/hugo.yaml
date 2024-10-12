@@ -13,6 +13,8 @@ params:
     show_social: true
     show_interests: false
     show_role: true
+  assets:
+    scssPipeline: true # Enable SCSS processing
 
 ############################
 ## LANGUAGE
