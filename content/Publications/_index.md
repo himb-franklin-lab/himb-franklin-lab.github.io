@@ -81,78 +81,174 @@ authors:
 
 <!-- Citations -->
 <div class="publication-entry journal">
-    Franklin EC, Platt MT*, Andrade P (accepted). Increased occurrence of the rare golden color morph of Pacific chub Kyphosus sandwicensis in a no-take marine reserve. <em>Journal of Fish Biology</em>. <a href="https://doi.org/10.1111/jfb.15644">doi:10.1111/jfb.15644</a>  
-
-  <a href="#" class="badge badge-info" onclick="showCitation('franklin2024')">Cite</a>
+    Franklin EC, Platt MT*, Andrade P (accepted). Increased occurrence of the rare golden color morph of Pacific chub Kyphosus sandwicensis in a no-take marine reserve. <em>Journal of Fish Biology</em>. <a href="https://doi.org/10.1111/jfb.15644">doi:10.1111/jfb.15644</a>
+    
+  <a href="#" class="badge badge-info" onclick="openModal('franklin2023')">Cite</a>
   <a href="https://doi.org/10.1111/jfb.15644" class="badge badge-info" target="_blank">DOI</a>
+</div>
 
-<!-- Hidden citation -->
-<div id="franklin2024" class="citation" style="display:none;">
-Franklin EC, Platt MT*, Andrade P (accepted). Increased occurrence of the rare golden color morph of Pacific chub Kyphosus sandwicensis in a no-take marine reserve. Journal of Fish Biology. DOI: 10.1111/jfb.15644
+<!-- Modal Structure -->
+<div id="modal" class="modal" style="display:none;">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <pre id="citationText">
+@article{franklin_2023,
+  author = {Franklin, E.C. and Platt, M.T. and Andrade, P.},
+  title = {Increased occurrence of the rare golden color morph of Pacific chub Kyphosus sandwicensis in a no-take marine reserve},
+  journal = {Journal of Fish Biology},
+  year = {accepted},
+  doi = {10.1111/jfb.15644},
+  url = {https://doi.org/10.1111/jfb.15644}
+}
+        </pre>
+        <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
+        <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
+    </div>
 </div>
-</div>
+
 
 <div class="publication-entry journal">
-    Winans WR+, Chen Q, Qiang Y, Franklin EC (2023). Large-area automatic detection of shoreline stranded marine debris using deep learning. <em>International Journal of Applied Earth Observation and Geoinformation</em>. <a href="https://doi.org/10.1016/j.jag.2023.103515">doi:10.1016/j.jag.2023.103515</a>  
-
-  <a href="#" class="badge badge-info" onclick="showCitation('winans2023')">Cite</a>
+    Winans WR+, Chen Q, Qiang Y, Franklin EC (2023). Large-area automatic detection of shoreline stranded marine debris using deep learning. <em>International Journal of Applied Earth Observation and Geoinformation</em>. <a href="https://doi.org/10.1016/j.jag.2023.103515">doi:10.1016/j.jag.2023.103515</a>
+    
+  <a href="#" class="badge badge-info" onclick="openModal('winans2023')">Cite</a>
   <a href="https://doi.org/10.1016/j.jag.2023.103515" class="badge badge-info" target="_blank">DOI</a>
+</div>
 
-  <!-- Hidden citation -->
-  <div id="winans2023" class="citation" style="display:none;">
-    Winans WR+, Chen Q, Qiang Y, Franklin EC (2023). Large-area automatic detection of shoreline stranded marine debris using deep learning. International Journal of Applied Earth Observation and Geoinformation. DOI: 10.1016/j.jag.2023.103515
+<!-- Modal Structure -->
+<div id="modal" class="modal" style="display:none;">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <pre id="citationText">
+@article{winans_2023,
+  author = {Winans, W.R. and Chen, Q. and Qiang, Y. and Franklin, E.C.},
+  title = {Large-area automatic detection of shoreline stranded marine debris using deep learning},
+  journal = {International Journal of Applied Earth Observation and Geoinformation},
+  year = {2023},
+  doi = {10.1016/j.jag.2023.103515},
+  url = {https://doi.org/10.1016/j.jag.2023.103515}
+}
+        </pre>
+        <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
+        <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
+    </div>
 </div>
-</div>
+
 
 <div class="publication-entry journal">
     Purwanto, Franklin EC, Mardiani SR, White AT (2023). Multiple-goal bioeconomic programming to address conflicting management objectives in Indonesian small pelagic fisheries. <em>Marine Policy</em> 150: 105519. <a href="https://doi.org/10.1016/j.marpol.2023.105519">doi:10.1016/j.marpol.2023.105519</a>
-
-  <a href="#" class="badge badge-info" onclick="showCitation('purwanto2023')">Cite</a>
-  <a href="https://doi.org/10.1016/j.marpol.2023.105519" class="badge badge-info" target="_blank">DOI</a>
-
-  <!-- Hidden citation -->
-  <div id="purwanto2023" class="citation" style="display:none;">
-    Purwanto, Franklin EC, Mardiani SR, White AT (2023). Multiple-goal bioeconomic programming to address conflicting management objectives in Indonesian small pelagic fisheries. Marine Policy. DOI: 10.1016/j.marpol.2023.105519
-</div>
-</div>
-
-<div class="publication-entry journal">
-    Carlson KM, Mora C, Xu J+, Setter RO+, Harangody M+, Franklin EC, Kantar MB, Lucas M, Menzo ZM+, Spirandelli D, Schanzenbach D, Warr CC, Wong AE+, Businger S (2022). Global rainbow distribution under current and future climates. <em>Global Environmental Change<em> 77: 102604. <a href="https://doi.org/10.1016/j.gloenvcha.2022.102604">doi:10.1016/j.gloenvcha.2022.102604</a>
     
-  <a href="#" class="badge badge-info" onclick="showCitation('carlson2022')">Cite</a>
-  <a href="https://doi.org/10.1016/j.gloenvcha.2022.102604" class="badge badge-info" target="_blank">DOI</a>
-
- <!-- Hidden citation -->
- <div id="carlson2022" class="citation" 
- style="display:none;">
-    Carlson KM, Mora C, Xu J+, Setter RO+, Harangody M+, Franklin EC, Kantar MB, Lucas M, Menzo ZM+, Spirandelli D, Schanzenbach D, Warr CC, Wong AE+, Businger S (2022). Global rainbow distribution under current and future climates. Global Environmental Change 77: 102604. DOI: 10.1016/j.gloenvcha.2022.102604
+  <a href="#" class="badge badge-info" onclick="openModal('purwanto2023')">Cite</a>
+  <a href="https://doi.org/10.1016/j.marpol.2023.105519" class="badge badge-info" target="_blank">DOI</a>
 </div>
+
+<!-- Modal Structure -->
+<div id="modal" class="modal" style="display:none;">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <pre id="citationText">
+@article{purwanto_2023,
+  author = {Purwanto and Franklin, E.C. and Mardiani, S.R. and White, A.T.},
+  title = {Multiple-goal bioeconomic programming to address conflicting management objectives in Indonesian small pelagic fisheries},
+  journal = {Marine Policy},
+  volume = {150},
+  pages = {105519},
+  year = {2023},
+  doi = {10.1016/j.marpol.2023.105519},
+  url = {https://doi.org/10.1016/j.marpol.2023.105519}
+}
+        </pre>
+        <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
+        <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
+    </div>
 </div>
 
 
 <div class="publication-entry journal">
-    Setter RO+, Franklin EC, Mora C (2022). Co-occurring anthropogenic stressors reduce the timeframe of environmental viability for the world’s coral reefs. <em>PLoS Biology</em> 20: e3001821. <a href="https://doi.org/10.1371/journal.pbio.3001821">doi:10.1371/journal.pbio.3001821</a>  
-
-  <a href="#" class="badge badge-info" onclick="showCitation('setter2022')">Cite</a>
-  <a href="https://doi.org/10.1371/journal.pbio.3001821" class="badge badge-info" target="_blank">DOI</a>
-
-  <!-- Hidden citation -->
-  <div id="setter2022" class="citation" style="display:none;">
-    Setter RO+, Franklin EC, Mora C (2022). Co-occurring anthropogenic stressors reduce the timeframe of environmental viability for the world’s coral reefs. PLoS Biology 20: e3001821. DOI: 10.1371/journal.pbio.3001821
+    Carlson KM, Mora C, Xu J+, Setter RO+, Harangody M+, Franklin EC, Kantar MB, Lucas M, Menzo ZM+, Spirandelli D, Schanzenbach D, Warr CC, Wong AE+, Businger S (2022). Global rainbow distribution under current and future climates. <em>Global Environmental Change</em> 77: 102604. <a href="https://doi.org/10.1016/j.gloenvcha.2022.102604">doi:10.1016/j.gloenvcha.2022.102604</a>
+    
+  <a href="#" class="badge badge-info" onclick="openModal('carlson2022')">Cite</a>
+  <a href="https://doi.org/10.1016/j.gloenvcha.2022.102604" class="badge badge-info" target="_blank">DOI</a>
 </div>
+
+<!-- Modal Structure -->
+<div id="modal" class="modal" style="display:none;">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <pre id="citationText">
+@article{carlson_2022,
+  author = {Carlson, K.M. and Mora, C. and Xu, J. and Setter, R.O. and Harangody, M. and Franklin, E.C. and Kantar, M.B. and Lucas, M. and Menzo, Z.M. and Spirandelli, D. and Schanzenbach, D. and Warr, C.C. and Wong, A.E. and Businger, S.},
+  title = {Global rainbow distribution under current and future climates},
+  journal = {Global Environmental Change},
+  volume = {77},
+  pages = {102604},
+  year = {2022},
+  doi = {10.1016/j.gloenvcha.2022.102604},
+  url = {https://doi.org/10.1016/j.gloenvcha.2022.102604}
+}
+        </pre>
+        <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
+        <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
+    </div>
 </div>
+
+
+<div class="publication-entry journal">
+    Setter RO+, Franklin EC, Mora C (2022). Co-occurring anthropogenic stressors reduce the timeframe of environmental viability for the world’s coral reefs. <em>PLoS Biology</em> 20: e3001821. <a href="https://doi.org/10.1371/journal.pbio.3001821">doi:10.1371/journal.pbio.3001821</a>
+    
+    <a href="#" class="badge badge-info" onclick="openModal('setter2022')">Cite</a>
+    <a href="https://doi.org/10.1371/journal.pbio.3001821" class="badge badge-info" target="_blank">DOI</a>
+</div>
+
+<!-- Modal Structure -->
+<div id="modal" class="modal" style="display:none;">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <pre id="citationText">
+@article{setter_2022,
+  author = {Setter, R.O. and Franklin, E.C. and Mora, C.},
+  title = {Co-occurring anthropogenic stressors reduce the timeframe of environmental viability for the world’s coral reefs},
+  journal = {PLoS Biology},
+  volume = {20},
+  pages = {e3001821},
+  year = {2022},
+  doi = {10.1371/journal.pbio.3001821},
+  url = {https://doi.org/10.1371/journal.pbio.3001821}
+}
+        </pre>
+        <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
+        <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
+    </div>
+</div>
+
 
 <div class="publication-entry journal">
     Barkley YM*, Sakai T, Oleson EM, Franklin EC (2022). Examining distribution patterns of foraging and non-foraging sperm whales in Hawaiian waters using visual and passive acoustic data. <em>Frontiers in Remote Sensing</em> 3: 940186. <a href="https://doi.org/10.3389/frsen.2022.940186">doi:10.3389/frsen.2022.940186</a>
     
-  <a href="#" class="badge badge-info" onclick="showCitation('barkley2022')">Cite</a>
-  <a href="https://doi.org/10.3389/frsen.2022.940186" class="badge badge-info" target="_blank">DOI</a>
+    <a href="#" class="badge badge-info" onclick="openModal('barkley2022')">Cite</a>
+    <a href="https://doi.org/10.3389/frsen.2022.940186" class="badge badge-info" target="_blank">DOI</a>
+</div>
 
-  <!-- Hidden citation -->
-  <div id="barkley2022" class="citation" style="display:none;">
-    Barkley YM*, Sakai T, Oleson EM, Franklin EC (2022). Examining distribution patterns of foraging and non-foraging sperm whales in Hawaiian waters using visual and passive acoustic data. Frontiers in Remote Sensing 3: 940186. DOI: 10.3389/frsen.2022.940186
+<!-- Modal Structure -->
+<div id="modal" class="modal" style="display:none;">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <pre id="citationText">
+@article{barkley_2022,
+  author = {Barkley, Y.M. and Sakai, T. and Oleson, E.M. and Franklin, E.C.},
+  title = {Examining distribution patterns of foraging and non-foraging sperm whales in Hawaiian waters using visual and passive acoustic data},
+  journal = {Frontiers in Remote Sensing},
+  volume = {3},
+  pages = {940186},
+  year = {2022},
+  doi = {10.3389/frsen.2022.940186},
+  url = {https://doi.org/10.3389/frsen.2022.940186}
+}
+        </pre>
+        <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
+        <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
+    </div>
 </div>
-</div>
+
 
 <div class="publication-entry journal">
     Akiona AK*, Popp BN, Toonen RJ, Siple MC, Kotubetey K, Kawelo H, Franklin EC (2022). Predatory fish diets shift toward an invasive mullet in a traditional Hawaiian aquaculture system. <em>Aquaculture, Fish and Fisheries</em>. <a href="https://doi.org/10.1002/aff2.68">doi:10.1002/aff2.68</a>
