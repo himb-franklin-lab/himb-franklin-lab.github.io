@@ -4,19 +4,19 @@
         {{ range (where .Site.Pages "Section" "people") }}
         <div class="col-md-4">
           <div class="team-member">
-            <img src="{{ .Params.image }}" alt="{{ .Params.name }}" class="team-image">
+            <img src="{{ .Params.image.filename }}" alt="{{ .Params.name }}" class="team-image">
             <h3>{{ .Params.name }}</h3>
             <p><strong>{{ .Params.role }}</strong></p>
-            <p>{{ .Params.bio }}</p>
             <div class="team-socials">
-              {{ if .Params.twitter }}<a href="{{ .Params.twitter }}">Twitter</a>{{ end }}
-              {{ if .Params.github }}<a href="{{ .Params.github }}">GitHub</a>{{ end }}
               {{ if .Params.linkedin }}<a href="{{ .Params.linkedin }}">LinkedIn</a>{{ end }}
             </div>
           </div>
         </div>
+        {{ else }}
+        <p>No team members found.</p>
         {{ end }}
       </div>
     </div>
   </section>
+  
   
