@@ -171,7 +171,7 @@ authors:
 </div>
 
 <!-- Modal Structure -->
-<div id="modal" class="modal" style="display:none;">
+<div id="carlson2022" class="modal" style="display:none;">
     <div class="modal-content">
         <span class="close" onclick="closeModal()">&times;</span>
         <pre id="citationText">
@@ -200,7 +200,7 @@ authors:
 </div>
 
 <!-- Modal Structure -->
-<div id="modal" class="modal" style="display:none;">
+<div id="setter2022" class="modal" style="display:none;">
     <div class="modal-content">
         <span class="close" onclick="closeModal()">&times;</span>
         <pre id="citationText">
@@ -229,7 +229,7 @@ authors:
 </div>
 
 <!-- Modal Structure -->
-<div id="modal" class="modal" style="display:none;">
+<div id="barkley2022" class="modal" style="display:none;">
     <div class="modal-content">
         <span class="close" onclick="closeModal()">&times;</span>
         <pre id="citationText">
@@ -258,7 +258,7 @@ authors:
 </div>
 
 <!-- Modal Structure -->
-<div id="modal" class="modal" style="display:none;">
+<div id="akiona2022" class="modal" style="display:none;">
     <div class="modal-content">
         <span class="close" onclick="closeModal()">&times;</span>
         <pre id="citationText">
@@ -285,7 +285,7 @@ authors:
 </div>
 
 <!-- Modal Structure -->
-<div id="modal" class="modal" style="display:none;">
+<div id="mora2022" class="modal" style="display:none;">
     <div class="modal-content">
         <span class="close" onclick="closeModal()">&times;</span>
         <pre id="citationText">
@@ -314,7 +314,7 @@ authors:
 </div>
 
 <!-- Modal Structure -->
-<div id="modal" class="modal" style="display:none;">
+<div id="nichols2022" class="modal" style="display:none;">
     <div class="modal-content">
         <span class="close" onclick="closeModal()">&times;</span>
         <pre id="citationText">
