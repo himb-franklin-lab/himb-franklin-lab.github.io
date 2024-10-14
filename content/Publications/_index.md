@@ -127,9 +127,9 @@ authors:
   doi = {10.1016/j.jag.2023.103515},
   url = {https://doi.org/10.1016/j.jag.2023.103515}
 }
-        </pre>
-        <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
-        <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
+      </pre>
+      <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
+      <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
     </div>
 </div>
 
