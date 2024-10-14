@@ -49,8 +49,8 @@ authors:
     /* New button styles */
     .button-outline {
         background-color: transparent; /* Clear background */
-        border: 2px solid blue; /* Blue outline */
-        color: blue; /* Text color */
+        border: 2px solid teal; /* Blue outline */
+        color: teal; /* Text color */
         padding: 8px 12px; /* Padding for the button */
         border-radius: 4px; /* Rounded corners */
         cursor: pointer; /* Pointer cursor on hover */
@@ -60,7 +60,7 @@ authors:
     }
 
     .button-outline:hover {
-        background-color: blue; /* Background color on hover */
+        background-color: teal; /* Background color on hover */
         color: white; /* Text color on hover */
     }
 </style>
@@ -213,11 +213,10 @@ Franklin EC, Platt MT*, Andrade P (accepted). Increased occurrence of the rare g
   url = {https://doi.org/10.5070/P538257511}
 }
         </pre>
-        <button onclick="copyToClipboard('citationText')">Copy citation</button>
-        <button onclick="downloadCitation()">Download citation</button>
+        <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
+        <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
     </div>
 </div>
-
 
 
 Purwanto, Franklin EC, Mardiani SR, White AT (2022) Stock assessment and overexploitation risk of small pelagic fish in Fisheries Management Area 715 of Indonesia. Asian Fisheries Science 35: 76-89 doi: 10.33997/j.afs.2022.35.1.007 \
@@ -352,16 +351,7 @@ Franklin EC, Ault JS, Smith SG (2002) Utilization of a GIS in a fisheries assess
 
 Miller SL, Swanson DW, Chiappone M, Ault JS, Smith SG, Meester GA, Luo J, Franklin EC, Bohnsack JA, Harper DE, McClellan DB (2001) An extensive deep reef terrace on the Tortugas Bank, Florida Keys National Marine Sanctuary. Coral Reefs 20:299-300.
 
-<!-- Modal Structure -->
-  <div id="myModal" class="modal">
-      <div class="modal-content">
-          <span class="close" onclick="closeModal()">&times;</span>
-          <p>Your citation will appear here.</p>
-          <button class="button-outline" id="copyCitation">Copy Citation</button>
-          <button class="button-outline" id="downloadCitation">Download Citation</button>
-      </div>
-  </div>
-  
+
 <script>
     function filterPublications() {
         var filterValue = document.getElementById("filter").value;
