@@ -63,7 +63,15 @@ authors:
         color: white; /* Text color on hover */
     }
 </style>
+<!-- Example of modal content with updated buttons -->
+<div class="modal-content">
+    <span class="close" onclick="closeModal()">&times;</span>
+    <p>Your citation will appear here.</p>
+    <button class="modal-button" onclick="copyCitation('yourCitationID')">Copy Citation</button>
+    <button class="modal-button" onclick="downloadCitation('yourCitationID')">Download Citation</button>
+</div>
 
+<!-- Search bars and filters -->
 <div style="display: flex; align-items: center; margin-bottom: 20px;">
     <!-- Search Bar -->
     <input type="text" id="searchBar" placeholder="Search publications..." onkeyup="searchCitations()" style="padding: 10px; width: 100%; max-width: 300px; margin-right: 20px;">
