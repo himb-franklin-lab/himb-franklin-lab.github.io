@@ -20,7 +20,6 @@ authors:
         height: 100%; /* Full height */
         overflow: auto; /* Enable scroll if needed */
         transition: ease;
-        background-color: rgb(0, 0, 0); /* Fallback color */
         background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
     }
 
@@ -49,7 +48,7 @@ authors:
     /* New button styles */
     .button-outline {
         background-color: transparent; /* Clear background */
-        border: 2px solid teal; /* Blue outline */
+        border: 2px solid teal; /* Teal outline */
         color: teal; /* Text color */
         padding: 8px 12px; /* Padding for the button */
         border-radius: 4px; /* Rounded corners */
@@ -63,19 +62,13 @@ authors:
         background-color: teal; /* Background color on hover */
         color: white; /* Text color on hover */
     }
+</style>
 
 <!-- Search bars and filters -->
 <div style="display: flex; align-items: center; margin-bottom: 20px;">
     <!-- Search Bar -->
-    <input type="text" id="searchBar" placeholder="Search publications..." onkeyup="searchCitations()" style="padding: 10px; width: 100%; max-width: 300px; margin-right: 20px;">
-    <!-- Drop down filter -->
-    <label for="filter" style="margin-right: 10px;">Filter by:</label>
-    <select id="filter" onchange="filterPublications()">
-        <option value="all">All</option>
-        <option value="journal">Journal Articles</option>
-        <option value="book">Book Sections</option>
-    </select>
-</div>
+    <input type="text" id="searchBar" placeholder="Search publications..." onkeyup="searchCitations()" style="padding: 10px
+
 
 
 <!-- Citations -->
