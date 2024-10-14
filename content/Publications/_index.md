@@ -341,7 +341,7 @@ authors:
 </div>
 
 <!-- Modal Structure -->
-<div id="modal" class="modal" style="display:none;">
+<div id="andrade2022" class="modal" style="display:none;">
     <div class="modal-content">
         <span class="close" onclick="closeModal()">&times;</span>
         <pre id="citationText">
@@ -370,7 +370,7 @@ authors:
 </div>
 
 <!-- Modal Structure -->
-<div id="modal" class="modal" style="display:none;">
+<div id="purwanto2022" class="modal" style="display:none;">
     <div class="modal-content">
         <span class="close" onclick="closeModal()">&times;</span>
         <pre id="citationText">
@@ -399,7 +399,7 @@ authors:
 </div>
 
 <!-- Modal Structure -->
-<div id="modal" class="modal" style="display:none;">
+<div id="jaya2022" class="modal" style="display:none;">
     <div class="modal-content">
         <span class="close" onclick="closeModal()">&times;</span>
         <pre id="citationText">
@@ -428,7 +428,7 @@ authors:
 </div>
 
 <!-- Modal Structure -->
-<div id="modal" class="modal" style="display:none;">
+<div id="longenecker2022" class="modal" style="display:none;">
     <div class="modal-content">
         <span class="close" onclick="closeModal()">&times;</span>
         <pre id="citationText">
@@ -457,7 +457,7 @@ authors:
 </div>
 
 <!-- Modal Structure -->
-<div id="modal" class="modal" style="display:none;">
+<div id="johansen2022" class="modal" style="display:none;">
     <div class="modal-content">
         <span class="close" onclick="closeModal()">&times;</span>
         <pre id="citationText">
@@ -478,9 +478,63 @@ authors:
 </div>
 
 
-Counsell CWW+, Coleman RR+, Lal SS+, Bowen BW, Franklin EC, Neuheimer AB, Powell BS, Toonen RJ, Donahue MJ, Hixon MA, McManus MA (2022) Interdisciplinary analysis of larval dispersal for a coral reef fish: opening the black box. Marine Ecology Progress Series 684: 117-132 doi: 10.3354/meps13971 \
+<div class="publication-entry journal">
+    Counsell CWW+, Coleman RR+, Lal SS+, Bowen BW, Franklin EC, Neuheimer AB, Powell BS, Toonen RJ, Donahue MJ, Hixon MA, McManus MA (2022). Interdisciplinary analysis of larval dispersal for a coral reef fish: opening the black box. <em>Marine Ecology Progress Series</em> 684: 117-132. <a href="https://doi.org/10.3354/meps13971">doi: 10.3354/meps13971</a>
+    
+  <a href="#" class="badge badge-info" onclick="openModal('counsell2022')">Cite</a>
+  <a href="https://doi.org/10.3354/meps13971" class="badge badge-info" target="_blank">DOI</a>
+</div>
 
-Limmon GV, Longenecker KL, Langston R, Franklin EC (2022) Capacity development in reproductive life history studies of tropical fishes in Ambon, Maluku, Indonesia for data limited fisheries. Marine Policy 136: 104948 doi: 10.1016/j.marpol.2021/104948 \
+<!-- Modal Structure -->
+<div id="counsell2022" class="modal" style="display:none;">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <pre id="citationText">
+@article{counsell_2022,
+  author = {Counsell, C.W.W. and Coleman, R.R. and Lal, S.S. and Bowen, B.W. and Franklin, E.C. and Neuheimer, A.B. and Powell, B.S. and Toonen, R.J. and Donahue, M.J. and Hixon, M.A. and McManus, M.A.},
+  title = {Interdisciplinary analysis of larval dispersal for a coral reef fish: opening the black box},
+  journal = {Marine Ecology Progress Series},
+  volume = {684},
+  pages = {117--132},
+  year = {2022},
+  doi = {10.3354/meps13971},
+  url = {https://doi.org/10.3354/meps13971}
+}
+        </pre>
+        <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
+        <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
+    </div>
+</div>
+
+
+<div class="publication-entry journal">
+    Limmon GV, Longenecker KL, Langston R, Franklin EC (2022). Capacity development in reproductive life history studies of tropical fishes in Ambon, Maluku, Indonesia for data-limited fisheries. <em>Marine Policy</em> 136: 104948. <a href="https://doi.org/10.1016/j.marpol.2021/104948">doi: 10.1016/j.marpol.2021/104948</a>
+    
+  <a href="#" class="badge badge-info" onclick="openModal('limmon2022')">Cite</a>
+  <a href="https://doi.org/10.1016/j.marpol.2021/104948" class="badge badge-info" target="_blank">DOI</a>
+</div>
+
+<!-- Modal Structure -->
+<div id="limmon2022" class="modal" style="display:none;">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <pre id="citationText">
+@article{limmon_2022,
+  author = {Limmon, G.V. and Longenecker, K.L. and Langston, R. and Franklin, E.C.},
+  title = {Capacity development in reproductive life history studies of tropical fishes in Ambon, Maluku, Indonesia for data-limited fisheries},
+  journal = {Marine Policy},
+  volume = {136},
+  pages = {104948},
+  year = {2022},
+  doi = {10.1016/j.marpol.2021/104948},
+  url = {https://doi.org/10.1016/j.marpol.2021/104948}
+}
+        </pre>
+        <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
+        <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
+    </div>
+</div
+
 
 Hixon MA, Bowen BW, Coleman RR+, Counsell CW+, Donahue MJ, Franklin EC, Kittinger JN, McManus MA, Toonen RJ (2022) Fish flow: following fisheries from spawning to supper. Frontiers in Ecology and the Environment 20: 247-254 doi: 10.1002/fee.2449 \
 
