@@ -101,17 +101,18 @@ authors:
   doi = {10.1111/jfb.15644},
   url = {https://doi.org/10.1111/jfb.15644}
 }
-        </pre>
-        <button class="button-outline" onclick="copyToClipboard('citationText')">Copy citation</button>
-        <button class="button-outline" onclick="downloadCitation()">Download citation</button>
+      </pre>
+      <button class="button-outline" onclick="copyToClipboard('citationText')">Copy citation</button>
+      <button class="button-outline" onclick="downloadCitation()">Download citation</button>
     </div>
 </div>
+
 
 <div class="publication-entry journal">
     Winans WR, Chen Q, Qiang Y, Franklin EC (2023). Large-area automatic detection of shoreline stranded marine debris using deep learning. <em>International Journal of Applied Earth Observation and Geoinformation</em>. <a href="https://doi.org/10.1016/j.jag.2023.103515">doi:10.1016/j.jag.2023.103515</a>
     
-    <a href="#" class="badge badge-info" onclick="openModal('winans2023')">Cite</a>
-    <a href="https://doi.org/10.1016/j.jag.2023.103515" class="badge badge-info" target="_blank">DOI</a>
+  <a href="#" class="badge badge-info" onclick="openModal('winans2023')">Cite</a>
+  <a href="https://doi.org/10.1016/j.jag.2023.103515" class="badge badge-info" target="_blank">DOI</a>
 </div>
 
 <!-- Modal Structure -->
@@ -127,36 +128,68 @@ authors:
   doi = {10.1016/j.jag.2023.103515},
   url = {https://doi.org/10.1016/j.jag.2023.103515}
 }
-        </pre>
-        <button class="button-outline" onclick="copyToClipboard('citationText')">Copy citation</button>
-        <button class="button-outline" onclick="downloadCitation()">Download citation</button>
+     </pre>
+      <button class="button-outline" onclick="copyToClipboard('citationText')">Copy citation</button>
+      <button class="button-outline" onclick="downloadCitation()">Download citation</button>
     </div>
 </div>
 
 
 <div class="publication-entry journal">
     Purwanto, Franklin EC, Mardiani SR, White AT (2023). Multiple-goal bioeconomic programming to address conflicting management objectives in Indonesian small pelagic fisheries. <em>Marine Policy</em> 150: 105519. <a href="https://doi.org/10.1016/j.marpol.2023.105519">doi:10.1016/j.marpol.2023.105519</a>
-
-  <a href="#" class="badge badge-info" onclick="showCitation('purwanto2023')">Cite</a>
+    
+  <a href="#" class="badge badge-info" onclick="openModal('purwanto2023')">Cite</a>
   <a href="https://doi.org/10.1016/j.marpol.2023.105519" class="badge badge-info" target="_blank">DOI</a>
+</div>
 
-  <!-- Hidden citation -->
-  <div id="purwanto2023" class="citation" style="display:none;">
-    Purwanto, Franklin EC, Mardiani SR, White AT (2023). Multiple-goal bioeconomic programming to address conflicting management objectives in Indonesian small pelagic fisheries. Marine Policy. DOI: 10.1016/j.marpol.2023.105519
+<!-- Modal Structure -->
+<div id="modal" class="modal" style="display:none;">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <pre id="citationText">
+@article{purwanto_2023,
+  author = {Purwanto and Franklin, E.C. and Mardiani, S.R. and White, A.T.},
+  title = {Multiple-goal bioeconomic programming to address conflicting management objectives in Indonesian small pelagic fisheries},
+  journal = {Marine Policy},
+  volume = {150},
+  pages = {105519},
+  year = {2023},
+  doi = {10.1016/j.marpol.2023.105519},
+  url = {https://doi.org/10.1016/j.marpol.2023.105519}
+}
+      </pre>
+      <button class="button-outline" onclick="copyToClipboard('citationText')">Copy citation</button>
+      <button class="button-outline" onclick="downloadCitation()">Download citation</button>
+    </div>
 </div>
-</div>
+
 
 <div class="publication-entry journal">
-    Carlson KM, Mora C, Xu J+, Setter RO+, Harangody M+, Franklin EC, Kantar MB, Lucas M, Menzo ZM+, Spirandelli D, Schanzenbach D, Warr CC, Wong AE+, Businger S (2022). Global rainbow distribution under current and future climates. <em>Global Environmental Change<em> 77: 102604. <a href="https://doi.org/10.1016/j.gloenvcha.2022.102604">doi:10.1016/j.gloenvcha.2022.102604</a>
+    Carlson KM, Mora C, Xu J, Setter RO, Harangody M, Franklin EC, Kantar MB, Lucas M, Menzo ZM, Spirandelli D, Schanzenbach D, Warr CC, Wong AE, Businger S (2022). Global rainbow distribution under current and future climates. <em>Global Environmental Change</em> 77: 102604. <a href="https://doi.org/10.1016/j.gloenvcha.2022.102604">doi:10.1016/j.gloenvcha.2022.102604</a>
     
-  <a href="#" class="badge badge-info" onclick="showCitation('carlson2022')">Cite</a>
+  <a href="#" class="badge badge-info" onclick="openModal('carlson2022')">Cite</a>
   <a href="https://doi.org/10.1016/j.gloenvcha.2022.102604" class="badge badge-info" target="_blank">DOI</a>
-
- <!-- Hidden citation -->
- <div id="carlson2022" class="citation" 
- style="display:none;">
-    Carlson KM, Mora C, Xu J+, Setter RO+, Harangody M+, Franklin EC, Kantar MB, Lucas M, Menzo ZM+, Spirandelli D, Schanzenbach D, Warr CC, Wong AE+, Businger S (2022). Global rainbow distribution under current and future climates. Global Environmental Change 77: 102604. DOI: 10.1016/j.gloenvcha.2022.102604
 </div>
+
+<!-- Modal Structure -->
+<div id="modal" class="modal" style="display:none;">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <pre id="citationText">
+@article{carlson_2022,
+  author = {Carlson, K.M. and Mora, C. and Xu, J. and Setter, R.O. and Harangody, M. and Franklin, E.C. and Kantar, M.B. and Lucas, M. and Menzo, Z.M. and Spirandelli, D. and Schanzenbach, D. and Warr, C.C. and Wong, A.E. and Businger, S.},
+  title = {Global rainbow distribution under current and future climates},
+  journal = {Global Environmental Change},
+  volume = {77},
+  pages = {102604},
+  year = {2022},
+  doi = {10.1016/j.gloenvcha.2022.102604},
+  url = {https://doi.org/10.1016/j.gloenvcha.2022.102604}
+}
+      </pre>
+      <button class="button-outline" onclick="copyToClipboard('citationText')">Copy citation</button>
+      <button class="button-outline" onclick="downloadCitation()">Download citation</button>
+    </div>
 </div>
 
 
