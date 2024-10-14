@@ -138,8 +138,8 @@ Franklin EC, Platt MT*, Andrade P (accepted). Increased occurrence of the rare g
   <a href="#" class="badge badge-info" onclick="showCitation('andrade2022')">Cite</a>
   <a href="https://doi.org/10.5070/P538257511" class="badge badge-info" target="_blank">DOI</a>
 
-<!-- Visible citation -->
-  <div id="andrade2022" class="citation">
+  <!-- Hidden citation -->
+  <div id="andrade2022" class="citation" style="display:none;">
       <pre id="citationText">
 @article{andrade_2022,
   author = {Andrade, P. and Morishige, K. and Mau, A. and Kapono, L. and Franklin, E.C.},
@@ -156,7 +156,6 @@ Franklin EC, Platt MT*, Andrade P (accepted). Increased occurrence of the rare g
       <button onclick="downloadCitation()">Download Citation</button>
   </div>
 </div>
-
 
 
 Purwanto, Franklin EC, Mardiani SR, White AT (2022) Stock assessment and overexploitation risk of small pelagic fish in Fisheries Management Area 715 of Indonesia. Asian Fisheries Science 35: 76-89 doi: 10.33997/j.afs.2022.35.1.007 \
@@ -307,28 +306,28 @@ Miller SL, Swanson DW, Chiappone M, Ault JS, Smith SG, Meester GA, Luo J, Frankl
             }
         }
     }
-
+</script>
+<script>
     function showCitation(id) {
         var citationDiv = document.getElementById(id);
         citationDiv.style.display = citationDiv.style.display === "none" ? "block" : "none";
     }
-</script>
-<script>
-        function copyToClipboard(elementId) {
-            var citationText = document.getElementById(elementId).innerText;
-            navigator.clipboard.writeText(citationText).then(function() {
-                alert("Citation copied to clipboard!");
-            }, function(err) {
-                console.error("Could not copy text: ", err);
-            });
-        }
 
-        function downloadCitation() {
-            var citationText = document.getElementById('citationText').innerText;
-            var blob = new Blob([citationText], { type: 'text/plain' });
-            var link = document.createElement('a');
-            link.href = window.URL.createObjectURL(blob);
-            link.download = 'citation.txt';
-            link.click();
-        }
-    </script>
+    function copyToClipboard(elementId) {
+        var citationText = document.getElementById(elementId).innerText;
+        navigator.clipboard.writeText(citationText).then(function() {
+            alert("Citation copied to clipboard!");
+        }, function(err) {
+            console.error("Could not copy text: ", err);
+        });
+    }
+
+    function downloadCitation() {
+        var citationText = document.getElementById('citationText').innerText;
+        var blob = new Blob([citationText], { type: 'text/plain' });
+        var link = document.createElement('a');
+        link.href = window.URL.createObjectURL(blob);
+        link.download = 'citation.txt';
+        link.click();
+    }
+</script>
