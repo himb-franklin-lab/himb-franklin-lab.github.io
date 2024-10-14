@@ -88,7 +88,7 @@ authors:
 </div>
 
 <!-- Modal Structure -->
-<div id="modal" class="modal" style="display:none;">
+<div id="franklin2023" class="modal" style="display:none;">
     <div class="modal-content">
         <span class="close" onclick="closeModal()">&times;</span>
         <pre id="citationText">
@@ -115,7 +115,7 @@ authors:
 </div>
 
 <!-- Modal Structure -->
-<div id="modal" class="modal" style="display:none;">
+<div id="winans2023" class="modal" style="display:none;">
     <div class="modal-content">
         <span class="close" onclick="closeModal()">&times;</span>
         <pre id="citationText">
@@ -142,7 +142,7 @@ authors:
 </div>
 
 <!-- Modal Structure -->
-<div id="modal" class="modal" style="display:none;">
+<div id="purwanto2023" class="modal" style="display:none;">
     <div class="modal-content">
         <span class="close" onclick="closeModal()">&times;</span>
         <pre id="citationText">
