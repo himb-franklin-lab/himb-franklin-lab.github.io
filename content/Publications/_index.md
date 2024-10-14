@@ -19,6 +19,7 @@ authors:
         width: 100%; /* Full width */
         height: 100%; /* Full height */
         overflow: auto; /* Enable scroll if needed */
+        transition: ease;
         background-color: rgb(0, 0, 0); /* Fallback color */
         background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
     }
@@ -63,13 +64,6 @@ authors:
         color: white; /* Text color on hover */
     }
 </style>
-<!-- Example of modal content with updated buttons -->
-<div class="modal-content">
-    <span class="close" onclick="closeModal()">&times;</span>
-    <p>Your citation will appear here.</p>
-    <button class="modal-button" onclick="copyCitation('yourCitationID')">Copy Citation</button>
-    <button class="modal-button" onclick="downloadCitation('yourCitationID')">Download Citation</button>
-</div>
 
 <!-- Search bars and filters -->
 <div style="display: flex; align-items: center; margin-bottom: 20px;">
@@ -358,6 +352,16 @@ Franklin EC, Ault JS, Smith SG (2002) Utilization of a GIS in a fisheries assess
 
 Miller SL, Swanson DW, Chiappone M, Ault JS, Smith SG, Meester GA, Luo J, Franklin EC, Bohnsack JA, Harper DE, McClellan DB (2001) An extensive deep reef terrace on the Tortugas Bank, Florida Keys National Marine Sanctuary. Coral Reefs 20:299-300.
 
+<!-- Modal Structure -->
+  <div id="myModal" class="modal">
+      <div class="modal-content">
+          <span class="close" onclick="closeModal()">&times;</span>
+          <p>Your citation will appear here.</p>
+          <button class="button-outline" id="copyCitation">Copy Citation</button>
+          <button class="button-outline" id="downloadCitation">Download Citation</button>
+      </div>
+  </div>
+  
 <script>
     function filterPublications() {
         var filterValue = document.getElementById("filter").value;
