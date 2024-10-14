@@ -11,11 +11,20 @@ authors:
 <!-- Search Bar -->
 <input type="text" id="searchBar" placeholder="Search publications..." onkeyup="searchCitations()" style="margin-bottom: 20px; padding: 10px; width: 100%; max-width: 600px;">
 
-<div class="publication-entry">
+<!-- Drop down filter -->
+<label for="filter">Filter by:</label>
+<select id="filter" onchange="filterPublications()">
+    <option value="all">All</option>
+    <option value="journal">Journal Articles</option>
+    <option value="book">Book Sections</option>
+</select>
+
+<!-- Citations -->
+<div class="publication-entry journal">
     Franklin EC, Platt MT*, Andrade P (accepted). Increased occurrence of the rare golden color morph of Pacific chub Kyphosus sandwicensis in a no-take marine reserve. <em>Journal of Fish Biology</em>. <a href="https://doi.org/10.1111/jfb.15644">doi:10.1111/jfb.15644</a>  
 
-  <a href="#" class="badge badge-secondary" onclick="showCitation('franklin2024')">Cite</a>
-  <a href="https://doi.org/10.1111/jfb.15644" class="badge badge-secondary" target="_blank">DOI</a>
+  <a href="#" class="badge badge-info" onclick="showCitation('franklin2024')">Cite</a>
+  <a href="https://doi.org/10.1111/jfb.15644" class="badge badge-info" target="_blank">DOI</a>
 
 <!-- Hidden citation -->
 <div id="franklin2024" class="citation" style="display:none;">
@@ -23,18 +32,11 @@ Franklin EC, Platt MT*, Andrade P (accepted). Increased occurrence of the rare g
 </div>
 </div>
 
-Franklin EC, Platt MT*, Andrade P (accepted) Increased occurrence of the rare golden color morph of Pacific chub Kyphosus sandwicensis in a no-take marine reserve. *Journal of Fish Biology*. [doi: 10.1111/jfb.15644](https://doi.org/10.1111/jfb.15644)  
-<a href="#" class="badge badge-secondary" onclick="showCitation('franklin2024')">Cite</a>
-
-<!-- Hidden citation -->
-<div id="franklin2024" class="citation" style="display:none;">
-    Franklin EC, Platt MT*, Andrade P (accepted). Increased occurrence of the rare golden color morph of Pacific chub Kyphosus sandwicensis in a no-take marine reserve. Journal of Fish Biology. DOI: 10.1111/jfb.15644
-</div>
-
-<div class="publication-entry">
+<div class="publication-entry journal">
     Winans WR+, Chen Q, Qiang Y, Franklin EC (2023). Large-area automatic detection of shoreline stranded marine debris using deep learning. <em>International Journal of Applied Earth Observation and Geoinformation</em>. <a href="https://doi.org/10.1016/j.jag.2023.103515">doi:10.1016/j.jag.2023.103515</a>  
 
-  <a href="#" class="badge badge-secondary" onclick="showCitation('winans2023')">Cite</a>
+  <a href="#" class="badge badge-info" onclick="showCitation('winans2023')">Cite</a>
+  <a href="https://doi.org/10.1016/j.jag.2023.103515" class="badge badge-info" target="_blank">DOI</a>
 
   <!-- Hidden citation -->
   <div id="winans2023" class="citation" style="display:none;">
@@ -42,10 +44,11 @@ Franklin EC, Platt MT*, Andrade P (accepted) Increased occurrence of the rare go
     </div>
 </div>
 
-<div class="publication-entry">
+<div class="publication-entry journal">
     Purwanto, Franklin EC, Mardiani SR, White AT (2023). Multiple-goal bioeconomic programming to address conflicting management objectives in Indonesian small pelagic fisheries. <em>Marine Policy</em> 150: 105519. <a href="https://doi.org/10.1016/j.marpol.2023.105519">doi:10.1016/j.marpol.2023.105519</a>
 
-  <a href="#" class="badge badge-secondary" onclick="showCitation('purwanto2023')">Cite</a>
+  <a href="#" class="badge badge-info" onclick="showCitation('purwanto2023')">Cite</a>
+  <a href="https://doi.org/10.1016/j.marpol.2023.105519" class="badge badge-info" target="_blank">DOI</a>
 
   <!-- Hidden citation -->
   <div id="purwanto2023" class="citation" style="display:none;">
@@ -53,10 +56,11 @@ Franklin EC, Platt MT*, Andrade P (accepted) Increased occurrence of the rare go
     </div>
 </div>
 
-<div class="publication-entry">
+<div class="publication-entry journal">
     Carlson KM, Mora C, Xu J+, Setter RO+, Harangody M+, Franklin EC, Kantar MB, Lucas M, Menzo ZM+, Spirandelli D, Schanzenbach D, Warr CC, Wong AE+, Businger S (2022). Global rainbow distribution under current and future climates. <em>Global Environmental Change<em> 77: 102604. <a href="https://doi.org/10.1016/j.gloenvcha.2022.102604">doi:10.1016/j.gloenvcha.2022.102604</a>
     
-  <a href="#" class="badge badge-secondary" onclick="showCitation('carlson2022')">Cite</a>
+  <a href="#" class="badge badge-info" onclick="showCitation('carlson2022')">Cite</a>
+  <a href="https://doi.org/10.1016/j.gloenvcha.2022.102604" class="badge badge-info" target="_blank">DOI</a>
 
 <!-- Hidden citation -->
 <div id="carlson2022" class="citation" style="display:none;">
@@ -67,6 +71,7 @@ Franklin EC, Platt MT*, Andrade P (accepted) Increased occurrence of the rare go
 
  Setter RO+, Franklin EC, Mora C (2022). Co-occurring anthropogenic stressors reduce the timeframe of environmental viability for the world’s coral reefs. *PLoS Biology* 20: e3001821. [doi: 10.1371/journal.pbio.3001821](https://doi.org/10.1371/journal.pbio.3001821)  
 <a href="#" class="badge badge-secondary" onclick="showCitation('setter2022')">Cite</a>
+<a href="https://doi.org/10.1016/j.gloenvcha.2022.102604" class="badge badge-info"
 
 <!-- Hidden citation -->
 <div id="setter2022" class="citation" style="display:none;">
@@ -222,3 +227,26 @@ Ault JS, Smith SG, Meester GA, Luo J, Franklin EC, Bohnsack JA, Harper DE, McCle
 Franklin EC, Ault JS, Smith SG (2002) Utilization of a GIS in a fisheries assessment and management system. In: J. Breman (ed) Marine Geography: GIS for the Oceans and the Seas. Redlands, CA: ESRI Press. \
 
 Miller SL, Swanson DW, Chiappone M, Ault JS, Smith SG, Meester GA, Luo J, Franklin EC, Bohnsack JA, Harper DE, McClellan DB (2001) An extensive deep reef terrace on the Tortugas Bank, Florida Keys National Marine Sanctuary. Coral Reefs 20:299-300.
+
+<script>
+    function filterPublications() {
+        var filterValue = document.getElementById("filter").value;
+        var publications = document.getElementsByClassName("publication-entry");
+
+        for (var i = 0; i < publications.length; i++) {
+            var publication = publications[i];
+            if (filterValue === "all") {
+                publication.style.display = "block";
+            } else if (publication.classList.contains(filterValue)) {
+                publication.style.display = "block";
+            } else {
+                publication.style.display = "none";
+            }
+        }
+    }
+
+    function showCitation(id) {
+        var citationDiv = document.getElementById(id);
+        citationDiv.style.display = citationDiv.style.display === "none" ? "block" : "none";
+    }
+</script>
