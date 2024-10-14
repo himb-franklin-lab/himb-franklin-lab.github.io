@@ -195,8 +195,8 @@ authors:
 <div class="publication-entry journal">
     Setter RO+, Franklin EC, Mora C (2022). Co-occurring anthropogenic stressors reduce the timeframe of environmental viability for the world’s coral reefs. <em>PLoS Biology</em> 20: e3001821. <a href="https://doi.org/10.1371/journal.pbio.3001821">doi:10.1371/journal.pbio.3001821</a>
     
-    <a href="#" class="badge badge-info" onclick="openModal('setter2022')">Cite</a>
-    <a href="https://doi.org/10.1371/journal.pbio.3001821" class="badge badge-info" target="_blank">DOI</a>
+  <a href="#" class="badge badge-info" onclick="openModal('setter2022')">Cite</a>
+  <a href="https://doi.org/10.1371/journal.pbio.3001821" class="badge badge-info" target="_blank">DOI</a>
 </div>
 
 <!-- Modal Structure -->
@@ -224,8 +224,8 @@ authors:
 <div class="publication-entry journal">
     Barkley YM*, Sakai T, Oleson EM, Franklin EC (2022). Examining distribution patterns of foraging and non-foraging sperm whales in Hawaiian waters using visual and passive acoustic data. <em>Frontiers in Remote Sensing</em> 3: 940186. <a href="https://doi.org/10.3389/frsen.2022.940186">doi:10.3389/frsen.2022.940186</a>
     
-    <a href="#" class="badge badge-info" onclick="openModal('barkley2022')">Cite</a>
-    <a href="https://doi.org/10.3389/frsen.2022.940186" class="badge badge-info" target="_blank">DOI</a>
+  <a href="#" class="badge badge-info" onclick="openModal('barkley2022')">Cite</a>
+  <a href="https://doi.org/10.3389/frsen.2022.940186" class="badge badge-info" target="_blank">DOI</a>
 </div>
 
 <!-- Modal Structure -->
@@ -253,38 +253,85 @@ authors:
 <div class="publication-entry journal">
     Akiona AK*, Popp BN, Toonen RJ, Siple MC, Kotubetey K, Kawelo H, Franklin EC (2022). Predatory fish diets shift toward an invasive mullet in a traditional Hawaiian aquaculture system. <em>Aquaculture, Fish and Fisheries</em>. <a href="https://doi.org/10.1002/aff2.68">doi:10.1002/aff2.68</a>
     
-  <a href="#" class="badge badge-info" onclick="showCitation('akiona2022')">Cite</a>
+  <a href="#" class="badge badge-info" onclick="openModal('akiona2022')">Cite</a>
   <a href="https://doi.org/10.1002/aff2.68" class="badge badge-info" target="_blank">DOI</a>
+</div>
 
-  <!-- Hidden citation -->
-  <div id="akiona2022" class="citation" style="display:none;">
-    Akiona AK*, Popp BN, Toonen RJ, Siple MC, Kotubetey K, Kawelo H, Franklin EC (2022). Predatory fish diets shift toward an invasive mullet in a traditional Hawaiian aquaculture system. Aquaculture, Fish and Fisheries. DOI: 10.1002/aff2.68
+<!-- Modal Structure -->
+<div id="modal" class="modal" style="display:none;">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <pre id="citationText">
+@article{akiona_2022,
+  author = {Akiona, A.K. and Popp, B.N. and Toonen, R.J. and Siple, M.C. and Kotubetey, K. and Kawelo, H. and Franklin, E.C.},
+  title = {Predatory fish diets shift toward an invasive mullet in a traditional Hawaiian aquaculture system},
+  journal = {Aquaculture, Fish and Fisheries},
+  year = {2022},
+  doi = {10.1002/aff2.68},
+  url = {https://doi.org/10.1002/aff2.68}
+}
+        </pre>
+        <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
+        <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
+    </div>
 </div>
-</div>
+
 
 <div class="publication-entry journal">
     Mora C, McKenzie T, Gaw IM+, Dean JM+, von Hammerstein H+, Knudson TA+, Setter RO+, Smith CZ+, Webster KM+, Patz JA, Franklin EC (2022). Over half of known human pathogenic diseases can be aggravated by climate change. <em>Nature Climate Change</em> 12: 869-875. <a href="https://doi.org/10.1038/s41558-022-01426-1">doi:10.1038/s41558-022-01426-1</a>
     
-  <a href="#" class="badge badge-info" onclick="showCitation('mora2022')">Cite</a>
+  <a href="#" class="badge badge-info" onclick="openModal('mora2022')">Cite</a>
   <a href="https://doi.org/10.1038/s41558-022-01426-1" class="badge badge-info" target="_blank">DOI</a>
+</div>
 
-  <!-- Hidden citation -->
-  <div id="mora2022" class="citation" style="display:none;">
-    Mora C, McKenzie T, Gaw IM+, Dean JM+, von Hammerstein H+, Knudson TA+, Setter RO+, Smith CZ+, Webster KM+, Patz JA, Franklin EC (2022). Over half of known human pathogenic diseases can be aggravated by climate change. Nature Climate Change 12: 869-875. DOI: 10.1038/s41558-022-01426-1
+<!-- Modal Structure -->
+<div id="modal" class="modal" style="display:none;">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <pre id="citationText">
+@article{mora_2022,
+  author = {Mora, C. and McKenzie, T. and Gaw, I.M. and Dean, J.M. and von Hammerstein, H. and Knudson, T.A. and Setter, R.O. and Smith, C.Z. and Webster, K.M. and Patz, J.A. and Franklin, E.C.},
+  title = {Over half of known human pathogenic diseases can be aggravated by climate change},
+  journal = {Nature Climate Change},
+  volume = {12},
+  pages = {869--875},
+  year = {2022},
+  doi = {10.1038/s41558-022-01426-1},
+  url = {https://doi.org/10.1038/s41558-022-01426-1}
+}
+        </pre>
+        <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
+        <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
+    </div>
 </div>
-</div>
+
 
 <div class="publication-entry journal">
-    Nichols RS*, DeMartini EE, Franklin EC (2022). No butts about it: using urogenital disparity in a deep water snapper, *Etelis carbunculus* (Lutjanidae), for field based sexual identification. <em>Journal of Fish Biology</em>. <a href="https://doi.org/10.1111/jfb.15166">doi:10.1111/jfb.15166</a>
+    Nichols RS*, DeMartini EE, Franklin EC (2022). No butts about it: using urogenital disparity in a deep water snapper, <em>Etelis carbunculus</em> (Lutjanidae), for field based sexual identification. <em>Journal of Fish Biology</em>. <a href="https://doi.org/10.1111/jfb.15166">doi:10.1111/jfb.15166</a>
     
-  <a href="#" class="badge badge-info" onclick="showCitation('nichols2022')">Cite</a>
+  <a href="#" class="badge badge-info" onclick="openModal('nichols2022')">Cite</a>
   <a href="https://doi.org/10.1111/jfb.15166" class="badge badge-info" target="_blank">DOI</a>
+</div>
 
-  <!-- Hidden citation -->
-  <div id="nichols2022" class="citation" style="display:none;">
-    Nichols RS*, DeMartini EE, Franklin EC (2022). No butts about it: using urogenital disparity in a deep water snapper, Etelis carbunculus (Lutjanidae), for field based sexual identification. Journal of Fish Biology. DOI: 10.1111/jfb.15166
+<!-- Modal Structure -->
+<div id="modal" class="modal" style="display:none;">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <pre id="citationText">
+@article{nichols_2022,
+  author = {Nichols, R.S. and DeMartini, E.E. and Franklin, E.C.},
+  title = {No butts about it: using urogenital disparity in a deep water snapper, Etelis carbunculus (Lutjanidae), for field based sexual identification},
+  journal = {Journal of Fish Biology},
+  year = {2022},
+  doi = {10.1111/jfb.15166},
+  url = {https://doi.org/10.1111/jfb.15166}
+}
+        </pre>
+        <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
+        <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
+    </div>
 </div>
-</div>
+
 
 <div class="publication-entry journal">
     Andrade P, Morishige K, Mau A, Kapono L, Franklin EC (2022). Re-imagining contemporary conservation to support ʻĀina Momona: Productive and thriving communities of people, place, and natural resources. <em>Parks Stewardship Forum</em> 38: 186–198. <a href="https://doi.org/10.5070/P538257511">doi: 10.5070/P538257511</a>
@@ -315,13 +362,121 @@ authors:
 </div>
 
 
-Purwanto, Franklin EC, Mardiani SR, White AT (2022) Stock assessment and overexploitation risk of small pelagic fish in Fisheries Management Area 715 of Indonesia. Asian Fisheries Science 35: 76-89 doi: 10.33997/j.afs.2022.35.1.007 \
+<div class="publication-entry journal">
+    Purwanto, Franklin EC, Mardiani SR, White AT (2022). Stock assessment and overexploitation risk of small pelagic fish in Fisheries Management Area 715 of Indonesia. <em>Asian Fisheries Science</em> 35: 76-89. <a href="https://doi.org/10.33997/j.afs.2022.35.1.007">doi:10.33997/j.afs.2022.35.1.007</a>
+    
+  <a href="#" class="badge badge-info" onclick="openModal('purwanto2022')">Cite</a>
+  <a href="https://doi.org/10.33997/j.afs.2022.35.1.007" class="badge badge-info" target="_blank">DOI</a>
+</div>
 
-Jaya I, Satria F, Wudianto, Nugroho D, Sadiyah L, Buchary EA, White AT, Franklin EC, Courtney CA, Green G, Green S (2022) Are the working principles of fisheries management at work in Indonesia? Marine Policy 140: 105047 doi: 10.1016/j.marpol.2022.105047 \
+<!-- Modal Structure -->
+<div id="modal" class="modal" style="display:none;">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <pre id="citationText">
+@article{purwanto_2022,
+  author = {Purwanto and Franklin, E.C. and Mardiani, S.R. and White, A.T.},
+  title = {Stock assessment and overexploitation risk of small pelagic fish in Fisheries Management Area 715 of Indonesia},
+  journal = {Asian Fisheries Science},
+  volume = {35},
+  pages = {76--89},
+  year = {2022},
+  doi = {10.33997/j.afs.2022.35.1.007},
+  url = {https://doi.org/10.33997/j.afs.2022.35.1.007}
+}
+        </pre>
+        <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
+        <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
+    </div>
+</div>
 
-Longenecker K, Franklin EC, Hill-Lewenilovo R+, Lalavanua W, Langston R, Mangubhai, Piovano S (2022) Many immature individuals and largest size classes lacked females from three coral reef fishes (Actinopterygii) in Fiji market surveys: Implications for fishery management. Acta Ichthyologica et Piscatoria 52: 53-65 doi: 10.3897/aiep.52.80586 \
 
-Johannsen T+, Franklin EC, Hunter CL (2022) A short-term winner? Dramatic increases in the population of mushroom coral Lobactis scutaria (Anthozoa: Fungiidae) in Kaneohe Bay, Hawaii from 2000 to 2018. Pacific Science 76: 79-93 doi: 10.2984/76.1.7 \
+<div class="publication-entry journal">
+    Jaya I, Satria F, Wudianto, Nugroho D, Sadiyah L, Buchary EA, White AT, Franklin EC, Courtney CA, Green G, Green S (2022). Are the working principles of fisheries management at work in Indonesia? <em>Marine Policy</em> 140: 105047. <a href="https://doi.org/10.1016/j.marpol.2022.105047">doi:10.1016/j.marpol.2022.105047</a>
+    
+  <a href="#" class="badge badge-info" onclick="openModal('jaya2022')">Cite</a>
+  <a href="https://doi.org/10.1016/j.marpol.2022.105047" class="badge badge-info" target="_blank">DOI</a>
+</div>
+
+<!-- Modal Structure -->
+<div id="modal" class="modal" style="display:none;">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <pre id="citationText">
+@article{jaya_2022,
+  author = {Jaya, I. and Satria, F. and Wudianto and Nugroho, D. and Sadiyah, L. and Buchary, E.A. and White, A.T. and Franklin, E.C. and Courtney, C.A. and Green, G. and Green, S.},
+  title = {Are the working principles of fisheries management at work in Indonesia?},
+  journal = {Marine Policy},
+  volume = {140},
+  pages = {105047},
+  year = {2022},
+  doi = {10.1016/j.marpol.2022.105047},
+  url = {https://doi.org/10.1016/j.marpol.2022.105047}
+}
+        </pre>
+        <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
+        <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
+    </div>
+</div>
+
+
+<div class="publication-entry journal">
+    Longenecker K, Franklin EC, Hill-Lewenilovo R+, Lalavanua W, Langston R, Mangubhai, Piovano S (2022). Many immature individuals and largest size classes lacked females from three coral reef fishes (Actinopterygii) in Fiji market surveys: Implications for fishery management. <em>Acta Ichthyologica et Piscatoria</em> 52: 53-65. <a href="https://doi.org/10.3897/aiep.52.80586">doi:10.3897/aiep.52.80586</a>
+    
+  <a href="#" class="badge badge-info" onclick="openModal('longenecker2022')">Cite</a>
+  <a href="https://doi.org/10.3897/aiep.52.80586" class="badge badge-info" target="_blank">DOI</a>
+</div>
+
+<!-- Modal Structure -->
+<div id="modal" class="modal" style="display:none;">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <pre id="citationText">
+@article{longenecker_2022,
+  author = {Longenecker, K. and Franklin, E.C. and Hill-Lewenilovo, R. and Lalavanua, W. and Langston, R. and Mangubhai and Piovano, S.},
+  title = {Many immature individuals and largest size classes lacked females from three coral reef fishes (Actinopterygii) in Fiji market surveys: Implications for fishery management},
+  journal = {Acta Ichthyologica et Piscatoria},
+  volume = {52},
+  pages = {53--65},
+  year = {2022},
+  doi = {10.3897/aiep.52.80586},
+  url = {https://doi.org/10.3897/aiep.52.80586}
+}
+        </pre>
+        <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
+        <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
+    </div>
+</div>
+
+
+<div class="publication-entry journal">
+    Johannsen T+, Franklin EC, Hunter CL (2022). A short-term winner? Dramatic increases in the population of mushroom coral Lobactis scutaria (Anthozoa: Fungiidae) in Kaneohe Bay, Hawaii from 2000 to 2018. <em>Pacific Science</em> 76: 79-93. <a href="https://doi.org/10.2984/76.1.7">doi:10.2984/76.1.7</a>
+    
+  <a href="#" class="badge badge-info" onclick="openModal('johannsen2022')">Cite</a>
+  <a href="https://doi.org/10.2984/76.1.7" class="badge badge-info" target="_blank">DOI</a>
+</div>
+
+<!-- Modal Structure -->
+<div id="modal" class="modal" style="display:none;">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <pre id="citationText">
+@article{johannsen_2022,
+  author = {Johannsen, T. and Franklin, E.C. and Hunter, C.L.},
+  title = {A short-term winner? Dramatic increases in the population of mushroom coral Lobactis scutaria (Anthozoa: Fungiidae) in Kaneohe Bay, Hawaii from 2000 to 2018},
+  journal = {Pacific Science},
+  volume = {76},
+  pages = {79--93},
+  year = {2022},
+  doi = {10.2984/76.1.7},
+  url = {https://doi.org/10.2984/76.1.7}
+}
+        </pre>
+        <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
+        <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
+    </div>
+</div>
+
 
 Counsell CWW+, Coleman RR+, Lal SS+, Bowen BW, Franklin EC, Neuheimer AB, Powell BS, Toonen RJ, Donahue MJ, Hixon MA, McManus MA (2022) Interdisciplinary analysis of larval dispersal for a coral reef fish: opening the black box. Marine Ecology Progress Series 684: 117-132 doi: 10.3354/meps13971 \
 
