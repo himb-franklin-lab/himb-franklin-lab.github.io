@@ -111,19 +111,49 @@ Franklin EC, Platt MT*, Andrade P (accepted). Increased occurrence of the rare g
 <div class="publication-entry journal">
     Mora C, McKenzie T, Gaw IM+, Dean JM+, von Hammerstein H+, Knudson TA+, Setter RO+, Smith CZ+, Webster KM+, Patz JA, Franklin EC (2022). Over half of known human pathogenic diseases can be aggravated by climate change. <em>Nature Climate Change</em> 12: 869-875. <a href="https://doi.org/10.1038/s41558-022-01426-1">doi:10.1038/s41558-022-01426-1</a>
     
-    <a href="#" class="badge badge-info" onclick="showCitation('mora2022')">Cite</a>
-    <a href="https://doi.org/10.1038/s41558-022-01426-1" class="badge badge-info" target="_blank">DOI</a>
+  <a href="#" class="badge badge-info" onclick="showCitation('mora2022')">Cite</a>
+  <a href="https://doi.org/10.1038/s41558-022-01426-1" class="badge badge-info" target="_blank">DOI</a>
 
-    <!-- Hidden citation -->
-    <div id="mora2022" class="citation" style="display:none;">
-        Mora C, McKenzie T, Gaw IM+, Dean JM+, von Hammerstein H+, Knudson TA+, Setter RO+, Smith CZ+, Webster KM+, Patz JA, Franklin EC (2022). Over half of known human pathogenic diseases can be aggravated by climate change. Nature Climate Change 12: 869-875. DOI: 10.1038/s41558-022-01426-1
+  <!-- Hidden citation -->
+  <div id="mora2022" class="citation" style="display:none;">
+    Mora C, McKenzie T, Gaw IM+, Dean JM+, von Hammerstein H+, Knudson TA+, Setter RO+, Smith CZ+, Webster KM+, Patz JA, Franklin EC (2022). Over half of known human pathogenic diseases can be aggravated by climate change. Nature Climate Change 12: 869-875. DOI: 10.1038/s41558-022-01426-1
+    </div>
+</div>
+
+<div class="publication-entry journal">
+    Nichols RS*, DeMartini EE, Franklin EC (2022). No butts about it: using urogenital disparity in a deep water snapper, *Etelis carbunculus* (Lutjanidae), for field based sexual identification. <em>Journal of Fish Biology</em>. <a href="https://doi.org/10.1111/jfb.15166">doi:10.1111/jfb.15166</a>
+    
+  <a href="#" class="badge badge-info" onclick="showCitation('nichols2022')">Cite</a>
+  <a href="https://doi.org/10.1111/jfb.15166" class="badge badge-info" target="_blank">DOI</a>
+
+  <!-- Hidden citation -->
+  <div id="nichols2022" class="citation" style="display:none;">
+    Nichols RS*, DeMartini EE, Franklin EC (2022). No butts about it: using urogenital disparity in a deep water snapper, Etelis carbunculus (Lutjanidae), for field based sexual identification. Journal of Fish Biology. DOI: 10.1111/jfb.15166
+    </div>
+</div>
+
+<div class="publication-entry journal">
+    Andrade P, Morishige K, Mau A, Kapono L, Franklin EC (2022). Re-imagining contemporary conservation to support ʻĀina Momona: Productive and thriving communities of people, place, and natural resources. <em>Parks Stewardship Forum</em> 38: 186–198. <a href="https://doi.org/10.5070/P538257511">doi:10.5070/P538257511</a>
+    
+  <a href="#" class="badge badge-info" onclick="showCitation('andrade2022')">Cite</a>
+  <a href="https://doi.org/10.5070/P538257511" class="badge badge-info" target="_blank">DOI</a>
+
+   <!-- Hidden citation -->
+  <div id="andrade2022" class="citation" style="display:none;">
+    @article{andrade_2022,
+      author = {Andrade, P. and Morishige, K. and Mau, A. and Kapono, L. and Franklin, E.C.},
+      title = {Re-imagining contemporary conservation to support ʻĀina Momona: Productive and thriving communities of people, place, and natural resources},
+      journal = {Parks Stewardship Forum},
+      volume = {38},
+      pages = {186--198},
+      year = {2022},
+      doi = {10.5070/P538257511},
+      url = {https://doi.org/10.5070/P538257511}
+      }
     </div>
 </div>
 
 
-Nichols RS*, DeMartini EE, Franklin EC (2022) No butts about it: using urogenital disparity in a deep water snapper, Etelis carbunculus (Lutjanidae), for field based sexual identification. Journal of Fish Biology [doi: 10.1111/jfb.15166](https://doi.org/10.1111/jfb.15166) \
-
-Andrade P, Morishige K+, Mau A, Kapono L+, Franklin EC (2022) Re-imagining contemporary conservation to support ʻĀina Momona: Productive and thriving communities of people, place, and natural resources. Parks Stewardship Forum 38: 186–198 doi: 10.5070/P538257511 \
 
 Purwanto, Franklin EC, Mardiani SR, White AT (2022) Stock assessment and overexploitation risk of small pelagic fish in Fisheries Management Area 715 of Indonesia. Asian Fisheries Science 35: 76-89 doi: 10.33997/j.afs.2022.35.1.007 \
 
