@@ -64,6 +64,7 @@ authors:
         color: white; /* Text color on hover */
     }
 </style>
+<div style="display: flex; align-items: center; margin-bottom: 20px;">
 
 <!-- Search bars and filters -->
 <div style="display: flex; align-items: center; margin-bottom: 20px;">
@@ -194,16 +195,33 @@ authors:
 
 
 <div class="publication-entry journal">
-    Setter RO+, Franklin EC, Mora C (2022). Co-occurring anthropogenic stressors reduce the timeframe of environmental viability for the world’s coral reefs. <em>PLoS Biology</em> 20: e3001821. <a href="https://doi.org/10.1371/journal.pbio.3001821">doi:10.1371/journal.pbio.3001821</a>  
-
-  <a href="#" class="badge badge-info" onclick="showCitation('setter2022')">Cite</a>
+    Setter RO, Franklin EC, Mora C (2022). Co-occurring anthropogenic stressors reduce the timeframe of environmental viability for the world’s coral reefs. <em>PLoS Biology</em> 20: e3001821. <a href="https://doi.org/10.1371/journal.pbio.3001821">doi:10.1371/journal.pbio.3001821</a>
+    
+  <a href="#" class="badge badge-info" onclick="openModal('setter2022')">Cite</a>
   <a href="https://doi.org/10.1371/journal.pbio.3001821" class="badge badge-info" target="_blank">DOI</a>
+</div>
 
-  <!-- Hidden citation -->
-  <div id="setter2022" class="citation" style="display:none;">
-    Setter RO+, Franklin EC, Mora C (2022). Co-occurring anthropogenic stressors reduce the timeframe of environmental viability for the world’s coral reefs. PLoS Biology 20: e3001821. DOI: 10.1371/journal.pbio.3001821
+<!-- Modal Structure -->
+<div id="modal" class="modal" style="display:none;">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <pre id="citationText">
+@article{setter_2022,
+  author = {Setter, R.O. and Franklin, E.C. and Mora, C.},
+  title = {Co-occurring anthropogenic stressors reduce the timeframe of environmental viability for the world’s coral reefs},
+  journal = {PLoS Biology},
+  volume = {20},
+  pages = {e3001821},
+  year = {2022},
+  doi = {10.1371/journal.pbio.3001821},
+  url = {https://doi.org/10.1371/journal.pbio.3001821}
+}
+      </pre>
+      <button class="button-outline" onclick="copyToClipboard('citationText')">Copy citation</button>
+      <button class="button-outline" onclick="downloadCitation()">Download citation</button>
+    </div>
 </div>
-</div>
+
 
 <div class="publication-entry journal">
     Barkley YM*, Sakai T, Oleson EM, Franklin EC (2022). Examining distribution patterns of foraging and non-foraging sperm whales in Hawaiian waters using visual and passive acoustic data. <em>Frontiers in Remote Sensing</em> 3: 940186. <a href="https://doi.org/10.3389/frsen.2022.940186">doi:10.3389/frsen.2022.940186</a>
