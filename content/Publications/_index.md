@@ -8,16 +8,9 @@ authors:
   #caption: ''
   #image: ''
 ---
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Website Title</title>
-    
-  <!-- Inline CSS for modal -->
-  <style>
-      .modal {
+<!-- Inline CSS for modal -->
+<style>
+    .modal {
         display: none; /* Hidden by default */
         position: fixed; /* Stay in place */
         z-index: 1; /* Sit on top */
@@ -28,30 +21,32 @@ authors:
         overflow: auto; /* Enable scroll if needed */
         background-color: rgb(0, 0, 0); /* Fallback color */
         background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
-        }
+    }
 
-      .modal-content {
+    .modal-content {
         background-color: #fefefe;
         margin: 15% auto; /* 15% from the top and centered */
         padding: 20px;
         border: 1px solid #888;
         width: 80%; /* Could be more or less, depending on screen size */
-       }
+    }
 
-      .close {
+    .close {
         color: #aaa;
         float: right;
         font-size: 28px;
         font-weight: bold;
-       }
+    }
 
-      .close:hover,
-      .close:focus {
+    .close:hover,
+    .close:focus {
         color: black;
         text-decoration: none;
         cursor: pointer;
-      }
-      .button-outline {
+    }
+
+    /* New button styles */
+    .button-outline {
         background-color: transparent; /* Clear background */
         border: 2px solid blue; /* Blue outline */
         color: blue; /* Text color */
@@ -61,13 +56,13 @@ authors:
         transition: background-color 0.3s, color 0.3s; /* Transition effect */
         text-decoration: none; /* Remove underline */
         display: inline-block; /* Ensure proper alignment */
-      }
+    }
 
-     .button-outline:hover {
+    .button-outline:hover {
         background-color: blue; /* Background color on hover */
         color: white; /* Text color on hover */
-      }
-    </style>
+    }
+</style>
 
 <div style="display: flex; align-items: center; margin-bottom: 20px;">
     <!-- Search Bar -->
