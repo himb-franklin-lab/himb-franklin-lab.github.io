@@ -620,32 +620,39 @@ Miller SL, Swanson DW, Chiappone M, Ault JS, Smith SG, Meester GA, Luo J, Frankl
         }
     }
 </script>
+
 <script>
-    function openModal(id) {
-        var modal = document.getElementById("modal");
-        modal.style.display = "flex"; // Show the modal
-    }
+function openModal(modalId) {
+    // Hide all modals first
+    const modals = document.querySelectorAll('.modal');
+    modals.forEach(modal => {
+        modal.style.display = "none";
+    });
 
-    function closeModal() {
-        var modal = document.getElementById("modal");
-        modal.style.display = "none"; // Hide the modal
+    // Show the selected modal
+    const modalToShow = document.getElementById(modalId);
+    if (modalToShow) {
+        modalToShow.style.display = "block";
     }
+}
 
-    function copyToClipboard(elementId) {
-        var citationText = document.getElementById(elementId).innerText;
-        navigator.clipboard.writeText(citationText).then(function() {
-            alert("Citation copied to clipboard!");
-        }, function(err) {
-            console.error("Could not copy text: ", err);
-        });
-    }
+function closeModal() {
+    const modals = document.querySelectorAll('.modal');
+    modals.forEach(modal => {
+        modal.style.display = "none";
+    });
+}
 
-    function downloadCitation() {
-        var citationText = document.getElementById('citationText').innerText;
-        var blob = new Blob([citationText], { type: 'text/plain' });
-        var link = document.createElement('a');
-        link.href = window.URL.createObjectURL(blob);
-        link.download = 'citation.txt';
-        link.click();
-    }
+// Function to copy citation to clipboard
+function copyToClipboard(elementId) {
+    const citationText = document.getElementById(elementId).innerText;
+    navigator.clipboard.writeText(citationText).then(() => {
+        alert('Citation copied to clipboard!');
+    });
+}
+
+// Function to download citation (optional, implement as needed)
+function downloadCitation() {
+    // Implement your citation download logic here
+}
 </script>
