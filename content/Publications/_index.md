@@ -43,7 +43,7 @@ Franklin EC, Platt MT*, Andrade P (accepted). Increased occurrence of the rare g
   <!-- Hidden citation -->
   <div id="winans2023" class="citation" style="display:none;">
     Winans WR+, Chen Q, Qiang Y, Franklin EC (2023). Large-area automatic detection of shoreline stranded marine debris using deep learning. International Journal of Applied Earth Observation and Geoinformation. DOI: 10.1016/j.jag.2023.103515
-    </div>
+</div>
 </div>
 
 <div class="publication-entry journal">
@@ -55,7 +55,7 @@ Franklin EC, Platt MT*, Andrade P (accepted). Increased occurrence of the rare g
   <!-- Hidden citation -->
   <div id="purwanto2023" class="citation" style="display:none;">
     Purwanto, Franklin EC, Mardiani SR, White AT (2023). Multiple-goal bioeconomic programming to address conflicting management objectives in Indonesian small pelagic fisheries. Marine Policy. DOI: 10.1016/j.marpol.2023.105519
-    </div>
+</div>
 </div>
 
 <div class="publication-entry journal">
@@ -68,7 +68,7 @@ Franklin EC, Platt MT*, Andrade P (accepted). Increased occurrence of the rare g
  <div id="carlson2022" class="citation" 
  style="display:none;">
     Carlson KM, Mora C, Xu J+, Setter RO+, Harangody M+, Franklin EC, Kantar MB, Lucas M, Menzo ZM+, Spirandelli D, Schanzenbach D, Warr CC, Wong AE+, Businger S (2022). Global rainbow distribution under current and future climates. Global Environmental Change 77: 102604. DOI: 10.1016/j.gloenvcha.2022.102604
-    </div>
+</div>
 </div>
 
 
@@ -81,7 +81,7 @@ Franklin EC, Platt MT*, Andrade P (accepted). Increased occurrence of the rare g
   <!-- Hidden citation -->
   <div id="setter2022" class="citation" style="display:none;">
     Setter RO+, Franklin EC, Mora C (2022). Co-occurring anthropogenic stressors reduce the timeframe of environmental viability for the world’s coral reefs. PLoS Biology 20: e3001821. DOI: 10.1371/journal.pbio.3001821
-    </div>
+</div>
 </div>
 
 <div class="publication-entry journal">
@@ -93,7 +93,7 @@ Franklin EC, Platt MT*, Andrade P (accepted). Increased occurrence of the rare g
   <!-- Hidden citation -->
   <div id="barkley2022" class="citation" style="display:none;">
     Barkley YM*, Sakai T, Oleson EM, Franklin EC (2022). Examining distribution patterns of foraging and non-foraging sperm whales in Hawaiian waters using visual and passive acoustic data. Frontiers in Remote Sensing 3: 940186. DOI: 10.3389/frsen.2022.940186
-    </div>
+</div>
 </div>
 
 <div class="publication-entry journal">
@@ -105,7 +105,7 @@ Franklin EC, Platt MT*, Andrade P (accepted). Increased occurrence of the rare g
   <!-- Hidden citation -->
   <div id="akiona2022" class="citation" style="display:none;">
     Akiona AK*, Popp BN, Toonen RJ, Siple MC, Kotubetey K, Kawelo H, Franklin EC (2022). Predatory fish diets shift toward an invasive mullet in a traditional Hawaiian aquaculture system. Aquaculture, Fish and Fisheries. DOI: 10.1002/aff2.68
-    </div>
+</div>
 </div>
 
 <div class="publication-entry journal">
@@ -117,7 +117,7 @@ Franklin EC, Platt MT*, Andrade P (accepted). Increased occurrence of the rare g
   <!-- Hidden citation -->
   <div id="mora2022" class="citation" style="display:none;">
     Mora C, McKenzie T, Gaw IM+, Dean JM+, von Hammerstein H+, Knudson TA+, Setter RO+, Smith CZ+, Webster KM+, Patz JA, Franklin EC (2022). Over half of known human pathogenic diseases can be aggravated by climate change. Nature Climate Change 12: 869-875. DOI: 10.1038/s41558-022-01426-1
-    </div>
+</div>
 </div>
 
 <div class="publication-entry journal">
@@ -129,7 +129,7 @@ Franklin EC, Platt MT*, Andrade P (accepted). Increased occurrence of the rare g
   <!-- Hidden citation -->
   <div id="nichols2022" class="citation" style="display:none;">
     Nichols RS*, DeMartini EE, Franklin EC (2022). No butts about it: using urogenital disparity in a deep water snapper, Etelis carbunculus (Lutjanidae), for field based sexual identification. Journal of Fish Biology. DOI: 10.1111/jfb.15166
-    </div>
+</div>
 </div>
 
 <div class="publication-entry journal">
@@ -138,19 +138,23 @@ Franklin EC, Platt MT*, Andrade P (accepted). Increased occurrence of the rare g
   <a href="#" class="badge badge-info" onclick="showCitation('andrade2022')">Cite</a>
   <a href="https://doi.org/10.5070/P538257511" class="badge badge-info" target="_blank">DOI</a>
 
-   <!-- Hidden citation -->
-  <div id="andrade2022" class="citation" style="display:none;">
-    @article{andrade_2022,
-      author = {Andrade, P. and Morishige, K. and Mau, A. and Kapono, L. and Franklin, E.C.},
-      title = {Re-imagining contemporary conservation to support ʻĀina Momona: Productive and thriving communities of people, place, and natural resources},
-      journal = {Parks Stewardship Forum},
-      volume = {38},
-      pages = {186--198},
-      year = {2022},
-      doi = {10.5070/P538257511},
-      url = {https://doi.org/10.5070/P538257511}
-      }
-    </div>
+<!-- Visible citation -->
+  <div id="andrade2022" class="citation">
+      <pre id="citationText">
+@article{andrade_2022,
+  author = {Andrade, P. and Morishige, K. and Mau, A. and Kapono, L. and Franklin, E.C.},
+  title = {Re-imagining contemporary conservation to support ʻĀina Momona: Productive and thriving communities of people, place, and natural resources},
+  journal = {Parks Stewardship Forum},
+  volume = {38},
+  pages = {186--198},
+  year = {2022},
+  doi = {10.5070/P538257511},
+  url = {https://doi.org/10.5070/P538257511}
+}
+      </pre>
+      <button onclick="copyToClipboard('citationText')">Copy Citation</button>
+      <button onclick="downloadCitation()">Download Citation</button>
+  </div>
 </div>
 
 
@@ -309,3 +313,22 @@ Miller SL, Swanson DW, Chiappone M, Ault JS, Smith SG, Meester GA, Luo J, Frankl
         citationDiv.style.display = citationDiv.style.display === "none" ? "block" : "none";
     }
 </script>
+<script>
+        function copyToClipboard(elementId) {
+            var citationText = document.getElementById(elementId).innerText;
+            navigator.clipboard.writeText(citationText).then(function() {
+                alert("Citation copied to clipboard!");
+            }, function(err) {
+                console.error("Could not copy text: ", err);
+            });
+        }
+
+        function downloadCitation() {
+            var citationText = document.getElementById('citationText').innerText;
+            var blob = new Blob([citationText], { type: 'text/plain' });
+            var link = document.createElement('a');
+            link.href = window.URL.createObjectURL(blob);
+            link.download = 'citation.txt';
+            link.click();
+        }
+    </script>
