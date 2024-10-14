@@ -81,28 +81,58 @@ authors:
 
 <!-- Citations -->
 <div class="publication-entry journal">
-    Franklin EC, Platt MT*, Andrade P (accepted). Increased occurrence of the rare golden color morph of Pacific chub Kyphosus sandwicensis in a no-take marine reserve. <em>Journal of Fish Biology</em>. <a href="https://doi.org/10.1111/jfb.15644">doi:10.1111/jfb.15644</a>  
-
-  <a href="#" class="badge badge-info" onclick="showCitation('franklin2024')">Cite</a>
+    Franklin EC, Platt MT, Andrade P (accepted). Increased occurrence of the rare golden color morph of Pacific chub Kyphosus sandwicensis in a no-take marine reserve. <em>Journal of Fish Biology</em>. <a href="https://doi.org/10.1111/jfb.15644">doi:10.1111/jfb.15644</a>
+    
+  <a href="#" class="badge badge-info" onclick="openModal('franklin2024')">Cite</a>
   <a href="https://doi.org/10.1111/jfb.15644" class="badge badge-info" target="_blank">DOI</a>
-
-<!-- Hidden citation -->
-<div id="franklin2024" class="citation" style="display:none;">
-Franklin EC, Platt MT*, Andrade P (accepted). Increased occurrence of the rare golden color morph of Pacific chub Kyphosus sandwicensis in a no-take marine reserve. Journal of Fish Biology. DOI: 10.1111/jfb.15644
 </div>
+
+<!-- Modal Structure -->
+<div id="modal" class="modal" style="display:none;">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <pre id="citationText">
+@article{franklin_2024,
+  author = {Franklin, E.C. and Platt, M.T. and Andrade, P.},
+  title = {Increased occurrence of the rare golden color morph of Pacific chub Kyphosus sandwicensis in a no-take marine reserve},
+  journal = {Journal of Fish Biology},
+  year = {2024},
+  note = {Accepted},
+  doi = {10.1111/jfb.15644},
+  url = {https://doi.org/10.1111/jfb.15644}
+}
+        </pre>
+        <button class="button-outline" onclick="copyToClipboard('citationText')">Copy citation</button>
+        <button class="button-outline" onclick="downloadCitation()">Download citation</button>
+    </div>
 </div>
 
 <div class="publication-entry journal">
-    Winans WR+, Chen Q, Qiang Y, Franklin EC (2023). Large-area automatic detection of shoreline stranded marine debris using deep learning. <em>International Journal of Applied Earth Observation and Geoinformation</em>. <a href="https://doi.org/10.1016/j.jag.2023.103515">doi:10.1016/j.jag.2023.103515</a>  
-
-  <a href="#" class="badge badge-info" onclick="showCitation('winans2023')">Cite</a>
-  <a href="https://doi.org/10.1016/j.jag.2023.103515" class="badge badge-info" target="_blank">DOI</a>
-
-  <!-- Hidden citation -->
-  <div id="winans2023" class="citation" style="display:none;">
-    Winans WR+, Chen Q, Qiang Y, Franklin EC (2023). Large-area automatic detection of shoreline stranded marine debris using deep learning. International Journal of Applied Earth Observation and Geoinformation. DOI: 10.1016/j.jag.2023.103515
+    Winans WR, Chen Q, Qiang Y, Franklin EC (2023). Large-area automatic detection of shoreline stranded marine debris using deep learning. <em>International Journal of Applied Earth Observation and Geoinformation</em>. <a href="https://doi.org/10.1016/j.jag.2023.103515">doi:10.1016/j.jag.2023.103515</a>
+    
+    <a href="#" class="badge badge-info" onclick="openModal('winans2023')">Cite</a>
+    <a href="https://doi.org/10.1016/j.jag.2023.103515" class="badge badge-info" target="_blank">DOI</a>
 </div>
+
+<!-- Modal Structure -->
+<div id="modal" class="modal" style="display:none;">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <pre id="citationText">
+@article{winans_2023,
+  author = {Winans, W.R. and Chen, Q. and Qiang, Y. and Franklin, E.C.},
+  title = {Large-area automatic detection of shoreline stranded marine debris using deep learning},
+  journal = {International Journal of Applied Earth Observation and Geoinformation},
+  year = {2023},
+  doi = {10.1016/j.jag.2023.103515},
+  url = {https://doi.org/10.1016/j.jag.2023.103515}
+}
+        </pre>
+        <button class="button-outline" onclick="copyToClipboard('citationText')">Copy citation</button>
+        <button class="button-outline" onclick="downloadCitation()">Download citation</button>
+    </div>
 </div>
+
 
 <div class="publication-entry journal">
     Purwanto, Franklin EC, Mardiani SR, White AT (2023). Multiple-goal bioeconomic programming to address conflicting management objectives in Indonesian small pelagic fisheries. <em>Marine Policy</em> 150: 105519. <a href="https://doi.org/10.1016/j.marpol.2023.105519">doi:10.1016/j.marpol.2023.105519</a>
@@ -213,8 +243,8 @@ Franklin EC, Platt MT*, Andrade P (accepted). Increased occurrence of the rare g
   url = {https://doi.org/10.5070/P538257511}
 }
         </pre>
-        <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
-        <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
+        <button class="button-outline" onclick="copyToClipboard('citationText')">Copy citation</button>
+        <button class="button-outline" onclick="downloadCitation()">Download citation</button>
     </div>
 </div>
 
