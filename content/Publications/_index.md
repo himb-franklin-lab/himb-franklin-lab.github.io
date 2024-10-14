@@ -8,6 +8,51 @@ authors:
   #caption: ''
   #image: ''
 ---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Website Title</title>
+    
+  <!-- Inline CSS for modal -->
+  <style>
+      .modal {
+        display: none; /* Hidden by default */
+        position: fixed; /* Stay in place */
+        z-index: 1; /* Sit on top */
+        left: 0;
+        top: 0;
+        width: 100%; /* Full width */
+        height: 100%; /* Full height */
+        overflow: auto; /* Enable scroll if needed */
+        background-color: rgb(0, 0, 0); /* Fallback color */
+        background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+        }
+
+      .modal-content {
+        background-color: #fefefe;
+        margin: 15% auto; /* 15% from the top and centered */
+        padding: 20px;
+        border: 1px solid #888;
+        width: 80%; /* Could be more or less, depending on screen size */
+       }
+
+      .close {
+        color: #aaa;
+        float: right;
+        font-size: 28px;
+        font-weight: bold;
+       }
+
+      .close:hover,
+      .close:focus {
+        color: black;
+        text-decoration: none;
+        cursor: pointer;
+      }
+    </style>
+    
 <div style="display: flex; align-items: center; margin-bottom: 20px;">
     <!-- Search Bar -->
     <input type="text" id="searchBar" placeholder="Search publications..." onkeyup="searchCitations()" style="padding: 10px; width: 100%; max-width: 300px; margin-right: 20px;">
@@ -133,14 +178,17 @@ Franklin EC, Platt MT*, Andrade P (accepted). Increased occurrence of the rare g
 </div>
 
 <div class="publication-entry journal">
-    Andrade P, Morishige K, Mau A, Kapono L, Franklin EC (2022). Re-imagining contemporary conservation to support ʻĀina Momona: Productive and thriving communities of people, place, and natural resources. <em>Parks Stewardship Forum</em> 38: 186–198. <a href="https://doi.org/10.5070/P538257511">doi:10.5070/P538257511</a>
+    Andrade P, Morishige K, Mau A, Kapono L, Franklin EC (2022). Re-imagining contemporary conservation to support ʻĀina Momona: Productive and thriving communities of people, place, and natural resources. <em>Parks Stewardship Forum</em> 38: 186–198. <a href="https://doi.org/10.5070/P538257511">doi: 10.5070/P538257511</a>
     
-  <a href="#" class="badge badge-info" onclick="showCitation('andrade2022')">Cite</a>
+  <a href="#" class="badge badge-info" onclick="openModal('andrade2022')">Cite</a>
   <a href="https://doi.org/10.5070/P538257511" class="badge badge-info" target="_blank">DOI</a>
+</div>
 
-  <!-- Hidden citation -->
-  <div id="andrade2022" class="citation" style="display:none;">
-      <pre id="citationText">
+<!-- Modal Structure -->
+<div id="modal" class="modal" style="display:none;">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <pre id="citationText">
 @article{andrade_2022,
   author = {Andrade, P. and Morishige, K. and Mau, A. and Kapono, L. and Franklin, E.C.},
   title = {Re-imagining contemporary conservation to support ʻĀina Momona: Productive and thriving communities of people, place, and natural resources},
@@ -151,11 +199,12 @@ Franklin EC, Platt MT*, Andrade P (accepted). Increased occurrence of the rare g
   doi = {10.5070/P538257511},
   url = {https://doi.org/10.5070/P538257511}
 }
-      </pre>
-      <button onclick="copyToClipboard('citationText')">Copy Citation</button>
-      <button onclick="downloadCitation()">Download Citation</button>
-  </div>
+        </pre>
+        <button onclick="copyToClipboard('citationText')">Copy Citation</button>
+        <button onclick="downloadCitation()">Download Citation</button>
+    </div>
 </div>
+
 
 
 Purwanto, Franklin EC, Mardiani SR, White AT (2022) Stock assessment and overexploitation risk of small pelagic fish in Fisheries Management Area 715 of Indonesia. Asian Fisheries Science 35: 76-89 doi: 10.33997/j.afs.2022.35.1.007 \
@@ -308,9 +357,14 @@ Miller SL, Swanson DW, Chiappone M, Ault JS, Smith SG, Meester GA, Luo J, Frankl
     }
 </script>
 <script>
-    function showCitation(id) {
-        var citationDiv = document.getElementById(id);
-        citationDiv.style.display = citationDiv.style.display === "none" ? "block" : "none";
+    function openModal(id) {
+        var modal = document.getElementById("modal");
+        modal.style.display = "flex"; // Show the modal
+    }
+
+    function closeModal() {
+        var modal = document.getElementById("modal");
+        modal.style.display = "none"; // Hide the modal
     }
 
     function copyToClipboard(elementId) {
