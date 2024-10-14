@@ -64,8 +64,9 @@ Franklin EC, Platt MT*, Andrade P (accepted). Increased occurrence of the rare g
   <a href="#" class="badge badge-info" onclick="showCitation('carlson2022')">Cite</a>
   <a href="https://doi.org/10.1016/j.gloenvcha.2022.102604" class="badge badge-info" target="_blank">DOI</a>
 
-<!-- Hidden citation -->
-<div id="carlson2022" class="citation" style="display:none;">
+ <!-- Hidden citation -->
+ <div id="carlson2022" class="citation" 
+ style="display:none;">
     Carlson KM, Mora C, Xu J+, Setter RO+, Harangody M+, Franklin EC, Kantar MB, Lucas M, Menzo ZM+, Spirandelli D, Schanzenbach D, Warr CC, Wong AE+, Businger S (2022). Global rainbow distribution under current and future climates. Global Environmental Change 77: 102604. DOI: 10.1016/j.gloenvcha.2022.102604
     </div>
 </div>
@@ -95,10 +96,30 @@ Franklin EC, Platt MT*, Andrade P (accepted). Increased occurrence of the rare g
     </div>
 </div>
 
+<div class="publication-entry journal">
+    Akiona AK*, Popp BN, Toonen RJ, Siple MC, Kotubetey K, Kawelo H, Franklin EC (2022). Predatory fish diets shift toward an invasive mullet in a traditional Hawaiian aquaculture system. <em>Aquaculture, Fish and Fisheries</em>. <a href="https://doi.org/10.1002/aff2.68">doi:10.1002/aff2.68</a>
+    
+  <a href="#" class="badge badge-info" onclick="showCitation('akiona2022')">Cite</a>
+  <a href="https://doi.org/10.1002/aff2.68" class="badge badge-info" target="_blank">DOI</a>
 
-Akiona AK*, Popp BN, Toonen RJ, Siple MC, Kotubetey K, Kawelo H, Franklin EC (2022) Predatory fish diets shift toward an invasive mullet in a traditional Hawaiian aquaculture system. Aquaculture, Fish and Fisheries [doi: 10.1002/aff2.68](https://doi.org/10.1002/aff2.68) \
+  <!-- Hidden citation -->
+  <div id="akiona2022" class="citation" style="display:none;">
+    Akiona AK*, Popp BN, Toonen RJ, Siple MC, Kotubetey K, Kawelo H, Franklin EC (2022). Predatory fish diets shift toward an invasive mullet in a traditional Hawaiian aquaculture system. Aquaculture, Fish and Fisheries. DOI: 10.1002/aff2.68
+    </div>
+</div>
 
-Mora C, McKenzie T, Gaw IM+, Dean JM+, von Hammerstein H+, Knudson TA+, Setter RO+, Smith CZ+, Webster KM+, Patz JA, Franklin EC (2022) Over half of known human pathogenic diseases can be aggravated by climate change. Nature Climate Change 12: 869-875 [doi: 10.1038/s41558-022-01426-1](https://doi.org/10.1038/s41558-022-01426-1) \
+<div class="publication-entry journal">
+    Mora C, McKenzie T, Gaw IM+, Dean JM+, von Hammerstein H+, Knudson TA+, Setter RO+, Smith CZ+, Webster KM+, Patz JA, Franklin EC (2022). Over half of known human pathogenic diseases can be aggravated by climate change. <em>Nature Climate Change</em> 12: 869-875. <a href="https://doi.org/10.1038/s41558-022-01426-1">doi:10.1038/s41558-022-01426-1</a>
+    
+    <a href="#" class="badge badge-info" onclick="showCitation('mora2022')">Cite</a>
+    <a href="https://doi.org/10.1038/s41558-022-01426-1" class="badge badge-info" target="_blank">DOI</a>
+
+    <!-- Hidden citation -->
+    <div id="mora2022" class="citation" style="display:none;">
+        Mora C, McKenzie T, Gaw IM+, Dean JM+, von Hammerstein H+, Knudson TA+, Setter RO+, Smith CZ+, Webster KM+, Patz JA, Franklin EC (2022). Over half of known human pathogenic diseases can be aggravated by climate change. Nature Climate Change 12: 869-875. DOI: 10.1038/s41558-022-01426-1
+    </div>
+</div>
+
 
 Nichols RS*, DeMartini EE, Franklin EC (2022) No butts about it: using urogenital disparity in a deep water snapper, Etelis carbunculus (Lutjanidae), for field based sexual identification. Journal of Fish Biology [doi: 10.1111/jfb.15166](https://doi.org/10.1111/jfb.15166) \
 
