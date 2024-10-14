@@ -8,16 +8,18 @@ authors:
   #caption: ''
   #image: ''
 ---
-<!-- Search Bar -->
-<input type="text" id="searchBar" placeholder="Search publications..." onkeyup="searchCitations()" style="margin-bottom: 20px; padding: 10px; width: 100%; max-width: 600px;">
+<div style="display: flex; align-items: center; margin-bottom: 20px;">
+    <!-- Search Bar -->
+    <input type="text" id="searchBar" placeholder="Search publications..." onkeyup="searchCitations()" style="padding: 10px; width: 100%; max-width: 300px; margin-right: 20px;">
+    <!-- Drop down filter -->
+    <label for="filter" style="margin-right: 10px;">Filter by:</label>
+    <select id="filter" onchange="filterPublications()">
+        <option value="all">All</option>
+        <option value="journal">Journal Articles</option>
+        <option value="book">Book Sections</option>
+    </select>
+</div>
 
-<!-- Drop down filter -->
-<label for="filter">Filter by:</label>
-<select id="filter" onchange="filterPublications()">
-    <option value="all">All</option>
-    <option value="journal">Journal Articles</option>
-    <option value="book">Book Sections</option>
-</select>
 
 <!-- Citations -->
 <div class="publication-entry journal">
@@ -69,24 +71,30 @@ Franklin EC, Platt MT*, Andrade P (accepted). Increased occurrence of the rare g
 </div>
 
 
- Setter RO+, Franklin EC, Mora C (2022). Co-occurring anthropogenic stressors reduce the timeframe of environmental viability for the world’s coral reefs. *PLoS Biology* 20: e3001821. [doi: 10.1371/journal.pbio.3001821](https://doi.org/10.1371/journal.pbio.3001821)  
-<a href="#" class="badge badge-secondary" onclick="showCitation('setter2022')">Cite</a>
-<a href="https://doi.org/10.1016/j.gloenvcha.2022.102604" class="badge badge-info"
+<div class="publication-entry journal">
+    Setter RO+, Franklin EC, Mora C (2022). Co-occurring anthropogenic stressors reduce the timeframe of environmental viability for the world’s coral reefs. <em>PLoS Biology</em> 20: e3001821. <a href="https://doi.org/10.1371/journal.pbio.3001821">doi:10.1371/journal.pbio.3001821</a>  
 
-<!-- Hidden citation -->
-<div id="setter2022" class="citation" style="display:none;">
+  <a href="#" class="badge badge-info" onclick="showCitation('setter2022')">Cite</a>
+  <a href="https://doi.org/10.1371/journal.pbio.3001821" class="badge badge-info" target="_blank">DOI</a>
+
+  <!-- Hidden citation -->
+  <div id="setter2022" class="citation" style="display:none;">
     Setter RO+, Franklin EC, Mora C (2022). Co-occurring anthropogenic stressors reduce the timeframe of environmental viability for the world’s coral reefs. PLoS Biology 20: e3001821. DOI: 10.1371/journal.pbio.3001821
+    </div>
 </div>
 
-<!-- Add this script to handle showing the citation -->
-<script>
-function showCitation(citationId) {
-    const citation = document.getElementById(citationId).innerText;
-    alert(citation);  // This will pop up the citation text
-}
-</script>
+<div class="publication-entry journal">
+    Barkley YM*, Sakai T, Oleson EM, Franklin EC (2022). Examining distribution patterns of foraging and non-foraging sperm whales in Hawaiian waters using visual and passive acoustic data. <em>Frontiers in Remote Sensing</em> 3: 940186. <a href="https://doi.org/10.3389/frsen.2022.940186">doi:10.3389/frsen.2022.940186</a>
+    
+  <a href="#" class="badge badge-info" onclick="showCitation('barkley2022')">Cite</a>
+  <a href="https://doi.org/10.3389/frsen.2022.940186" class="badge badge-info" target="_blank">DOI</a>
 
-Barkley YM*, Sakai T, Oleson EM, Franklin EC (2022) Examining distribution patterns of foraging and non-foraging sperm whales in Hawaiian waters using visual and passive acoustic data. Frontiers in Remote Sensing 3: 940186 [doi: 10.3389/frsen.2022.940186](https://doi.org/10.3389/frsen.2022.940186) \
+  <!-- Hidden citation -->
+  <div id="barkley2022" class="citation" style="display:none;">
+    Barkley YM*, Sakai T, Oleson EM, Franklin EC (2022). Examining distribution patterns of foraging and non-foraging sperm whales in Hawaiian waters using visual and passive acoustic data. Frontiers in Remote Sensing 3: 940186. DOI: 10.3389/frsen.2022.940186
+    </div>
+</div>
+
 
 Akiona AK*, Popp BN, Toonen RJ, Siple MC, Kotubetey K, Kawelo H, Franklin EC (2022) Predatory fish diets shift toward an invasive mullet in a traditional Hawaiian aquaculture system. Aquaculture, Fish and Fisheries [doi: 10.1002/aff2.68](https://doi.org/10.1002/aff2.68) \
 
