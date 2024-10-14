@@ -51,8 +51,24 @@ authors:
         text-decoration: none;
         cursor: pointer;
       }
+      .button-outline {
+        background-color: transparent; /* Clear background */
+        border: 2px solid blue; /* Blue outline */
+        color: blue; /* Text color */
+        padding: 8px 12px; /* Padding for the button */
+        border-radius: 4px; /* Rounded corners */
+        cursor: pointer; /* Pointer cursor on hover */
+        transition: background-color 0.3s, color 0.3s; /* Transition effect */
+        text-decoration: none; /* Remove underline */
+        display: inline-block; /* Ensure proper alignment */
+    }
+
+     .button-outline:hover {
+        background-color: blue; /* Background color on hover */
+        color: white; /* Text color on hover */
+    }
     </style>
-    
+
 <div style="display: flex; align-items: center; margin-bottom: 20px;">
     <!-- Search Bar -->
     <input type="text" id="searchBar" placeholder="Search publications..." onkeyup="searchCitations()" style="padding: 10px; width: 100%; max-width: 300px; margin-right: 20px;">
@@ -200,8 +216,8 @@ Franklin EC, Platt MT*, Andrade P (accepted). Increased occurrence of the rare g
   url = {https://doi.org/10.5070/P538257511}
 }
         </pre>
-        <button onclick="copyToClipboard('citationText')">Copy Citation</button>
-        <button onclick="downloadCitation()">Download Citation</button>
+        <button onclick="copyToClipboard('citationText')">Copy citation</button>
+        <button onclick="downloadCitation()">Download citation</button>
     </div>
 </div>
 
