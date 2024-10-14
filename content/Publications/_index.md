@@ -61,12 +61,12 @@ authors:
         transition: background-color 0.3s, color 0.3s; /* Transition effect */
         text-decoration: none; /* Remove underline */
         display: inline-block; /* Ensure proper alignment */
-    }
+      }
 
      .button-outline:hover {
         background-color: blue; /* Background color on hover */
         color: white; /* Text color on hover */
-    }
+      }
     </style>
 
 <div style="display: flex; align-items: center; margin-bottom: 20px;">
