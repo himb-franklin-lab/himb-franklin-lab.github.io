@@ -63,8 +63,6 @@ authors:
         background-color: teal; /* Background color on hover */
         color: white; /* Text color on hover */
     }
-</style>
-<div style="display: flex; align-items: center; margin-bottom: 20px;">
 
 <!-- Search bars and filters -->
 <div style="display: flex; align-items: center; margin-bottom: 20px;">
