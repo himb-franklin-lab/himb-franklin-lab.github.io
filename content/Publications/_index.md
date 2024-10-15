@@ -2062,10 +2062,9 @@ authors:
 
 
 <div class="publication-entry journal">
-    Hudson JH, Franklin EC (2006). Structural Stabilization of a Large Montastrea faveolata (Ellis and Solander, 1786) Colony Damaged by Vessel Impact. <em>Caribbean Journal of Science</em> 42(2):252-254. <a href="https://doi.org/10.18475/cjos.v42i2.a4">doi:10.18475/cjos.v42i2.a4</a>
+    Hudson JH, Franklin EC (2006). Structural Stabilization of a Large Montastrea faveolata (Ellis and Solander, 1786) Colony Damaged by Vessel Impact. <em>Caribbean Journal of Science</em> 42(2):252-254.
     
-    <a href="#" class="badge badge-info" onclick="openModal('Hudson2006')">Cite</a>
-    <a href="https://doi.org/10.18475/cjos.v42i2.a4" class="badge badge-info" target="_blank">DOI</a>
+  <a href="#" class="badge badge-info" onclick="openModal('Hudson2006')">Cite</a>
 </div>
 
 <!-- Modal Structure -->
@@ -2081,18 +2080,66 @@ authors:
   number = {2},
   pages = {252-254},
   year = {2006},
-  doi = {10.18475/cjos.v42i2.a4},
-  url = {https://doi.org/10.18475/cjos.v42i2.a4}
+}
+        </pre>
+        <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
+    </div>
+</div>
+
+
+<div class="publication-entry journal">
+    Hudson JH, Franklin EC (2006). Coral reef restoration of a storm-disturbed vessel grounding site in the Florida Keys National Marine Sanctuary, USA. In: Proceedings of the 10th International Coral Reef Symposium, Okinawa, Japan, pp 1631-1636.
+    
+  <a href="#" class="badge badge-info" onclick="openModal('Hudson2006CoralRestoration')">Cite</a>
+</div>
+
+<!-- Modal Structure -->
+<div id="Hudson2006CoralRestoration" class="modal" style="display:none;">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <pre id="citationText">
+@inproceedings{hudson_2006_coral_restoration,
+  author = {Hudson, J.H. and Franklin, E.C.},
+  title = {Coral reef restoration of a storm-disturbed vessel grounding site in the Florida Keys National Marine Sanctuary, USA},
+  booktitle = {Proceedings of the 10th International Coral Reef Symposium},
+  year = {2006},
+  location = {Okinawa, Japan},
+  pages = {1631-1636}
+}
+        </pre>
+        <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
+    </div>
+</div>
+
+
+<div class="publication-entry journal">
+    Hudson JH, Franklin EC (2005). Structural Reef Restoration and Coral Transplantation to the R/V Columbus Iselin Grounding Site in the Florida Keys National Marine Sanctuary. In: Proceedings of the OCEANS 2005 Americas MTS/IEEE Conference, Washington, DC, September 19-23, 2005. <a href="https://doi.org/10.1109/OCEANS.2005.1639763">doi:10.1109/OCEANS.2005.1639763</a>
+    
+  <a href="#" class="badge badge-info" onclick="openModal('Hudson2005CoralRestoration')">Cite</a>
+  <a href="https://doi.org/10.1109/OCEANS.2005.1639763" class="badge badge-info" target="_blank">DOI</a>
+</div>
+
+<!-- Modal Structure -->
+<div id="Hudson2005CoralRestoration" class="modal" style="display:none;">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <pre id="citationText">
+@inproceedings{hudson_2005_structural_restoration,
+  author = {Hudson, J.H. and Franklin, E.C.},
+  title = {Structural Reef Restoration and Coral Transplantation to the R/V Columbus Iselin Grounding Site in the Florida Keys National Marine Sanctuary},
+  booktitle = {Proceedings of the OCEANS 2005 Americas MTS/IEEE Conference},
+  year = {2005},
+  location = {Washington, DC},
+  month = {September},
+  pages = {},
+  doi = {10.1109/OCEANS.2005.1639763},
+  url = {https://doi.org/10.1109/OCEANS.2005.1639763}
 }
         </pre>
         <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
     </div>
 </div>
 \
-
-Hudson JH, Franklin EC (2006) Coral reef restoration of a storm-disturbed vessel grounding site in the Florida Keys National Marine Sanctuary, USA. Proc 10th Int’l Coral Reef Symposium, Okinawa, Japan. 1631-1636. \
-
-Hudson JH, Franklin EC (2005) Structural Reef Restoration and Coral Transplantation to the R/V Columbus Iselin Grounding Site in the Florida Keys National Marine Sanctuary. Proc OCEANS 2005 Americas MTS/IEEE Conference, Washington, DC, September 19-23, 2005. \
 
 Franklin EC, Ault JS, Smith SG, Luo J, Meester GA, Diaz GA, Chiappone M, Swanson DW, Miller SL, Bohnsack JA (2003) Benthic habitat mapping in the Tortugas region, Florida. Marine Geodesy 26(1-2):19-34. \
 
