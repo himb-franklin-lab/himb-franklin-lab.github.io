@@ -76,6 +76,7 @@ authors:
         <option value="journal">Journal Articles</option>
         <option value="book">Book Sections</option>
         <option value="report">Technical Report</option>
+        <option value="conference">Conference</option>
     </select>
 </div>
 
