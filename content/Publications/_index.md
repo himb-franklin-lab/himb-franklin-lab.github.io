@@ -121,7 +121,7 @@ authors:
 <div id="winans2023" class="modal" style="display:none;">
     <div class="modal-content">
         <span class="close" onclick="closeModal()">&times;</span>
-        <pre id="citationText">
+        <pre class="citation-text">
 @article{winans_2023,
   author = {Winans, W.R. and Chen, Q. and Qiang, Y. and Franklin, E.C.},
   title = {Large-area automatic detection of shoreline stranded marine debris using deep learning},
@@ -131,8 +131,8 @@ authors:
   url = {https://doi.org/10.1016/j.jag.2023.103515}
 }
       </pre>
-      <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
-      <button class="button-outline" onclick="downloadCitation('citationText')">Download Citation</button>
+      <button class="button-outline" onclick="copyToClipboard()">Copy Citation</button>
+      <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
     </div>
 </div>
 
