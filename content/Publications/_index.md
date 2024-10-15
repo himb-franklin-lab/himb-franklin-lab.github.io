@@ -562,7 +562,7 @@ authors:
         <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
         <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
     </div>
-</div>\
+</div>
 
 
 <div class="publication-entry journal">
@@ -591,14 +591,91 @@ authors:
         <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
         <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
     </div>
-</div>\
+</div>
 
 
-Carlson B, Awai M, Saunders WB, Franklin EC (2021) Nautilus belauensis population demographics and trap yields in Palau were similar between surveys in 1982 and 2015. Marine Ecology Progress Series 670: 239-245 doi.org: 10.3354/meps13773 \
+<div class="publication-entry journal">
+    Carlson B, Awai M, Saunders WB, Franklin EC (2021). Nautilus belauensis population demographics and trap yields in Palau were similar between surveys in 1982 and 2015. <em>Marine Ecology Progress Series</em> 670: 239-245. <a href="https://doi.org/10.3354/meps13773">doi: 10.3354/meps13773</a>
+    
+  <a href="#" class="badge badge-info" onclick="openModal('carlson2021')">Cite</a>
+  <a href="https://doi.org/10.3354/meps13773" class="badge badge-info" target="_blank">DOI</a>
+</div>
 
-Gill A+, Franklin EC, Donaldson TJ (2021) Fore reef location influences spawning success and egg predation in lek-like mating territories of the bird wrasse Gomphosus varius. Journal of Fish Biology doi: 10.1007/s10641-021-01084-w \
+<!-- Modal Structure -->
+<div id="carlson2021" class="modal" style="display:none;">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <pre id="citationText">
+@article{carlson_2021,
+  author = {Carlson, B. and Awai, M. and Saunders, W.B. and Franklin, E.C.},
+  title = {Nautilus belauensis population demographics and trap yields in Palau were similar between surveys in 1982 and 2015},
+  journal = {Marine Ecology Progress Series},
+  volume = {670},
+  pages = {239--245},
+  year = {2021},
+  doi = {10.3354/meps13773},
+  url = {https://doi.org/10.3354/meps13773}
+}
+        </pre>
+        <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
+        <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
+    </div>
+</div>
 
-Altman-Kurosaki NT*, Smith CM, Franklin EC (2021) Oahu's marine protected areas have limited success in protecting coral reef herbivore functional assemblages. Coral Reefs doi.org: 10.1007/s00338-021-02054-5 \
+
+<div class="publication-entry journal">
+    Gill A+, Franklin EC, Donaldson TJ (2021). Fore reef location influences spawning success and egg predation in lek-like mating territories of the bird wrasse Gomphosus varius. <em>Journal of Fish Biology</em>. <a href="https://doi.org/10.1007/s10641-021-01084-w">doi: 10.1007/s10641-021-01084-w</a>
+    
+  <a href="#" class="badge badge-info" onclick="openModal('gill2021')">Cite</a>
+  <a href="https://doi.org/10.1007/s10641-021-01084-w" class="badge badge-info" target="_blank">DOI</a>
+</div>
+
+<!-- Modal Structure -->
+<div id="gill2021" class="modal" style="display:none;">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <pre id="citationText">
+@article{gill_2021,
+  author = {Gill, A. and Franklin, E.C. and Donaldson, T.J.},
+  title = {Fore reef location influences spawning success and egg predation in lek-like mating territories of the bird wrasse Gomphosus varius},
+  journal = {Journal of Fish Biology},
+  year = {2021},
+  doi = {10.1007/s10641-021-01084-w},
+  url = {https://doi.org/10.1007/s10641-021-01084-w}
+}
+        </pre>
+        <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
+        <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
+    </div>
+</div>
+
+
+<div class="publication-entry journal">
+    Altman-Kurosaki NT*, Smith CM, Franklin EC (2021). Oahu's marine protected areas have limited success in protecting coral reef herbivore functional assemblages. <em>Coral Reefs</em>. <a href="https://doi.org/10.1007/s00338-021-02054-5">doi: 10.1007/s00338-021-02054-5</a>
+    
+  <a href="#" class="badge badge-info" onclick="openModal('altman2021')">Cite</a>
+  <a href="https://doi.org/10.1007/s00338-021-02054-5" class="badge badge-info" target="_blank">DOI</a>
+</div>
+
+<!-- Modal Structure -->
+<div id="altman2021" class="modal" style="display:none;">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <pre id="citationText">
+@article{altman_2021,
+  author = {Altman-Kurosaki, N.T. and Smith, C.M. and Franklin, E.C.},
+  title = {Oahu's marine protected areas have limited success in protecting coral reef herbivore functional assemblages},
+  journal = {Coral Reefs},
+  year = {2021},
+  doi = {10.1007/s00338-021-02054-5},
+  url = {https://doi.org/10.1007/s00338-021-02054-5}
+}
+        </pre>
+        <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
+        <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
+    </div>
+</div>
+
 
 Scherrer SR+, Kobayashi DR, Weng KC, Okamoto HY, Oishi FG, Franklin EC (2021) Estimation of growth parameters integrating tag-recapture, length-frequency, and direct aging data using likelihood and Bayesian methods for the tropical deepwater snapper Pristipomoides filamentous in Hawaii. Fisheries Research 233: 105753 doi.org: 10.1016/j.fishres.2020.105753 \
 
