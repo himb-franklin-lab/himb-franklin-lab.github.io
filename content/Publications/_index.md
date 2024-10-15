@@ -81,7 +81,7 @@ authors:
     </select>
 
    <!-- Drop down filter for year -->
-   <select id="yearFilter" onchange="filterByYear()" style="padding: 10px; width: 100%; max-width: 150px; border: 1px solid #ccc; border-radius: 5px; height: 50px; font-size: 16px;">
+   <select id="yearFilter" onchange="filterPublications()" style="padding: 10px; width: 100%; max-width: 150px; border: 1px solid #ccc; border-radius: 5px; height: 50px; font-size: 16px;">
         <option value="all">Year</option>
         <option value="2023">2023</option>
         <option value="2022">2022</option>
