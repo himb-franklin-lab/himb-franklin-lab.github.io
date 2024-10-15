@@ -450,7 +450,7 @@ authors:
 
 
 <div class="publication-entry journal">
-    Johannsen T+, Franklin EC, Hunter CL (2022). A short-term winner? Dramatic increases in the population of mushroom coral Lobactis scutaria (Anthozoa: Fungiidae) in Kaneohe Bay, Hawaii from 2000 to 2018. <em>Pacific Science</em> 76: 79-93. <a href="https://doi.org/10.2984/76.1.7">doi:10.2984/76.1.7</a>
+    Johannsen T+, Franklin EC, Hunter CL (2022). A short-term winner? Dramatic increases in the population of mushroom coral <em>Lobactis scutaria</em> (Anthozoa: Fungiidae) in Kaneohe Bay, Hawaii from 2000 to 2018. <em>Pacific Science</em> 76: 79-93. <a href="https://doi.org/10.2984/76.1.7">doi:10.2984/76.1.7</a>
     
   <a href="#" class="badge badge-info" onclick="openModal('johannsen2022')">Cite</a>
   <a href="https://doi.org/10.2984/76.1.7" class="badge badge-info" target="_blank">DOI</a>
@@ -677,15 +677,152 @@ authors:
 </div>
 
 
-Scherrer SR+, Kobayashi DR, Weng KC, Okamoto HY, Oishi FG, Franklin EC (2021) Estimation of growth parameters integrating tag-recapture, length-frequency, and direct aging data using likelihood and Bayesian methods for the tropical deepwater snapper Pristipomoides filamentous in Hawaii. Fisheries Research 233: 105753 doi.org: 10.1016/j.fishres.2020.105753 \
+<div class="publication-entry journal">
+    Scherrer SR+, Kobayashi DR, Weng KC, Okamoto HY, Oishi FG, Franklin EC (2021). Estimation of growth parameters integrating tag-recapture, length-frequency, and direct aging data using likelihood and Bayesian methods for the tropical deepwater snapper *Pristipomoides filamentous* in Hawaii. <em>Fisheries Research</em> 233: 105753. <a href="https://doi.org/10.1016/j.fishres.2020.105753">doi: 10.1016/j.fishres.2020.105753</a>
+    
+  <a href="#" class="badge badge-info" onclick="openModal('scherrer2021')">Cite</a>
+  <a href="https://doi.org/10.1016/j.fishres.2020.105753" class="badge badge-info" target="_blank">DOI</a>
+</div>
 
-Longenecker K, Langston R, Gill A+, Kelokelo M+, Donaldson TJ, Franklin EC (2020) Rapid reproductive analysis and weight-length relation of the humpnose big-eye bream Monotaxis grandoculis (Actinopterygii: Perciformes: Lethrinidae) from Micronesia with implications for fisheries. Acta Ichthyologica et Piscatoria 50 (4): 493–500. doi: 10.3750/AIEP/02965. \
+<!-- Modal Structure -->
+<div id="scherrer2021" class="modal" style="display:none;">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <pre id="citationText">
+@article{scherrer_2021,
+  author = {Scherrer, S.R. and Kobayashi, D.R. and Weng, K.C. and Okamoto, H.Y. and Oishi, F.G. and Franklin, E.C.},
+  title = {Estimation of growth parameters integrating tag-recapture, length-frequency, and direct aging data using likelihood and Bayesian methods for the tropical deepwater snapper *Pristipomoides filamentous* in Hawaii},
+  journal = {Fisheries Research},
+  volume = {233},
+  pages = {105753},
+  year = {2021},
+  doi = {10.1016/j.fishres.2020.105753},
+  url = {https://doi.org/10.1016/j.fishres.2020.105753}
+}
+        </pre>
+        <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
+        <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
+    </div>
+</div>
 
-Winter KB, Rii YM, Reppun FAWL, Hintzen KD, Alegado R, Bowen BW, Bremer LL, Coffman M, Deenik JL, Donahue MJ, Falinski FA, Frank K, Franklin EC, Kurashima N, Lincoln NK, Madin E, McManus MA, Nelson CE, Okano R, Olegario A, Pascua P, Oleson KLL, Price MR, Rivera MAJ, Rodgers KS, Ticktin T, Sabine C, Smith CM, Hewett A, Kaluhiwa R, Cypher M, Thomas B, Leong J, Kekuewa K, Tanimoto J, Kukea-Shultz K, Kawelo H, Kotubetey K, Neilson B, Lee T, Toonen RJ (2020) Collaborative research to inform adaptive co-management: A framework for the Heʻeia National Estuarine Research Reserve. Ecology and Society 25(4): 15. doi.org: 10.5751/ES-11895-27750415 \
 
-Winter KB, Lincoln NK, Berkes F, Kawelo H, Kotubetey K, Kukea-Shutlz K, Alegado R, Kurashima N, Frank K, Pascua P, Rii Y, Reppun F, Knapp I, McClatchey W, Ticktin T, Smith C, Franklin EC, Oleson K, Price M, McManus M, Donahue M, Rodgers K, Bowen B, Nelson C, Beilson B, Thomas B, Leong J-A, Madin E, Rivera MA, Falinski K, Bremer L, Deenik J, Gon III S, Okano R, Olegario A, Toonen R (2020) Eco-mimicry in indigenous resource management: optimizing ecosystem services to achieve resource abundance in Hawai'i. Ecology and Society 25: 26. doi: 10.5751/ES-11539-250226 \
+<div class="publication-entry journal">
+    Longenecker K, Langston R, Gill A+, Kelokelo M+, Donaldson TJ, Franklin EC (2020). Rapid reproductive analysis and weight-length relation of the humpnose big-eye bream <em>Monotaxis grandoculis</em> (Actinopterygii: Perciformes: Lethrinidae) from Micronesia with implications for fisheries. <em>Acta Ichthyologica et Piscatoria</em> 50(4): 493–500. <a href="https://doi.org/10.3750/AIEP/02965">doi: 10.3750/AIEP/02965</a>
+    
+  <a href="#" class="badge badge-info" onclick="openModal('longenecker2020')">Cite</a>
+  <a href="https://doi.org/10.3750/AIEP/02965" class="badge badge-info" target="_blank">DOI</a>
+</div>
 
-Oyafuso ZS*, Leung PS, Franklin EC (2020) Evaluating biological and socioeconomic tradeoffs of marine reserve planning via a flexible integer linear programming approach. Biological Conservation 241: 108319 doi.org/10.1016/j.biocon.2019.108319 \
+<!-- Modal Structure -->
+<div id="longenecker2020" class="modal" style="display:none;">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <pre id="citationText">
+@article{longenecker_2020,
+  author = {Longenecker, K. and Langston, R. and Gill, A. and Kelokelo, M. and Donaldson, T.J. and Franklin, E.C.},
+  title = {Rapid reproductive analysis and weight-length relation of the humpnose big-eye bream \emph{Monotaxis grandoculis} (Actinopterygii: Perciformes: Lethrinidae) from Micronesia with implications for fisheries},
+  journal = {Acta Ichthyologica et Piscatoria},
+  volume = {50},
+  number = {4},
+  pages = {493--500},
+  year = {2020},
+  doi = {10.3750/AIEP/02965},
+  url = {https://doi.org/10.3750/AIEP/02965}
+}
+        </pre>
+        <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
+        <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
+    </div>
+</div>
+
+
+<div class="publication-entry journal">
+    Winter KB, Rii YM, Reppun FAWL, Hintzen KD, Alegado R, Bowen BW, Bremer LL, Coffman M, Deenik JL, Donahue MJ, Falinski FA, Frank K, Franklin EC, Kurashima N, Lincoln NK, Madin E, McManus MA, Nelson CE, Okano R, Olegario A, Pascua P, Oleson KLL, Price MR, Rivera MAJ, Rodgers KS, Ticktin T, Sabine C, Smith CM, Hewett A, Kaluhiwa R, Cypher M, Thomas B, Leong J, Kekuewa K, Tanimoto J, Kukea-Shultz K, Kawelo H, Kotubetey K, Neilson B, Lee T, Toonen RJ (2020). Collaborative research to inform adaptive co-management: A framework for the Heʻeia National Estuarine Research Reserve. <em>Ecology and Society</em> 25(4): 15. <a href="https://doi.org/10.5751/ES-11895-27750415">doi: 10.5751/ES-11895-27750415</a>
+    
+  <a href="#" class="badge badge-info" onclick="openModal('winter2020')">Cite</a>
+  <a href="https://doi.org/10.5751/ES-11895-27750415" class="badge badge-info" target="_blank">DOI</a>
+</div>
+
+<!-- Modal Structure -->
+<div id="winter2020" class="modal" style="display:none;">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <pre id="citationText">
+@article{winter_2020,
+  author = {Winter, K.B. and Rii, Y.M. and Reppun, F.A.W.L. and Hintzen, K.D. and Alegado, R. and Bowen, B.W. and Bremer, L.L. and Coffman, M. and Deenik, J.L. and Donahue, M.J. and Falinski, F.A. and Frank, K. and Franklin, E.C. and Kurashima, N. and Lincoln, N.K. and Madin, E. and McManus, M.A. and Nelson, C.E. and Okano, R. and Olegario, A. and Pascua, P. and Oleson, K.L.L. and Price, M.R. and Rivera, M.A.J. and Rodgers, K.S. and Ticktin, T. and Sabine, C. and Smith, C.M. and Hewett, A. and Kaluhiwa, R. and Cypher, M. and Thomas, B. and Leong, J. and Kekuewa, K. and Tanimoto, J. and Kukea-Shultz, K. and Kawelo, H. and Kotubetey, K. and Neilson, B. and Lee, T. and Toonen, R.J.},
+  title = {Collaborative research to inform adaptive co-management: A framework for the Heʻeia National Estuarine Research Reserve},
+  journal = {Ecology and Society},
+  volume = {25},
+  number = {4},
+  pages = {15},
+  year = {2020},
+  doi = {10.5751/ES-11895-27750415},
+  url = {https://doi.org/10.5751/ES-11895-27750415}
+}
+        </pre>
+        <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
+        <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
+    </div>
+</div>
+
+
+<div class="publication-entry journal">
+    Winter KB, Lincoln NK, Berkes F, Kawelo H, Kotubetey K, Kukea-Shultz K, Alegado R, Kurashima N, Frank K, Pascua P, Rii Y, Reppun F, Knapp I, McClatchey W, Ticktin T, Smith C, Franklin EC, Oleson K, Price M, McManus M, Donahue M, Rodgers K, Bowen B, Nelson C, Beilson B, Thomas B, Leong J-A, Madin E, Rivera MA, Falinski K, Bremer L, Deenik J, Gon III S, Okano R, Olegario A, Toonen R (2020). Eco-mimicry in indigenous resource management: optimizing ecosystem services to achieve resource abundance in Hawai'i. <em>Ecology and Society</em> 25: 26. <a href="https://doi.org/10.5751/ES-11539-250226">doi: 10.5751/ES-11539-250226</a>
+    
+  <a href="#" class="badge badge-info" onclick="openModal('winter2020b')">Cite</a>
+  <a href="https://doi.org/10.5751/ES-11539-250226" class="badge badge-info" target="_blank">DOI</a>
+</div>
+
+<!-- Modal Structure -->
+<div id="winter2020b" class="modal" style="display:none;">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <pre id="citationText">
+@article{winter_2020,
+  author = {Winter, K.B. and Lincoln, N.K. and Berkes, F. and Kawelo, H. and Kotubetey, K. and Kukea-Shultz, K. and Alegado, R. and Kurashima, N. and Frank, K. and Pascua, P. and Rii, Y. and Reppun, F. and Knapp, I. and McClatchey, W. and Ticktin, T. and Smith, C. and Franklin, E.C. and Oleson, K. and Price, M. and McManus, M. and Donahue, M. and Rodgers, K. and Bowen, B. and Nelson, C. and Beilson, B. and Thomas, B. and Leong, J.A. and Madin, E. and Rivera, M.A. and Falinski, K. and Bremer, L. and Deenik, J. and Gon III, S. and Okano, R. and Olegario, A. and Toonen, R.},
+  title = {Eco-mimicry in indigenous resource management: optimizing ecosystem services to achieve resource abundance in Hawai'i},
+  journal = {Ecology and Society},
+  volume = {25},
+  pages = {26},
+  year = {2020},
+  doi = {10.5751/ES-11539-250226},
+  url = {https://doi.org/10.5751/ES-11539-250226}
+}
+        </pre>
+        <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
+        <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
+    </div>
+</div>
+
+
+<div class="publication-entry journal">
+    Oyafuso ZS*, Leung PS, Franklin EC (2020). Evaluating biological and socioeconomic tradeoffs of marine reserve planning via a flexible integer linear programming approach. <em>Biological Conservation</em> 241: 108319. <a href="https://doi.org/10.1016/j.biocon.2019.108319">doi: 10.1016/j.biocon.2019.108319</a>
+    
+  <a href="#" class="badge badge-info" onclick="openModal('oyafuso2020')">Cite</a>
+  <a href="https://doi.org/10.1016/j.biocon.2019.108319" class="badge badge-info" target="_blank">DOI</a>
+</div>
+
+<!-- Modal Structure -->
+<div id="oyafuso2020" class="modal" style="display:none;">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <pre id="citationText">
+@article{oyafuso_2020,
+  author = {Oyafuso, Z.S. and Leung, P.S. and Franklin, E.C.},
+  title = {Evaluating biological and socioeconomic tradeoffs of marine reserve planning via a flexible integer linear programming approach},
+  journal = {Biological Conservation},
+  volume = {241},
+  pages = {108319},
+  year = {2020},
+  doi = {10.1016/j.biocon.2019.108319},
+  url = {https://doi.org/10.1016/j.biocon.2019.108319}
+}
+        </pre>
+        <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
+        <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
+    </div>
+</div>
+
 
 Franklin EC, Gray AE, Mundy BC (2019) Three new records of coastal fishes in the Hawaiian Islands. Journal of the Ocean Science Foundation, 33: 99–106 doi.org/10.5281/zenodo.3572888 \
 
