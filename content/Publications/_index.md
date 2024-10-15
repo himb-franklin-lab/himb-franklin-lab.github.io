@@ -2324,7 +2324,7 @@ function downloadCitation(citationText) {
     const blob = new Blob([citationText], { type: 'text/plain' });
     const link = document.createElement('a');
     link.href = window.URL.createObjectURL(blob);
-    link.download = 'citation.bib'; // Change the filename as needed
+    link.download = 'citation.txt'; // Change the filename as needed
     link.click();
 }
 
