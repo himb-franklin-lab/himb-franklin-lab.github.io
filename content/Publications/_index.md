@@ -132,7 +132,7 @@ authors:
 }
       </pre>
       <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
-      <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
+      <button class="button-outline" onclick="downloadCitation('citationText')">Download Citation</button>
     </div>
 </div>
 
@@ -161,7 +161,7 @@ authors:
 }
         </pre>
         <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
-        <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
+        <button class="button-outline" onclick="downloadCitation('citationText')">Download Citation</button>
     </div>
 </div>
 
@@ -190,7 +190,7 @@ authors:
 }
         </pre>
         <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
-        <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
+        <button class="button-outline" onclick="downloadCitation('citationText')">Download Citation</button>
     </div>
 </div>
 
@@ -219,7 +219,7 @@ authors:
 }
         </pre>
         <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
-        <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
+        <button class="button-outline" onclick="downloadCitation'citationText')">Download Citation</button>
     </div>
 </div>
 
@@ -248,7 +248,7 @@ authors:
 }
         </pre>
         <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
-        <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
+        <button class="button-outline" onclick="downloadCitation('citationText')">Download Citation</button>
     </div>
 </div>
 
@@ -275,7 +275,7 @@ authors:
 }
         </pre>
         <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
-        <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
+        <button class="button-outline" onclick="downloadCitation('citationText')">Download Citation</button>
     </div>
 </div>
 
@@ -304,7 +304,7 @@ authors:
 }
         </pre>
         <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
-        <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
+        <button class="button-outline" onclick="downloadCitation('citationText')">Download Citation</button>
     </div>
 </div>
 
@@ -331,7 +331,7 @@ authors:
 }
         </pre>
         <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
-        <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
+        <button class="button-outline" onclick="downloadCitation('citationText')">Download Citation</button>
     </div>
 </div>
 
@@ -360,7 +360,7 @@ authors:
 }
         </pre>
         <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
-        <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
+        <button class="button-outline" onclick="downloadCitation('citationText')">Download Citation</button>
     </div>
 </div>
 
@@ -389,7 +389,7 @@ authors:
 }
         </pre>
         <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
-        <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
+        <button class="button-outline" onclick="downloadCitation('citationText')">Download Citation</button>
     </div>
 </div>
 
@@ -418,7 +418,7 @@ authors:
 }
         </pre>
         <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
-        <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
+        <button class="button-outline" onclick="downloadCitation('citationText')">Download Citation</button>
     </div>
 </div>
 
@@ -447,7 +447,7 @@ authors:
 }
         </pre>
         <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
-        <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
+        <button class="button-outline" onclick="downloadCitation('citationText')">Download Citation</button>
     </div>
 </div>
 
@@ -476,7 +476,7 @@ authors:
 }
         </pre>
         <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
-        <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
+        <button class="button-outline" onclick="downloadCitation'citationText')">Download Citation</button>
     </div>
 </div>
 
@@ -505,7 +505,7 @@ authors:
 }
         </pre>
         <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
-        <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
+        <button class="button-outline" onclick="downloadCitation('citationText')">Download Citation</button>
     </div>
 </div>
 
@@ -534,7 +534,7 @@ authors:
 }
         </pre>
         <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
-        <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
+        <button class="button-outline" onclick="downloadCitation('citationText')">Download Citation</button>
     </div>
 </div>
 
@@ -563,7 +563,7 @@ authors:
 }
         </pre>
         <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
-        <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
+        <button class="button-outline" onclick="downloadCitation('citationText')">Download Citation</button>
     </div>
 </div>
 
@@ -592,7 +592,7 @@ authors:
 }
         </pre>
         <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
-        <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
+        <button class="button-outline" onclick="downloadCitation'citationText')">Download Citation</button>
     </div>
 </div>
 
