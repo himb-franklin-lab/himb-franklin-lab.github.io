@@ -69,11 +69,11 @@ authors:
 <!-- Search bars and filters -->
 <div style="display: flex; align-items: center; margin-bottom: 20px;">
     <!-- Search Bar -->
-    <input type="text" id="searchBar" placeholder="Search..." onkeyup="searchCitations()" style="padding: 10px; width: 100%; max-width: 300px; margin-right: 20px; border: 1px solid #ccc; border-radius: 5px; height: 40px; font-size: 16px;">
+    <input type="text" id="searchBar" placeholder="Search..." onkeyup="searchCitations()" style="padding: 10px; width: 100%; max-width: 300px; margin-right: 20px; border: 1px solid #ccc; border-radius: 5px; height: 50px; font-size: 16px;">
 
    <!-- Drop down filter for type -->
-   <select id="filter" placeholder="Type" onchange="filterPublications()" style="padding: 10px; width: 100%; max-width: 200px; margin-right: 20px; border: 1px solid #ccc; border-radius: 5px; height: 40px; font-size: 16px;">
-        <option value="all">Filter by Type</option>
+   <select id="filter" onchange="filterPublications()" style="padding: 10px; width: 100%; max-width: 200px; margin-right: 20px; border: 1px solid #ccc; border-radius: 5px; height: 50px; font-size: 16px;">
+        <option value="all">Type</option>
         <option value="journal">Journal Articles</option>
         <option value="book">Book Sections</option>
         <option value="report">Technical Reports</option>
@@ -81,8 +81,8 @@ authors:
     </select>
 
    <!-- Drop down filter for year -->
-   <select id="yearFilter" placeholder="Year" onchange="filterByYear()" style="padding: 10px; width: 100%; max-width: 150px; border: 1px solid #ccc; border-radius: 5px; height: 40px; font-size: 16px;">
-        <option value="all">Filter by Year</option>
+   <select id="yearFilter" onchange="filterByYear()" style="padding: 10px; width: 100%; max-width: 150px; border: 1px solid #ccc; border-radius: 5px; height: 50px; font-size: 16px;">
+        <option value="all">Year</option>
         <option value="2023">2023</option>
         <option value="2022">2022</option>
         <option value="2022">2021</option>
