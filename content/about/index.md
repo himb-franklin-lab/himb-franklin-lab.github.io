@@ -6,7 +6,7 @@
     <title>About</title>
     
   <!-- Link to your CSS file -->
-  <link rel="stylesheet" href="/about.css">
+  <link rel="stylesheet" href="/content/about/about.css">
 
 </head>
 <body>
