@@ -94,7 +94,7 @@ authors:
 <div id="franklin2023" class="modal" style="display:none;">
     <div class="modal-content">
         <span class="close" onclick="closeModal()">&times;</span>
-        <pre id="citationText">
+        <pre class="citation-text">
 @article{franklin_2023,
   author = {Franklin, E.C. and Platt, M.T. and Andrade, P.},
   title = {Increased occurrence of the rare golden color morph of Pacific chub Kyphosus sandwicensis in a no-take marine reserve},
@@ -104,8 +104,8 @@ authors:
   url = {https://doi.org/10.1111/jfb.15644}
 }
        </pre>
-       <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
-       <button class="button-outline" onclick="downloadCitation('citationText')">Download Citation</button>
+       <button class="button-outline" onclick="copyToClipboard()">Copy Citation</button>
+       <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
     </div>
 </div>
 
@@ -2312,23 +2312,19 @@ function closeModal() {
 }
 
 // Function to copy citation to clipboard
-function copyToClipboard(elementId) {
-    const citationText = document.getElementById(elementId).innerText;
+function copyToClipboard() {
+    const openModal = document.querySelector('.modal[style*="block"]');  // Find the currently open modal
+    const citationText = openModal.querySelector('.citation-text').innerText.trim();
+
     navigator.clipboard.writeText(citationText).then(() => {
-        alert('Citation copied to clipboard!');
+        alert('Citation copied to clipboard');
     });
 }
 
 // Function to download citation (optional, implement as needed)
-function downloadCitation(citationId) {
-    // Get the citation text from the pre element
-    const citationText = document.getElementById(citationId).innerText.trim(); // Extract text
-
-    // Check if citationText is empty
-    if (!citationText) {
-        alert('Citation text not found!');
-        return;
-    }
+function downloadCitation() {
+    const openModal = document.querySelector('.modal[style*="block"]');  // Find the currently open modal
+    const citationText = openModal.querySelector('.citation-text').innerText.trim();
 
     // Create a Blob with the citation text content
     const blob = new Blob([citationText], { type: 'text/plain' });
@@ -2337,13 +2333,12 @@ function downloadCitation(citationId) {
     // Create a temporary download link
     const a = document.createElement('a');
     a.href = url;
-    a.download = 'citation.txt';  // This is the name of the downloaded file
+    a.download = 'citation.txt';  // Name of the file
     document.body.appendChild(a);
-    a.click();  // Trigger the download
+    a.click();  // Trigger download
 
-    // Clean up the temporary link
+    // Clean up temporary link
     document.body.removeChild(a);
     URL.revokeObjectURL(url);
 }
-
 </script>
