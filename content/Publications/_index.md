@@ -152,7 +152,7 @@ authors:
         <div class="button-container">
             <button class="button-outline" onclick="copyToClipboard()">Copy Citation</button>
             <button class="button-outline" onclick="downloadCitation()">
-                <img src="images/download.png" alt="Download" style="vertical-align: middle; width: 8px; height: 16px;">
+                <img src="download.png" alt="Download" style="vertical-align: middle; width: 8px; height: 16px;">
                 Download Citation
             </button>
     </div>
