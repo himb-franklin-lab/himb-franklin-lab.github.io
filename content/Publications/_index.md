@@ -533,12 +533,66 @@ authors:
         <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
         <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
     </div>
-</div
+</div>
 
 
-Hixon MA, Bowen BW, Coleman RR+, Counsell CW+, Donahue MJ, Franklin EC, Kittinger JN, McManus MA, Toonen RJ (2022) Fish flow: following fisheries from spawning to supper. Frontiers in Ecology and the Environment 20: 247-254 doi: 10.1002/fee.2449 \
+<div class="publication-entry journal">
+    Hixon MA, Bowen BW, Coleman RR+, Counsell CW+, Donahue MJ, Franklin EC, Kittinger JN, McManus MA, Toonen RJ (2022). Fish flow: following fisheries from spawning to supper. <em>Frontiers in Ecology and the Environment</em> 20: 247-254. <a href="https://doi.org/10.1002/fee.2449">doi: 10.1002/fee.2449</a>
+    
+  <a href="#" class="badge badge-info" onclick="openModal('hixon2022')">Cite</a>
+  <a href="https://doi.org/10.1002/fee.2449" class="badge badge-info" target="_blank">DOI</a>
+</div>
 
-Mau A+, Franklin EC, Huss GR, Nagashima K, Nicodemus P, Valdez A, Bingham J-P (2021) Near-daily reconstruction of tropical intertidal SST from limpet shells to infer their growth rates. Nature Communications Earth & Environment 2, 171 doi.org: 10.1038/s43247-021-00251-2 \
+<!-- Modal Structure -->
+<div id="hixon2022" class="modal" style="display:none;">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <pre id="citationText">
+@article{hixon_2022,
+  author = {Hixon, M.A. and Bowen, B.W. and Coleman, R.R. and Counsell, C.W. and Donahue, M.J. and Franklin, E.C. and Kittinger, J.N. and McManus, M.A. and Toonen, R.J.},
+  title = {Fish flow: following fisheries from spawning to supper},
+  journal = {Frontiers in Ecology and the Environment},
+  volume = {20},
+  pages = {247--254},
+  year = {2022},
+  doi = {10.1002/fee.2449},
+  url = {https://doi.org/10.1002/fee.2449}
+}
+        </pre>
+        <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
+        <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
+    </div>
+</div>\
+
+
+<div class="publication-entry journal">
+    Mau A+, Franklin EC, Huss GR, Nagashima K, Nicodemus P, Valdez A, Bingham J-P (2021). Near-daily reconstruction of tropical intertidal SST from limpet shells to infer their growth rates. <em>Nature Communications Earth & Environment</em> 2, 171. <a href="https://doi.org/10.1038/s43247-021-00251-2">doi: 10.1038/s43247-021-00251-2</a>
+    
+  <a href="#" class="badge badge-info" onclick="openModal('mau2021')">Cite</a>
+  <a href="https://doi.org/10.1038/s43247-021-00251-2" class="badge badge-info" target="_blank">DOI</a>
+</div>
+
+<!-- Modal Structure -->
+<div id="mau2021" class="modal" style="display:none;">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <pre id="citationText">
+@article{mau_2021,
+  author = {Mau, A. and Franklin, E.C. and Huss, G.R. and Nagashima, K. and Nicodemus, P. and Valdez, A. and Bingham, J.-P.},
+  title = {Near-daily reconstruction of tropical intertidal SST from limpet shells to infer their growth rates},
+  journal = {Nature Communications Earth & Environment},
+  volume = {2},
+  pages = {171},
+  year = {2021},
+  doi = {10.1038/s43247-021-00251-2},
+  url = {https://doi.org/10.1038/s43247-021-00251-2}
+}
+        </pre>
+        <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
+        <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
+    </div>
+</div>\
+
 
 Carlson B, Awai M, Saunders WB, Franklin EC (2021) Nautilus belauensis population demographics and trap yields in Palau were similar between surveys in 1982 and 2015. Marine Ecology Progress Series 670: 239-245 doi.org: 10.3354/meps13773 \
 
