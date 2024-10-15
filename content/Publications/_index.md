@@ -123,20 +123,7 @@ authors:
         <!-- Add more years as needed -->
     </select>
 </div>
-   <!-- Single Modal Template -->
-   <div id="citationModal" class="modal" style="display:none;">
-    <div class="modal-content">
-        <span class="close" onclick="closeModal()">&times;</span>
-        <pre id="citationText"></pre>
-        <div class="button-container">
-            <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
-            <button class="button-outline" onclick="downloadCitation()">
-                <img src="path/to/download-icon.png" alt="Download" style="vertical-align: middle; width: 16px; height: 16px;">
-                Download Citation
-            </button>
-        </div>
-    </div>
-</div>
+
 
 
 
