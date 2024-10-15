@@ -68,6 +68,11 @@ authors:
         display: inline-block; /* Ensure proper alignment */
         margin-right: 10px;
     }
+    .button-container {
+       display: flex;
+       gap: 10px; /* Adjusts space between buttons */
+       margin-top: 10px; /* Optional: Adds space above the buttons */
+    }
 
     .button-outline:hover {
         background-color: teal; /* Background color on hover */
