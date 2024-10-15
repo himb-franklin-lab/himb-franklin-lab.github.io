@@ -148,13 +148,9 @@ authors:
   doi = {10.1111/jfb.15644},
   url = {https://doi.org/10.1111/jfb.15644}
 }
-       <pre id="citationText"></pre>
-        <div class="button-container">
-            <button class="button-outline" onclick="copyToClipboard()">Copy Citation</button>
-            <button class="button-outline" onclick="downloadCitation()">
-                <img src="download.png" alt="Download" style="vertical-align: middle; width: 8px; height: 16px;">
-                Download Citation
-            </button>
+       </pre>
+       <button class="button-outline" onclick="copyToClipboard()">Copy Citation</button>
+       <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
     </div>
 </div>
 
