@@ -2083,6 +2083,7 @@ authors:
 }
         </pre>
         <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
+        <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
     </div>
 </div>
 
@@ -2108,6 +2109,7 @@ authors:
 }
         </pre>
         <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
+        <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
     </div>
 </div>
 
@@ -2137,17 +2139,121 @@ authors:
 }
         </pre>
         <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
+        <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
     </div>
 </div>
 \
 
-Franklin EC, Ault JS, Smith SG, Luo J, Meester GA, Diaz GA, Chiappone M, Swanson DW, Miller SL, Bohnsack JA (2003) Benthic habitat mapping in the Tortugas region, Florida. Marine Geodesy 26(1-2):19-34. \
+<div class="publication-entry journal">
+    Franklin EC, Ault JS, Smith SG, Luo J, Meester GA, Diaz GA, Chiappone M, Swanson DW, Miller SL, Bohnsack JA (2003). Benthic habitat mapping in the Tortugas region, Florida. <em>Marine Geodesy</em> 26(1-2):19-34. <a href="https://doi.org/10.1080/01490410306706">doi:10.1080/01490410306706</a>
 
-Ault JS, Smith SG, Meester GA, Luo J, Franklin EC, Bohnsack JA, Harper DE, McClellan DB, Miller SL, Chiappone M, Swanson DW (2002) Synoptic habitat and reef fish surveys support establishment of marine reserves in Dry Tortugas, Florida USA. Reef Encounter 31:22-23. \
+  <a href="#" class="badge badge-info" onclick="openModal('franklin2003')">Cite</a>
+  <a href="https://doi.org/10.1080/01490410306706" class="badge badge-info" target="_blank">DOI</a>
+</div>
 
-Franklin EC, Ault JS, Smith SG (2002) Utilization of a GIS in a fisheries assessment and management system. In: J. Breman (ed) Marine Geography: GIS for the Oceans and the Seas. Redlands, CA: ESRI Press. \
+<!-- Modal Structure -->
+<div id="franklin2003" class="modal" style="display:none;">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <pre id="citationText">
+@article{franklin_2003,
+  author = {Franklin, E.C. and Ault, J.S. and Smith, S.G. and Luo, J. and Meester, G.A. and Diaz, G.A. and Chiappone, M. and Swanson, D.W. and Miller, S.L. and Bohnsack, J.A.},
+  title = {Benthic habitat mapping in the Tortugas region, Florida},
+  journal = {Marine Geodesy},
+  year = {2003},
+  volume = {26},
+  number = {1-2},
+  pages = {19-34},
+  doi = {10.1080/01490410306706},
+  url = {https://doi.org/10.1080/01490410306706}
+}
+        </pre>
+        <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
+        <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
+    </div>
+</div>
 
-Miller SL, Swanson DW, Chiappone M, Ault JS, Smith SG, Meester GA, Luo J, Franklin EC, Bohnsack JA, Harper DE, McClellan DB (2001) An extensive deep reef terrace on the Tortugas Bank, Florida Keys National Marine Sanctuary. Coral Reefs 20:299-300.
+
+<div class="publication-entry journal">
+    Ault JS, Smith SG, Meester GA, Luo J, Franklin EC, Bohnsack JA, Harper DE, McClellan DB, Miller SL, Chiappone M, Swanson DW (2002). Synoptic habitat and reef fish surveys support establishment of marine reserves in Dry Tortugas, Florida USA. <em>Reef Encounter</em> 31:22-23. 
+
+  <a href="#" class="badge badge-info" onclick="openModal('ault2002')">Cite</a>
+</div>
+
+<!-- Modal Structure -->
+<div id="ault2002" class="modal" style="display:none;">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <pre id="citationText">
+@article{ault_2002,
+  author = {Ault, J.S. and Smith, S.G. and Meester, G.A. and Luo, J. and Franklin, E.C. and Bohnsack, J.A. and Harper, D.E. and McClellan, D.B. and Miller, S.L. and Chiappone, M. and Swanson, D.W.},
+  title = {Synoptic habitat and reef fish surveys support establishment of marine reserves in Dry Tortugas, Florida USA},
+  journal = {Reef Encounter},
+  year = {2002},
+  volume = {31},
+  pages = {22-23}
+}
+        </pre>
+        <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
+        <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
+    </div>
+</div>
+
+
+<div class="publication-entry book">
+    Franklin EC, Ault JS, Smith SG (2002). Utilization of a GIS in a fisheries assessment and management system. In: J. Breman (ed) <em>Marine Geography: GIS for the Oceans and the Seas</em>. Redlands, CA: ESRI Press. 
+    
+  <a href="#" class="badge badge-info" onclick="openModal('franklin2002GIS')">Cite</a>
+</div>
+
+<!-- Modal Structure -->
+<div id="franklin2002GIS" class="modal" style="display:none;">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <pre id="citationText">
+@incollection{franklin_2002,
+  author = {Franklin, E.C. and Ault, J.S. and Smith, S.G.},
+  title = {Utilization of a GIS in a fisheries assessment and management system},
+  booktitle = {Marine Geography: GIS for the Oceans and the Seas},
+  editor = {Breman, J.},
+  publisher = {ESRI Press},
+  year = {2002},
+  address = {Redlands, CA}
+}
+        </pre>
+        <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
+        <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
+    </div>
+</div>
+
+
+<div class="publication-entry journal">
+    Miller SL, Swanson DW, Chiappone M, Ault JS, Smith SG, Meester GA, Luo J, Franklin EC, Bohnsack JA, Harper DE, McClellan DB (2001). An extensive deep reef terrace on the Tortugas Bank, Florida Keys National Marine Sanctuary. <em>Coral Reefs</em> 20:299-300. 
+    
+  <a href="#" class="badge badge-info" onclick="openModal('miller2001DeepReef')">Cite</a>
+</div>
+
+<!-- Modal Structure -->
+<div id="miller2001DeepReef" class="modal" style="display:none;">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <pre id="citationText">
+@article{miller_2001_deep_reef,
+  author = {Miller, S.L. and Swanson, D.W. and Chiappone, M. and Ault, J.S. and Smith, S.G. and Meester, G.A. and Luo, J. and Franklin, E.C. and Bohnsack, J.A. and Harper, D.E. and McClellan, D.B.},
+  title = {An extensive deep reef terrace on the Tortugas Bank, Florida Keys National Marine Sanctuary},
+  journal = {Coral Reefs},
+  volume = {20},
+  pages = {299-300},
+  year = {2001},
+  doi = {10.1007/s00338-001-0162-1},
+  url = {https://doi.org/10.1007/s00338-001-0162-1}
+}
+        </pre>
+        <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
+        <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
+    </div>
+</div>
+
 
 
 <script>
