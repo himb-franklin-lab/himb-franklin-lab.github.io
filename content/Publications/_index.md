@@ -1,5 +1,5 @@
 ---
-title: Peer-Reviewed Publications
+title: Publications
 authors:
   - erik-franklin
 
@@ -75,6 +75,7 @@ authors:
         <option value="all">All</option>
         <option value="journal">Journal Articles</option>
         <option value="book">Book Sections</option>
+        <option value="report">Technical Report</option>
     </select>
 </div>
 
@@ -824,21 +825,235 @@ authors:
 </div>
 
 
-Franklin EC, Gray AE, Mundy BC (2019) Three new records of coastal fishes in the Hawaiian Islands. Journal of the Ocean Science Foundation, 33: 99–106 doi.org/10.5281/zenodo.3572888 \
+<div class="publication-entry journal">
+    Franklin EC, Gray AE, Mundy BC (2019). Three new records of coastal fishes in the Hawaiian Islands. <em>Journal of the Ocean Science Foundation</em> 33: 99–106. <a href="https://doi.org/10.5281/zenodo.3572888">doi: 10.5281/zenodo.3572888</a>
+    
+  <a href="#" class="badge badge-info" onclick="openModal('franklin2019')">Cite</a>
+  <a href="https://doi.org/10.5281/zenodo.3572888" class="badge badge-info" target="_blank">DOI</a>
+</div>
 
-Barkley YM*, Oleson EM, Oswald JN, Franklin EC (2019) Whistle classification of sympatric false killer whale populations in Hawaiian waters yields low accuracy rates. Frontiers in Marine Science 6: 645 doi.org/10.3389/fmars.2019.00645 \
+<!-- Modal Structure -->
+<div id="franklin2019" class="modal" style="display:none;">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <pre id="citationText">
+@article{franklin_2019,
+  author = {Franklin, E.C. and Gray, A.E. and Mundy, B.C.},
+  title = {Three new records of coastal fishes in the Hawaiian Islands},
+  journal = {Journal of the Ocean Science Foundation},
+  volume = {33},
+  pages = {99--106},
+  year = {2019},
+  doi = {10.5281/zenodo.3572888},
+  url = {https://doi.org/10.5281/zenodo.3572888}
+}
+        </pre>
+        <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
+        <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
+    </div>
+</div>
 
-Mora C, Rollins R+, Taladay K+, Kantar M, Chock M+, Shimada M+, Franklin EC (2019) Mora et al. reply. Nature Climate Change 9: 658-659 doi.org/10.1038/s41558-019-0538-1 \
+<div class="publication-entry journal">
+    Barkley YM*, Oleson EM, Oswald JN, Franklin EC (2019). Whistle classification of sympatric false killer whale populations in Hawaiian waters yields low accuracy rates. <em>Frontiers in Marine Science</em> 6: 645. <a href="https://doi.org/10.3389/fmars.2019.00645">doi: 10.3389/fmars.2019.00645</a>
+    
+  <a href="#" class="badge badge-info" onclick="openModal('barkley2019')">Cite</a>
+  <a href="https://doi.org/10.3389/fmars.2019.00645" class="badge badge-info" target="_blank">DOI</a>
+</div>
 
-Darling ES, McClanahan TR, Maina J, Gurney G, Graham NAJ, Januchowski-Hartley F, Cinner JE, Mora C, Hicks CC, Maire E, Puotinen M, Skirving WJ, Adjeroud M, Ahmadia G, Arthur R, Bauman AG, Beger M, Berumen ML, Bigot L, Bouwmeester, Brenier, Bridge T, Brown E, Campbell SJ, Cannon S, Cauvin B, Chen AC, Claudet J, Denis V, Donner S, Estradivari, Fadli N, Feary DA, Fenner D, Fox H, Franklin EC, Friedlander A, Gilmour J, Goiran C, Guest J, Hobbs, J-PA, Hoey AS, Houk P, Johnson S, Jupiter S, Kayal M, Kuo C-Y, Lamb J, Lee MAC, Low J, Muthiga N, Muttaqin, Nand Y, Nash KL, Nedlic O, Pandolfi JM, Pardede S, Patankar V, Penin L, Ribas-Deulofeu L, Richards Z, Roberts TE, Rodgers KS, Safuari CDM, Sala E, Shedrawi G, Sin TM, Smallhorn-West P, Smith JE, Sommer B, Steinberg PD, Sutthacheep M, Tan CHJ, Williams GJ, Wilson S, Yeemin T, Bruno JF, Fortin MJ, Krkosek M, Mouillot D (2019) Social-environmental drivers inform strategic management of coral reefs in the Anthropocene. Nature Ecology and Evolution 3: 1341–1350 doi.org/10.1038/s41559-019-0953-8 \
+<!-- Modal Structure -->
+<div id="barkley2019" class="modal" style="display:none;">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <pre id="citationText">
+@article{barkley_2019,
+  author = {Barkley, Y.M. and Oleson, E.M. and Oswald, J.N. and Franklin, E.C.},
+  title = {Whistle classification of sympatric false killer whale populations in Hawaiian waters yields low accuracy rates},
+  journal = {Frontiers in Marine Science},
+  volume = {6},
+  pages = {645},
+  year = {2019},
+  doi = {10.3389/fmars.2019.00645},
+  url = {https://doi.org/10.3389/fmars.2019.00645}
+}
+        </pre>
+        <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
+        <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
+    </div>
+</div>
 
-Randall JE, Gray A, Franklin EC, Mundy BC, McCosker JE (2019) Five new records of fishes for the Hawaiian Islands. Journal of Ocean Science Foundation 33: 28-43. http://dx.doi.org/10.5281/zenodo.3255089 \
 
-Johnson GB + , Taylor BM, Robbins WD, Franklin EC, Toonen R, Bowen BW, Choat JH (2019) Diversity and structure of parrotfish assemblages across the northern Great Barrier Reef. Diversity 11(1):14 doi.org/10.3390/d11010014 \
+<div class="publication-entry journal">
+    Mora C, Rollins R+, Taladay K+, Kantar M, Chock M+, Shimada M+, Franklin EC (2019). Mora et al. reply. <em>Nature Climate Change</em> 9: 658-659. <a href="https://doi.org/10.1038/s41558-019-0538-1">doi: 10.1038/s41558-019-0538-1</a>
+    
+  <a href="#" class="badge badge-info" onclick="openModal('mora2019')">Cite</a>
+  <a href="https://doi.org/10.1038/s41558-019-0538-1" class="badge badge-info" target="_blank">DOI</a>
+</div>
 
-Oyafuso ZS*, Leung PS, Franklin EC (2018) Evaluating bioeconomic tradeoffs of fishing reserves via spatial optimization. Marine Policy doi.org/10.1016/j.marpol.2018.11.016 \
+<!-- Modal Structure -->
+<div id="mora2019" class="modal" style="display:none;">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <pre id="citationText">
+@article{mora_2019,
+  author = {Mora, C. and Rollins, R. and Taladay, K. and Kantar, M. and Chock, M. and Shimada, M. and Franklin, E.C.},
+  title = {Mora et al. reply},
+  journal = {Nature Climate Change},
+  volume = {9},
+  pages = {658-659},
+  year = {2019},
+  doi = {10.1038/s41558-019-0538-1},
+  url = {https://doi.org/10.1038/s41558-019-0538-1}
+}
+        </pre>
+        <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
+        <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
+    </div>
+</div>
 
-Mora C, Spirandelli D, Franklin EC, Lynham J, Kantar MB, Miles W, Smith CZ + , Freel K, Moy J + , Louis LV + , Barba EW + , Bettinger K, Frazier AG, Colburn IX JF + , Hanasaki N, Hawkins E, Hirabayashi Y, Knorr W, Little CM, Emanuel K, Sheffield J, Patz JA, Hunter CL (2018) Broad threat to humanity from cumulative climate hazards intensified by greenhouse gas emissions. Nature Climate Change 8: 1062-1071. doi.org/10.1038/s41558-018-0315-6 \
+
+<div class="publication-entry journal">
+    Darling ES, McClanahan TR, Maina J, Gurney G, Graham NAJ, Januchowski-Hartley F, Cinner JE, Mora C, Hicks CC, Maire E, Puotinen M, Skirving WJ, Adjeroud M, Ahmadia G, Arthur R, Bauman AG, Beger M, Berumen ML, Bigot L, Bouwmeester, Brenier, Bridge T, Brown E, Campbell SJ, Cannon S, Cauvin B, Chen AC, Claudet J, Denis V, Donner S, Estradivari, Fadli N, Feary DA, Fenner D, Fox H, Franklin EC, Friedlander A, Gilmour J, Goiran C, Guest J, Hobbs, J-PA, Hoey AS, Houk P, Johnson S, Jupiter S, Kayal M, Kuo C-Y, Lamb J, Lee MAC, Low J, Muthiga N, Muttaqin, Nand Y, Nash KL, Nedlic O, Pandolfi JM, Pardede S, Patankar V, Penin L, Ribas-Deulofeu L, Richards Z, Roberts TE, Rodgers KS, Safuari CDM, Sala E, Shedrawi G, Sin TM, Smallhorn-West P, Smith JE, Sommer B, Steinberg PD, Sutthacheep M, Tan CHJ, Williams GJ, Wilson S, Yeemin T, Bruno JF, Fortin MJ, Krkosek M, Mouillot D (2019). Social-environmental drivers inform strategic management of coral reefs in the Anthropocene. <em>Nature Ecology and Evolution</em> 3: 1341–1350. <a href="https://doi.org/10.1038/s41559-019-0953-8">doi: 10.1038/s41559-019-0953-8</a>
+    
+  <a href="#" class="badge badge-info" onclick="openModal('darling2019')">Cite</a>
+  <a href="https://doi.org/10.1038/s41559-019-0953-8" class="badge badge-info" target="_blank">DOI</a>
+</div>
+
+<!-- Modal Structure -->
+<div id="darling2019" class="modal" style="display:none;">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <pre id="citationText">
+@article{darling_2019,
+  author = {Darling, E.S. and McClanahan, T.R. and Maina, J. and Gurney, G. and Graham, N.A.J. and Januchowski-Hartley, F. and Cinner, J.E. and Mora, C. and Hicks, C.C. and Maire, E. and Puotinen, M. and Skirving, W.J. and Adjeroud, M. and Ahmadia, G. and Arthur, R. and Bauman, A.G. and Beger, M. and Berumen, M.L. and Bigot, L. and Bouwmeester and Brenier and Bridge, T. and Brown, E. and Campbell, S.J. and Cannon, S. and Cauvin, B. and Chen, A.C. and Claudet, J. and Denis, V. and Donner, S. and Estradivari and Fadli, N. and Feary, D.A. and Fenner, D. and Fox, H. and Franklin, E.C. and Friedlander, A. and Gilmour, J. and Goiran, C. and Guest, J. and Hobbs, J-PA and Hoey, A.S. and Houk, P. and Johnson, S. and Jupiter, S. and Kayal, M. and Kuo, C-Y and Lamb, J. and Lee, M.A.C. and Low, J. and Muthiga, N. and Muttaqin and Nand, Y. and Nash, K.L. and Nedlic, O. and Pandolfi, J.M. and Pardede, S. and Patankar, V. and Penin, L. and Ribas-Deulofeu, L. and Richards, Z. and Roberts, T.E. and Rodgers, K.S. and Safuari, C.D.M. and Sala, E. and Shedrawi, G. and Sin, T.M. and Smallhorn-West, P. and Smith, J.E. and Sommer, B. and Steinberg, P.D. and Sutthacheep, M. and Tan, C.H.J. and Williams, G.J. and Wilson, S. and Yeemin, T. and Bruno, J.F. and Fortin, M.J. and Krkosek, M. and Mouillot, D.},
+  title = {Social-environmental drivers inform strategic management of coral reefs in the Anthropocene},
+  journal = {Nature Ecology and Evolution},
+  volume = {3},
+  pages = {1341–1350},
+  year = {2019},
+  doi = {10.1038/s41559-019-0953-8},
+  url = {https://doi.org/10.1038/s41559-019-0953-8}
+}
+        </pre>
+        <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
+        <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
+    </div>
+</div>
+
+
+<div class="publication-entry journal">
+    Randall JE, Gray A, Franklin EC, Mundy BC, McCosker JE (2019). Five new records of fishes for the Hawaiian Islands. <em>Journal of Ocean Science Foundation</em> 33: 28-43. <a href="http://dx.doi.org/10.5281/zenodo.3255089">doi: 10.5281/zenodo.3255089</a>
+    
+  <a href="#" class="badge badge-info" onclick="openModal('randall2019')">Cite</a>
+  <a href="http://dx.doi.org/10.5281/zenodo.3255089" class="badge badge-info" target="_blank">DOI</a>
+</div>
+
+<!-- Modal Structure -->
+<div id="randall2019" class="modal" style="display:none;">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <pre id="citationText">
+@article{randall_2019,
+  author = {Randall, J.E. and Gray, A. and Franklin, E.C. and Mundy, B.C. and McCosker, J.E.},
+  title = {Five new records of fishes for the Hawaiian Islands},
+  journal = {Journal of Ocean Science Foundation},
+  volume = {33},
+  pages = {28-43},
+  year = {2019},
+  doi = {10.5281/zenodo.3255089},
+  url = {http://dx.doi.org/10.5281/zenodo.3255089}
+}
+        </pre>
+        <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
+        <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
+    </div>
+</div>
+
+
+<div class="publication-entry journal">
+    Johnson GB+, Taylor BM, Robbins WD, Franklin EC, Toonen R, Bowen BW, Choat JH (2019). Diversity and structure of parrotfish assemblages across the northern Great Barrier Reef. <em>Diversity</em> 11(1):14. <a href="doi.org/10.3390/d11010014">doi: 10.3390/d11010014</a>
+    
+  <a href="#" class="badge badge-info" onclick="openModal('johnson2019')">Cite</a>
+  <a href="doi.org/10.3390/d11010014" class="badge badge-info" target="_blank">DOI</a>
+</div>
+
+<!-- Modal Structure -->
+<div id="johnson2019" class="modal" style="display:none;">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <pre id="citationText">
+@article{johnson_2019,
+  author = {Johnson, G.B. and Taylor, B.M. and Robbins, W.D. and Franklin, E.C. and Toonen, R. and Bowen, B.W. and Choat, J.H.},
+  title = {Diversity and structure of parrotfish assemblages across the northern Great Barrier Reef},
+  journal = {Diversity},
+  volume = {11},
+  number = {1},
+  pages = {14},
+  year = {2019},
+  doi = {10.3390/d11010014},
+  url = {doi.org/10.3390/d11010014}
+}
+        </pre>
+        <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
+        <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
+    </div>
+</div>
+
+
+<div class="publication-entry journal">
+    Oyafuso ZS*, Leung PS, Franklin EC (2018). Evaluating bioeconomic tradeoffs of fishing reserves via spatial optimization. <em>Marine Policy</em>. <a href="doi.org/10.1016/j.marpol.2018.11.016">doi: 10.1016/j.marpol.2018.11.016</a>
+    
+  <a href="#" class="badge badge-info" onclick="openModal('oyafuso2018')">Cite</a>
+  <a href="doi.org/10.1016/j.marpol.2018.11.016" class="badge badge-info" target="_blank">DOI</a>
+</div>
+
+<!-- Modal Structure -->
+<div id="oyafuso2018" class="modal" style="display:none;">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <pre id="citationText">
+@article{oyafuso_2018,
+  author = {Oyafuso, Z.S. and Leung, P.S. and Franklin, E.C.},
+  title = {Evaluating bioeconomic tradeoffs of fishing reserves via spatial optimization},
+  journal = {Marine Policy},
+  year = {2018},
+  doi = {10.1016/j.marpol.2018.11.016},
+  url = {doi.org/10.1016/j.marpol.2018.11.016}
+}
+        </pre>
+        <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
+        <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
+    </div>
+</div>
+
+
+<div class="publication-entry journal">
+    Mora C, Spirandelli D, Franklin EC, Lynham J, Kantar MB, Miles W, Smith CZ+, Freel K, Moy J+, Louis LV+, Barba EW+, Bettinger K, Frazier AG, Colburn IX JF+, Hanasaki N, Hawkins E, Hirabayashi Y, Knorr W, Little CM, Emanuel K, Sheffield J, Patz JA, Hunter CL (2018). Broad threat to humanity from cumulative climate hazards intensified by greenhouse gas emissions. <em>Nature Climate Change</em> 8: 1062-1071. <a href="https://doi.org/10.1038/s41558-018-0315-6">doi: 10.1038/s41558-018-0315-6</a>
+    
+  <a href="#" class="badge badge-info" onclick="openModal('mora2018')">Cite</a>
+  <a href="https://doi.org/10.1038/s41558-018-0315-6" class="badge badge-info" target="_blank">DOI</a>
+</div>
+
+<!-- Modal Structure -->
+<div id="mora2018" class="modal" style="display:none;">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <pre id="citationText">
+@article{mora_2018,
+  author = {Mora, C. and Spirandelli, D. and Franklin, E.C. and Lynham, J. and Kantar, M.B. and Miles, W. and Smith, C.Z. and Freel, K. and Moy, J. and Louis, L.V. and Barba, E.W. and Bettinger, K. and Frazier, A.G. and Colburn, I.X. J.F. and Hanasaki, N. and Hawkins, E. and Hirabayashi, Y. and Knorr, W. and Little, C.M. and Emanuel, K. and Sheffield, J. and Patz, J.A. and Hunter, C.L.},
+  title = {Broad threat to humanity from cumulative climate hazards intensified by greenhouse gas emissions},
+  journal = {Nature Climate Change},
+  year = {2018},
+  volume = {8},
+  pages = {1062-1071},
+  doi = {10.1038/s41558-018-0315-6},
+  url = {https://doi.org/10.1038/s41558-018-0315-6}
+}
+        </pre>
+        <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
+        <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
+    </div>
+</div>
+
 
 Mora C, Rollins R + , Taladay K + , Kantar MB, Chock MK + , Shimada M + , Franklin EC (2018) Bitcoin emissions alone could push global warming above 2°C. Nature Climate Change 8: 931-933. doi.org/10.1038/s41558-018-0321-8 \
 
