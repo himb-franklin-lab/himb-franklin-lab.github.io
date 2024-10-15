@@ -79,7 +79,17 @@ authors:
         <option value="report">Technical Report</option>
         <option value="conference">Conference</option>
     </select>
+
+<!-- Drop down filter for year -->
+  <label for="yearFilter" style="margin-left: 20px;">Filter by Year:</label>
+  <select id="yearFilter" onchange="filterPublications()">
+      <option value="all">All Years</option>
+      <option value="2023">2023</option>
+      <option value="2022">2022</option>
+        <!-- Add more years as needed -->
+    </select>
 </div>
+
 
 
 <!-- Citations -->
