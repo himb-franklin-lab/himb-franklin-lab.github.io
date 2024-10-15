@@ -2,7 +2,7 @@
 title: About
 type: landing
 styles:
-  - "About/about.css" # Link to your custom CSS file
+  - "/About/about.css" # Link to your custom CSS file
 sections: 
   - block: hero
     content:
