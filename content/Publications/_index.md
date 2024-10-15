@@ -2258,22 +2258,37 @@ authors:
 
 
 <script>
-    function filterPublications() {
-        var filterValue = document.getElementById("filter").value;
-        var publications = document.getElementsByClassName("publication-entry");
+function searchCitations() {
+    const input = document.getElementById('searchBar').value.toLowerCase();
+    const publicationEntries = document.querySelectorAll('.publication-entry'); // Update this selector based on your structure
 
-        for (var i = 0; i < publications.length; i++) {
-            var publication = publications[i];
-            if (filterValue === "all") {
-                publication.style.display = "block";
-            } else if (publication.classList.contains(filterValue)) {
-                publication.style.display = "block";
-            } else {
-                publication.style.display = "none";
-            }
+    publicationEntries.forEach(entry => {
+        const text = entry.textContent.toLowerCase();
+        if (text.includes(input)) {
+            entry.style.display = ''; // Show the entry
+        } else {
+            entry.style.display = 'none'; // Hide the entry
         }
-    }
+    });
+}
+
+function filterPublications() {
+    const filter = document.getElementById('filter').value;
+    const publicationEntries = document.querySelectorAll('.publication-entry');
+
+    publicationEntries.forEach(entry => {
+        // Assuming each entry has a data-type attribute that corresponds to its type
+        const type = entry.getAttribute('data-type'); // Example: <div class="publication-entry" data-type="journal">...
+
+        if (filter === 'all' || type === filter) {
+            entry.style.display = ''; // Show the entry
+        } else {
+            entry.style.display = 'none'; // Hide the entry
+        }
+    });
+}
 </script>
+
 
 <script>
 function openModal(modalId) {
