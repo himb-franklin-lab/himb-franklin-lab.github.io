@@ -2320,7 +2320,12 @@ function copyToClipboard(elementId) {
 }
 
 // Function to download citation (optional, implement as needed)
-function downloadCitation() {
-    // Implement your citation download logic here
+function downloadCitation(citationText) {
+    const blob = new Blob([citationText], { type: 'text/plain' });
+    const link = document.createElement('a');
+    link.href = window.URL.createObjectURL(blob);
+    link.download = 'citation.bib'; // Change the filename as needed
+    link.click();
 }
+
 </script>
