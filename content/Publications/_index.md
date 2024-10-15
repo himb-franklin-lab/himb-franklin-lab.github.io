@@ -83,7 +83,7 @@ authors:
 
 
 <!-- Citations -->
-<div class="publication-entry journal">
+<div class="publication-entry journal 2023">
     Franklin EC, Platt MT*, Andrade P (accepted). Increased occurrence of the rare golden color morph of Pacific chub Kyphosus sandwicensis in a no-take marine reserve. <em>Journal of Fish Biology</em>. <a href="https://doi.org/10.1111/jfb.15644">doi:10.1111/jfb.15644</a>
     
   <a href="#" class="badge badge-info" onclick="openModal('franklin2023')">Cite</a>
@@ -110,7 +110,7 @@ authors:
 </div>
 
 
-<div class="publication-entry journal">
+<div class="publication-entry journal 2023">
     Winans WR+, Chen Q, Qiang Y, Franklin EC (2023). Large-area automatic detection of shoreline stranded marine debris using deep learning. <em>International Journal of Applied Earth Observation and Geoinformation</em>. <a href="https://doi.org/10.1016/j.jag.2023.103515">doi:10.1016/j.jag.2023.103515</a>
     
   <a href="#" class="badge badge-info" onclick="openModal('winans2023')">Cite</a>
@@ -137,7 +137,7 @@ authors:
 </div>
 
 
-<div class="publication-entry journal">
+<div class="publication-entry journal 2023">
     Purwanto, Franklin EC, Mardiani SR, White AT (2023). Multiple-goal bioeconomic programming to address conflicting management objectives in Indonesian small pelagic fisheries. <em>Marine Policy</em> 150: 105519. <a href="https://doi.org/10.1016/j.marpol.2023.105519">doi:10.1016/j.marpol.2023.105519</a>
     
   <a href="#" class="badge badge-info" onclick="openModal('purwanto2023')">Cite</a>
@@ -166,7 +166,7 @@ authors:
 </div>
 
 
-<div class="publication-entry journal">
+<div class="publication-entry journal 2022">
     Carlson KM, Mora C, Xu J+, Setter RO+, Harangody M+, Franklin EC, Kantar MB, Lucas M, Menzo ZM+, Spirandelli D, Schanzenbach D, Warr CC, Wong AE+, Businger S (2022). Global rainbow distribution under current and future climates. <em>Global Environmental Change</em> 77: 102604. <a href="https://doi.org/10.1016/j.gloenvcha.2022.102604">doi:10.1016/j.gloenvcha.2022.102604</a>
     
   <a href="#" class="badge badge-info" onclick="openModal('carlson2022')">Cite</a>
@@ -195,7 +195,7 @@ authors:
 </div>
 
 
-<div class="publication-entry journal">
+<div class="publication-entry journal 2022">
     Setter RO+, Franklin EC, Mora C (2022). Co-occurring anthropogenic stressors reduce the timeframe of environmental viability for the world’s coral reefs. <em>PLoS Biology</em> 20: e3001821. <a href="https://doi.org/10.1371/journal.pbio.3001821">doi:10.1371/journal.pbio.3001821</a>
     
   <a href="#" class="badge badge-info" onclick="openModal('setter2022')">Cite</a>
@@ -224,7 +224,7 @@ authors:
 </div>
 
 
-<div class="publication-entry journal">
+<div class="publication-entry journal 2022">
     Barkley YM*, Sakai T, Oleson EM, Franklin EC (2022). Examining distribution patterns of foraging and non-foraging sperm whales in Hawaiian waters using visual and passive acoustic data. <em>Frontiers in Remote Sensing</em> 3: 940186. <a href="https://doi.org/10.3389/frsen.2022.940186">doi:10.3389/frsen.2022.940186</a>
     
   <a href="#" class="badge badge-info" onclick="openModal('barkley2022')">Cite</a>
@@ -253,7 +253,7 @@ authors:
 </div>
 
 
-<div class="publication-entry journal">
+<div class="publication-entry journal 2022">
     Akiona AK*, Popp BN, Toonen RJ, Siple MC, Kotubetey K, Kawelo H, Franklin EC (2022). Predatory fish diets shift toward an invasive mullet in a traditional Hawaiian aquaculture system. <em>Aquaculture, Fish and Fisheries</em>. <a href="https://doi.org/10.1002/aff2.68">doi:10.1002/aff2.68</a>
     
   <a href="#" class="badge badge-info" onclick="openModal('akiona2022')">Cite</a>
@@ -2272,21 +2272,24 @@ authors:
         }
     });
 }
-    function filterPublications() {
-        var filterValue = document.getElementById("filter").value;
-        var publications = document.getElementsByClassName("publication-entry");
+function filterPublications() {
+    var filterValue = document.getElementById("filter").value;
+    var yearValue = document.getElementById("yearFilter").value; // New year filter
+    var publications = document.getElementsByClassName("publication-entry");
 
-        for (var i = 0; i < publications.length; i++) {
-            var publication = publications[i];
-            if (filterValue === "all") {
-                publication.style.display = "block";
-            } else if (publication.classList.contains(filterValue)) {
-                publication.style.display = "block";
-            } else {
-                publication.style.display = "none";
-            }
+    for (var i = 0; i < publications.length; i++) {
+        var publication = publications[i];
+        var matchesFilter = filterValue === "all" || publication.classList.contains(filterValue);
+        var matchesYear = yearValue === "all" || publication.classList.contains(yearValue);
+
+        if (matchesFilter && matchesYear) {
+            publication.style.display = "block"; // Show if both filter and year match
+        } else {
+            publication.style.display = "none"; // Hide if either filter or year doesn't match
         }
     }
+}
+
 </script>
 
 <script>
