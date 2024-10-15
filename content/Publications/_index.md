@@ -26,12 +26,20 @@ authors:
     }
 
     .modal-content {
-        background-color: #fefefe;
-        margin: 15% auto; /* 15% from the top and centered */
-        padding: 20px;
-        border: 1px solid #888;
-        width: 80%; /* Could be more or less, depending on screen size */
-    }
+       background-color: #fefefe;
+       margin: 15% auto; /* 15% from the top and centered */
+       padding: 20px;
+       border: 1px solid #888;
+       width: 80%; /* Could be more or less, depending on screen size */
+       display: flex; /* Use flexbox for alignment */
+       flex-direction: column; /* Align items in a column */
+}
+
+   .modal-buttons {
+       display: flex; /* Use flexbox to align buttons */
+       justify-content: space-between; /* Space between buttons */
+       margin-top: 10px; /* Space above buttons */
+}
 
     .close {
         color: #aaa;
@@ -58,6 +66,7 @@ authors:
         transition: background-color 0.3s, color 0.3s; /* Transition effect */
         text-decoration: none; /* Remove underline */
         display: inline-block; /* Ensure proper alignment */
+        margin-right: 10px;
     }
 
     .button-outline:hover {
@@ -108,6 +117,19 @@ authors:
         <option value="2001">2001</option>
         <!-- Add more years as needed -->
     </select>
+</div>
+
+<!-- Single Modal Template -->
+<div id="citationModal" class="modal" style="display:none;">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <pre id="citationText"></pre>
+        <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
+        <button class="button-outline" onclick="downloadCitation('citationText')">
+            <img src="path/to/download-icon.png" alt="Download" style="vertical-align: middle; width: 16px; height: 16px;">
+            Download Citation
+        </button>
+    </div>
 </div>
 
 
@@ -2324,18 +2346,14 @@ function filterPublications() {
 </script>
 
 <script>
-function openModal(modalId) {
-    // Hide all modals first
-    const modals = document.querySelectorAll('.modal');
-    modals.forEach(modal => {
-        modal.style.display = "none";
-    });
+function openModal(element) {
+    const citationText = element.parentElement.getAttribute('data-citation');
+    document.getElementById('citationText').textContent = citationText;
+    document.getElementById('citationModal').style.display = 'block';
+}
 
-    // Show the selected modal
-    const modalToShow = document.getElementById(modalId);
-    if (modalToShow) {
-        modalToShow.style.display = "block";
-    }
+function closeModal() {
+    document.getElementById('citationModal').style.display = 'none';
 }
 
 function closeModal() {
