@@ -1,5 +1,12 @@
+h1 {
+    text-align: center; /* Centers the text */
+    font-size: 36px; /* Adjust the font size as needed */
+    margin-top: 20px; /* Optional: Add spacing above the title */
+    margin-bottom: 20px; /* Optional: Add spacing below the title */
+}
+
 body {
-    background-image: url('/about/HIMB_aerial.jpeg')!important; /* Update the path to your background image */
+    background-image: url('HIMB_aerial.jpeg')!important; /* Update the path to your background image */
     background-size: cover;
     background-position: center;
     color: #333; /* Change text color if needed */
