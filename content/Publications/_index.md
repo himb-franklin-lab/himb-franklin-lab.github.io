@@ -148,7 +148,7 @@ authors:
 <div id="purwanto2023" class="modal" style="display:none;">
     <div class="modal-content">
         <span class="close" onclick="closeModal()">&times;</span>
-        <pre id="citationText">
+        <pre class="citation-text">
 @article{purwanto_2023,
   author = {Purwanto and Franklin, E.C. and Mardiani, S.R. and White, A.T.},
   title = {Multiple-goal bioeconomic programming to address conflicting management objectives in Indonesian small pelagic fisheries},
@@ -160,8 +160,8 @@ authors:
   url = {https://doi.org/10.1016/j.marpol.2023.105519}
 }
         </pre>
-        <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
-        <button class="button-outline" onclick="downloadCitation('citationText')">Download Citation</button>
+        <button class="button-outline" onclick="copyToClipboard()">Copy Citation</button>
+        <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
     </div>
 </div>
 
@@ -177,7 +177,7 @@ authors:
 <div id="carlson2022" class="modal" style="display:none;">
     <div class="modal-content">
         <span class="close" onclick="closeModal()">&times;</span>
-        <pre id="citationText">
+        <pre class="citation-text">
 @article{carlson_2022,
   author = {Carlson, K.M. and Mora, C. and Xu, J. and Setter, R.O. and Harangody, M. and Franklin, E.C. and Kantar, M.B. and Lucas, M. and Menzo, Z.M. and Spirandelli, D. and Schanzenbach, D. and Warr, C.C. and Wong, A.E. and Businger, S.},
   title = {Global rainbow distribution under current and future climates},
@@ -189,8 +189,8 @@ authors:
   url = {https://doi.org/10.1016/j.gloenvcha.2022.102604}
 }
         </pre>
-        <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
-        <button class="button-outline" onclick="downloadCitation('citationText')">Download Citation</button>
+        <button class="button-outline" onclick="copyToClipboard()">Copy Citation</button>
+        <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
     </div>
 </div>
 
@@ -206,7 +206,7 @@ authors:
 <div id="setter2022" class="modal" style="display:none;">
     <div class="modal-content">
         <span class="close" onclick="closeModal()">&times;</span>
-        <pre id="citationText">
+        <pre class="citation-text">
 @article{setter_2022,
   author = {Setter, R.O. and Franklin, E.C. and Mora, C.},
   title = {Co-occurring anthropogenic stressors reduce the timeframe of environmental viability for the world’s coral reefs},
@@ -218,8 +218,8 @@ authors:
   url = {https://doi.org/10.1371/journal.pbio.3001821}
 }
         </pre>
-        <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
-        <button class="button-outline" onclick="downloadCitation('citationText')">Download Citation</button>
+        <button class="button-outline" onclick="copyToClipboard()">Copy Citation</button>
+        <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
     </div>
 </div>
 
@@ -235,7 +235,7 @@ authors:
 <div id="barkley2022" class="modal" style="display:none;">
     <div class="modal-content">
         <span class="close" onclick="closeModal()">&times;</span>
-        <pre id="citationText">
+        <pre class="citation-text">
 @article{barkley_2022,
   author = {Barkley, Y.M. and Sakai, T. and Oleson, E.M. and Franklin, E.C.},
   title = {Examining distribution patterns of foraging and non-foraging sperm whales in Hawaiian waters using visual and passive acoustic data},
@@ -247,8 +247,8 @@ authors:
   url = {https://doi.org/10.3389/frsen.2022.940186}
 }
         </pre>
-        <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
-        <button class="button-outline" onclick="downloadCitation('citationText')">Download Citation</button>
+        <button class="button-outline" onclick="copyToClipboard()">Copy Citation</button>
+        <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
     </div>
 </div>
 
@@ -264,7 +264,7 @@ authors:
 <div id="akiona2022" class="modal" style="display:none;">
     <div class="modal-content">
         <span class="close" onclick="closeModal()">&times;</span>
-        <pre id="citationText">
+        <pre class="citation-text">
 @article{akiona_2022,
   author = {Akiona, A.K. and Popp, B.N. and Toonen, R.J. and Siple, M.C. and Kotubetey, K. and Kawelo, H. and Franklin, E.C.},
   title = {Predatory fish diets shift toward an invasive mullet in a traditional Hawaiian aquaculture system},
@@ -274,8 +274,8 @@ authors:
   url = {https://doi.org/10.1002/aff2.68}
 }
         </pre>
-        <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
-        <button class="button-outline" onclick="downloadCitation('citationText')">Download Citation</button>
+        <button class="button-outline" onclick="copyToClipboard()">Copy Citation</button>
+        <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
     </div>
 </div>
 
@@ -291,7 +291,7 @@ authors:
 <div id="mora2022" class="modal" style="display:none;">
     <div class="modal-content">
         <span class="close" onclick="closeModal()">&times;</span>
-        <pre id="citationText">
+        <pre class="citation-text">
 @article{mora_2022,
   author = {Mora, C. and McKenzie, T. and Gaw, I.M. and Dean, J.M. and von Hammerstein, H. and Knudson, T.A. and Setter, R.O. and Smith, C.Z. and Webster, K.M. and Patz, J.A. and Franklin, E.C.},
   title = {Over half of known human pathogenic diseases can be aggravated by climate change},
@@ -303,8 +303,8 @@ authors:
   url = {https://doi.org/10.1038/s41558-022-01426-1}
 }
         </pre>
-        <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
-        <button class="button-outline" onclick="downloadCitation('citationText')">Download Citation</button>
+        <button class="button-outline" onclick="copyToClipboard()">Copy Citation</button>
+        <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
     </div>
 </div>
 
@@ -320,7 +320,7 @@ authors:
 <div id="nichols2022" class="modal" style="display:none;">
     <div class="modal-content">
         <span class="close" onclick="closeModal()">&times;</span>
-        <pre id="citationText">
+        <pre class="citation-text">
 @article{nichols_2022,
   author = {Nichols, R.S. and DeMartini, E.E. and Franklin, E.C.},
   title = {No butts about it: using urogenital disparity in a deep water snapper, Etelis carbunculus (Lutjanidae), for field based sexual identification},
@@ -330,8 +330,8 @@ authors:
   url = {https://doi.org/10.1111/jfb.15166}
 }
         </pre>
-        <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
-        <button class="button-outline" onclick="downloadCitation('citationText')">Download Citation</button>
+        <button class="button-outline" onclick="copyToClipboard()">Copy Citation</button>
+        <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
     </div>
 </div>
 
@@ -347,7 +347,7 @@ authors:
 <div id="andrade2022" class="modal" style="display:none;">
     <div class="modal-content">
         <span class="close" onclick="closeModal()">&times;</span>
-        <pre id="citationText">
+        <pre class="citation-text">
 @article{andrade_2022,
   author = {Andrade, P. and Morishige, K. and Mau, A. and Kapono, L. and Franklin, E.C.},
   title = {Re-imagining contemporary conservation to support ʻĀina Momona: Productive and thriving communities of people, place, and natural resources},
@@ -359,8 +359,8 @@ authors:
   url = {https://doi.org/10.5070/P538257511}
 }
         </pre>
-        <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
-        <button class="button-outline" onclick="downloadCitation('citationText')">Download Citation</button>
+        <button class="button-outline" onclick="copyToClipboard()">Copy Citation</button>
+        <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
     </div>
 </div>
 
@@ -376,7 +376,7 @@ authors:
 <div id="purwanto2022" class="modal" style="display:none;">
     <div class="modal-content">
         <span class="close" onclick="closeModal()">&times;</span>
-        <pre id="citationText">
+        <pre class="citation-text">
 @article{purwanto_2022,
   author = {Purwanto and Franklin, E.C. and Mardiani, S.R. and White, A.T.},
   title = {Stock assessment and overexploitation risk of small pelagic fish in Fisheries Management Area 715 of Indonesia},
@@ -388,8 +388,8 @@ authors:
   url = {https://doi.org/10.33997/j.afs.2022.35.1.007}
 }
         </pre>
-        <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
-        <button class="button-outline" onclick="downloadCitation('citationText')">Download Citation</button>
+        <button class="button-outline" onclick="copyToClipboard()">Copy Citation</button>
+        <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
     </div>
 </div>
 
@@ -405,7 +405,7 @@ authors:
 <div id="jaya2022" class="modal" style="display:none;">
     <div class="modal-content">
         <span class="close" onclick="closeModal()">&times;</span>
-        <pre id="citationText">
+        <pre class="citation-text">
 @article{jaya_2022,
   author = {Jaya, I. and Satria, F. and Wudianto and Nugroho, D. and Sadiyah, L. and Buchary, E.A. and White, A.T. and Franklin, E.C. and Courtney, C.A. and Green, G. and Green, S.},
   title = {Are the working principles of fisheries management at work in Indonesia?},
@@ -417,8 +417,8 @@ authors:
   url = {https://doi.org/10.1016/j.marpol.2022.105047}
 }
         </pre>
-        <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
-        <button class="button-outline" onclick="downloadCitation('citationText')">Download Citation</button>
+        <button class="button-outline" onclick="copyToClipboard()">Copy Citation</button>
+        <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
     </div>
 </div>
 
@@ -434,7 +434,7 @@ authors:
 <div id="longenecker2022" class="modal" style="display:none;">
     <div class="modal-content">
         <span class="close" onclick="closeModal()">&times;</span>
-        <pre id="citationText">
+        <pre class="citation-text">
 @article{longenecker_2022,
   author = {Longenecker, K. and Franklin, E.C. and Hill-Lewenilovo, R. and Lalavanua, W. and Langston, R. and Mangubhai and Piovano, S.},
   title = {Many immature individuals and largest size classes lacked females from three coral reef fishes (Actinopterygii) in Fiji market surveys: Implications for fishery management},
@@ -446,8 +446,8 @@ authors:
   url = {https://doi.org/10.3897/aiep.52.80586}
 }
         </pre>
-        <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
-        <button class="button-outline" onclick="downloadCitation('citationText')">Download Citation</button>
+        <button class="button-outline" onclick="copyToClipboard()">Copy Citation</button>
+        <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
     </div>
 </div>
 
@@ -463,7 +463,7 @@ authors:
 <div id="johansen2022" class="modal" style="display:none;">
     <div class="modal-content">
         <span class="close" onclick="closeModal()">&times;</span>
-        <pre id="citationText">
+        <pre class="citation-text">
 @article{johannsen_2022,
   author = {Johannsen, T. and Franklin, E.C. and Hunter, C.L.},
   title = {A short-term winner? Dramatic increases in the population of mushroom coral Lobactis scutaria (Anthozoa: Fungiidae) in Kaneohe Bay, Hawaii from 2000 to 2018},
@@ -475,8 +475,8 @@ authors:
   url = {https://doi.org/10.2984/76.1.7}
 }
         </pre>
-        <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
-        <button class="button-outline" onclick="downloadCitation('citationText')">Download Citation</button>
+        <button class="button-outline" onclick="copyToClipboard()">Copy Citation</button>
+        <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
     </div>
 </div>
 
@@ -492,7 +492,7 @@ authors:
 <div id="counsell2022" class="modal" style="display:none;">
     <div class="modal-content">
         <span class="close" onclick="closeModal()">&times;</span>
-        <pre id="citationText">
+        <pre class="citation-text">
 @article{counsell_2022,
   author = {Counsell, C.W.W. and Coleman, R.R. and Lal, S.S. and Bowen, B.W. and Franklin, E.C. and Neuheimer, A.B. and Powell, B.S. and Toonen, R.J. and Donahue, M.J. and Hixon, M.A. and McManus, M.A.},
   title = {Interdisciplinary analysis of larval dispersal for a coral reef fish: opening the black box},
@@ -504,8 +504,8 @@ authors:
   url = {https://doi.org/10.3354/meps13971}
 }
         </pre>
-        <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
-        <button class="button-outline" onclick="downloadCitation('citationText')">Download Citation</button>
+        <button class="button-outline" onclick="copyToClipboard()">Copy Citation</button>
+        <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
     </div>
 </div>
 
@@ -521,7 +521,7 @@ authors:
 <div id="limmon2022" class="modal" style="display:none;">
     <div class="modal-content">
         <span class="close" onclick="closeModal()">&times;</span>
-        <pre id="citationText">
+        <pre class="citation-text">
 @article{limmon_2022,
   author = {Limmon, G.V. and Longenecker, K.L. and Langston, R. and Franklin, E.C.},
   title = {Capacity development in reproductive life history studies of tropical fishes in Ambon, Maluku, Indonesia for data-limited fisheries},
@@ -533,8 +533,8 @@ authors:
   url = {https://doi.org/10.1016/j.marpol.2021/104948}
 }
         </pre>
-        <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
-        <button class="button-outline" onclick="downloadCitation('citationText')">Download Citation</button>
+        <button class="button-outline" onclick="copyToClipboard()">Copy Citation</button>
+        <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
     </div>
 </div>
 
@@ -550,7 +550,7 @@ authors:
 <div id="hixon2022" class="modal" style="display:none;">
     <div class="modal-content">
         <span class="close" onclick="closeModal()">&times;</span>
-        <pre id="citationText">
+        <pre class="citation-text">
 @article{hixon_2022,
   author = {Hixon, M.A. and Bowen, B.W. and Coleman, R.R. and Counsell, C.W. and Donahue, M.J. and Franklin, E.C. and Kittinger, J.N. and McManus, M.A. and Toonen, R.J.},
   title = {Fish flow: following fisheries from spawning to supper},
@@ -562,8 +562,8 @@ authors:
   url = {https://doi.org/10.1002/fee.2449}
 }
         </pre>
-        <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
-        <button class="button-outline" onclick="downloadCitation('citationText')">Download Citation</button>
+        <button class="button-outline" onclick="copyToClipboard()">Copy Citation</button>
+        <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
     </div>
 </div>
 
@@ -579,7 +579,7 @@ authors:
 <div id="mau2021" class="modal" style="display:none;">
     <div class="modal-content">
         <span class="close" onclick="closeModal()">&times;</span>
-        <pre id="citationText">
+        <pre class="citation-text">
 @article{mau_2021,
   author = {Mau, A. and Franklin, E.C. and Huss, G.R. and Nagashima, K. and Nicodemus, P. and Valdez, A. and Bingham, J.-P.},
   title = {Near-daily reconstruction of tropical intertidal SST from limpet shells to infer their growth rates},
@@ -591,8 +591,8 @@ authors:
   url = {https://doi.org/10.1038/s43247-021-00251-2}
 }
         </pre>
-        <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
-        <button class="button-outline" onclick="downloadCitation('citationText')">Download Citation</button>
+        <button class="button-outline" onclick="copyToClipboard()">Copy Citation</button>
+        <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
     </div>
 </div>
 
@@ -608,7 +608,7 @@ authors:
 <div id="carlson2021" class="modal" style="display:none;">
     <div class="modal-content">
         <span class="close" onclick="closeModal()">&times;</span>
-        <pre id="citationText">
+        <pre class="citation-text">
 @article{carlson_2021,
   author = {Carlson, B. and Awai, M. and Saunders, W.B. and Franklin, E.C.},
   title = {Nautilus belauensis population demographics and trap yields in Palau were similar between surveys in 1982 and 2015},
@@ -620,7 +620,7 @@ authors:
   url = {https://doi.org/10.3354/meps13773}
 }
         </pre>
-        <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
+        <button class="button-outline" onclick="copyToClipboard()">Copy Citation</button>
         <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
     </div>
 </div>
@@ -637,7 +637,7 @@ authors:
 <div id="gill2021" class="modal" style="display:none;">
     <div class="modal-content">
         <span class="close" onclick="closeModal()">&times;</span>
-        <pre id="citationText">
+        <pre class="citation-text">
 @article{gill_2021,
   author = {Gill, A. and Franklin, E.C. and Donaldson, T.J.},
   title = {Fore reef location influences spawning success and egg predation in lek-like mating territories of the bird wrasse Gomphosus varius},
@@ -647,7 +647,7 @@ authors:
   url = {https://doi.org/10.1007/s10641-021-01084-w}
 }
         </pre>
-        <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
+        <button class="button-outline" onclick="copyToClipboard()">Copy Citation</button>
         <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
     </div>
 </div>
@@ -664,7 +664,7 @@ authors:
 <div id="altman2021" class="modal" style="display:none;">
     <div class="modal-content">
         <span class="close" onclick="closeModal()">&times;</span>
-        <pre id="citationText">
+        <pre class="citation-text">
 @article{altman_2021,
   author = {Altman-Kurosaki, N.T. and Smith, C.M. and Franklin, E.C.},
   title = {Oahu's marine protected areas have limited success in protecting coral reef herbivore functional assemblages},
@@ -674,7 +674,7 @@ authors:
   url = {https://doi.org/10.1007/s00338-021-02054-5}
 }
         </pre>
-        <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
+        <button class="button-outline" onclick="copyToClipboard()">Copy Citation</button>
         <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
     </div>
 </div>
@@ -691,7 +691,7 @@ authors:
 <div id="scherrer2021" class="modal" style="display:none;">
     <div class="modal-content">
         <span class="close" onclick="closeModal()">&times;</span>
-        <pre id="citationText">
+        <pre class="citation-text">
 @article{scherrer_2021,
   author = {Scherrer, S.R. and Kobayashi, D.R. and Weng, K.C. and Okamoto, H.Y. and Oishi, F.G. and Franklin, E.C.},
   title = {Estimation of growth parameters integrating tag-recapture, length-frequency, and direct aging data using likelihood and Bayesian methods for the tropical deepwater snapper *Pristipomoides filamentous* in Hawaii},
@@ -703,7 +703,7 @@ authors:
   url = {https://doi.org/10.1016/j.fishres.2020.105753}
 }
         </pre>
-        <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
+        <button class="button-outline" onclick="copyToClipboard()">Copy Citation</button>
         <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
     </div>
 </div>
@@ -720,7 +720,7 @@ authors:
 <div id="longenecker2020" class="modal" style="display:none;">
     <div class="modal-content">
         <span class="close" onclick="closeModal()">&times;</span>
-        <pre id="citationText">
+        <pre class="citation-text">
 @article{longenecker_2020,
   author = {Longenecker, K. and Langston, R. and Gill, A. and Kelokelo, M. and Donaldson, T.J. and Franklin, E.C.},
   title = {Rapid reproductive analysis and weight-length relation of the humpnose big-eye bream \emph{Monotaxis grandoculis} (Actinopterygii: Perciformes: Lethrinidae) from Micronesia with implications for fisheries},
@@ -733,7 +733,7 @@ authors:
   url = {https://doi.org/10.3750/AIEP/02965}
 }
         </pre>
-        <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
+        <button class="button-outline" onclick="copyToClipboard()">Copy Citation</button>
         <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
     </div>
 </div>
@@ -750,7 +750,7 @@ authors:
 <div id="winter2020" class="modal" style="display:none;">
     <div class="modal-content">
         <span class="close" onclick="closeModal()">&times;</span>
-        <pre id="citationText">
+        <pre class="citation-text">
 @article{winter_2020,
   author = {Winter, K.B. and Rii, Y.M. and Reppun, F.A.W.L. and Hintzen, K.D. and Alegado, R. and Bowen, B.W. and Bremer, L.L. and Coffman, M. and Deenik, J.L. and Donahue, M.J. and Falinski, F.A. and Frank, K. and Franklin, E.C. and Kurashima, N. and Lincoln, N.K. and Madin, E. and McManus, M.A. and Nelson, C.E. and Okano, R. and Olegario, A. and Pascua, P. and Oleson, K.L.L. and Price, M.R. and Rivera, M.A.J. and Rodgers, K.S. and Ticktin, T. and Sabine, C. and Smith, C.M. and Hewett, A. and Kaluhiwa, R. and Cypher, M. and Thomas, B. and Leong, J. and Kekuewa, K. and Tanimoto, J. and Kukea-Shultz, K. and Kawelo, H. and Kotubetey, K. and Neilson, B. and Lee, T. and Toonen, R.J.},
   title = {Collaborative research to inform adaptive co-management: A framework for the Heʻeia National Estuarine Research Reserve},
@@ -763,7 +763,7 @@ authors:
   url = {https://doi.org/10.5751/ES-11895-27750415}
 }
         </pre>
-        <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
+        <button class="button-outline" onclick="copyToClipboard()">Copy Citation</button>
         <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
     </div>
 </div>
@@ -780,7 +780,7 @@ authors:
 <div id="winter2020b" class="modal" style="display:none;">
     <div class="modal-content">
         <span class="close" onclick="closeModal()">&times;</span>
-        <pre id="citationText">
+        <pre class="citation-text">
 @article{winter_2020,
   author = {Winter, K.B. and Lincoln, N.K. and Berkes, F. and Kawelo, H. and Kotubetey, K. and Kukea-Shultz, K. and Alegado, R. and Kurashima, N. and Frank, K. and Pascua, P. and Rii, Y. and Reppun, F. and Knapp, I. and McClatchey, W. and Ticktin, T. and Smith, C. and Franklin, E.C. and Oleson, K. and Price, M. and McManus, M. and Donahue, M. and Rodgers, K. and Bowen, B. and Nelson, C. and Beilson, B. and Thomas, B. and Leong, J.A. and Madin, E. and Rivera, M.A. and Falinski, K. and Bremer, L. and Deenik, J. and Gon III, S. and Okano, R. and Olegario, A. and Toonen, R.},
   title = {Eco-mimicry in indigenous resource management: optimizing ecosystem services to achieve resource abundance in Hawai'i},
@@ -792,7 +792,7 @@ authors:
   url = {https://doi.org/10.5751/ES-11539-250226}
 }
         </pre>
-        <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
+        <button class="button-outline" onclick="copyToClipboard()">Copy Citation</button>
         <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
     </div>
 </div>
@@ -809,7 +809,7 @@ authors:
 <div id="oyafuso2020" class="modal" style="display:none;">
     <div class="modal-content">
         <span class="close" onclick="closeModal()">&times;</span>
-        <pre id="citationText">
+        <pre class="citation-text">
 @article{oyafuso_2020,
   author = {Oyafuso, Z.S. and Leung, P.S. and Franklin, E.C.},
   title = {Evaluating biological and socioeconomic tradeoffs of marine reserve planning via a flexible integer linear programming approach},
@@ -821,7 +821,7 @@ authors:
   url = {https://doi.org/10.1016/j.biocon.2019.108319}
 }
         </pre>
-        <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
+        <button class="button-outline" onclick="copyToClipboard()">Copy Citation</button>
         <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
     </div>
 </div>
@@ -838,7 +838,7 @@ authors:
 <div id="franklin2019" class="modal" style="display:none;">
     <div class="modal-content">
         <span class="close" onclick="closeModal()">&times;</span>
-        <pre id="citationText">
+        <pre class="citation-text">
 @article{franklin_2019,
   author = {Franklin, E.C. and Gray, A.E. and Mundy, B.C.},
   title = {Three new records of coastal fishes in the Hawaiian Islands},
@@ -850,7 +850,7 @@ authors:
   url = {https://doi.org/10.5281/zenodo.3572888}
 }
         </pre>
-        <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
+        <button class="button-outline" onclick="copyToClipboard()">Copy Citation</button>
         <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
     </div>
 </div>
@@ -866,7 +866,7 @@ authors:
 <div id="barkley2019" class="modal" style="display:none;">
     <div class="modal-content">
         <span class="close" onclick="closeModal()">&times;</span>
-        <pre id="citationText">
+        <pre class="citation-text">
 @article{barkley_2019,
   author = {Barkley, Y.M. and Oleson, E.M. and Oswald, J.N. and Franklin, E.C.},
   title = {Whistle classification of sympatric false killer whale populations in Hawaiian waters yields low accuracy rates},
@@ -878,7 +878,7 @@ authors:
   url = {https://doi.org/10.3389/fmars.2019.00645}
 }
         </pre>
-        <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
+        <button class="button-outline" onclick="copyToClipboard()">Copy Citation</button>
         <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
     </div>
 </div>
@@ -895,7 +895,7 @@ authors:
 <div id="mora2019" class="modal" style="display:none;">
     <div class="modal-content">
         <span class="close" onclick="closeModal()">&times;</span>
-        <pre id="citationText">
+        <pre class="citation-text">
 @article{mora_2019,
   author = {Mora, C. and Rollins, R. and Taladay, K. and Kantar, M. and Chock, M. and Shimada, M. and Franklin, E.C.},
   title = {Mora et al. reply},
@@ -907,7 +907,7 @@ authors:
   url = {https://doi.org/10.1038/s41558-019-0538-1}
 }
         </pre>
-        <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
+        <button class="button-outline" onclick="copyToClipboard()">Copy Citation</button>
         <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
     </div>
 </div>
@@ -924,7 +924,7 @@ authors:
 <div id="darling2019" class="modal" style="display:none;">
     <div class="modal-content">
         <span class="close" onclick="closeModal()">&times;</span>
-        <pre id="citationText">
+        <pre class="citation-text">
 @article{darling_2019,
   author = {Darling, E.S. and McClanahan, T.R. and Maina, J. and Gurney, G. and Graham, N.A.J. and Januchowski-Hartley, F. and Cinner, J.E. and Mora, C. and Hicks, C.C. and Maire, E. and Puotinen, M. and Skirving, W.J. and Adjeroud, M. and Ahmadia, G. and Arthur, R. and Bauman, A.G. and Beger, M. and Berumen, M.L. and Bigot, L. and Bouwmeester and Brenier and Bridge, T. and Brown, E. and Campbell, S.J. and Cannon, S. and Cauvin, B. and Chen, A.C. and Claudet, J. and Denis, V. and Donner, S. and Estradivari and Fadli, N. and Feary, D.A. and Fenner, D. and Fox, H. and Franklin, E.C. and Friedlander, A. and Gilmour, J. and Goiran, C. and Guest, J. and Hobbs, J-PA and Hoey, A.S. and Houk, P. and Johnson, S. and Jupiter, S. and Kayal, M. and Kuo, C-Y and Lamb, J. and Lee, M.A.C. and Low, J. and Muthiga, N. and Muttaqin and Nand, Y. and Nash, K.L. and Nedlic, O. and Pandolfi, J.M. and Pardede, S. and Patankar, V. and Penin, L. and Ribas-Deulofeu, L. and Richards, Z. and Roberts, T.E. and Rodgers, K.S. and Safuari, C.D.M. and Sala, E. and Shedrawi, G. and Sin, T.M. and Smallhorn-West, P. and Smith, J.E. and Sommer, B. and Steinberg, P.D. and Sutthacheep, M. and Tan, C.H.J. and Williams, G.J. and Wilson, S. and Yeemin, T. and Bruno, J.F. and Fortin, M.J. and Krkosek, M. and Mouillot, D.},
   title = {Social-environmental drivers inform strategic management of coral reefs in the Anthropocene},
@@ -936,7 +936,7 @@ authors:
   url = {https://doi.org/10.1038/s41559-019-0953-8}
 }
         </pre>
-        <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
+        <button class="button-outline" onclick="copyToClipboard()">Copy Citation</button>
         <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
     </div>
 </div>
@@ -953,7 +953,7 @@ authors:
 <div id="randall2019" class="modal" style="display:none;">
     <div class="modal-content">
         <span class="close" onclick="closeModal()">&times;</span>
-        <pre id="citationText">
+        <pre class="citation-text">
 @article{randall_2019,
   author = {Randall, J.E. and Gray, A. and Franklin, E.C. and Mundy, B.C. and McCosker, J.E.},
   title = {Five new records of fishes for the Hawaiian Islands},
@@ -965,7 +965,7 @@ authors:
   url = {http://dx.doi.org/10.5281/zenodo.3255089}
 }
         </pre>
-        <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
+        <button class="button-outline" onclick="copyToClipboard()">Copy Citation</button>
         <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
     </div>
 </div>
@@ -982,7 +982,7 @@ authors:
 <div id="johnson2019" class="modal" style="display:none;">
     <div class="modal-content">
         <span class="close" onclick="closeModal()">&times;</span>
-        <pre id="citationText">
+        <pre class="citation-text">
 @article{johnson_2019,
   author = {Johnson, G.B. and Taylor, B.M. and Robbins, W.D. and Franklin, E.C. and Toonen, R. and Bowen, B.W. and Choat, J.H.},
   title = {Diversity and structure of parrotfish assemblages across the northern Great Barrier Reef},
@@ -995,7 +995,7 @@ authors:
   url = {doi.org/10.3390/d11010014}
 }
         </pre>
-        <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
+        <button class="button-outline" onclick="copyToClipboard()">Copy Citation</button>
         <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
     </div>
 </div>
@@ -1012,7 +1012,7 @@ authors:
 <div id="oyafuso2018" class="modal" style="display:none;">
     <div class="modal-content">
         <span class="close" onclick="closeModal()">&times;</span>
-        <pre id="citationText">
+        <pre class="citation-text">
 @article{oyafuso_2018,
   author = {Oyafuso, Z.S. and Leung, P.S. and Franklin, E.C.},
   title = {Evaluating bioeconomic tradeoffs of fishing reserves via spatial optimization},
@@ -1022,7 +1022,7 @@ authors:
   url = {doi.org/10.1016/j.marpol.2018.11.016}
 }
         </pre>
-        <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
+        <button class="button-outline" onclick="copyToClipboard()">Copy Citation</button>
         <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
     </div>
 </div>
@@ -1039,7 +1039,7 @@ authors:
 <div id="mora2018" class="modal" style="display:none;">
     <div class="modal-content">
         <span class="close" onclick="closeModal()">&times;</span>
-        <pre id="citationText">
+        <pre class="citation-text">
 @article{mora_2018,
   author = {Mora, C. and Spirandelli, D. and Franklin, E.C. and Lynham, J. and Kantar, M.B. and Miles, W. and Smith, C.Z. and Freel, K. and Moy, J. and Louis, L.V. and Barba, E.W. and Bettinger, K. and Frazier, A.G. and Colburn, I.X. J.F. and Hanasaki, N. and Hawkins, E. and Hirabayashi, Y. and Knorr, W. and Little, C.M. and Emanuel, K. and Sheffield, J. and Patz, J.A. and Hunter, C.L.},
   title = {Broad threat to humanity from cumulative climate hazards intensified by greenhouse gas emissions},
@@ -1051,7 +1051,7 @@ authors:
   url = {https://doi.org/10.1038/s41558-018-0315-6}
 }
         </pre>
-        <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
+        <button class="button-outline" onclick="copyToClipboard()">Copy Citation</button>
         <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
     </div>
 </div>
@@ -1068,7 +1068,7 @@ authors:
 <div id="mora2018b" class="modal" style="display:none;">
     <div class="modal-content">
         <span class="close" onclick="closeModal()">&times;</span>
-        <pre id="citationText">
+        <pre class="citation-text">
 @article{mora_2018_b,
   author = {Mora, C. and Rollins, R. and Taladay, K. and Kantar, M.B. and Chock, M.K. and Shimada, M. and Franklin, E.C.},
   title = {Bitcoin emissions alone could push global warming above 2°C},
@@ -1080,7 +1080,7 @@ authors:
   url = {https://doi.org/10.1038/s41558-018-0321-8}
 }
         </pre>
-        <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
+        <button class="button-outline" onclick="copyToClipboard()">Copy Citation</button>
         <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
     </div>
 </div>
@@ -1097,7 +1097,7 @@ authors:
 <div id="geronimo2018" class="modal" style="display:none;">
     <div class="modal-content">
         <span class="close" onclick="closeModal()">&times;</span>
-        <pre id="citationText">
+        <pre class="citation-text">
 @article{geronimo_2018,
   author = {Geronimo, R. and Franklin, E.C. and Brainard, R.E. and Elvidge, C.D. and Santos, M.D. and Venegas, R. and Mora, C.},
   title = {Mapping fishing activities and suitable fishing grounds using nighttime satellite images and maximum entropy modelling},
@@ -1109,7 +1109,7 @@ authors:
   url = {https://doi.org/10.3390/rs10101064}
 }
         </pre>
-        <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
+        <button class="button-outline" onclick="copyToClipboard()">Copy Citation</button>
         <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
     </div>
 </div>
@@ -1126,7 +1126,7 @@ authors:
 <div id="forsman2018" class="modal" style="display:none;">
     <div class="modal-content">
         <span class="close" onclick="closeModal()">&times;</span>
-        <pre id="citationText">
+        <pre class="citation-text">
 @article{forsman_2018,
   author = {Forsman, Z.H. and Maurin, P. and Parry, M. and Chung, A. and Sartor, C. and Hixon, M.A. and Hughes, K. and Rodgers, K. and Knapp, I. and Gulko, D.A. and Franklin, E.C. and Del Rio Torres, L. and Chan, N.T. and Wolke, C.S. and Gates, R.D. and Toonen, R.J.},
   title = {The First Hawai‘i Workshop For Coral Restoration & Nurseries},
@@ -1138,7 +1138,7 @@ authors:
   url = {https://doi.org/10.1016/j.marpol.2018.08.009}
 }
         </pre>
-        <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
+        <button class="button-outline" onclick="copyToClipboard()">Copy Citation</button>
         <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
     </div>
 </div>
@@ -1155,7 +1155,7 @@ authors:
 <div id="counsell2018" class="modal" style="display:none;">
     <div class="modal-content">
         <span class="close" onclick="closeModal()">&times;</span>
-        <pre id="citationText">
+        <pre class="citation-text">
 @article{counsell_2018,
   author = {Counsell, C.W.W. and Donahue, M.J. and Edwards, K. and Franklin, E.C. and Hixon, M.A.},
   title = {Variation in coral-associated cryptofaunal communities along spatial scales and environmental gradients},
@@ -1167,7 +1167,7 @@ authors:
   url = {https://doi.org/10.1007/s00338-018-1709-7}
 }
         </pre>
-        <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
+        <button class="button-outline" onclick="copyToClipboard()">Copy Citation</button>
         <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
     </div>
 </div>
@@ -1184,7 +1184,7 @@ authors:
 <div id="levy2018" class="modal" style="display:none;">
     <div class="modal-content">
         <span class="close" onclick="closeModal()">&times;</span>
-        <pre id="citationText">
+        <pre class="citation-text">
 @article{levy_2018,
   author = {Levy, J. and Hunter, C. and Lukaczyk and Franklin, E.C.},
   title = {Assessing the spatial distribution of coral bleaching using small unmanned aerial systems},
@@ -1196,7 +1196,7 @@ authors:
   url = {https://doi.org/10.1007/s00338-018-1662-5}
 }
         </pre>
-        <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
+        <button class="button-outline" onclick="copyToClipboard()">Copy Citation</button>
         <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
     </div>
 </div>
@@ -1213,7 +1213,7 @@ authors:
 <div id="franklin2017" class="modal" style="display:none;">
     <div class="modal-content">
         <span class="close" onclick="closeModal()">&times;</span>
-        <pre id="citationText">
+        <pre class="citation-text">
 @article{franklin_2017,
   author = {Franklin, E.C.},
   title = {Vagrancy in paradise: documentation of the chevron butterflyfish Chaetodon trifascialis in Kaneohe Bay, Oahu, Hawaiian Islands},
@@ -1225,7 +1225,7 @@ authors:
   url = {https://doi.org/10.1186/s41200-017-0124-z}
 }
         </pre>
-        <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
+        <button class="button-outline" onclick="copyToClipboard()">Copy Citation</button>
         <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
     </div>
 </div>
@@ -1242,7 +1242,7 @@ authors:
 <div id="longenecker2017" class="modal" style="display:none;">
     <div class="modal-content">
         <span class="close" onclick="closeModal()">&times;</span>
-        <pre id="citationText">
+        <pre class="citation-text">
 @article{longenecker_2017,
   author = {Longenecker, K. and Langston, R. and Bolick, H. and Crane, M. and Donaldson, T.J. and Franklin, E.C. and Kelokelo, M. and Kondio, U. and Potuku, T.},
   title = {Rapid reproductive analysis and length–weight relations for five species of coral-reef fishes from Papua New Guinea: Nemipterus isacanthus, Parupeneus barberinus, Kyphosus cinerascens, Ctenochaetus striatus, and Balistapus undulatus},
@@ -1254,7 +1254,7 @@ authors:
   url = {https://doi.org/10.3750/AIEP/02146}
 }
         </pre>
-        <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
+        <button class="button-outline" onclick="copyToClipboard()">Copy Citation</button>
         <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
     </div>
 </div>
@@ -1271,7 +1271,7 @@ authors:
 <div id="oyafuso2017" class="modal" style="display:none;">
     <div class="modal-content">
         <span class="close" onclick="closeModal()">&times;</span>
-        <pre id="citationText">
+        <pre class="citation-text">
 @article{oyafuso_2017,
   author = {Oyafuso, Z.S. and Drazen, J.C. and Moore, C.H. and Franklin, E.C.},
   title = {Habitat-based species distribution modelling of the Hawaiian deepwater snapper-grouper complex},
@@ -1283,7 +1283,7 @@ authors:
   url = {https://doi.org/10.1016/j.fishres.2017.06.011}
 }
         </pre>
-        <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
+        <button class="button-outline" onclick="copyToClipboard()">Copy Citation</button>
         <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
     </div>
 </div>
@@ -1300,7 +1300,7 @@ authors:
 <div id="winston2017" class="modal" style="display:none;">
     <div class="modal-content">
         <span class="close" onclick="closeModal()">&times;</span>
-        <pre id="citationText">
+        <pre class="citation-text">
 @article{winston_2017,
   author = {Winston, M.S. and Taylor, B. and Franklin, E.C.},
   title = {Intraspecific variability in the life history of endemic coral reef fishes between photic and mesophotic populations},
@@ -1312,7 +1312,7 @@ authors:
   url = {https://doi.org/10.1007/s00338-017-1559-8}
 }
         </pre>
-        <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
+        <button class="button-outline" onclick="copyToClipboard()">Copy Citation</button>
         <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
     </div>
 </div>
@@ -1329,7 +1329,7 @@ authors:
 <div id="kapur2017" class="modal" style="display:none;">
     <div class="modal-content">
         <span class="close" onclick="closeModal()">&times;</span>
-        <pre id="citationText">
+        <pre class="citation-text">
 @article{kapur_2017,
   author = {Kapur, M.R. and Franklin, E.C.},
   title = {Predicting climate impacts on tropical fisheries: are contemporary spatial management strategies sufficient?},
@@ -1339,7 +1339,7 @@ authors:
   url = {https://doi.org/10.1139/cjfas-2016-0200}
 }
         </pre>
-        <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
+        <button class="button-outline" onclick="copyToClipboard()">Copy Citation</button>
         <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
     </div>
 </div>
@@ -1356,7 +1356,7 @@ authors:
 <div id="veazey2016" class="modal" style="display:none;">
     <div class="modal-content">
         <span class="close" onclick="closeModal()">&times;</span>
-        <pre id="citationText">
+        <pre class="citation-text">
 @article{veazey_2016,
   author = {Veazey, L.M. and Franklin, E.C. and Kelley, C. and Rooney, J. and Frazer, N.L. and Toonen, R.J.},
   title = {The implementation of rare events logistic regression to predict the distribution of mesophotic hard corals across the main Hawaiian Islands},
@@ -1368,7 +1368,7 @@ authors:
   url = {https://doi.org/10.7717/peerj.2189}
 }
         </pre>
-        <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
+        <button class="button-outline" onclick="copyToClipboard()">Copy Citation</button>
         <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
     </div>
 </div>
@@ -1385,7 +1385,7 @@ authors:
 <div id="selkoe2016" class="modal" style="display:none;">
     <div class="modal-content">
         <span class="close" onclick="closeModal()">&times;</span>
-        <pre id="citationText">
+        <pre class="citation-text">
 @article{selkoe_2016,
   author = {Selkoe, K.A. and Gaggiotti, O.E. and Donovan, M.K. and Treml, E.A. and Wren, J.L.K. and Hawai‘i Reef Connectivity Consortium and Toonen, R.J.},
   title = {The DNA of coral reef biodiversity – predicting and protecting genetic diversity of reef assemblages},
@@ -1397,7 +1397,7 @@ authors:
   url = {https://doi.org/10.1098/rspb.2016.0354}
 }
         </pre>
-        <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
+        <button class="button-outline" onclick="copyToClipboard()">Copy Citation</button>
         <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
     </div>
 </div>
@@ -1414,7 +1414,7 @@ authors:
 <div id="oyafuso2016" class="modal" style="display:none;">
     <div class="modal-content">
         <span class="close" onclick="closeModal()">&times;</span>
-        <pre id="citationText">
+        <pre class="citation-text">
 @article{oyafuso_2016,
   author = {Oyafuso, Z.S. and Toonen, R.J. and Franklin, E.C.},
   title = {Temporal and spatial trends in prey diversity of wahoo (Acanthocybium solandri): A diet analysis from the central North Pacific using visual and DNA bar-coding techniques},
@@ -1426,7 +1426,7 @@ authors:
   url = {https://doi.org/10.1111/jfb.12928}
 }
         </pre>
-        <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
+        <button class="button-outline" onclick="copyToClipboard()">Copy Citation</button>
         <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
     </div>
 </div>
@@ -1443,7 +1443,7 @@ authors:
 <div id="madin2016" class="modal" style="display:none;">
     <div class="modal-content">
         <span class="close" onclick="closeModal()">&times;</span>
-        <pre id="citationText">
+        <pre class="citation-text">
 @article{madin_2016,
   author = {Madin, J.S. and Andreasen, M. and Bridge, T. and Connolly, S.R. and Darling, E. and Diaz, M. and Falster, D. and Franklin, E.C. and Gates, R.D. and Hoogenboom, M.O. and Huang, D. and Keith, S.A. and Kuo, C.Y. and Lovelock, C.E. and Luiz, O. and Martinelli, J. and Mizere, T. and Pandolfi, J.M. and Pochon, X. and Putnam, H.M. and Roberts, T.E. and Stat, M. and Baird, A.H.},
   title = {The Coral Trait Database},
@@ -1455,7 +1455,7 @@ authors:
   url = {https://doi.org/10.1038/sdata.2016.17}
 }
         </pre>
-        <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
+        <button class="button-outline" onclick="copyToClipboard()">Copy Citation</button>
         <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
     </div>
 </div>
@@ -1472,7 +1472,7 @@ authors:
 <div id="edmunds2014" class="modal" style="display:none;">
     <div class="modal-content">
         <span class="close" onclick="closeModal()">&times;</span>
-        <pre id="citationText">
+        <pre class="citation-text">
 @article{edmunds_2014,
   author = {Edmunds, P.J. and Adjeroud, M. and Baskett, M.L. and Baums, I.B. and Budd, A.F. and Carpenter, R.C. and Fabina, N.S. and Fan, T.Y. and Franklin, E.C. and Gross, K. and Han, X. and Jacobson, L. and Klaus, J.S. and McClanahan, T.R. and O’Leary, J.K. and van Oppen, M.J.H. and Pochon, X. and Putnam, H.M. and Smith, T.B. and Stat, M. and Sweatman, H. and van Woesik, R. and Gates, R.D.},
   title = {Persistence and change in community composition of reef corals through present, past and future climates},
@@ -1485,7 +1485,7 @@ authors:
   url = {https://doi.org/10.1371/journal.pone.0107525}
 }
         </pre>
-        <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
+        <button class="button-outline" onclick="copyToClipboard()">Copy Citation</button>
         <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
     </div>
 </div>
@@ -1502,7 +1502,7 @@ authors:
 <div id="ault2014" class="modal" style="display:none;">
     <div class="modal-content">
         <span class="close" onclick="closeModal()">&times;</span>
-        <pre id="citationText">
+        <pre class="citation-text">
 @article{ault_2014,
   author = {Ault, J.S. and Smith, S.G. and Browder, J. and Nuttle, W. and Franklin, E.C. and DiNardo, G.T. and Bohnsack, J.A.},
   title = {Indicators for assessing the ecological dynamics and sustainability of southern Florida's coral reef and coastal fisheries},
@@ -1514,7 +1514,7 @@ authors:
   url = {https://doi.org/10.1016/j.ecolind.2014.04.013}
 }
         </pre>
-        <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
+        <button class="button-outline" onclick="copyToClipboard()">Copy Citation</button>
         <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
     </div>
 </div>
@@ -1531,7 +1531,7 @@ authors:
 <div id="baums2014" class="modal" style="display:none;">
     <div class="modal-content">
         <span class="close" onclick="closeModal()">&times;</span>
-        <pre id="citationText">
+        <pre class="citation-text">
 @article{baums_2014,
   author = {Baums, I.B. and Godwin, L.S. and Franklin, E.C. and Carlon, D.B. and Toonen, R.J.},
   title = {Discordant population expansions in four species of coral-associated, Pacific hermit crabs (Anomura: Diogenidae) linked to habitat availability resulting from sea level change},
@@ -1543,7 +1543,7 @@ authors:
   url = {https://doi.org/10.1111/jbi.12181}
 }
         </pre>
-        <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
+        <button class="button-outline" onclick="copyToClipboard()">Copy Citation</button>
         <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
     </div>
 </div>
@@ -1560,7 +1560,7 @@ authors:
 <div id="fabina2013" class="modal" style="display:none;">
     <div class="modal-content">
         <span class="close" onclick="closeModal()">&times;</span>
-        <pre id="citationText">
+        <pre class="citation-text">
 @article{fabina_2013,
   author = {Fabina, N.S. and Putnam, H.M. and Franklin, E.C. and Stat, M. and Gates, R.D.},
   title = {Symbiotic specificity, association patterns, and function determine community responses to global changes: Defining critical research areas for coral-Symbiodinium symbioses},
@@ -1572,7 +1572,7 @@ authors:
   url = {https://doi.org/10.1111/gcb.12320}
 }
         </pre>
-        <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
+        <button class="button-outline" onclick="copyToClipboard()">Copy Citation</button>
         <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
     </div>
 </div>
@@ -1589,7 +1589,7 @@ authors:
 <div id="bird2013" class="modal" style="display:none;">
     <div class="modal-content">
         <span class="close" onclick="closeModal()">&times;</span>
-        <pre id="citationText">
+        <pre class="citation-text">
 @article{bird_2013,
   author = {Bird, C.E. and Franklin, E.C. and Smith, C.M. and Toonen, R.J.},
   title = {Between tide and wave marks: a unifying model of physical zonation on littoral shores},
@@ -1601,7 +1601,7 @@ authors:
   url = {https://doi.org/10.7717/peerj.154}
 }
         </pre>
-        <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
+        <button class="button-outline" onclick="copyToClipboard()">Copy Citation</button>
         <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
     </div>
 </div>
@@ -1618,7 +1618,7 @@ authors:
 <div id="farmer2013" class="modal" style="display:none;">
     <div class="modal-content">
         <span class="close" onclick="closeModal()">&times;</span>
-        <pre id="citationText">
+        <pre class="citation-text">
 @article{farmer_2013,
   author = {Farmer, N.A. and Ault, J.S. and Smith, S.G. and Franklin, E.C.},
   title = {Methods for assessment of short-term coral reef fish movements within an acoustic array},
@@ -1629,7 +1629,7 @@ authors:
   url = {https://doi.org/10.1186/2051-3933-1-7}
 }
         </pre>
-        <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
+        <button class="button-outline" onclick="copyToClipboard()">Copy Citation</button>
         <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
     </div>
 </div>
@@ -1646,7 +1646,7 @@ authors:
 <div id="franklin2013" class="modal" style="display:none;">
     <div class="modal-content">
         <span class="close" onclick="closeModal()">&times;</span>
-        <pre id="citationText">
+        <pre class="citation-text">
 @article{franklin_2013,
   author = {Franklin, E.C. and Jokiel, P.L. and Donahue, M.J.},
   title = {Predictive modeling of coral distribution and abundance in the Hawaiian Islands},
@@ -1658,7 +1658,7 @@ authors:
   url = {https://doi.org/10.3354/meps10252}
 }
         </pre>
-        <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
+        <button class="button-outline" onclick="copyToClipboard()">Copy Citation</button>
         <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
     </div>
 </div>
@@ -1675,7 +1675,7 @@ authors:
 <div id="stat2013" class="modal" style="display:none;">
     <div class="modal-content">
         <span class="close" onclick="closeModal()">&times;</span>
-        <pre id="citationText">
+        <pre class="citation-text">
 @article{stat_2013,
   author = {Stat, M. and Pochon, X. and Franklin, E.C. and Bruno, J.F. and Casey, K.S. and Selig, E.R. and Gates, R.D.},
   title = {The distribution of the thermally tolerant symbiont lineage (Symbiodinium clade D) in corals from Hawaii: correlations with host and the history of ocean thermal stress},
@@ -1687,7 +1687,7 @@ authors:
   url = {https://doi.org/10.1002/ece3.556}
 }
         </pre>
-        <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
+        <button class="button-outline" onclick="copyToClipboard()">Copy Citation</button>
         <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
     </div>
 </div>
@@ -1704,7 +1704,7 @@ authors:
 <div id="fabina2012" class="modal" style="display:none;">
     <div class="modal-content">
         <span class="close" onclick="closeModal()">&times;</span>
-        <pre id="citationText">
+        <pre class="citation-text">
 @article{fabina_2012,
   author = {Fabina, N.S. and Putnam, H.M. and Franklin, E.C. and Stat, M. and Gates, R.D.},
   title = {Transmission mode predicts specificity and interaction patterns in coral-Symbiodinium networks},
@@ -1717,7 +1717,7 @@ authors:
   url = {https://doi.org/10.1371/journal.pone.0044970}
 }
         </pre>
-        <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
+        <button class="button-outline" onclick="copyToClipboard()">Copy Citation</button>
         <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
     </div>
 </div>
@@ -1733,7 +1733,7 @@ authors:
 <div id="heron2012" class="modal" style="display:none;">
     <div class="modal-content">
         <span class="close" onclick="closeModal()">&times;</span>
-        <pre id="citationText">
+        <pre class="citation-text">
 @inproceedings{heron_2012,
   author = {Heron, S.F. and Maynard, J. and Willis, B. and Christensen, T. and Harvell, D. and Vargas-Angel, B. and Beeden, R. and Sziklay, J. and Aeby, G. and Franklin, E.C. and others},
   title = {Developments in understanding relationships between environmental conditions and coral disease},
@@ -1744,7 +1744,7 @@ authors:
   pages = {4}
 }
         </pre>
-        <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
+        <button class="button-outline" onclick="copyToClipboard()">Copy Citation</button>
     </div>
 </div>
 
@@ -1760,7 +1760,7 @@ authors:
 <div id="vanWoesik2012" class="modal" style="display:none;">
     <div class="modal-content">
         <span class="close" onclick="closeModal()">&times;</span>
-        <pre id="citationText">
+        <pre class="citation-text">
 @article{vanwoesik_2012,
   author = {van Woesik, R. and Franklin, E.C. and O’Leary, J. and McClanahan, T.R. and Klaus, J.S. and Budd, A.F.},
   title = {Hosts of the Plio-Pleistocene past reflect modern-day coral vulnerability},
@@ -1770,7 +1770,7 @@ authors:
   url = {https://doi.org/10.1098/rspb.2011.2621}
 }
         </pre>
-        <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
+        <button class="button-outline" onclick="copyToClipboard()">Copy Citation</button>
     </div>
 </div>
 
@@ -1787,7 +1787,7 @@ authors:
 <div id="Franklin2012GeoSymbio" class="modal" style="display:none;">
     <div class="modal-content">
         <span class="close" onclick="closeModal()">&times;</span>
-        <pre id="citationText">
+        <pre class="citation-text">
 @article{franklin_2012_geosymbio,
   author = {Franklin, E.C. and Stat, M. and Pochon, X. and Putnam, H.M. and Gates, R.D.},
   title = {GeoSymbio: A hybrid, cloud-based web application of global geospatial bioinformatics and ecoinformatics for Symbiodinium-host symbioses},
@@ -1800,7 +1800,7 @@ authors:
   url = {https://doi.org/10.1111/j.1755-0998.2011.03081.x}
 }
         </pre>
-        <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
+        <button class="button-outline" onclick="copyToClipboard()">Copy Citation</button>
     </div>
 </div>
 
@@ -1817,7 +1817,7 @@ authors:
 <div id="Franklin2011HybridApp" class="modal" style="display:none;">
     <div class="modal-content">
         <span class="close" onclick="closeModal()">&times;</span>
-        <pre id="citationText">
+        <pre class="citation-text">
 @inproceedings{franklin_2011,
   author = {Franklin, E.C. and Stat, M. and Pochon, X. and Putnam, H.M. and Gates, R.D.},
   title = {Rapid Development of a Hybrid Web Application for Synthesis Science of Symbiodinium with Google Apps},
@@ -1831,7 +1831,7 @@ authors:
   url = {https://doi:10.5060/D2NC5Z4X}
 }
         </pre>
-        <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
+        <button class="button-outline" onclick="copyToClipboard()">Copy Citation</button>
     </div>
 </div>
 
@@ -1846,7 +1846,7 @@ authors:
 <div id="Longenecker2011Parrotfish" class="modal" style="display:none;">
     <div class="modal-content">
         <span class="close" onclick="closeModal()">&times;</span>
-        <pre id="citationText">
+        <pre class="citation-text">
 @article{longenecker_2011,
   author = {Longenecker, K. and Chan, Y. and Franklin, E.C.},
   title = {Relationships between the length of select head bones and body size for some Hawaiian parrotfishes (subfamily Scarinae)},
@@ -1856,7 +1856,7 @@ authors:
   year = {2011}
 }
         </pre>
-        <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
+        <button class="button-outline" onclick="copyToClipboard()">Copy Citation</button>
     </div>
 </div>
 
@@ -1872,7 +1872,7 @@ authors:
 <div id="Aeby2011CoralDisease" class="modal" style="display:none;">
     <div class="modal-content">
         <span class="close" onclick="closeModal()">&times;</span>
-        <pre id="citationText">
+        <pre class="citation-text">
 @article{aeby_2011,
   author = {Aeby, G.S. and Williams, G.J. and Franklin, E.C. and Kenyon, J. and Cox, E.F. and Coles, S. and Work, T.M.},
   title = {Patterns of coral disease across the Hawaiian Archipelago: relating disease to environment},
@@ -1885,7 +1885,7 @@ authors:
   url = {https://doi:10.1371/journal.pone.0020370}
 }
         </pre>
-        <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
+        <button class="button-outline" onclick="copyToClipboard()">Copy Citation</button>
     </div>
 </div>
 
@@ -1901,7 +1901,7 @@ authors:
 <div id="Aeby2011GrowthAnomalies" class="modal" style="display:none;">
     <div class="modal-content">
         <span class="close" onclick="closeModal()">&times;</span>
-        <pre id="citationText">
+        <pre class="citation-text">
 @article{aeby_2011_growth_anomalies,
   author = {Aeby, G.S. and Williams, G.J. and Franklin, E.C. and Haapkyla, J. and Harvell, C.D. and Neale, S. and Page, C.A. and Raymundo, L. and Vargas-Angel, B. and Willis, B.L. and Work, T.M. and Davy, S.K.},
   title = {Growth anomalies on the coral genera Acropora and Porites are strongly associated with host density and human population size across the Indo-Pacific},
@@ -1914,7 +1914,7 @@ authors:
   url = {https://doi:10.1371/journal.pone.0016887}
 }
         </pre>
-        <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
+        <button class="button-outline" onclick="copyToClipboard()">Copy Citation</button>
     </div>
 </div>
 
@@ -1929,7 +1929,7 @@ authors:
 <div id="Franklin2010MarineLandscape" class="modal" style="display:none;">
     <div class="modal-content">
         <span class="close" onclick="closeModal()">&times;</span>
-        <pre id="citationText">
+        <pre class="citation-text">
 @incollection{franklin_2010_marine_landscape,
   author = {Franklin, E.C.},
   title = {Marine landscape ecology of coral reefs emerges from developments in seafloor mapping, GPS, and GIS},
@@ -1941,7 +1941,7 @@ authors:
   address = {Redlands, CA}
 }
         </pre>
-        <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
+        <button class="button-outline" onclick="copyToClipboard()">Copy Citation</button>
     </div>
 </div>
 
@@ -1957,7 +1957,7 @@ authors:
 <div id="Concepcion2010ResolvingRanges" class="modal" style="display:none;">
     <div class="modal-content">
         <span class="close" onclick="closeModal()">&times;</span>
-        <pre id="citationText">
+        <pre class="citation-text">
 @article{concepcion_2010_resolving_ranges,
   author = {Concepcion, G.T. and Kahng, S.E. and Crepeau, M.W. and Franklin, E.C. and Coles, S.L. and Toonen, R.J.},
   title = {Resolving natural ranges and marine invasions in a globally distributed octocoral (genus Carijoa)},
@@ -1969,7 +1969,7 @@ authors:
   url = {https://doi.org/10.3354/meps08364}
 }
         </pre>
-        <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
+        <button class="button-outline" onclick="copyToClipboard()">Copy Citation</button>
         <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
     </div>
 </div>
@@ -1986,7 +1986,7 @@ authors:
 <div id="Franklin2009LengthWeight" class="modal" style="display:none;">
     <div class="modal-content">
         <span class="close" onclick="closeModal()">&times;</span>
-        <pre id="citationText">
+        <pre class="citation-text">
 @article{franklin_2009_length_weight,
   author = {Franklin, E.C. and Dow, A. and Brong, C. and Craig, M.},
   title = {Length-weight and length-length relationships of three endemic butterflyfish species (Chaetodontidae) from coral reefs of the Northwestern Hawaiian Islands, USA},
@@ -1999,7 +1999,7 @@ authors:
   url = {https://doi:10.1111/j.1439-0426.2009.01281.x}
 }
         </pre>
-        <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
+        <button class="button-outline" onclick="copyToClipboard()">Copy Citation</button>
     </div>
 </div>
 
@@ -2015,7 +2015,7 @@ authors:
 <div id="Selkoe2009HumanImpacts" class="modal" style="display:none;">
     <div class="modal-content">
         <span class="close" onclick="closeModal()">&times;</span>
-        <pre id="citationText">
+        <pre class="citation-text">
 @article{selkoe_2009_human_impacts,
   author = {Selkoe, K.A. and Halpern, B.S. and Ebert, C.M. and Franklin, E.C. and Selig, E.R. and Casey, K.S. and Bruno, J. and Toonen, R.J.},
   title = {A map of human impacts to a “pristine” coral reef ecosystem, the Papahanaumokuakea Marine National Monument},
@@ -2028,7 +2028,7 @@ authors:
   url = {https://doi.org/10.1007/s00338-009-0490-z}
 }
         </pre>
-        <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
+        <button class="button-outline" onclick="copyToClipboard()">Copy Citation</button>
     </div>
 </div>
 
@@ -2044,7 +2044,7 @@ authors:
 <div id="Franklin2008VesselTraffic" class="modal" style="display:none;">
     <div class="modal-content">
         <span class="close" onclick="closeModal()">&times;</span>
-        <pre id="citationText">
+        <pre class="citation-text">
 @article{franklin_2008_vessel_traffic,
   author = {Franklin, E.C.},
   title = {An assessment of vessel traffic patterns in the Northwestern Hawaiian Islands between 1994-2004},
@@ -2056,7 +2056,7 @@ authors:
   url = {https://doi.org/10.1016/j.marpolbul.2007.07.002}
 }
         </pre>
-        <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
+        <button class="button-outline" onclick="copyToClipboard()">Copy Citation</button>
         <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
     </div>
 </div>
@@ -2073,7 +2073,7 @@ authors:
 <div id="Hudson2006" class="modal" style="display:none;">
     <div class="modal-content">
         <span class="close" onclick="closeModal()">&times;</span>
-        <pre id="citationText">
+        <pre class="citation-text">
 @article{hudson_2006_structural_stabilization,
   author = {Hudson, J.H. and Franklin, E.C.},
   title = {Structural Stabilization of a Large Montastrea faveolata (Ellis and Solander, 1786) Colony Damaged by Vessel Impact},
@@ -2084,7 +2084,7 @@ authors:
   year = {2006},
 }
         </pre>
-        <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
+        <button class="button-outline" onclick="copyToClipboard()">Copy Citation</button>
         <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
     </div>
 </div>
@@ -2100,7 +2100,7 @@ authors:
 <div id="Hudson2006CoralRestoration" class="modal" style="display:none;">
     <div class="modal-content">
         <span class="close" onclick="closeModal()">&times;</span>
-        <pre id="citationText">
+        <pre class="citation-text">
 @inproceedings{hudson_2006_coral_restoration,
   author = {Hudson, J.H. and Franklin, E.C.},
   title = {Coral reef restoration of a storm-disturbed vessel grounding site in the Florida Keys National Marine Sanctuary, USA},
@@ -2110,7 +2110,7 @@ authors:
   pages = {1631-1636}
 }
         </pre>
-        <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
+        <button class="button-outline" onclick="copyToClipboard()">Copy Citation</button>
         <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
     </div>
 </div>
@@ -2127,7 +2127,7 @@ authors:
 <div id="Hudson2005CoralRestoration" class="modal" style="display:none;">
     <div class="modal-content">
         <span class="close" onclick="closeModal()">&times;</span>
-        <pre id="citationText">
+        <pre class="citation-text">
 @inproceedings{hudson_2005_structural_restoration,
   author = {Hudson, J.H. and Franklin, E.C.},
   title = {Structural Reef Restoration and Coral Transplantation to the R/V Columbus Iselin Grounding Site in the Florida Keys National Marine Sanctuary},
@@ -2140,7 +2140,7 @@ authors:
   url = {https://doi.org/10.1109/OCEANS.2005.1639763}
 }
         </pre>
-        <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
+        <button class="button-outline" onclick="copyToClipboard()">Copy Citation</button>
         <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
     </div>
 </div>
@@ -2157,7 +2157,7 @@ authors:
 <div id="franklin2003" class="modal" style="display:none;">
     <div class="modal-content">
         <span class="close" onclick="closeModal()">&times;</span>
-        <pre id="citationText">
+        <pre class="citation-text">
 @article{franklin_2003,
   author = {Franklin, E.C. and Ault, J.S. and Smith, S.G. and Luo, J. and Meester, G.A. and Diaz, G.A. and Chiappone, M. and Swanson, D.W. and Miller, S.L. and Bohnsack, J.A.},
   title = {Benthic habitat mapping in the Tortugas region, Florida},
@@ -2170,7 +2170,7 @@ authors:
   url = {https://doi.org/10.1080/01490410306706}
 }
         </pre>
-        <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
+        <button class="button-outline" onclick="copyToClipboard()">Copy Citation</button>
         <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
     </div>
 </div>
@@ -2186,7 +2186,7 @@ authors:
 <div id="ault2002" class="modal" style="display:none;">
     <div class="modal-content">
         <span class="close" onclick="closeModal()">&times;</span>
-        <pre id="citationText">
+        <pre class="citation-text">
 @article{ault_2002,
   author = {Ault, J.S. and Smith, S.G. and Meester, G.A. and Luo, J. and Franklin, E.C. and Bohnsack, J.A. and Harper, D.E. and McClellan, D.B. and Miller, S.L. and Chiappone, M. and Swanson, D.W.},
   title = {Synoptic habitat and reef fish surveys support establishment of marine reserves in Dry Tortugas, Florida USA},
@@ -2196,7 +2196,7 @@ authors:
   pages = {22-23}
 }
         </pre>
-        <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
+        <button class="button-outline" onclick="copyToClipboard()">Copy Citation</button>
         <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
     </div>
 </div>
@@ -2212,7 +2212,7 @@ authors:
 <div id="franklin2002GIS" class="modal" style="display:none;">
     <div class="modal-content">
         <span class="close" onclick="closeModal()">&times;</span>
-        <pre id="citationText">
+        <pre class="citation-text">
 @incollection{franklin_2002,
   author = {Franklin, E.C. and Ault, J.S. and Smith, S.G.},
   title = {Utilization of a GIS in a fisheries assessment and management system},
@@ -2223,7 +2223,7 @@ authors:
   address = {Redlands, CA}
 }
         </pre>
-        <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
+        <button class="button-outline" onclick="copyToClipboard()">Copy Citation</button>
         <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
     </div>
 </div>
@@ -2239,7 +2239,7 @@ authors:
 <div id="miller2001DeepReef" class="modal" style="display:none;">
     <div class="modal-content">
         <span class="close" onclick="closeModal()">&times;</span>
-        <pre id="citationText">
+        <pre class="citation-text">
 @article{miller_2001_deep_reef,
   author = {Miller, S.L. and Swanson, D.W. and Chiappone, M. and Ault, J.S. and Smith, S.G. and Meester, G.A. and Luo, J. and Franklin, E.C. and Bohnsack, J.A. and Harper, D.E. and McClellan, D.B.},
   title = {An extensive deep reef terrace on the Tortugas Bank, Florida Keys National Marine Sanctuary},
@@ -2251,7 +2251,7 @@ authors:
   url = {https://doi.org/10.1007/s00338-001-0162-1}
 }
         </pre>
-        <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
+        <button class="button-outline" onclick="copyToClipboard()">Copy Citation</button>
         <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
     </div>
 </div>
