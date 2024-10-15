@@ -1769,7 +1769,7 @@ authors:
 
 
 <div class="publication-entry conference 2012">
-    Heron SF, Maynard J, Willis B, Christensen T, Harvell D, Vargas-Angel B, Beeden R, Sziklay J, Aeby G, Franklin EC, and 8 others (2012).  Developments in understanding relationships between environmental conditions and coral disease.<em>Proc 12th Int’l Coral Reef Symposium</em>, Cairns, Australia. 16B:4.
+    Heron SF, Maynard J, Willis B, Christensen T, Harvell D, Vargas-Angel B, Beeden R, Sziklay J, Aeby G, Franklin EC, and 8 others (2012).  Developments in understanding relationships between environmental conditions and coral disease. Proc 12th Int’l Coral Reef Symposium, Cairns, Australia. 16B:4.
     
   <a href="#" class="badge badge-info" onclick="openModal('heron2012')">Cite</a>
 </div>
