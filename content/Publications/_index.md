@@ -1722,7 +1722,7 @@ authors:
 
 
 <div class="publication-entry conference">
-    Heron SF, Maynard J, Willis B, Christensen T, Harvell D, Vargas-Angel B, Beeden R, Sziklay J, Aeby G, Franklin EC, and 8 others (2012). [Developments in understanding relationships between environmental conditions and coral disease.](https://d1wqtxts1xzle7.cloudfront.net/46584752/Developments_in_understanding_relationsh20160617-11067-1g7ynrj-libre.pdf?1466224331=&response-content-disposition=inline%3B+filename%3DDevelopments_in_understanding_relationsh.pdf&Expires=1728957973&Signature=VApHv37FH9N3puJE1mBuxyZWZhypfemLwsx9A~bzBtmdggMUKxJnF1--yAXHdAzWXVdh4zuYl5haywNUo9D9zAb5s4hhRy8BmBy2IHAZPpe5SM0B0CT554~0H~9ychHa4ek3sgvvLNEi1nsAtbhO2iQm1kjWjmfc3z25DlCtoOkdR6NzkaJEXQNPmSmV7i8X0~Cnh~eWxVpZFLMiXheABVaOgnHIhj2tieywi2XC8yj7dnDAfjU24Xj~IVdtl2ySEZyv0XIEgCjN-r2Cs8cOq5n17iz-vGHXOcYNtymLsFcXl0bpA8hSzITHogygZPpYiMiYUA9G7EoXs8KmBjsFBg__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA) <em>Proc 12th Int’l Coral Reef Symposium</em>, Cairns, Australia. 16B:4.
+    Heron SF, Maynard J, Willis B, Christensen T, Harvell D, Vargas-Angel B, Beeden R, Sziklay J, Aeby G, Franklin EC, and 8 others (2012). <a href="https://d1wqtxts1xzle7.cloudfront.net/46584752/Developments_in_understanding_relationsh20160617-11067-1g7ynrj-libre.pdf?1466224331=&response-content-disposition=inline%3B+filename%3DDevelopments_in_understanding_relationsh.pdf&Expires=1728957973&Signature=VApHv37FH9N3puJE1mBuxyZWZhypfemLwsx9A~bzBtmdggMUKxJnF1--yAXHdAzWXVdh4zuYl5haywNUo9D9zAb5s4hhRy8BmBy2IHAZPpe5SM0B0CT554~0H~9ychHa4ek3sgvvLNEi1nsAtbhO2iQm1kjWjmfc3z25DlCtoOkdR6NzkaJEXQNPmSmV7i8X0~Cnh~eWxVpZFLMiXheABVaOgnHIhj2tieywi2XC8yj7dnDAfjU24Xj~IVdtl2ySEZyv0XIEgCjN-r2Cs8cOq5n17iz-vGHXOcYNtymLsFcXl0bpA8hSzITHogygZPpYiMiYUA9G7EoXs8KmBjsFBg__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA"> Developments in understanding relationships between environmental conditions and coral disease.</a> <em>Proc 12th Int’l Coral Reef Symposium</em>, Cairns, Australia. 16B:4.
     
   <a href="#" class="badge badge-info" onclick="openModal('heron2012')">Cite</a>
 </div>
@@ -1748,10 +1748,10 @@ authors:
 
 
 <div class="publication-entry journal">
-    van Woesik R, Franklin EC, O’Leary J, McClanahan TR, Klaus JS, Budd AF (2012). Hosts of the Plio-Pleistocene past reflect modern-day coral vulnerability. <em>Proceedings of the Royal Society B</em>. doi: 10.1098/rspb.2011.2621.
-
+    van Woesik R, Franklin EC, O’Leary J, McClanahan TR, Klaus JS, Budd AF (2012). Hosts of the Plio-Pleistocene past reflect modern-day coral vulnerability. <em>Proceedings of the Royal Society B</em>. <a href="https://doi.org/10.1098/rspb.2011.2621">doi:10.1098/rspb.2011.2621</a>
+    
   <a href="#" class="badge badge-info" onclick="openModal('vanWoesik2012')">Cite</a>
-  <a href="https://doi: 10.1098/rspb.2011.2621" class="badge badge-info" target="_blank">DOI</a>
+  <a href="https://doi.org/10.1098/rspb.2011.2621" class="badge badge-info" target="_blank">DOI</a>
 </div>
 
 <!-- Modal Structure -->
@@ -1764,8 +1764,8 @@ authors:
   title = {Hosts of the Plio-Pleistocene past reflect modern-day coral vulnerability},
   journal = {Proceedings of the Royal Society B},
   year = {2012},
-  doi = {10.1098/rspb.2011.2621}
-  url = {https://doi: 10.1098/rspb.2011.2621}
+  doi = {10.1098/rspb.2011.2621},
+  url = {https://doi.org/10.1098/rspb.2011.2621}
 }
         </pre>
         <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
@@ -1773,11 +1773,12 @@ authors:
 </div>
 
 
-<div class="publication-entry journal">
-    Franklin EC, Stat M, Pochon X, Putnam HM, Gates RD (2012). GeoSymbio: A hybrid, cloud-based web application of global geospatial bioinformatics and ecoinformatics for Symbiodinium-host symbioses. <em>Molecular Ecology Resources</em> 12(2): 369-373. doi:10.1111/j.1755-0998.2011.03081.x.
 
+<div class="publication-entry journal">
+    Franklin EC, Stat M, Pochon X, Putnam HM, Gates RD (2012). GeoSymbio: A hybrid, cloud-based web application of global geospatial bioinformatics and ecoinformatics for Symbiodinium-host symbioses. <em>Molecular Ecology Resources</em> 12(2): 369-373. <a href="https://doi.org/10.1111/j.1755-0998.2011.03081.x">doi:10.1111/j.1755-0998.2011.03081.x</a>
+    
   <a href="#" class="badge badge-info" onclick="openModal('Franklin2012GeoSymbio')">Cite</a>
-  <a href="https://doi:10.1111/j.1755-0998.2011.03081.x" class="badge badge-info" target="_blank">DOI</a>
+  <a href="https://doi.org/10.1111/j.1755-0998.2011.03081.x" class="badge badge-info" target="_blank">DOI</a>
 </div>
 
 <!-- Modal Structure -->
@@ -1785,7 +1786,7 @@ authors:
     <div class="modal-content">
         <span class="close" onclick="closeModal()">&times;</span>
         <pre id="citationText">
-@article{franklin_2012,
+@article{franklin_2012_geosymbio,
   author = {Franklin, E.C. and Stat, M. and Pochon, X. and Putnam, H.M. and Gates, R.D.},
   title = {GeoSymbio: A hybrid, cloud-based web application of global geospatial bioinformatics and ecoinformatics for Symbiodinium-host symbioses},
   journal = {Molecular Ecology Resources},
@@ -1793,8 +1794,8 @@ authors:
   volume = {12},
   number = {2},
   pages = {369-373},
-  doi = {10.1111/j.1755-0998.2011.03081.x}
-  url = {https://doi:10.1111/j.1755-0998.2011.03081.x}
+  doi = {10.1111/j.1755-0998.2011.03081.x},
+  url = {https://doi.org/10.1111/j.1755-0998.2011.03081.x}
 }
         </pre>
         <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
@@ -1802,8 +1803,9 @@ authors:
 </div>
 
 
+
 <div class="publication-entry journal">
-    Franklin EC, Stat M, Pochon X, Putnam HM, Gates RD (2011). "Rapid Development of a Hybrid Web Application for Synthesis Science of Symbiodinium with Google Apps." In Jones, MB, Gries C (eds.) Proceedings of Environmental Information Management Conference 2011 (EIM 2011), Sep 28-29, 2011, UCSB, California, pp 44-48. doi:10.5060/D2NC5Z4X.
+    Franklin EC, Stat M, Pochon X, Putnam HM, Gates RD (2011). "Rapid Development of a Hybrid Web Application for Synthesis Science of Symbiodinium with Google Apps." In Jones, MB, Gries C (eds.) Proceedings of Environmental Information Management Conference 2011 (EIM 2011), Sep 28-29, 2011, UCSB, California, pp 44-48. <a href="https://doi.org/10.5060/D2NC5Z4X">doi:10.5060/D2NC5Z4X</a>
 
   <a href="#" class="badge badge-info" onclick="openModal('Franklin2011HybridApp')">Cite</a>
   <a href="https://doi:10.5060/D2NC5Z4X" class="badge badge-info" target="_blank">DOI</a>
@@ -1858,7 +1860,7 @@ authors:
 
 
 <div class="publication-entry journal">
-    Aeby GS, Williams GJ, Franklin EC, Kenyon J, Cox EF, Coles S, Work TM (2011). Patterns of coral disease across the Hawaiian Archipelago: relating disease to environment. PLoS ONE 6(5): e20370. doi:10.1371/journal.pone.0020370.
+    Aeby GS, Williams GJ, Franklin EC, Kenyon J, Cox EF, Coles S, Work TM (2011). Patterns of coral disease across the Hawaiian Archipelago: relating disease to environment. <em>PLoS ONE</em> 6(5): e20370. <a href="https://doi.org/10.1371/journal.pone.0020370">doi:10.1371/journal.pone.0020370</a>
 
   <a href="#" class="badge badge-info" onclick="openModal('Aeby2011CoralDisease')">Cite</a>
   <a href="https://doi:10.1371/journal.pone.0020370" class="badge badge-info" target="_blank">DOI</a>
@@ -1887,7 +1889,7 @@ authors:
 
 
 <div class="publication-entry journal">
-    Aeby GS, Williams GJ, Franklin EC, Haapkyla J, Harvell CD, Neale S, Page CA, Raymundo L, Vargas-Angel B, Willis BL, Work TM, Davy SK (2011). Growth anomalies on the coral genera Acropora and Porites are strongly associated with host density and human population size across the Indo-Pacific. PLoS ONE 6(2): e16887. doi:10.1371/journal.pone.0016887.
+    Aeby GS, Williams GJ, Franklin EC, Haapkyla J, Harvell CD, Neale S, Page CA, Raymundo L, Vargas-Angel B, Willis BL, Work TM, Davy SK (2011). Growth anomalies on the coral genera Acropora and Porites are strongly associated with host density and human population size across the Indo-Pacific. <em>PLoS ONE</em> 6(2): e16887. <a href="https://doi.org/10.1371/journal.pone.0016887">doi:10.1371/journal.pone.0016887</a>
 
   <a href="#" class="badge badge-info" onclick="openModal('Aeby2011GrowthAnomalies')">Cite</a>
   <a href="https://doi:10.1371/journal.pone.0016887" class="badge badge-info" target="_blank">DOI</a>
@@ -1943,9 +1945,10 @@ authors:
 
 
 <div class="publication-entry journal">
-    Concepcion GT, Kahng SE, Crepeau MW, Franklin EC, Coles SL, Toonen RJ (2010). Resolving natural ranges and marine invasions in a globally distributed octocoral (genus Carijoa). Marine Ecology Progress Series 401:113-127.
-
+    Concepcion GT, Kahng SE, Crepeau MW, Franklin EC, Coles SL, Toonen RJ (2010). Resolving natural ranges and marine invasions in a globally distributed octocoral (genus Carijoa). <em>Marine Ecology Progress Series</em> 401:113-127. <a href="https://doi.org/10.3354/meps08364">doi:10.3354/meps08364</a>
+    
   <a href="#" class="badge badge-info" onclick="openModal('Concepcion2010ResolvingRanges')">Cite</a>
+  <a href="https://doi.org/10.3354/meps08364" class="badge badge-info" target="_blank">DOI</a>
 </div>
 
 <!-- Modal Structure -->
@@ -1959,7 +1962,39 @@ authors:
   journal = {Marine Ecology Progress Series},
   volume = {401},
   pages = {113-127},
-  year = {2010}
+  year = {2010},
+  doi = {10.3354/meps08364},
+  url = {https://doi.org/10.3354/meps08364}
+}
+        </pre>
+        <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
+        <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
+    </div>
+</div>
+
+
+<div class="publication-entry journal">
+    Franklin EC, Dow A, Brong C, Craig M (2009). Length-weight and length-length relationships of three endemic butterflyfish species (Chaetodontidae) from coral reefs of the Northwestern Hawaiian Islands, USA. Journal of Applied Ichthyology 25(5):616-617. <a href="https://doi:10.1111/j.1439-0426.2009.01281.x">doi:10.1111/j.1439-0426.2009.01281.x</a>
+
+  <a href="#" class="badge badge-info" onclick="openModal('Franklin2009LengthWeight')">Cite</a>
+  <a href="https://doi:10.1111/j.1439-0426.2009.01281.x" class="badge badge-info" target="_blank">DOI</a>
+</div>
+
+<!-- Modal Structure -->
+<div id="Franklin2009LengthWeight" class="modal" style="display:none;">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <pre id="citationText">
+@article{franklin_2009_length_weight,
+  author = {Franklin, E.C. and Dow, A. and Brong, C. and Craig, M.},
+  title = {Length-weight and length-length relationships of three endemic butterflyfish species (Chaetodontidae) from coral reefs of the Northwestern Hawaiian Islands, USA},
+  journal = {Journal of Applied Ichthyology},
+  volume = {25},
+  number = {5},
+  pages = {616-617},
+  year = {2009}
+  doi = {10.1111/j.1439-0426.2009.01281.x}
+  url = {https://doi:10.1111/j.1439-0426.2009.01281.x}
 }
         </pre>
         <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
@@ -1967,13 +2002,93 @@ authors:
 </div>
 
 
-Franklin EC, Dow A, Brong C, Craig M. Length-weight and length-length relationships of three endemic butterflyfish species (Chaetodontidae) from coral reefs of the Northwestern Hawaiian Islands, USA. (2009) Journal of Applied Ichthyology 25(5):616-617. \
+<div class="publication-entry journal">
+    Selkoe KA, Halpern BS, Ebert CM, Franklin EC, Selig ER, Casey KS, Bruno J, Toonen RJ (2009). A map of human impacts to a “pristine” coral reef ecosystem, the Papahanaumokuakea Marine National Monument. Coral Reefs 28(3):635-650. <a href=" https://doi.org/10.1007/s00338-009-0490-z">doi:10.1007/s00338-009-0490-z</a>
 
-Selkoe KA, Halpern BS, Ebert CM, Franklin EC, Selig ER, Casey KS, Bruno J, Toonen RJ (2009) A map of human impacts to a “pristine” coral reef ecosystem, the Papahanaumokuakea Marine National Monument. Coral Reefs 28(3):635-650. \
+  <a href="#" class="badge badge-info" onclick="openModal('Selkoe2009HumanImpacts')">Cite</a>
+  <a href=" https://doi.org/10.1007/s00338-009-0490-z" class = "badge badge-info" target="_blank">DOI</a>
+</div>
 
-Franklin EC (2008) Vessel traffic patterns in the Northwestern Hawaiian Islands between 1994-2004. Marine Pollution Bulletin 56:150-153 \
+<!-- Modal Structure -->
+<div id="Selkoe2009HumanImpacts" class="modal" style="display:none;">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <pre id="citationText">
+@article{selkoe_2009_human_impacts,
+  author = {Selkoe, K.A. and Halpern, B.S. and Ebert, C.M. and Franklin, E.C. and Selig, E.R. and Casey, K.S. and Bruno, J. and Toonen, R.J.},
+  title = {A map of human impacts to a “pristine” coral reef ecosystem, the Papahanaumokuakea Marine National Monument},
+  journal = {Coral Reefs},
+  volume = {28},
+  number = {3},
+  pages = {635-650},
+  year = {2009}
+  doi = {10.1007/s00338-009-0490-z}
+  url = {https://doi.org/10.1007/s00338-009-0490-z}
+}
+        </pre>
+        <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
+    </div>
+</div>
 
-Hudson JH, Franklin EC. (2006) Structural Stabilization of a Large Montastrea faveolata (Ellis and Solander, 1786) Colony Damaged by Vessel Impact. Caribbean Journal of Science 42(2):252-254 \
+
+<div class="publication-entry journal">
+    Franklin EC (2008). An assessment of vessel traffic patterns in the Northwestern Hawaiian Islands between 1994-2004. <em>Marine Pollution Bulletin</em> 56:150-153. <a href="https://doi.org/10.1016/j.marpolbul.2007.07.002">doi:10.1016/j.marpolbul.2007.07.002</a>
+    
+  <a href="#" class="badge badge-info" onclick="openModal('Franklin2008VesselTraffic')">Cite</a>
+  <a href="https://doi.org/10.1016/j.marpolbul.2007.07.002" class="badge badge-info" target="_blank">DOI</a>
+</div>
+
+<!-- Modal Structure -->
+<div id="Franklin2008VesselTraffic" class="modal" style="display:none;">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <pre id="citationText">
+@article{franklin_2008_vessel_traffic,
+  author = {Franklin, E.C.},
+  title = {An assessment of vessel traffic patterns in the Northwestern Hawaiian Islands between 1994-2004},
+  journal = {Marine Pollution Bulletin},
+  volume = {56},
+  pages = {150-153},
+  year = {2008},
+  doi = {10.1016/j.marpolbul.2007.07.002},
+  url = {https://doi.org/10.1016/j.marpolbul.2007.07.002}
+}
+        </pre>
+        <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
+        <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
+    </div>
+</div>
+
+
+
+<div class="publication-entry journal">
+    Hudson JH, Franklin EC (2006). Structural Stabilization of a Large Montastrea faveolata (Ellis and Solander, 1786) Colony Damaged by Vessel Impact. <em>Caribbean Journal of Science</em> 42(2):252-254. <a href="https://doi.org/10.18475/cjos.v42i2.a4">doi:10.18475/cjos.v42i2.a4</a>
+    
+    <a href="#" class="badge badge-info" onclick="openModal('Hudson2006')">Cite</a>
+    <a href="https://doi.org/10.18475/cjos.v42i2.a4" class="badge badge-info" target="_blank">DOI</a>
+</div>
+
+<!-- Modal Structure -->
+<div id="Hudson2006" class="modal" style="display:none;">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <pre id="citationText">
+@article{hudson_2006_structural_stabilization,
+  author = {Hudson, J.H. and Franklin, E.C.},
+  title = {Structural Stabilization of a Large Montastrea faveolata (Ellis and Solander, 1786) Colony Damaged by Vessel Impact},
+  journal = {Caribbean Journal of Science},
+  volume = {42},
+  number = {2},
+  pages = {252-254},
+  year = {2006},
+  doi = {10.18475/cjos.v42i2.a4},
+  url = {https://doi.org/10.18475/cjos.v42i2.a4}
+}
+        </pre>
+        <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
+    </div>
+</div>
+\
 
 Hudson JH, Franklin EC (2006) Coral reef restoration of a storm-disturbed vessel grounding site in the Florida Keys National Marine Sanctuary, USA. Proc 10th Int’l Coral Reef Symposium, Okinawa, Japan. 1631-1636. \
 
