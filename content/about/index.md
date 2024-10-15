@@ -7,8 +7,8 @@
     
   <!-- Link to your CSS file -->
   <link rel="stylesheet" href="/content/about/about.css">
-
 </head>
+
 <body>
     <div class="content">
         <h1>About</h1>
