@@ -103,9 +103,9 @@ authors:
   doi = {10.1111/jfb.15644},
   url = {https://doi.org/10.1111/jfb.15644}
 }
-      </pre>
-      <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
-      <button class="button-outline" onclick="downloadCitation('citationText')">Download Citation</button>
+       </pre>
+       <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
+       <button class="button-outline" onclick="downloadCitation('citationText')">Download Citation</button>
     </div>
 </div>
 
@@ -2320,12 +2320,30 @@ function copyToClipboard(elementId) {
 }
 
 // Function to download citation (optional, implement as needed)
-function downloadCitation(citationText) {
+function downloadCitation(citationId) {
+    // Get the citation text from the pre element
+    const citationText = document.getElementById(citationId).innerText.trim(); // Extract text
+
+    // Check if citationText is empty
+    if (!citationText) {
+        alert('Citation text not found!');
+        return;
+    }
+
+    // Create a Blob with the citation text content
     const blob = new Blob([citationText], { type: 'text/plain' });
-    const link = document.createElement('a');
-    link.href = window.URL.createObjectURL(blob);
-    link.download = 'citation.txt'; // Change the filename as needed
-    link.click();
+    const url = URL.createObjectURL(blob);
+
+    // Create a temporary download link
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = 'citation.txt';  // This is the name of the downloaded file
+    document.body.appendChild(a);
+    a.click();  // Trigger the download
+
+    // Clean up the temporary link
+    document.body.removeChild(a);
+    URL.revokeObjectURL(url);
 }
 
 </script>
