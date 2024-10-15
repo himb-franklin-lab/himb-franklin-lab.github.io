@@ -2356,12 +2356,6 @@ function closeModal() {
     document.getElementById('citationModal').style.display = 'none';
 }
 
-function closeModal() {
-    const modals = document.querySelectorAll('.modal');
-    modals.forEach(modal => {
-        modal.style.display = "none";
-    });
-}
 
 // Function to copy citation to clipboard
 function copyToClipboard() {
