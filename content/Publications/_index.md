@@ -1055,31 +1055,380 @@ authors:
 </div>
 
 
-Mora C, Rollins R + , Taladay K + , Kantar MB, Chock MK + , Shimada M + , Franklin EC (2018) Bitcoin emissions alone could push global warming above 2°C. Nature Climate Change 8: 931-933. doi.org/10.1038/s41558-018-0321-8 \
+<div class="publication-entry journal">
+    Mora C, Rollins R+, Taladay K+, Kantar MB, Chock MK+, Shimada M+, Franklin EC (2018). Bitcoin emissions alone could push global warming above 2°C. <em>Nature Climate Change</em> 8: 931-933. <a href="https://doi.org/10.1038/s41558-018-0321-8">doi: 10.1038/s41558-018-0321-8</a>
+    
+  <a href="#" class="badge badge-info" onclick="openModal('mora2018b')">Cite</a>
+  <a href="https://doi.org/10.1038/s41558-018-0321-8" class="badge badge-info" target="_blank">DOI</a>
+</div>
 
-Geronimo, R + , Franklin EC, Brainard RE, Elvidge CD, Santos MD, Venegas R, Mora C (2018) Mapping fishing activities and suitable fishing grounds using nighttime satellite images and maximum entropy modelling. Remote Sensing 10: 1604 doi.org/10.3390/rs10101064 \
+<!-- Modal Structure -->
+<div id="mora2018b" class="modal" style="display:none;">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <pre id="citationText">
+@article{mora_2018_b,
+  author = {Mora, C. and Rollins, R. and Taladay, K. and Kantar, M.B. and Chock, M.K. and Shimada, M. and Franklin, E.C.},
+  title = {Bitcoin emissions alone could push global warming above 2°C},
+  journal = {Nature Climate Change},
+  year = {2018},
+  volume = {8},
+  pages = {931-933},
+  doi = {10.1038/s41558-018-0321-8},
+  url = {https://doi.org/10.1038/s41558-018-0321-8}
+}
+        </pre>
+        <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
+        <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
+    </div>
+</div>
 
-Forsman ZH, Maurin P, Parry M, Chung A + , Sartor C, Hixon MA, Hughes K, Rodgers K, Knapp I, Gulko DA, Franklin EC, Del Rio Torres L, Chan NT, Wolke CS, Gates RD, Toonen RJ (2018) The First Hawai‘i Workshop For Coral Restoration & Nurseries. Marine Policy 96:133-135 doi.org/10.1016/j.marpol.2018.08.009 \
 
-Counsell CWW + , Donahue MJ, Edwards K, Franklin EC, Hixon MA (2018) Variation in coral-associated cryptofaunal communities along spatial scales and environmental gradients. Coral Reefs 37:827-840. doi: 10.1007/s00338-018-1709-7 \
+<div class="publication-entry journal">
+    Geronimo, R+, Franklin EC, Brainard RE, Elvidge CD, Santos MD, Venegas R, Mora C (2018). Mapping fishing activities and suitable fishing grounds using nighttime satellite images and maximum entropy modelling. <em>Remote Sensing</em> 10: 1604. <a href="https://doi.org/10.3390/rs10101064">doi: 10.3390/rs10101064</a>
+    
+  <a href="#" class="badge badge-info" onclick="openModal('geronimo2018')">Cite</a>
+  <a href="https://doi.org/10.3390/rs10101064" class="badge badge-info" target="_blank">DOI</a>
+</div>
 
-Levy J + , Hunter C, Lukaczyk, Franklin EC (2018) Assessing the spatial distribution of coral bleaching using small unmanned aerial systems. Coral Reefs 37: 373-387 doi.org: 10.1007/s00338-018-1662-5 \
+<!-- Modal Structure -->
+<div id="geronimo2018" class="modal" style="display:none;">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <pre id="citationText">
+@article{geronimo_2018,
+  author = {Geronimo, R. and Franklin, E.C. and Brainard, R.E. and Elvidge, C.D. and Santos, M.D. and Venegas, R. and Mora, C.},
+  title = {Mapping fishing activities and suitable fishing grounds using nighttime satellite images and maximum entropy modelling},
+  journal = {Remote Sensing},
+  year = {2018},
+  volume = {10},
+  pages = {1604},
+  doi = {10.3390/rs10101064},
+  url = {https://doi.org/10.3390/rs10101064}
+}
+        </pre>
+        <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
+        <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
+    </div>
+</div>
 
-Franklin EC (2017) Vagrancy in paradise: documentation of the chevron butterflyfish Chaetodon trifascialis in Kaneohe Bay, Oahu, Hawaiian Islands. Marine Biodiversity Records 10:22 doi: 10.1186/s41200-017-0124-z \
 
-Longenecker K, Langston R, Bolick H, Crane M, Donaldson TJ, Franklin EC, Kelokelo M, Kondio U, Potuku T (2017) Rapid reproductive analysis and length–weight relations for five species of coral-reef fishes from Papua New Guinea: Nemipterus isacanthus, Parupeneus barberinus, Kyphosus cinerascens, Ctenochaetus striatus, and Balistapus undulatus. Acta Ichthyol. Piscatoria 47:107-124. doi: 10.3750/AIEP/02146 \
+<div class="publication-entry journal">
+    Forsman ZH, Maurin P, Parry M, Chung A+, Sartor C, Hixon MA, Hughes K, Rodgers K, Knapp I, Gulko DA, Franklin EC, Del Rio Torres L, Chan NT, Wolke CS, Gates RD, Toonen RJ (2018). The First Hawai‘i Workshop For Coral Restoration & Nurseries. <em>Marine Policy</em> 96: 133-135. <a href="https://doi.org/10.1016/j.marpol.2018.08.009">doi: 10.1016/j.marpol.2018.08.009</a>
+    
+  <a href="#" class="badge badge-info" onclick="openModal('forsman2018')">Cite</a>
+  <a href="https://doi.org/10.1016/j.marpol.2018.08.009" class="badge badge-info" target="_blank">DOI</a>
+</div>
 
-Oyafuso ZS*, Drazen JC, Moore CH, Franklin EC (2017) Habitat-based species distribution modelling of the Hawaiian deepwater snapper-grouper complex Fisheries Research 195: 19-27 doi: 10.1016/j.fishres.2017.06.011 \
+<!-- Modal Structure -->
+<div id="forsman2018" class="modal" style="display:none;">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <pre id="citationText">
+@article{forsman_2018,
+  author = {Forsman, Z.H. and Maurin, P. and Parry, M. and Chung, A. and Sartor, C. and Hixon, M.A. and Hughes, K. and Rodgers, K. and Knapp, I. and Gulko, D.A. and Franklin, E.C. and Del Rio Torres, L. and Chan, N.T. and Wolke, C.S. and Gates, R.D. and Toonen, R.J.},
+  title = {The First Hawai‘i Workshop For Coral Restoration & Nurseries},
+  journal = {Marine Policy},
+  year = {2018},
+  volume = {96},
+  pages = {133-135},
+  doi = {10.1016/j.marpol.2018.08.009},
+  url = {https://doi.org/10.1016/j.marpol.2018.08.009}
+}
+        </pre>
+        <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
+        <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
+    </div>
+</div>
 
-Winston MS*, Taylor B, Franklin EC (2017) Intraspecific variability in the life history of endemic coral reef fishes between photic and mesophotic populations. Coral Reefs 36: 663-674. doi: 10.1007/s00338-017-1559-8 \
 
-Kapur MR*, Franklin EC (2017) Predicting climate impacts on tropical fisheries: are contemporary spatial management strategies sufficient? Canadian Journal of Fisheries and Aquatic Sciences doi: 10.1139/cjfas-2016-0200 \
+<div class="publication-entry journal">
+    Counsell CWW+, Donahue MJ, Edwards K, Franklin EC, Hixon MA (2018). Variation in coral-associated cryptofaunal communities along spatial scales and environmental gradients. <em>Coral Reefs</em> 37: 827-840. <a href="https://doi.org/10.1007/s00338-018-1709-7">doi: 10.1007/s00338-018-1709-7</a>
+    
+  <a href="#" class="badge badge-info" onclick="openModal('counsell2018')">Cite</a>
+  <a href="https://doi.org/10.1007/s00338-018-1709-7" class="badge badge-info" target="_blank">DOI</a>
+</div>
 
-Veazey LM + , Franklin EC, Kelley C, Rooney J, Frazer NL, Toonen RJ (2016) The implementation of rare events logistic regression to predict the distribution of mesophotic hard corals across the main Hawaiian Islands. PeerJ 4:e2189 doi: 10.7717/peerj.2189 \
+<!-- Modal Structure -->
+<div id="counsell2018" class="modal" style="display:none;">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <pre id="citationText">
+@article{counsell_2018,
+  author = {Counsell, C.W.W. and Donahue, M.J. and Edwards, K. and Franklin, E.C. and Hixon, M.A.},
+  title = {Variation in coral-associated cryptofaunal communities along spatial scales and environmental gradients},
+  journal = {Coral Reefs},
+  year = {2018},
+  volume = {37},
+  pages = {827-840},
+  doi = {10.1007/s00338-018-1709-7},
+  url = {https://doi.org/10.1007/s00338-018-1709-7}
+}
+        </pre>
+        <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
+        <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
+    </div>
+</div>
 
-Selkoe KA, Gaggiotti OE, Donovan MK + , Treml EA, Wren JLK + , Hawai‘i Reef Connectivity Consortium†, Toonen RJ (2016) The DNA of coral reef biodiversity – predicting and protecting genetic diversity of reef assemblages. Proceedings of the Royal Society B 283: 20160354. doi: 10.1098/rspb.2016.0354 \
 
-Oyafuso ZS*, Toonen RJ, Franklin EC (2016) Temporal and spatial trends in prey diversity of wahoo (Acanthocybium solandri): A diet analysis from the central North Pacific using visual and DNA bar-coding techniques. Journal of Fish Biology 88:1501-1523. doi:10.1111/jfb.12928 \
+<div class="publication-entry journal">
+    Levy J+, Hunter C, Lukaczyk, Franklin EC (2018). Assessing the spatial distribution of coral bleaching using small unmanned aerial systems. <em>Coral Reefs</em> 37: 373-387. <a href="https://doi.org/10.1007/s00338-018-1662-5">doi: 10.1007/s00338-018-1662-5</a>
+    
+  <a href="#" class="badge badge-info" onclick="openModal('levy2018')">Cite</a>
+  <a href="https://doi.org/10.1007/s00338-018-1662-5" class="badge badge-info" target="_blank">DOI</a>
+</div>
+
+<!-- Modal Structure -->
+<div id="levy2018" class="modal" style="display:none;">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <pre id="citationText">
+@article{levy_2018,
+  author = {Levy, J. and Hunter, C. and Lukaczyk and Franklin, E.C.},
+  title = {Assessing the spatial distribution of coral bleaching using small unmanned aerial systems},
+  journal = {Coral Reefs},
+  year = {2018},
+  volume = {37},
+  pages = {373-387},
+  doi = {10.1007/s00338-018-1662-5},
+  url = {https://doi.org/10.1007/s00338-018-1662-5}
+}
+        </pre>
+        <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
+        <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
+    </div>
+</div>
+
+
+<div class="publication-entry journal">
+    Franklin EC (2017). Vagrancy in paradise: documentation of the chevron butterflyfish *Chaetodon trifascialis* in Kaneohe Bay, Oahu, Hawaiian Islands. <em>Marine Biodiversity Records</em> 10:22. <a href="https://doi.org/10.1186/s41200-017-0124-z">doi: 10.1186/s41200-017-0124-z</a>
+    
+  <a href="#" class="badge badge-info" onclick="openModal('franklin2017')">Cite</a>
+  <a href="https://doi.org/10.1186/s41200-017-0124-z" class="badge badge-info" target="_blank">DOI</a>
+</div>
+
+<!-- Modal Structure -->
+<div id="franklin2017" class="modal" style="display:none;">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <pre id="citationText">
+@article{franklin_2017,
+  author = {Franklin, E.C.},
+  title = {Vagrancy in paradise: documentation of the chevron butterflyfish Chaetodon trifascialis in Kaneohe Bay, Oahu, Hawaiian Islands},
+  journal = {Marine Biodiversity Records},
+  year = {2017},
+  volume = {10},
+  pages = {22},
+  doi = {10.1186/s41200-017-0124-z},
+  url = {https://doi.org/10.1186/s41200-017-0124-z}
+}
+        </pre>
+        <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
+        <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
+    </div>
+</div>
+
+
+<div class="publication-entry journal">
+    Longenecker K, Langston R, Bolick H, Crane M, Donaldson TJ, Franklin EC, Kelokelo M, Kondio U, Potuku T (2017). Rapid reproductive analysis and length–weight relations for five species of coral-reef fishes from Papua New Guinea: *Nemipterus isacanthus*, *Parupeneus barberinus*, *Kyphosus cinerascens*, *Ctenochaetus striatus*, and *Balistapus undulatus*. <em>Acta Ichthyologica et Piscatoria</em> 47:107-124. <a href="https://doi.org/10.3750/AIEP/02146">doi: 10.3750/AIEP/02146</a>
+    
+  <a href="#" class="badge badge-info" onclick="openModal('longenecker2017')">Cite</a>
+  <a href="https://doi.org/10.3750/AIEP/02146" class="badge badge-info" target="_blank">DOI</a>
+</div>
+
+<!-- Modal Structure -->
+<div id="longenecker2017" class="modal" style="display:none;">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <pre id="citationText">
+@article{longenecker_2017,
+  author = {Longenecker, K. and Langston, R. and Bolick, H. and Crane, M. and Donaldson, T.J. and Franklin, E.C. and Kelokelo, M. and Kondio, U. and Potuku, T.},
+  title = {Rapid reproductive analysis and length–weight relations for five species of coral-reef fishes from Papua New Guinea: Nemipterus isacanthus, Parupeneus barberinus, Kyphosus cinerascens, Ctenochaetus striatus, and Balistapus undulatus},
+  journal = {Acta Ichthyologica et Piscatoria},
+  year = {2017},
+  volume = {47},
+  pages = {107-124},
+  doi = {10.3750/AIEP/02146},
+  url = {https://doi.org/10.3750/AIEP/02146}
+}
+        </pre>
+        <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
+        <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
+    </div>
+</div>
+
+
+<div class="publication-entry journal">
+    Oyafuso ZS*, Drazen JC, Moore CH, Franklin EC (2017). Habitat-based species distribution modelling of the Hawaiian deepwater snapper-grouper complex. <em>Fisheries Research</em> 195: 19-27. <a href="https://doi.org/10.1016/j.fishres.2017.06.011">doi: 10.1016/j.fishres.2017.06.011</a>
+    
+  <a href="#" class="badge badge-info" onclick="openModal('oyafuso2017')">Cite</a>
+  <a href="https://doi.org/10.1016/j.fishres.2017.06.011" class="badge badge-info" target="_blank">DOI</a>
+</div>
+
+<!-- Modal Structure -->
+<div id="oyafuso2017" class="modal" style="display:none;">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <pre id="citationText">
+@article{oyafuso_2017,
+  author = {Oyafuso, Z.S. and Drazen, J.C. and Moore, C.H. and Franklin, E.C.},
+  title = {Habitat-based species distribution modelling of the Hawaiian deepwater snapper-grouper complex},
+  journal = {Fisheries Research},
+  year = {2017},
+  volume = {195},
+  pages = {19-27},
+  doi = {10.1016/j.fishres.2017.06.011},
+  url = {https://doi.org/10.1016/j.fishres.2017.06.011}
+}
+        </pre>
+        <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
+        <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
+    </div>
+</div>
+
+
+<div class="publication-entry journal">
+    Winston MS*, Taylor B, Franklin EC (2017). Intraspecific variability in the life history of endemic coral reef fishes between photic and mesophotic populations. <em>Coral Reefs</em> 36: 663-674. <a href="https://doi.org/10.1007/s00338-017-1559-8">doi: 10.1007/s00338-017-1559-8</a>
+    
+  <a href="#" class="badge badge-info" onclick="openModal('winston2017')">Cite</a>
+  <a href="https://doi.org/10.1007/s00338-017-1559-8" class="badge badge-info" target="_blank">DOI</a>
+</div>
+
+<!-- Modal Structure -->
+<div id="winston2017" class="modal" style="display:none;">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <pre id="citationText">
+@article{winston_2017,
+  author = {Winston, M.S. and Taylor, B. and Franklin, E.C.},
+  title = {Intraspecific variability in the life history of endemic coral reef fishes between photic and mesophotic populations},
+  journal = {Coral Reefs},
+  year = {2017},
+  volume = {36},
+  pages = {663-674},
+  doi = {10.1007/s00338-017-1559-8},
+  url = {https://doi.org/10.1007/s00338-017-1559-8}
+}
+        </pre>
+        <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
+        <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
+    </div>
+</div>
+
+
+<div class="publication-entry journal">
+    Kapur MR*, Franklin EC (2017). Predicting climate impacts on tropical fisheries: are contemporary spatial management strategies sufficient? <em>Canadian Journal of Fisheries and Aquatic Sciences</em>. <a href="https://doi.org/10.1139/cjfas-2016-0200">doi: 10.1139/cjfas-2016-0200</a>
+    
+  <a href="#" class="badge badge-info" onclick="openModal('kapur2017')">Cite</a>
+  <a href="https://doi.org/10.1139/cjfas-2016-0200" class="badge badge-info" target="_blank">DOI</a>
+</div>
+
+<!-- Modal Structure -->
+<div id="kapur2017" class="modal" style="display:none;">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <pre id="citationText">
+@article{kapur_2017,
+  author = {Kapur, M.R. and Franklin, E.C.},
+  title = {Predicting climate impacts on tropical fisheries: are contemporary spatial management strategies sufficient?},
+  journal = {Canadian Journal of Fisheries and Aquatic Sciences},
+  year = {2017},
+  doi = {10.1139/cjfas-2016-0200},
+  url = {https://doi.org/10.1139/cjfas-2016-0200}
+}
+        </pre>
+        <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
+        <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
+    </div>
+</div>
+
+
+<div class="publication-entry journal">
+    Veazey LM+, Franklin EC, Kelley C, Rooney J, Frazer NL, Toonen RJ (2016). The implementation of rare events logistic regression to predict the distribution of mesophotic hard corals across the main Hawaiian Islands. <em>PeerJ</em> 4:e2189. <a href="https://doi.org/10.7717/peerj.2189">doi: 10.7717/peerj.2189</a>
+    
+  <a href="#" class="badge badge-info" onclick="openModal('veazey2016')">Cite</a>
+  <a href="https://doi.org/10.7717/peerj.2189" class="badge badge-info" target="_blank">DOI</a>
+</div>
+
+<!-- Modal Structure -->
+<div id="veazey2016" class="modal" style="display:none;">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <pre id="citationText">
+@article{veazey_2016,
+  author = {Veazey, L.M. and Franklin, E.C. and Kelley, C. and Rooney, J. and Frazer, N.L. and Toonen, R.J.},
+  title = {The implementation of rare events logistic regression to predict the distribution of mesophotic hard corals across the main Hawaiian Islands},
+  journal = {PeerJ},
+  year = {2016},
+  volume = {4},
+  article_number = {e2189},
+  doi = {10.7717/peerj.2189},
+  url = {https://doi.org/10.7717/peerj.2189}
+}
+        </pre>
+        <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
+        <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
+    </div>
+</div>
+
+
+<div class="publication-entry journal">
+    Selkoe KA, Gaggiotti OE, Donovan MK+, Treml EA, Wren JLK+, Hawai‘i Reef Connectivity Consortium†, Toonen RJ (2016). The DNA of coral reef biodiversity – predicting and protecting genetic diversity of reef assemblages. <em>Proceedings of the Royal Society B</em> 283: 20160354. <a href="https://doi.org/10.1098/rspb.2016.0354">doi: 10.1098/rspb.2016.0354</a>
+    
+  <a href="#" class="badge badge-info" onclick="openModal('selkoe2016')">Cite</a>
+  <a href="https://doi.org/10.1098/rspb.2016.0354" class="badge badge-info" target="_blank">DOI</a>
+</div>
+
+<!-- Modal Structure -->
+<div id="selkoe2016" class="modal" style="display:none;">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <pre id="citationText">
+@article{selkoe_2016,
+  author = {Selkoe, K.A. and Gaggiotti, O.E. and Donovan, M.K. and Treml, E.A. and Wren, J.L.K. and Hawai‘i Reef Connectivity Consortium and Toonen, R.J.},
+  title = {The DNA of coral reef biodiversity – predicting and protecting genetic diversity of reef assemblages},
+  journal = {Proceedings of the Royal Society B},
+  year = {2016},
+  volume = {283},
+  article_number = {20160354},
+  doi = {10.1098/rspb.2016.0354},
+  url = {https://doi.org/10.1098/rspb.2016.0354}
+}
+        </pre>
+        <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
+        <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
+    </div>
+</div>
+
+
+<div class="publication-entry journal">
+    Oyafuso ZS*, Toonen RJ, Franklin EC (2016). Temporal and spatial trends in prey diversity of wahoo (Acanthocybium solandri): A diet analysis from the central North Pacific using visual and DNA bar-coding techniques. <em>Journal of Fish Biology</em> 88:1501-1523. <a href="https://doi.org/10.1111/jfb.12928">doi:10.1111/jfb.12928</a>
+    
+  <a href="#" class="badge badge-info" onclick="openModal('oyafuso2016')">Cite</a>
+  <a href="https://doi.org/10.1111/jfb.12928" class="badge badge-info" target="_blank">DOI</a>
+</div>
+
+<!-- Modal Structure -->
+<div id="oyafuso2016" class="modal" style="display:none;">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <pre id="citationText">
+@article{oyafuso_2016,
+  author = {Oyafuso, Z.S. and Toonen, R.J. and Franklin, E.C.},
+  title = {Temporal and spatial trends in prey diversity of wahoo (Acanthocybium solandri): A diet analysis from the central North Pacific using visual and DNA bar-coding techniques},
+  journal = {Journal of Fish Biology},
+  year = {2016},
+  volume = {88},
+  pages = {1501-1523},
+  doi = {10.1111/jfb.12928},
+  url = {https://doi.org/10.1111/jfb.12928}
+}
+        </pre>
+        <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
+        <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
+    </div>
+</div>
+
 
 Madin JS, Andreasen M, Bridge T, Connolly SR, Darling E, Diaz M, Falster D, Franklin EC, Gates RD, Hoogenboom MO, Huang D, Keith SA, Kuo CY, Lovelock CE, Luiz O, Martinelli J, Mizere T, Pandolfi JM, Pochon X, Putnam HM, Roberts TE, Stat M, Baird AH (2016) The Coral Trait Database. Nature Scientific Data 3:160017. doi:10.1038/sdata.2016.17 \
 
