@@ -2143,7 +2143,7 @@ authors:
         <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
     </div>
 </div>
-\
+
 
 <div class="publication-entry journal">
     Franklin EC, Ault JS, Smith SG, Luo J, Meester GA, Diaz GA, Chiappone M, Swanson DW, Miller SL, Bohnsack JA (2003). Benthic habitat mapping in the Tortugas region, Florida. <em>Marine Geodesy</em> 26(1-2):19-34. <a href="https://doi.org/10.1080/01490410306706">doi:10.1080/01490410306706</a>
