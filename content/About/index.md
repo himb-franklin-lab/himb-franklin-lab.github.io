@@ -10,7 +10,7 @@ sections:
           .about-content {
               text-align: center; /* Center the text */
               font-size: 16px; /* Adjust text size as needed */
-              background-image: HIM_aerial.jpeg; /* Replace with your background image path */
+              background-image: HIMB_aerial.jpeg; /* Replace with your background image path */
               background-size: cover; /* Make sure the image covers the entire section */
               padding: 20px; /* Add some padding */
               color: white; /* Change text color if needed for contrast */
