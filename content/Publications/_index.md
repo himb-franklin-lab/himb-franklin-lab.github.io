@@ -123,8 +123,8 @@ authors:
         <!-- Add more years as needed -->
     </select>
 </div>
-<!-- Single Modal Template -->
-<div id="citationModal" class="modal" style="display:none;">
+   <!-- Single Modal Template -->
+   <div id="citationModal" class="modal" style="display:none;">
     <div class="modal-content">
         <span class="close" onclick="closeModal()">&times;</span>
         <pre id="citationText"></pre>
