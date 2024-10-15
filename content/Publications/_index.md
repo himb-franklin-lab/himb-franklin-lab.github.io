@@ -1402,7 +1402,7 @@ authors:
 
 
 <div class="publication-entry journal">
-    Oyafuso ZS*, Toonen RJ, Franklin EC (2016). Temporal and spatial trends in prey diversity of wahoo (Acanthocybium solandri): A diet analysis from the central North Pacific using visual and DNA bar-coding techniques. <em>Journal of Fish Biology</em> 88:1501-1523. <a href="https://doi.org/10.1111/jfb.12928">doi:10.1111/jfb.12928</a>
+    Oyafuso ZS*, Toonen RJ, Franklin EC (2016). Temporal and spatial trends in prey diversity of wahoo (<em>Acanthocybium solandri</em>): A diet analysis from the central North Pacific using visual and DNA bar-coding techniques. <em>Journal of Fish Biology</em> 88:1501-1523. <a href="https://doi.org/10.1111/jfb.12928">doi:10.1111/jfb.12928</a>
     
   <a href="#" class="badge badge-info" onclick="openModal('oyafuso2016')">Cite</a>
   <a href="https://doi.org/10.1111/jfb.12928" class="badge badge-info" target="_blank">DOI</a>
@@ -1430,41 +1430,507 @@ authors:
 </div>
 
 
-Madin JS, Andreasen M, Bridge T, Connolly SR, Darling E, Diaz M, Falster D, Franklin EC, Gates RD, Hoogenboom MO, Huang D, Keith SA, Kuo CY, Lovelock CE, Luiz O, Martinelli J, Mizere T, Pandolfi JM, Pochon X, Putnam HM, Roberts TE, Stat M, Baird AH (2016) The Coral Trait Database. Nature Scientific Data 3:160017. doi:10.1038/sdata.2016.17 \
+<div class="publication-entry journal">
+    Madin JS, Andreasen M, Bridge T, Connolly SR, Darling E, Diaz M, Falster D, Franklin EC, Gates RD, Hoogenboom MO, Huang D, Keith SA, Kuo CY, Lovelock CE, Luiz O, Martinelli J, Mizere T, Pandolfi JM, Pochon X, Putnam HM, Roberts TE, Stat M, Baird AH (2016). The Coral Trait Database. <em>Nature Scientific Data</em> 3:160017. <a href="https://doi.org/10.1038/sdata.2016.17">doi:10.1038/sdata.2016.17</a>
+    
+  <a href="#" class="badge badge-info" onclick="openModal('madin2016')">Cite</a>
+  <a href="https://doi.org/10.1038/sdata.2016.17" class="badge badge-info" target="_blank">DOI</a>
+</div>
 
-Edmunds PJ, Adjeroud M, Baskett ML, Baums IB, Budd AF, Carpenter RC, Fabina NS, Fan T-Y, Franklin EC, Gross K, Han X, Jacobson L, Klaus JS, McClanahan TR, O’Leary JK, van Oppen MJH, Pochon X, Putnam HM, Smith TB, Stat M, Sweatman H, van Woesik R, Gates RD (2014) Persistence and change in community composition of reef corals through present, past and future climates. PLoS ONE 9(10): e107525. doi:10.1371/journal.pone.0107525 \
+<!-- Modal Structure -->
+<div id="madin2016" class="modal" style="display:none;">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <pre id="citationText">
+@article{madin_2016,
+  author = {Madin, J.S. and Andreasen, M. and Bridge, T. and Connolly, S.R. and Darling, E. and Diaz, M. and Falster, D. and Franklin, E.C. and Gates, R.D. and Hoogenboom, M.O. and Huang, D. and Keith, S.A. and Kuo, C.Y. and Lovelock, C.E. and Luiz, O. and Martinelli, J. and Mizere, T. and Pandolfi, J.M. and Pochon, X. and Putnam, H.M. and Roberts, T.E. and Stat, M. and Baird, A.H.},
+  title = {The Coral Trait Database},
+  journal = {Nature Scientific Data},
+  year = {2016},
+  volume = {3},
+  pages = {160017},
+  doi = {10.1038/sdata.2016.17},
+  url = {https://doi.org/10.1038/sdata.2016.17}
+}
+        </pre>
+        <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
+        <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
+    </div>
+</div>
 
-Ault JS, Smith SG, Browder J, Nuttle W, Franklin EC, DiNardo GT, Bohnsack JA (2014) Indicators for assessing the ecological dynamics and sustainability of southern Florida's coral reef and coastal fisheries. Ecological Indicators 44:164-172. doi: 10.1016/j.ecolind.2014.04.013 \
 
-Baums IB, Godwin LS, Franklin EC, Carlon DB, Toonen RJ (2014) Discordant population expansions in four species of coral-associated, Pacific hermit crabs (Anomura: Diogenidae) linked to habitat availability resulting from sea level change. Journal of Biogeography 41: 339-352. doi: 10.1111/jbi.12181 \
+<div class="publication-entry journal">
+    Edmunds PJ, Adjeroud M, Baskett ML, Baums IB, Budd AF, Carpenter RC, Fabina NS, Fan T-Y, Franklin EC, Gross K, Han X, Jacobson L, Klaus JS, McClanahan TR, O’Leary JK, van Oppen MJH, Pochon X, Putnam HM, Smith TB, Stat M, Sweatman H, van Woesik R, Gates RD (2014). Persistence and change in community composition of reef corals through present, past and future climates. <em>PLoS ONE</em> 9(10): e107525. <a href="https://doi.org/10.1371/journal.pone.0107525">doi:10.1371/journal.pone.0107525</a>
+    
+  <a href="#" class="badge badge-info" onclick="openModal('edmunds2014')">Cite</a>
+  <a href="https://doi.org/10.1371/journal.pone.0107525" class="badge badge-info" target="_blank">DOI</a>
+</div>
 
-Fabina NS, Putnam HM, Franklin EC, Stat M, Gates RD (2013) Symbiotic specificity, association patterns, and function determine community responses to global changes: Defining critical research areas for coral-Symbiodinium symbioses. Global Change Biology 19: 3306–3316. doi: 10.1111/gcb.12320 \
+<!-- Modal Structure -->
+<div id="edmunds2014" class="modal" style="display:none;">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <pre id="citationText">
+@article{edmunds_2014,
+  author = {Edmunds, P.J. and Adjeroud, M. and Baskett, M.L. and Baums, I.B. and Budd, A.F. and Carpenter, R.C. and Fabina, N.S. and Fan, T.Y. and Franklin, E.C. and Gross, K. and Han, X. and Jacobson, L. and Klaus, J.S. and McClanahan, T.R. and O’Leary, J.K. and van Oppen, M.J.H. and Pochon, X. and Putnam, H.M. and Smith, T.B. and Stat, M. and Sweatman, H. and van Woesik, R. and Gates, R.D.},
+  title = {Persistence and change in community composition of reef corals through present, past and future climates},
+  journal = {PLoS ONE},
+  year = {2014},
+  volume = {9},
+  number = {10},
+  pages = {e107525},
+  doi = {10.1371/journal.pone.0107525},
+  url = {https://doi.org/10.1371/journal.pone.0107525}
+}
+        </pre>
+        <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
+        <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
+    </div>
+</div>
 
-Bird CE, Franklin EC, Smith CM, Toonen RJ (2013) Between tide and wave marks: a unifying model of physical zonation on littoral shores. PeerJ 1:e154 doi: 10.7717/peerj.154 \
 
-Farmer NA, Ault JS, Smith SG, Franklin EC (2013) Methods for assessment of short-term coral reef fish movements within an acoustic array. Movement Ecology 2013:1-7. doi:10.1186/2051-3933-1-7 \
+<div class="publication-entry journal">
+    Ault JS, Smith SG, Browder J, Nuttle W, Franklin EC, DiNardo GT, Bohnsack JA (2014). Indicators for assessing the ecological dynamics and sustainability of southern Florida's coral reef and coastal fisheries. <em>Ecological Indicators</em> 44:164-172. <a href="https://doi.org/10.1016/j.ecolind.2014.04.013">doi:10.1016/j.ecolind.2014.04.013</a>
+    
+  <a href="#" class="badge badge-info" onclick="openModal('ault2014')">Cite</a>
+  <a href="https://doi.org/10.1016/j.ecolind.2014.04.013" class="badge badge-info" target="_blank">DOI</a>
+</div>
 
-Franklin EC, Jokiel PL, Donahue MJ (2013) Predictive modeling of coral distribution and abundance in the Hawaiian Islands. Marine Ecology Progress Series 481:121-132. doi:10.3354/meps10252 \
+<!-- Modal Structure -->
+<div id="ault2014" class="modal" style="display:none;">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <pre id="citationText">
+@article{ault_2014,
+  author = {Ault, J.S. and Smith, S.G. and Browder, J. and Nuttle, W. and Franklin, E.C. and DiNardo, G.T. and Bohnsack, J.A.},
+  title = {Indicators for assessing the ecological dynamics and sustainability of southern Florida's coral reef and coastal fisheries},
+  journal = {Ecological Indicators},
+  year = {2014},
+  volume = {44},
+  pages = {164-172},
+  doi = {10.1016/j.ecolind.2014.04.013},
+  url = {https://doi.org/10.1016/j.ecolind.2014.04.013}
+}
+        </pre>
+        <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
+        <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
+    </div>
+</div>
 
-Stat M, Pochon X, Franklin EC, Bruno JF, Casey KS, Selig ER, Gates RD (2013) The distribution of the thermally tolerant symbiont lineage (Symbiodinium clade D) in corals from Hawaii: correlations with host and the history of ocean thermal stress. Ecology and Evolution 3:1317-1329. doi: 10.1002/ece3.556 \
 
-Fabina NS, Putnam HM, Franklin EC, Stat M, Gates RD (2012) Transmission mode predicts specificity and interaction patterns in coral-Symbiodinium networks. PLoS ONE 7(9): e44970. doi:10.1371/journal.pone.0044970 \
+<div class="publication-entry journal">
+    Baums IB, Godwin LS, Franklin EC, Carlon DB, Toonen RJ (2014). Discordant population expansions in four species of coral-associated, Pacific hermit crabs (Anomura: Diogenidae) linked to habitat availability resulting from sea level change. <em>Journal of Biogeography</em> 41: 339-352. <a href="https://doi.org/10.1111/jbi.12181">doi:10.1111/jbi.12181</a>
+    
+  <a href="#" class="badge badge-info" onclick="openModal('baums2014')">Cite</a>
+  <a href="https://doi.org/10.1111/jbi.12181" class="badge badge-info" target="_blank">DOI</a>
+</div>
 
-Heron SF, Maynard J, Willis B, Christensen T, Harvell D, Vargas-Angel B, Beeden R, Sziklay J, Aeby G, Franklin EC, and 8 others (2012) Developments in understanding relationships between environmental conditions and coral disease. Proc 12th Int’l Coral Reef Symposium, Cairns, Australia. 16B:4. \
+<!-- Modal Structure -->
+<div id="baums2014" class="modal" style="display:none;">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <pre id="citationText">
+@article{baums_2014,
+  author = {Baums, I.B. and Godwin, L.S. and Franklin, E.C. and Carlon, D.B. and Toonen, R.J.},
+  title = {Discordant population expansions in four species of coral-associated, Pacific hermit crabs (Anomura: Diogenidae) linked to habitat availability resulting from sea level change},
+  journal = {Journal of Biogeography},
+  year = {2014},
+  volume = {41},
+  pages = {339-352},
+  doi = {10.1111/jbi.12181},
+  url = {https://doi.org/10.1111/jbi.12181}
+}
+        </pre>
+        <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
+        <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
+    </div>
+</div>
 
-van Woesik R, Franklin EC, O’Leary J, McClanahan TR, Klaus JS, Budd AF (2012) Hosts of the Plio-Pleistocene past reflect modern-day coral vulnerability. Proceedings of the Royal Society B doi: 10.1098/rspb.2011.2621. \
 
-Franklin EC, Stat M, Pochon X, Putnam HM, Gates RD (2012) GeoSymbio: A hybrid, cloud-based web application of global geospatial bioinformatics and ecoinformatics for Symbiodinium-host symbioses. Molecular Ecology Resources 12(2): 369-373. doi:10.1111/j.1755-0998.2011.03081.x. \
+<div class="publication-entry journal">
+    Fabina NS, Putnam HM, Franklin EC, Stat M, Gates RD (2013). Symbiotic specificity, association patterns, and function determine community responses to global changes: Defining critical research areas for coral-Symbiodinium symbioses. <em>Global Change Biology</em> 19: 3306–3316. <a href="https://doi.org/10.1111/gcb.12320">doi:10.1111/gcb.12320</a>
+    
+  <a href="#" class="badge badge-info" onclick="openModal('fabina2013')">Cite</a>
+  <a href="https://doi.org/10.1111/gcb.12320" class="badge badge-info" target="_blank">DOI</a>
+</div>
 
-Franklin EC, Stat M, Pochon X, Putnam HM, Gates RD (2011) "Rapid Development of a Hybrid Web Application for Synthesis Science of Symbiodinium with Google Apps". In Jones, MB, Gries C (eds.) Proceedings of Environmental Information Management Conference 2011 (EIM 2011), Sep 28-29, 2011, UCSB, California, pp 44-48, doi:10.5060/D2NC5Z4X \
+<!-- Modal Structure -->
+<div id="fabina2013" class="modal" style="display:none;">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <pre id="citationText">
+@article{fabina_2013,
+  author = {Fabina, N.S. and Putnam, H.M. and Franklin, E.C. and Stat, M. and Gates, R.D.},
+  title = {Symbiotic specificity, association patterns, and function determine community responses to global changes: Defining critical research areas for coral-Symbiodinium symbioses},
+  journal = {Global Change Biology},
+  year = {2013},
+  volume = {19},
+  pages = {3306–3316},
+  doi = {10.1111/gcb.12320},
+  url = {https://doi.org/10.1111/gcb.12320}
+}
+        </pre>
+        <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
+        <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
+    </div>
+</div>
 
-Longenecker K, Chan Y, Franklin EC (2011) Relationships between the length of select head bones and body size for some Hawaiian parrotfishes (subfamily Scarinae). Bishop Museum Occasional Papers 111:13-26. \
 
-Aeby GS, Williams GJ, Franklin EC, Kenyon J, Cox EF, Coles S, Work TM (2011) Patterns of coral disease across the Hawaiian Archipelago: relating disease to environment. PLoS ONE 6(5): e20370. doi:10.1371/journal.pone.0020370 \
+<div class="publication-entry journal">
+    Bird CE, Franklin EC, Smith CM, Toonen RJ (2013). Between tide and wave marks: a unifying model of physical zonation on littoral shores. <em>PeerJ</em> 1:e154. <a href="https://doi.org/10.7717/peerj.154">doi:10.7717/peerj.154</a>
+    
+  <a href="#" class="badge badge-info" onclick="openModal('bird2013')">Cite</a>
+  <a href="https://doi.org/10.7717/peerj.154" class="badge badge-info" target="_blank">DOI</a>
+</div>
 
-Aeby GS, Williams GJ, Franklin EC, Haapkyla J, Harvell CD, Neale S, Page CA, Raymundo L, Vargas-Angel B, Willis BL, Work TM, Davy SK. (2011) Growth anomalies on the coral genera Acropora and Porites are strongly associated with host density and human population size across the Indo-Pacific. PLoS ONE 6(2): e16887. doi:10.1371/journal.pone.0016887 \
+<!-- Modal Structure -->
+<div id="bird2013" class="modal" style="display:none;">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <pre id="citationText">
+@article{bird_2013,
+  author = {Bird, C.E. and Franklin, E.C. and Smith, C.M. and Toonen, R.J.},
+  title = {Between tide and wave marks: a unifying model of physical zonation on littoral shores},
+  journal = {PeerJ},
+  year = {2013},
+  volume = {1},
+  article = {e154},
+  doi = {10.7717/peerj.154},
+  url = {https://doi.org/10.7717/peerj.154}
+}
+        </pre>
+        <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
+        <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
+    </div>
+</div>
 
-Franklin EC (2010) Marine landscape ecology of coral reefs emerges from developments in seafloor mapping, GPS, and GIS. Pp 193-204 in Breman J, Ocean Globe. ESRI Press: Redlands, CA. \
+
+<div class="publication-entry journal">
+    Farmer NA, Ault JS, Smith SG, Franklin EC (2013). Methods for assessment of short-term coral reef fish movements within an acoustic array. <em>Movement Ecology</em> 2013:1-7. <a href="https://doi.org/10.1186/2051-3933-1-7">doi:10.1186/2051-3933-1-7</a>
+    
+  <a href="#" class="badge badge-info" onclick="openModal('farmer2013')">Cite</a>
+  <a href="https://doi.org/10.1186/2051-3933-1-7" class="badge badge-info" target="_blank">DOI</a>
+</div>
+
+<!-- Modal Structure -->
+<div id="farmer2013" class="modal" style="display:none;">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <pre id="citationText">
+@article{farmer_2013,
+  author = {Farmer, N.A. and Ault, J.S. and Smith, S.G. and Franklin, E.C.},
+  title = {Methods for assessment of short-term coral reef fish movements within an acoustic array},
+  journal = {Movement Ecology},
+  year = {2013},
+  pages = {1-7},
+  doi = {10.1186/2051-3933-1-7},
+  url = {https://doi.org/10.1186/2051-3933-1-7}
+}
+        </pre>
+        <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
+        <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
+    </div>
+</div>
+
+
+<div class="publication-entry journal">
+    Franklin EC, Jokiel PL, Donahue MJ (2013). Predictive modeling of coral distribution and abundance in the Hawaiian Islands. <em>Marine Ecology Progress Series</em> 481:121-132. <a href="https://doi.org/10.3354/meps10252">doi:10.3354/meps10252</a>
+    
+  <a href="#" class="badge badge-info" onclick="openModal('franklin2013')">Cite</a>
+  <a href="https://doi.org/10.3354/meps10252" class="badge badge-info" target="_blank">DOI</a>
+</div>
+
+<!-- Modal Structure -->
+<div id="franklin2013" class="modal" style="display:none;">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <pre id="citationText">
+@article{franklin_2013,
+  author = {Franklin, E.C. and Jokiel, P.L. and Donahue, M.J.},
+  title = {Predictive modeling of coral distribution and abundance in the Hawaiian Islands},
+  journal = {Marine Ecology Progress Series},
+  year = {2013},
+  volume = {481},
+  pages = {121-132},
+  doi = {10.3354/meps10252},
+  url = {https://doi.org/10.3354/meps10252}
+}
+        </pre>
+        <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
+        <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
+    </div>
+</div>
+
+
+<div class="publication-entry journal">
+    Stat M, Pochon X, Franklin EC, Bruno JF, Casey KS, Selig ER, Gates RD (2013). The distribution of the thermally tolerant symbiont lineage (Symbiodinium clade D) in corals from Hawaii: correlations with host and the history of ocean thermal stress. <em>Ecology and Evolution</em> 3:1317-1329. <a href="https://doi.org/10.1002/ece3.556">doi:10.1002/ece3.556</a>
+    
+  <a href="#" class="badge badge-info" onclick="openModal('stat2013')">Cite</a>
+  <a href="https://doi.org/10.1002/ece3.556" class="badge badge-info" target="_blank">DOI</a>
+</div>
+
+<!-- Modal Structure -->
+<div id="stat2013" class="modal" style="display:none;">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <pre id="citationText">
+@article{stat_2013,
+  author = {Stat, M. and Pochon, X. and Franklin, E.C. and Bruno, J.F. and Casey, K.S. and Selig, E.R. and Gates, R.D.},
+  title = {The distribution of the thermally tolerant symbiont lineage (Symbiodinium clade D) in corals from Hawaii: correlations with host and the history of ocean thermal stress},
+  journal = {Ecology and Evolution},
+  year = {2013},
+  volume = {3},
+  pages = {1317-1329},
+  doi = {10.1002/ece3.556},
+  url = {https://doi.org/10.1002/ece3.556}
+}
+        </pre>
+        <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
+        <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
+    </div>
+</div>
+
+
+<div class="publication-entry journal">
+    Fabina NS, Putnam HM, Franklin EC, Stat M, Gates RD (2012). Transmission mode predicts specificity and interaction patterns in coral-Symbiodinium networks. <em>PLoS ONE</em> 7(9): e44970. <a href="https://doi.org/10.1371/journal.pone.0044970">doi:10.1371/journal.pone.0044970</a>
+    
+  <a href="#" class="badge badge-info" onclick="openModal('fabina2012')">Cite</a>
+  <a href="https://doi.org/10.1371/journal.pone.0044970" class="badge badge-info" target="_blank">DOI</a>
+</div>
+
+<!-- Modal Structure -->
+<div id="fabina2012" class="modal" style="display:none;">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <pre id="citationText">
+@article{fabina_2012,
+  author = {Fabina, N.S. and Putnam, H.M. and Franklin, E.C. and Stat, M. and Gates, R.D.},
+  title = {Transmission mode predicts specificity and interaction patterns in coral-Symbiodinium networks},
+  journal = {PLoS ONE},
+  year = {2012},
+  volume = {7},
+  number = {9},
+  pages = {e44970},
+  doi = {10.1371/journal.pone.0044970},
+  url = {https://doi.org/10.1371/journal.pone.0044970}
+}
+        </pre>
+        <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
+        <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
+    </div>
+</div>
+
+
+<div class="publication-entry conference">
+    Heron SF, Maynard J, Willis B, Christensen T, Harvell D, Vargas-Angel B, Beeden R, Sziklay J, Aeby G, Franklin EC, and 8 others (2012). Developments in understanding relationships between environmental conditions and coral disease. <em>Proc 12th Int’l Coral Reef Symposium</em>, Cairns, Australia. 16B:4.
+    
+  <a href="#" class="badge badge-info" onclick="openModal('heron2012')">Cite</a>
+</div>
+
+<!-- Modal Structure -->
+<div id="heron2012" class="modal" style="display:none;">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <pre id="citationText">
+@inproceedings{heron_2012,
+  author = {Heron, S.F. and Maynard, J. and Willis, B. and Christensen, T. and Harvell, D. and Vargas-Angel, B. and Beeden, R. and Sziklay, J. and Aeby, G. and Franklin, E.C. and others},
+  title = {Developments in understanding relationships between environmental conditions and coral disease},
+  booktitle = {Proceedings of the 12th International Coral Reef Symposium},
+  location = {Cairns, Australia},
+  year = {2012},
+  volume = {16B},
+  pages = {4}
+}
+        </pre>
+        <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
+    </div>
+</div>
+
+
+<div class="publication-entry">
+    van Woesik R, Franklin EC, O’Leary J, McClanahan TR, Klaus JS, Budd AF (2012). Hosts of the Plio-Pleistocene past reflect modern-day coral vulnerability. <em>Proceedings of the Royal Society B</em>. doi: 10.1098/rspb.2011.2621.
+
+    <a href="#" class="badge badge-info" onclick="openModal('vanWoesik2012')">Cite</a>
+</div>
+
+<!-- Modal Structure -->
+<div id="vanWoesik2012" class="modal" style="display:none;">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <pre id="citationText">
+@article{vanwoesik_2012,
+  author = {van Woesik, R. and Franklin, E.C. and O’Leary, J. and McClanahan, T.R. and Klaus, J.S. and Budd, A.F.},
+  title = {Hosts of the Plio-Pleistocene past reflect modern-day coral vulnerability},
+  journal = {Proceedings of the Royal Society B},
+  year = {2012},
+  doi = {10.1098/rspb.2011.2621}
+}
+        </pre>
+        <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
+    </div>
+</div>
+
+
+<div class="publication-entry">
+    Franklin EC, Stat M, Pochon X, Putnam HM, Gates RD (2012). GeoSymbio: A hybrid, cloud-based web application of global geospatial bioinformatics and ecoinformatics for Symbiodinium-host symbioses. <em>Molecular Ecology Resources</em> 12(2): 369-373. doi:10.1111/j.1755-0998.2011.03081.x.
+
+    <a href="#" class="badge badge-info" onclick="openModal('Franklin2012GeoSymbio')">Cite</a>
+</div>
+
+<!-- Modal Structure -->
+<div id="Franklin2012GeoSymbio" class="modal" style="display:none;">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <pre id="citationText">
+@article{franklin_2012,
+  author = {Franklin, E.C. and Stat, M. and Pochon, X. and Putnam, H.M. and Gates, R.D.},
+  title = {GeoSymbio: A hybrid, cloud-based web application of global geospatial bioinformatics and ecoinformatics for Symbiodinium-host symbioses},
+  journal = {Molecular Ecology Resources},
+  year = {2012},
+  volume = {12},
+  number = {2},
+  pages = {369-373},
+  doi = {10.1111/j.1755-0998.2011.03081.x}
+}
+        </pre>
+        <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
+    </div>
+</div>
+
+
+<div class="publication-entry">
+    Franklin EC, Stat M, Pochon X, Putnam HM, Gates RD (2011). "Rapid Development of a Hybrid Web Application for Synthesis Science of Symbiodinium with Google Apps." In Jones, MB, Gries C (eds.) Proceedings of Environmental Information Management Conference 2011 (EIM 2011), Sep 28-29, 2011, UCSB, California, pp 44-48. doi:10.5060/D2NC5Z4X.
+
+    <a href="#" class="badge badge-info" onclick="openModal('Franklin2011HybridApp')">Cite</a>
+</div>
+
+<!-- Modal Structure -->
+<div id="Franklin2011HybridApp" class="modal" style="display:none;">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <pre id="citationText">
+@inproceedings{franklin_2011,
+  author = {Franklin, E.C. and Stat, M. and Pochon, X. and Putnam, H.M. and Gates, R.D.},
+  title = {Rapid Development of a Hybrid Web Application for Synthesis Science of Symbiodinium with Google Apps},
+  booktitle = {Proceedings of Environmental Information Management Conference 2011 (EIM 2011)},
+  editor = {Jones, M.B. and Gries, C.},
+  year = {2011},
+  pages = {44-48},
+  address = {UCSB, California},
+  month = {September},
+  doi = {10.5060/D2NC5Z4X}
+}
+        </pre>
+        <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
+    </div>
+</div>
+
+
+<div class="publication-entry">
+    Longenecker K, Chan Y, Franklin EC (2011). Relationships between the length of select head bones and body size for some Hawaiian parrotfishes (subfamily Scarinae). Bishop Museum Occasional Papers 111:13-26.
+
+    <a href="#" class="badge badge-info" onclick="openModal('Longenecker2011Parrotfish')">Cite</a>
+</div>
+
+<!-- Modal Structure -->
+<div id="Longenecker2011Parrotfish" class="modal" style="display:none;">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <pre id="citationText">
+@article{longenecker_2011,
+  author = {Longenecker, K. and Chan, Y. and Franklin, E.C.},
+  title = {Relationships between the length of select head bones and body size for some Hawaiian parrotfishes (subfamily Scarinae)},
+  journal = {Bishop Museum Occasional Papers},
+  volume = {111},
+  pages = {13-26},
+  year = {2011}
+}
+        </pre>
+        <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
+    </div>
+</div>
+
+
+<div class="publication-entry">
+    Aeby GS, Williams GJ, Franklin EC, Kenyon J, Cox EF, Coles S, Work TM (2011). Patterns of coral disease across the Hawaiian Archipelago: relating disease to environment. PLoS ONE 6(5): e20370. doi:10.1371/journal.pone.0020370.
+
+    <a href="#" class="badge badge-info" onclick="openModal('Aeby2011CoralDisease')">Cite</a>
+</div>
+
+<!-- Modal Structure -->
+<div id="Aeby2011CoralDisease" class="modal" style="display:none;">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <pre id="citationText">
+@article{aeby_2011,
+  author = {Aeby, G.S. and Williams, G.J. and Franklin, E.C. and Kenyon, J. and Cox, E.F. and Coles, S. and Work, T.M.},
+  title = {Patterns of coral disease across the Hawaiian Archipelago: relating disease to environment},
+  journal = {PLoS ONE},
+  volume = {6},
+  number = {5},
+  pages = {e20370},
+  year = {2011},
+  doi = {10.1371/journal.pone.0020370}
+}
+        </pre>
+        <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
+    </div>
+</div>
+
+
+<div class="publication-entry">
+    Aeby GS, Williams GJ, Franklin EC, Haapkyla J, Harvell CD, Neale S, Page CA, Raymundo L, Vargas-Angel B, Willis BL, Work TM, Davy SK (2011). Growth anomalies on the coral genera Acropora and Porites are strongly associated with host density and human population size across the Indo-Pacific. PLoS ONE 6(2): e16887. doi:10.1371/journal.pone.0016887.
+
+    <a href="#" class="badge badge-info" onclick="openModal('Aeby2011GrowthAnomalies')">Cite</a>
+</div>
+
+<!-- Modal Structure -->
+<div id="Aeby2011GrowthAnomalies" class="modal" style="display:none;">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <pre id="citationText">
+@article{aeby_2011_growth_anomalies,
+  author = {Aeby, G.S. and Williams, G.J. and Franklin, E.C. and Haapkyla, J. and Harvell, C.D. and Neale, S. and Page, C.A. and Raymundo, L. and Vargas-Angel, B. and Willis, B.L. and Work, T.M. and Davy, S.K.},
+  title = {Growth anomalies on the coral genera Acropora and Porites are strongly associated with host density and human population size across the Indo-Pacific},
+  journal = {PLoS ONE},
+  volume = {6},
+  number = {2},
+  pages = {e16887},
+  year = {2011},
+  doi = {10.1371/journal.pone.0016887}
+}
+        </pre>
+        <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
+    </div>
+</div>
+
+
+<div class="publication-entry">
+    Franklin EC (2010). Marine landscape ecology of coral reefs emerges from developments in seafloor mapping, GPS, and GIS. Pp 193-204 in Breman J, Ocean Globe. ESRI Press: Redlands, CA.
+
+    <a href="#" class="badge badge-info" onclick="openModal('Franklin2010MarineLandscape')">Cite</a>
+</div>
+
+<!-- Modal Structure -->
+<div id="Franklin2010MarineLandscape" class="modal" style="display:none;">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <pre id="citationText">
+@incollection{franklin_2010_marine_landscape,
+  author = {Franklin, E.C.},
+  title = {Marine landscape ecology of coral reefs emerges from developments in seafloor mapping, GPS, and GIS},
+  booktitle = {Ocean Globe},
+  editor = {Breman, J.},
+  pages = {193--204},
+  publisher = {ESRI Press},
+  year = {2010},
+  address = {Redlands, CA}
+}
+        </pre>
+        <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
+    </div>
+</div>
+
 
 Concepcion, GT, Kahng SE, Crepeau MW, Franklin EC, Coles SL, Toonen RJ (2010) Resolving natural ranges and marine invasions in a globally distributed octocoral (genus Carijoa). Marine Ecology Progress Series 401:113-127. \
 
