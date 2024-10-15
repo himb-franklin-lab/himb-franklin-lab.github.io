@@ -726,7 +726,7 @@ authors:
 
 
 <div class="publication-entry journal 2021">
-    Scherrer SR+, Kobayashi DR, Weng KC, Okamoto HY, Oishi FG, Franklin EC (2021). Estimation of growth parameters integrating tag-recapture, length-frequency, and direct aging data using likelihood and Bayesian methods for the tropical deepwater snapper *Pristipomoides filamentous* in Hawaii. <em>Fisheries Research</em> 233: 105753. <a href="https://doi.org/10.1016/j.fishres.2020.105753">doi: 10.1016/j.fishres.2020.105753</a>
+    Scherrer SR+, Kobayashi DR, Weng KC, Okamoto HY, Oishi FG, Franklin EC (2021). Estimation of growth parameters integrating tag-recapture, length-frequency, and direct aging data using likelihood and Bayesian methods for the tropical deepwater snapper <em>Pristipomoides filamentous</em> in Hawaii. <em>Fisheries Research</em> 233: 105753. <a href="https://doi.org/10.1016/j.fishres.2020.105753">doi: 10.1016/j.fishres.2020.105753</a>
     
   <a href="#" class="badge badge-info" onclick="openModal('scherrer2021')">Cite</a>
   <a href="https://doi.org/10.1016/j.fishres.2020.105753" class="badge badge-info" target="_blank">DOI</a>
@@ -1248,7 +1248,7 @@ authors:
 
 
 <div class="publication-entry journal 2017">
-    Franklin EC (2017). Vagrancy in paradise: documentation of the chevron butterflyfish *Chaetodon trifascialis* in Kaneohe Bay, Oahu, Hawaiian Islands. <em>Marine Biodiversity Records</em> 10:22. <a href="https://doi.org/10.1186/s41200-017-0124-z">doi: 10.1186/s41200-017-0124-z</a>
+    Franklin EC (2017). Vagrancy in paradise: documentation of the chevron butterflyfish <em>Chaetodon trifascialis</em> in Kaneohe Bay, Oahu, Hawaiian Islands. <em>Marine Biodiversity Records</em> 10:22. <a href="https://doi.org/10.1186/s41200-017-0124-z">doi: 10.1186/s41200-017-0124-z</a>
     
   <a href="#" class="badge badge-info" onclick="openModal('franklin2017')">Cite</a>
   <a href="https://doi.org/10.1186/s41200-017-0124-z" class="badge badge-info" target="_blank">DOI</a>
@@ -1277,7 +1277,7 @@ authors:
 
 
 <div class="publication-entry journal 2017">
-    Longenecker K, Langston R, Bolick H, Crane M, Donaldson TJ, Franklin EC, Kelokelo M, Kondio U, Potuku T (2017). Rapid reproductive analysis and length–weight relations for five species of coral-reef fishes from Papua New Guinea: *Nemipterus isacanthus*, *Parupeneus barberinus*, *Kyphosus cinerascens*, *Ctenochaetus striatus*, and *Balistapus undulatus*. <em>Acta Ichthyologica et Piscatoria</em> 47:107-124. <a href="https://doi.org/10.3750/AIEP/02146">doi: 10.3750/AIEP/02146</a>
+    Longenecker K, Langston R, Bolick H, Crane M, Donaldson TJ, Franklin EC, Kelokelo M, Kondio U, Potuku T (2017). Rapid reproductive analysis and length–weight relations for five species of coral-reef fishes from Papua New Guinea: <em>Nemipterus isacanthus</em>, <em>Parupeneus barberinus</em>, <em>Kyphosus cinerascens</em>, <em>Ctenochaetus striatus</em>, and <em>Balistapus undulatus</em>. <em>Acta Ichthyologica et Piscatoria</em> 47:107-124. <a href="https://doi.org/10.3750/AIEP/02146">doi: 10.3750/AIEP/02146</a>
     
   <a href="#" class="badge badge-info" onclick="openModal('longenecker2017')">Cite</a>
   <a href="https://doi.org/10.3750/AIEP/02146" class="badge badge-info" target="_blank">DOI</a>
@@ -1851,7 +1851,7 @@ authors:
 
 
 
-<div class="publication-entry journal 2011">
+<div class="publication-entry book 2011">
     Franklin EC, Stat M, Pochon X, Putnam HM, Gates RD (2011). "Rapid Development of a Hybrid Web Application for Synthesis Science of Symbiodinium with Google Apps." In Jones, MB, Gries C (eds.) Proceedings of Environmental Information Management Conference 2011 (EIM 2011), Sep 28-29, 2011, UCSB, California, pp 44-48. <a href="https://doi.org/10.5060/D2NC5Z4X">doi:10.5060/D2NC5Z4X</a>
 
   <a href="#" class="badge badge-info" onclick="openModal('Franklin2011HybridApp')">Cite</a>
@@ -2135,7 +2135,7 @@ authors:
 </div>
 
 
-<div class="publication-entry journal 2006">
+<div class="publication-entry conference 2006">
     Hudson JH, Franklin EC (2006). Coral reef restoration of a storm-disturbed vessel grounding site in the Florida Keys National Marine Sanctuary, USA. In: Proceedings of the 10th International Coral Reef Symposium, Okinawa, Japan, pp 1631-1636.
     
   <a href="#" class="badge badge-info" onclick="openModal('Hudson2006CoralRestoration')">Cite</a>
@@ -2161,7 +2161,7 @@ authors:
 </div>
 
 
-<div class="publication-entry journal 2005">
+<div class="publication-entry conference 2005">
     Hudson JH, Franklin EC (2005). Structural Reef Restoration and Coral Transplantation to the R/V Columbus Iselin Grounding Site in the Florida Keys National Marine Sanctuary. In: Proceedings of the OCEANS 2005 Americas MTS/IEEE Conference, Washington, DC, September 19-23, 2005. <a href="https://doi.org/10.1109/OCEANS.2005.1639763">doi:10.1109/OCEANS.2005.1639763</a>
     
   <a href="#" class="badge badge-info" onclick="openModal('Hudson2005CoralRestoration')">Cite</a>
