@@ -8,6 +8,7 @@ authors:
   #caption: ''
   #image: ''
 ---
+(* = Franklin lab student, + = other student)
 <!-- Inline CSS for modal -->
 <style>
     .modal {
