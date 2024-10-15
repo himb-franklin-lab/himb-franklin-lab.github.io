@@ -1722,7 +1722,7 @@ authors:
 
 
 <div class="publication-entry conference">
-    Heron SF, Maynard J, Willis B, Christensen T, Harvell D, Vargas-Angel B, Beeden R, Sziklay J, Aeby G, Franklin EC, and 8 others (2012). Developments in understanding relationships between environmental conditions and coral disease. <em>Proc 12th Int’l Coral Reef Symposium</em>, Cairns, Australia. 16B:4.
+    Heron SF, Maynard J, Willis B, Christensen T, Harvell D, Vargas-Angel B, Beeden R, Sziklay J, Aeby G, Franklin EC, and 8 others (2012). [Developments in understanding relationships between environmental conditions and coral disease.](https://d1wqtxts1xzle7.cloudfront.net/46584752/Developments_in_understanding_relationsh20160617-11067-1g7ynrj-libre.pdf?1466224331=&response-content-disposition=inline%3B+filename%3DDevelopments_in_understanding_relationsh.pdf&Expires=1728957973&Signature=VApHv37FH9N3puJE1mBuxyZWZhypfemLwsx9A~bzBtmdggMUKxJnF1--yAXHdAzWXVdh4zuYl5haywNUo9D9zAb5s4hhRy8BmBy2IHAZPpe5SM0B0CT554~0H~9ychHa4ek3sgvvLNEi1nsAtbhO2iQm1kjWjmfc3z25DlCtoOkdR6NzkaJEXQNPmSmV7i8X0~Cnh~eWxVpZFLMiXheABVaOgnHIhj2tieywi2XC8yj7dnDAfjU24Xj~IVdtl2ySEZyv0XIEgCjN-r2Cs8cOq5n17iz-vGHXOcYNtymLsFcXl0bpA8hSzITHogygZPpYiMiYUA9G7EoXs8KmBjsFBg__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA) <em>Proc 12th Int’l Coral Reef Symposium</em>, Cairns, Australia. 16B:4.
     
   <a href="#" class="badge badge-info" onclick="openModal('heron2012')">Cite</a>
 </div>
@@ -1747,10 +1747,11 @@ authors:
 </div>
 
 
-<div class="publication-entry">
+<div class="publication-entry journal">
     van Woesik R, Franklin EC, O’Leary J, McClanahan TR, Klaus JS, Budd AF (2012). Hosts of the Plio-Pleistocene past reflect modern-day coral vulnerability. <em>Proceedings of the Royal Society B</em>. doi: 10.1098/rspb.2011.2621.
 
-    <a href="#" class="badge badge-info" onclick="openModal('vanWoesik2012')">Cite</a>
+  <a href="#" class="badge badge-info" onclick="openModal('vanWoesik2012')">Cite</a>
+  <a href="https://doi: 10.1098/rspb.2011.2621" class="badge badge-info" target="_blank">DOI</a>
 </div>
 
 <!-- Modal Structure -->
@@ -1764,6 +1765,7 @@ authors:
   journal = {Proceedings of the Royal Society B},
   year = {2012},
   doi = {10.1098/rspb.2011.2621}
+  url = {https://doi: 10.1098/rspb.2011.2621}
 }
         </pre>
         <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
@@ -1771,10 +1773,11 @@ authors:
 </div>
 
 
-<div class="publication-entry">
+<div class="publication-entry journal">
     Franklin EC, Stat M, Pochon X, Putnam HM, Gates RD (2012). GeoSymbio: A hybrid, cloud-based web application of global geospatial bioinformatics and ecoinformatics for Symbiodinium-host symbioses. <em>Molecular Ecology Resources</em> 12(2): 369-373. doi:10.1111/j.1755-0998.2011.03081.x.
 
-    <a href="#" class="badge badge-info" onclick="openModal('Franklin2012GeoSymbio')">Cite</a>
+  <a href="#" class="badge badge-info" onclick="openModal('Franklin2012GeoSymbio')">Cite</a>
+  <a href="https://doi:10.1111/j.1755-0998.2011.03081.x" class="badge badge-info" target="_blank">DOI</a>
 </div>
 
 <!-- Modal Structure -->
@@ -1791,6 +1794,7 @@ authors:
   number = {2},
   pages = {369-373},
   doi = {10.1111/j.1755-0998.2011.03081.x}
+  url = {https://doi:10.1111/j.1755-0998.2011.03081.x}
 }
         </pre>
         <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
@@ -1798,10 +1802,11 @@ authors:
 </div>
 
 
-<div class="publication-entry">
+<div class="publication-entry journal">
     Franklin EC, Stat M, Pochon X, Putnam HM, Gates RD (2011). "Rapid Development of a Hybrid Web Application for Synthesis Science of Symbiodinium with Google Apps." In Jones, MB, Gries C (eds.) Proceedings of Environmental Information Management Conference 2011 (EIM 2011), Sep 28-29, 2011, UCSB, California, pp 44-48. doi:10.5060/D2NC5Z4X.
 
-    <a href="#" class="badge badge-info" onclick="openModal('Franklin2011HybridApp')">Cite</a>
+  <a href="#" class="badge badge-info" onclick="openModal('Franklin2011HybridApp')">Cite</a>
+  <a href="https://doi:10.5060/D2NC5Z4X" class="badge badge-info" target="_blank">DOI</a>
 </div>
 
 <!-- Modal Structure -->
@@ -1819,6 +1824,7 @@ authors:
   address = {UCSB, California},
   month = {September},
   doi = {10.5060/D2NC5Z4X}
+  url = {https://doi:10.5060/D2NC5Z4X}
 }
         </pre>
         <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
@@ -1826,10 +1832,10 @@ authors:
 </div>
 
 
-<div class="publication-entry">
+<div class="publication-entry journal">
     Longenecker K, Chan Y, Franklin EC (2011). Relationships between the length of select head bones and body size for some Hawaiian parrotfishes (subfamily Scarinae). Bishop Museum Occasional Papers 111:13-26.
 
-    <a href="#" class="badge badge-info" onclick="openModal('Longenecker2011Parrotfish')">Cite</a>
+  <a href="#" class="badge badge-info" onclick="openModal('Longenecker2011Parrotfish')">Cite</a>
 </div>
 
 <!-- Modal Structure -->
@@ -1851,10 +1857,11 @@ authors:
 </div>
 
 
-<div class="publication-entry">
+<div class="publication-entry journal">
     Aeby GS, Williams GJ, Franklin EC, Kenyon J, Cox EF, Coles S, Work TM (2011). Patterns of coral disease across the Hawaiian Archipelago: relating disease to environment. PLoS ONE 6(5): e20370. doi:10.1371/journal.pone.0020370.
 
-    <a href="#" class="badge badge-info" onclick="openModal('Aeby2011CoralDisease')">Cite</a>
+  <a href="#" class="badge badge-info" onclick="openModal('Aeby2011CoralDisease')">Cite</a>
+  <a href="https://doi:10.1371/journal.pone.0020370" class="badge badge-info" target="_blank">DOI</a>
 </div>
 
 <!-- Modal Structure -->
@@ -1871,6 +1878,7 @@ authors:
   pages = {e20370},
   year = {2011},
   doi = {10.1371/journal.pone.0020370}
+  url = {https://doi:10.1371/journal.pone.0020370}
 }
         </pre>
         <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
@@ -1878,10 +1886,11 @@ authors:
 </div>
 
 
-<div class="publication-entry">
+<div class="publication-entry journal">
     Aeby GS, Williams GJ, Franklin EC, Haapkyla J, Harvell CD, Neale S, Page CA, Raymundo L, Vargas-Angel B, Willis BL, Work TM, Davy SK (2011). Growth anomalies on the coral genera Acropora and Porites are strongly associated with host density and human population size across the Indo-Pacific. PLoS ONE 6(2): e16887. doi:10.1371/journal.pone.0016887.
 
-    <a href="#" class="badge badge-info" onclick="openModal('Aeby2011GrowthAnomalies')">Cite</a>
+  <a href="#" class="badge badge-info" onclick="openModal('Aeby2011GrowthAnomalies')">Cite</a>
+  <a href="https://doi:10.1371/journal.pone.0016887" class="badge badge-info" target="_blank">DOI</a>
 </div>
 
 <!-- Modal Structure -->
@@ -1898,6 +1907,7 @@ authors:
   pages = {e16887},
   year = {2011},
   doi = {10.1371/journal.pone.0016887}
+  url = {https://doi:10.1371/journal.pone.0016887}
 }
         </pre>
         <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
@@ -1905,10 +1915,10 @@ authors:
 </div>
 
 
-<div class="publication-entry">
+<div class="publication-entry book">
     Franklin EC (2010). Marine landscape ecology of coral reefs emerges from developments in seafloor mapping, GPS, and GIS. Pp 193-204 in Breman J, Ocean Globe. ESRI Press: Redlands, CA.
 
-    <a href="#" class="badge badge-info" onclick="openModal('Franklin2010MarineLandscape')">Cite</a>
+  <a href="#" class="badge badge-info" onclick="openModal('Franklin2010MarineLandscape')">Cite</a>
 </div>
 
 <!-- Modal Structure -->
@@ -1932,7 +1942,30 @@ authors:
 </div>
 
 
-Concepcion, GT, Kahng SE, Crepeau MW, Franklin EC, Coles SL, Toonen RJ (2010) Resolving natural ranges and marine invasions in a globally distributed octocoral (genus Carijoa). Marine Ecology Progress Series 401:113-127. \
+<div class="publication-entry journal">
+    Concepcion GT, Kahng SE, Crepeau MW, Franklin EC, Coles SL, Toonen RJ (2010). Resolving natural ranges and marine invasions in a globally distributed octocoral (genus Carijoa). Marine Ecology Progress Series 401:113-127.
+
+  <a href="#" class="badge badge-info" onclick="openModal('Concepcion2010ResolvingRanges')">Cite</a>
+</div>
+
+<!-- Modal Structure -->
+<div id="Concepcion2010ResolvingRanges" class="modal" style="display:none;">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <pre id="citationText">
+@article{concepcion_2010_resolving_ranges,
+  author = {Concepcion, G.T. and Kahng, S.E. and Crepeau, M.W. and Franklin, E.C. and Coles, S.L. and Toonen, R.J.},
+  title = {Resolving natural ranges and marine invasions in a globally distributed octocoral (genus Carijoa)},
+  journal = {Marine Ecology Progress Series},
+  volume = {401},
+  pages = {113-127},
+  year = {2010}
+}
+        </pre>
+        <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
+    </div>
+</div>
+
 
 Franklin EC, Dow A, Brong C, Craig M. Length-weight and length-length relationships of three endemic butterflyfish species (Chaetodontidae) from coral reefs of the Northwestern Hawaiian Islands, USA. (2009) Journal of Applied Ichthyology 25(5):616-617. \
 
