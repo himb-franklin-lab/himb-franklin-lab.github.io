@@ -69,9 +69,8 @@ authors:
 <!-- Search bars and filters -->
 <div style="display: flex; align-items: center; margin-bottom: 20px;">
     <!-- Search Bar -->
-    <input type="text" id="searchBar" placeholder="Search publications..." onkeyup="searchCitations()" style="padding: 10px; width: 100%; max-width: 300px; margin-right: 20px;">
+    <input type="text" id="searchBar" placeholder="Search..." onkeyup="searchCitations()" style="padding: 10px; width: 100%; max-width: 300px; margin-right: 20px;">
     <!-- Drop down filter -->
-    <label for="filter" style="margin-right: 10px;">Filter by:</label>
     <select id="filter" onchange="filterPublications()">
         <option value="all">All</option>
         <option value="journal">Journal Articles</option>
@@ -80,12 +79,11 @@ authors:
         <option value="conference">Conference</option>
     </select>
 
-<!-- Drop down filter for year -->
-  <label for="yearFilter" style="margin-left: 20px;">Filter by Year:</label>
-  <select id="yearFilter" onchange="filterPublications()">
-      <option value="all">All Years</option>
-      <option value="2023">2023</option>
-      <option value="2022">2022</option>
+   <!-- Drop down filter for year -->
+   <select id="yearFilter" onchange="filterByYear()">
+        <option value="all">All Years</option>
+        <option value="2023">2023</option>
+        <option value="2022">2022</option>
         <!-- Add more years as needed -->
     </select>
 </div>
