@@ -119,21 +119,6 @@ authors:
     </select>
 </div>
 
-<!-- Single Modal Template -->
-<div id="citationModal" class="modal" style="display:none;">
-    <div class="modal-content">
-        <span class="close" onclick="closeModal()">&times;</span>
-        <pre id="citationText"></pre>
-        <button class="button-outline" onclick="copyToClipboard('citationText')">Copy Citation</button>
-        <button class="button-outline" onclick="downloadCitation('citationText')">
-            <img src="path/to/download-icon.png" alt="Download" style="vertical-align: middle; width: 16px; height: 16px;">
-            Download Citation
-        </button>
-    </div>
-</div>
-
-
-
 
 <!-- Citations -->
 <div class="publication-entry journal 2023">
@@ -2346,16 +2331,26 @@ function filterPublications() {
 </script>
 
 <script>
-function openModal(element) {
-    const citationText = element.parentElement.getAttribute('data-citation');
-    document.getElementById('citationText').textContent = citationText;
-    document.getElementById('citationModal').style.display = 'block';
+function openModal(modalId) {
+    // Hide all modals first
+    const modals = document.querySelectorAll('.modal');
+    modals.forEach(modal => {
+        modal.style.display = "none";
+    });
+
+    // Show the selected modal
+    const modalToShow = document.getElementById(modalId);
+    if (modalToShow) {
+        modalToShow.style.display = "block";
+    }
 }
 
 function closeModal() {
-    document.getElementById('citationModal').style.display = 'none';
+    const modals = document.querySelectorAll('.modal');
+    modals.forEach(modal => {
+        modal.style.display = "none";
+    });
 }
-
 
 // Function to copy citation to clipboard
 function copyToClipboard() {
