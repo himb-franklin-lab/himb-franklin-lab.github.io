@@ -6,7 +6,7 @@ h1 {
 }
 
 body {
-    background-image: url('HIMB_aerial.jpeg')!important; /* Update the path to your background image */
+    background-color: red; /* Update the path to your background image */
     background-size: cover;
     background-position: center;
     color: #333; /* Change text color if needed */
