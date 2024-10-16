@@ -1,10 +1,12 @@
 ---
-name: Erik Franklin
-role: Associate Research Professor
-bio: John is a software engineer with 5 years of experience...
-user_groups:
-        - Principal Investigators
-image: 
- filename: images/erik_franklin.jpg
-linkedin: https://www.linkedin.com/in/erikcfranklin/
+name: "Dr. Erik Franklin"
+role: "Principal Investigator"
+last_name: "Franklin"
+params:
+  last_name: "Franklin"
+  user_group: "Principal Investigators"
+social:
+  - platform: "LinkedIn"
+    url: "https://www.linkedin.com/in/example"
 ---
+
