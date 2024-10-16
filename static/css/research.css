@@ -1,46 +1,40 @@
-/* General page styling */
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 20px;
-    background-color: #f5f5f5;
-    color: #333;
-  }
-  
-  h1, h2 {
-    text-align: left;
-  }
-  
-  h1 {
-    font-size: 2.5em;
-    margin-bottom: 40px;
-  }
-  
-  h2 {
-    font-size: 1.8em;
-    color: #0056b3;
-  }
-  
-  p {
-    font-size: 1.1em;
-    line-height: 1.6em;
-  }
-  
-  a {
-    color: #0056b3;
-    text-decoration: none;
-  }
-  
-  a:hover {
-    text-decoration: underline;
-  }
-  
-  strong {
-    font-weight: bold;
-  }
-  
-  /* Add margin between projects */
-  hr {
-    margin: 30px 0;
-  }
-  
+.research-project {
+  padding: 20px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+#project1 {
+  background-color: #3498db; 
+}
+
+#project2 {
+  background-color: #3cbce794; 
+}
+
+#project3 {
+  background-color: #fdfdfd; 
+}
+
+#project4 {
+  background-color: #b1b1b1; 
+}
+
+#project5 {
+  background-color: #3498db; /* Purple */
+}
+
+#project6 {
+  background-color: #3cbce794; /* Turquoise */
+}
+
+#project7 {
+  background-color: #fdfdfd; /* Dark blue */
+}
+
+/* Add more spacing between each project */
+.research-project + .research-project {
+  margin-top: 40px;
+}

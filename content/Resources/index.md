@@ -7,6 +7,9 @@
 
 <link rel="stylesheet" href="/css/resources.css">
 </head>
+<header>
+    <h1>Resources</h1>
+  </header>
 
 <div class="resources-page">
   <section class="hero">
