@@ -1,14 +1,22 @@
-body {
-  margin: 0; /* Ensure no margin around the body */
-  padding: 0; /* Ensure no padding around the body */
+* {
+  box-sizing: border-box; /* Ensure padding doesn't affect width */
 }
 
-.project {
+body {
+  margin: 0; /* Remove default body margin */
+  padding: 0; /* Remove default body padding */
+}
+
+main {
+  display: flex;
+  flex-direction: column; /* Stack sections vertically */
+  width: 100%; /* Ensure main takes full width */
+}
+
+.research-project {
   padding: 20px; /* Space inside each section */
   margin: 0; /* Remove margins */
-  width: calc(100vw + 20px); /* Make width a bit larger than viewport to counteract any margin */
-  position: relative; /* Position relative can help for z-indexing if needed */
-  left: -10px; /* Adjust left to align with the viewport */
+  width: 100%; /* Make width 100% */
   border-radius: 0; /* Remove rounded corners for full width */
   color: #000000;
   font-family: Arial, sans-serif;
