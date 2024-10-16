@@ -1,12 +1,13 @@
 ---
-name: Dr. Erik Franklin
-role: Principal Investigator
-last_name: Franklin
-params:
-  last_name: Franklin
-  user_group: Principal Investigators
+title: Erik Franklin
+date: 2024-10-15
+user_groups: ["Principal Investigators"]  # Modify as needed
+image: "images/erik_franklin.jpeg"  # Update with the correct path to the team member's image
 social:
-  - platform: LinkedIn
-    url: https://www.linkedin.com/in/erikcfranklin/
+  twitter: "https://twitter.com/johndoe"  # Add social links as needed
+  github: "https://github.com/johndoe"
 ---
+
+
+
 
