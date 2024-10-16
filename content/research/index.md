@@ -1,33 +1,46 @@
----
-title: Research
-type: landing
----
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <link rel="stylesheet" href="/css/research.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Research</title>
+  <link rel="stylesheet" href="research.css">
 </head>
+<body>
 
-# Our Research Projects
+  <header>
+    <h1>Our Research Projects</h1>
+  </header>
 
-## Project Title 1
-**Duration:** Start Date - End Date  
-**Project Description:** Brief description of the project. Provide an overview of the research, objectives, and significance of the project.  
-**Key Researchers:** Researcher 1, Researcher 2, etc.  
-**Funding Sources:** Funding Organization 1, Funding Organization 2, etc.  
-**Publications:**  
-- [Publication Title 1](link_to_publication_1)  
-- [Publication Title 2](link_to_publication_2)
+  <main>
+    <!-- Project 1 -->
+    <section class="project">
+      <h2>Project Title 1</h2>
+      <p><strong>Duration:</strong> Start Date - End Date</p>
+      <p><strong>Project Description:</strong> Brief description of the project. Provide an overview of the research, objectives, and significance of the project.</p>
+      <p><strong>Key Researchers:</strong> Researcher 1, Researcher 2, etc.</p>
+      <p><strong>Funding Sources:</strong> Funding Organization 1, Funding Organization 2, etc.</p>
+      <p><strong>Publications:</strong> 
+        <a href="link_to_publication_1">Publication Title 1</a>, 
+        <a href="link_to_publication_2">Publication Title 2</a>
+      </p>
+    </section>
 
----
+ <!-- Project 2 -->
+  <section class="project">
+      <h2>Project Title 2</h2>
+      <p><strong>Duration:</strong> Start Date - End Date</p>
+      <p><strong>Project Description:</strong> Brief description of the project. Provide an overview of the research, objectives, and significance of the project.</p>
+      <p><strong>Key Researchers:</strong> Researcher 1, Researcher 2, etc.</p>
+      <p><strong>Funding Sources:</strong> Funding Organization 1, Funding Organization 2, etc.</p>
+      <p><strong>Publications:</strong> 
+        <a href="link_to_publication_1">Publication Title 1</a>, 
+        <a href="link_to_publication_2">Publication Title 2</a>
+      </p>
+    </section>
 
-## Project Title 2
-**Duration:** Start Date - End Date  
-**Project Description:** Brief description of the project. Provide an overview of the research, objectives, and significance of the project.  
-**Key Researchers:** Researcher 1, Researcher 2, etc.  
-**Funding Sources:** Funding Organization 1, Funding Organization 2, etc.  
-**Publications:**  
-- [Publication Title 1](link_to_publication_1)  
-- [Publication Title 2](link_to_publication_2)
+    <!-- Add more projects as needed -->
+  </main>
 
----
-
-<!-- Add more projects as needed -->
+</body>
+</html>
