@@ -1,9 +1,9 @@
-.project {
-  padding: 20px; /* Padding within each section */
+.research-project {
+  padding: 20px;
   margin: 0; /* Remove margins */
-  width: 100vw; /* Full viewport width */
-  box-sizing: border-box; /* Include padding in width calculation */
-  color: #fff;
+  width: 100vw; 
+  border-radius: 0; /* Remove rounded corners for full width */
+  color: #000000;
   font-family: Arial, sans-serif;
 }
 
