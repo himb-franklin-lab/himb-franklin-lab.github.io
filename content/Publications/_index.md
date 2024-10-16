@@ -188,8 +188,8 @@ authors:
 <div class="publication-entry journal 2024">
     Franklin EC, Platt MT*, Andrade P (2024). Increased occurrence of the rare golden color morph of Pacific chub Kyphosus sandwicensis in a no-take marine reserve. <em>Journal of Fish Biology</em>, 104: 1237–1240.
 
-    <a href="#" class="badge badge-info" onclick="openModal('franklin2024')">Cite</a>
-    <a href="https://doi.org/10.1111/jfb.15644" class="badge badge-info" target="_blank">DOI</a>
+  <a href="#" class="badge badge-info" onclick="openModal('franklin2024')">Cite</a>
+  <a href="https://doi.org/10.1111/jfb.15644" class="badge badge-info" target="_blank">DOI</a>
 </div>
 
 <!-- Modal Structure -->
