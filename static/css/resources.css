@@ -1,0 +1,19 @@
+.resources-page {
+    text-align: left; /* Align text to the left */
+    padding: 20px; /* Add some padding for better spacing */
+  }
+  
+  .hero {
+    margin-bottom: 20px; /* Add space between sections */
+  }
+  
+  .hero h1 {
+    font-size: 24px; /* Adjust header size as needed */
+    margin-bottom: 10px; /* Space below header */
+  }
+  
+  .hero p {
+    font-size: 16px; /* Adjust paragraph size as needed */
+    line-height: 1.5; /* Improve readability */
+  }
+  
