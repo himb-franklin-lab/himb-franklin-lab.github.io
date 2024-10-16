@@ -1,7 +1,14 @@
+body {
+  margin: 0; /* Ensure no margin around the body */
+  padding: 0; /* Ensure no padding around the body */
+}
+
 .research-project {
-  padding: 20px;
+  padding: 20px; /* Space inside each section */
   margin: 0; /* Remove margins */
-  width: 100vw; 
+  width: calc(100vw + 20px); /* Make width a bit larger than viewport to counteract any margin */
+  position: relative; /* Position relative can help for z-indexing if needed */
+  left: -10px; /* Adjust left to align with the viewport */
   border-radius: 0; /* Remove rounded corners for full width */
   color: #000000;
   font-family: Arial, sans-serif;
@@ -32,10 +39,10 @@
 }
 
 #project7 {
-  background-color: #d2ecf7; /
+  background-color: #d2ecf7; 
 }
 
 /* Add more spacing between each project */
 .research-project + .research-project {
-  margin-top: 40px;
+  margin-top: 40px; /* Space between sections */
 }
