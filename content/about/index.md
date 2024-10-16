@@ -23,6 +23,7 @@
 </body>
 </html>
 
-<div class="photo-credit">
+<div style="position: fixed; bottom: 0; left: 0; width: 100%; background-color: rgba(0, 0, 0, 0.7); color: white; text-align: center; padding: 10px; font-size: 12px; z-index: 1000;">
     Photo Credit: UH Mānoa Admissions
 </div>
+
