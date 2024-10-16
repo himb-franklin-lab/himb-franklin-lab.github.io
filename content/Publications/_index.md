@@ -8,7 +8,7 @@ authors:
   #caption: ''
   #image: ''
 ---
-* = Franklin lab student, <sup>+</sup> = other student
+"*" = Franklin lab student, <sup>+</sup> = other student
 <!-- Inline CSS for modal -->
 <style>
     .modal {
