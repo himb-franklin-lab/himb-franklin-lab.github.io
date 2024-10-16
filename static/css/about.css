@@ -34,7 +34,7 @@ p {
 
 .photo-credit {
     position: fixed;
-    bottom: 10px; /* Position at the bottom */
+    bottom: 0; /* Position at the bottom */
     left: 0;
     right: 0;
     text-align: center; /* Center the text */
