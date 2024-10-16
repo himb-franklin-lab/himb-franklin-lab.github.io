@@ -23,7 +23,6 @@
         <p>If you have received an offer of admission from UHM in Marine Biology, and you have indicated clearly in your statement of purpose that you want to work in coral reef ecology, fisheries, or geospatial analysis, then I probably already have your application. If you don't hear from me, and it's been more than four weeks since you received your admission offer, please send me a brief email.</p>
         <h2>Postdoctoral Fellows</h2>
         <p>Please contact Dr. Franklin directly if you are interested in postdoctoral work in the lab. Note that we do not currently have funding to support post-doctoral fellows.</p>
-        <p>These activities have involved collaborations with and support from local, state, and federal agencies as well as national and international researchers to leverage resources and expertise to provide scientifically-sound resource management solutions. If you are considering graduate school or post-doctoral research and our activities interest you, then please read the prospective students and post-doctoral fellows section <a href="/want-to-join-us" class="badge badge-info">Want to Join Us?</a>.</p>
     </div>
 </body>
 </html>
