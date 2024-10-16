@@ -128,7 +128,7 @@ authors:
 
 <!-- Citations -->
 <div class="publication-entry journal 2024">
-    Longenecker K, Langston R, Mamesah J, Natan Y, Pattinasarany M, Radjab AW, Romdon A, Ruli F, Simanjuntak P<sup>+</sup>, Sinaga FL<sup>+</sup>, Limmon GV, Franklin EC (2024). Errors in estimating reproductive parameters with macroscopic methods: a case study on the protogynous blacktip grouper *Epinephelus fasciatus* (Forsskål 1775). <em>Journal of Fish Biology</em>, 105(4), 1256–1267.
+    Longenecker K, Langston R, Mamesah J, Natan Y, Pattinasarany M, Radjab AW, Romdon A, Ruli F, Simanjuntak P<sup>+</sup>, Sinaga FL<sup>+</sup>, Limmon GV, Franklin EC (2024). Errors in estimating reproductive parameters with macroscopic methods: a case study on the protogynous blacktip grouper <em>Epinephelus fasciatus</em> (Forsskål 1775). <em>Journal of Fish Biology</em>, 105(4), 1256–1267.
 
   <a href="#" class="badge badge-info" onclick="openModal('longenecker2024')">Cite</a>
   <a href="https://doi.org/10.1111/jfb.15644" class="badge badge-info" target="_blank">DOI</a>
@@ -157,7 +157,7 @@ authors:
 </div>
 
 <div class="publication-entry journal 2024">
-    Möhlenkamp P<sup>+</sup>, Franklin EC, McManus MA (2024). Nuʻupia Ponds’ Water Circulation Characteristics: Exploring Water Exchange and Residence Time for Marine Ecosystem Management. <em>Sustainability</em>, 16(16), 7159.
+    Möhlenkamp P<sup>+</sup>, Franklin EC, McManus MA (2024). Nuʻupia Ponds’ Water Circulation Characteristics: Exploring Water Exchange and Residence Time for Marine Ecosystem Management. <em>Sustainability</em>, 16(16): 7159.
 
   <a href="#" class="badge badge-info" onclick="openModal('mohlenkamp2024')">Cite</a>
   <a href="https://doi.org/10.3390/su16167159" class="badge badge-info" target="_blank">DOI</a>
@@ -186,7 +186,7 @@ authors:
 </div>
 
 <div class="publication-entry journal 2024">
-    Franklin EC, Platt MT*, Andrade P (2024). Increased occurrence of the rare golden color morph of Pacific chub Kyphosus sandwicensis in a no-take marine reserve. <em>Journal of Fish Biology</em>, 104, 1237–1240.
+    Franklin EC, Platt MT*, Andrade P (2024). Increased occurrence of the rare golden color morph of Pacific chub Kyphosus sandwicensis in a no-take marine reserve. <em>Journal of Fish Biology</em>, 104: 1237–1240.
 
     <a href="#" class="badge badge-info" onclick="openModal('franklin2024')">Cite</a>
     <a href="https://doi.org/10.1111/jfb.15644" class="badge badge-info" target="_blank">DOI</a>
