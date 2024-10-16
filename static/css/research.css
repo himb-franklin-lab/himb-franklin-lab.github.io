@@ -1,9 +1,19 @@
-.research-project {
-  padding: 20px;
+body {
+  margin: 0; /* Remove body margins */
+  padding: 0; /* Remove body padding */
+}
+
+main {
+  width: 100%; /* Ensure main takes full width */
+  padding: 0; /* No padding */
+}
+
+.project {
+  padding: 20px; /* Padding within each section */
   margin: 0; /* Remove margins */
-  width: 100%; /* Make section full width */
-  border-radius: 0; /* Remove rounded corners for full width */
-  color: #000000;
+  width: 100vw; /* Full viewport width */
+  box-sizing: border-box; /* Include padding in width calculation */
+  color: #fff;
   font-family: Arial, sans-serif;
 }
 
