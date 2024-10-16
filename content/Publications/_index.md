@@ -8,7 +8,7 @@ authors:
   #caption: ''
   #image: ''
 ---
-(* = Franklin lab student, + = other student)
+* = Franklin lab student, <sup>+</sup> = other student
 <!-- Inline CSS for modal -->
 <style>
     .modal {
@@ -97,6 +97,7 @@ authors:
    <!-- Drop down filter for year -->
    <select id="yearFilter" onchange="filterPublications()" style="padding: 10px; width: 100%; max-width: 150px; border: 1px solid #ccc; border-radius: 5px; height: 50px; font-size: 16px;">
         <option value="all">Year</option>
+        <option value="2024">2024</option>
         <option value="2023">2023</option>
         <option value="2022">2022</option>
         <option value="2021">2021</option>
@@ -125,38 +126,95 @@ authors:
 </div>
 
 
-
-
 <!-- Citations -->
-<div class="publication-entry journal 2023">
-    Franklin EC, Platt MT*, Andrade P (accepted). Increased occurrence of the rare golden color morph of Pacific chub Kyphosus sandwicensis in a no-take marine reserve. <em>Journal of Fish Biology</em>. <a href="https://doi.org/10.1111/jfb.15644">doi:10.1111/jfb.15644</a>
-    
-  <a href="#" class="badge badge-info" onclick="openModal('franklin2023')">Cite</a>
+<div class="publication-entry journal 2024">
+    Longenecker K, Langston R, Mamesah J, Natan Y, Pattinasarany M, Radjab AW, Romdon A, Ruli F, Simanjuntak P<sup>+</sup>, Sinaga FL<sup>+</sup>, Limmon GV, Franklin EC (2024). Errors in estimating reproductive parameters with macroscopic methods: a case study on the protogynous blacktip grouper *Epinephelus fasciatus* (Forsskål 1775). <em>Journal of Fish Biology</em>, 105(4), 1256–1267.
+
+  <a href="#" class="badge badge-info" onclick="openModal('longenecker2024')">Cite</a>
   <a href="https://doi.org/10.1111/jfb.15644" class="badge badge-info" target="_blank">DOI</a>
 </div>
 
 <!-- Modal Structure -->
-<div id="franklin2023" class="modal" style="display:none;">
+<div id="longenecker2024" class="modal" style="display:none;">
     <div class="modal-content">
         <span class="close" onclick="closeModal()">&times;</span>
         <pre class="citation-text">
-@article{franklin_2023,
-  author = {Franklin, E.C. and Platt, M.T. and Andrade, P.},
-  title = {Increased occurrence of the rare golden color morph of Pacific chub Kyphosus sandwicensis in a no-take marine reserve},
+@article{longenecker_2024,
+  author = {Longenecker, K. and Langston, R. and Mamesah, J. and Natan, Y. and Pattinasarany, M. and Radjab, A.W. and Romdon, A. and Ruli, F. and Simanjuntak, P. and Sinaga, F.L. and Limmon, G.V. and Franklin, E.C.},
+  title = {Errors in estimating reproductive parameters with macroscopic methods: a case study on the protogynous blacktip grouper *Epinephelus fasciatus* (Forsskål 1775)},
   journal = {Journal of Fish Biology},
-  year = {accepted},
+  year = {2024},
+  volume = {105},
+  number = {4},
+  pages = {1256--1267},
   doi = {10.1111/jfb.15644},
   url = {https://doi.org/10.1111/jfb.15644}
 }
-       </pre>
-       <button class="button-outline" onclick="copyToClipboard()">Copy Citation</button>
-       <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
+        </pre>
+        <button class="button-outline" onclick="copyToClipboard()">Copy Citation</button>
+        <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
     </div>
 </div>
 
+<div class="publication-entry journal 2024">
+    Möhlenkamp P<sup>+</sup>, Franklin EC, McManus MA (2024). Nuʻupia Ponds’ Water Circulation Characteristics: Exploring Water Exchange and Residence Time for Marine Ecosystem Management. <em>Sustainability</em>, 16(16), 7159.
+
+  <a href="#" class="badge badge-info" onclick="openModal('mohlenkamp2024')">Cite</a>
+  <a href="https://doi.org/10.3390/su16167159" class="badge badge-info" target="_blank">DOI</a>
+</div>
+
+<!-- Modal Structure -->
+<div id="mohlenkamp2024" class="modal" style="display:none;">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <pre class="citation-text">
+@article{mohlenkamp_2024,
+  author = {Möhlenkamp, P. and Franklin, E.C. and McManus, M.A.},
+  title = {Nuʻupia Ponds’ Water Circulation Characteristics: Exploring Water Exchange and Residence Time for Marine Ecosystem Management},
+  journal = {Sustainability},
+  year = {2024},
+  volume = {16},
+  number = {16},
+  pages = {7159},
+  doi = {10.3390/su16167159},
+  url = {https://doi.org/10.3390/su16167159}
+}
+        </pre>
+        <button class="button-outline" onclick="copyToClipboard()">Copy Citation</button>
+        <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
+    </div>
+</div>
+
+<div class="publication-entry journal 2024">
+    Franklin EC, Platt MT*, Andrade P (2024). Increased occurrence of the rare golden color morph of Pacific chub Kyphosus sandwicensis in a no-take marine reserve. <em>Journal of Fish Biology</em>, 104, 1237–1240.
+
+    <a href="#" class="badge badge-info" onclick="openModal('franklin2024')">Cite</a>
+    <a href="https://doi.org/10.1111/jfb.15644" class="badge badge-info" target="_blank">DOI</a>
+</div>
+
+<!-- Modal Structure -->
+<div id="franklin2024" class="modal" style="display:none;">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <pre class="citation-text">
+@article{franklin_2024,
+  author = {Franklin, E.C. and Platt, M.T. and Andrade, P.},
+  title = {Increased occurrence of the rare golden color morph of Pacific chub Kyphosus sandwicensis in a no-take marine reserve},
+  journal = {Journal of Fish Biology},
+  year = {2024},
+  volume = {104},
+  pages = {1237–1240},
+  doi = {10.1111/jfb.15644},
+  url = {https://doi.org/10.1111/jfb.15644}
+}
+        </pre>
+        <button class="button-outline" onclick="copyToClipboard()">Copy Citation</button>
+        <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
+    </div>
+</div>
 
 <div class="publication-entry journal 2023">
-    Winans WR<sup>+</sup>, Chen Q, Qiang Y, Franklin EC (2023). Large-area automatic detection of shoreline stranded marine debris using deep learning. <em>International Journal of Applied Earth Observation and Geoinformation</em>. <a href="https://doi.org/10.1016/j.jag.2023.103515">doi:10.1016/j.jag.2023.103515</a>
+    Winans WR<sup>+</sup>, Chen Q, Qiang Y, Franklin EC (2023). Large-area automatic detection of shoreline stranded marine debris using deep learning. <em>International Journal of Applied Earth Observation and Geoinformation</em>. 
     
   <a href="#" class="badge badge-info" onclick="openModal('winans2023')">Cite</a>
   <a href="https://doi.org/10.1016/j.jag.2023.103515" class="badge badge-info" target="_blank">DOI</a>
@@ -183,7 +241,7 @@ authors:
 
 
 <div class="publication-entry journal 2023">
-    Purwanto, Franklin EC, Mardiani SR, White AT (2023). Multiple-goal bioeconomic programming to address conflicting management objectives in Indonesian small pelagic fisheries. <em>Marine Policy</em> 150: 105519. <a href="https://doi.org/10.1016/j.marpol.2023.105519">doi:10.1016/j.marpol.2023.105519</a>
+    Purwanto, Franklin EC, Mardiani SR, White AT (2023). Multiple-goal bioeconomic programming to address conflicting management objectives in Indonesian small pelagic fisheries. <em>Marine Policy</em> 150: 105519. 
     
   <a href="#" class="badge badge-info" onclick="openModal('purwanto2023')">Cite</a>
   <a href="https://doi.org/10.1016/j.marpol.2023.105519" class="badge badge-info" target="_blank">DOI</a>
@@ -212,7 +270,7 @@ authors:
 
 
 <div class="publication-entry journal 2022">
-    Carlson KM, Mora C, Xu J<sup>+</sup>, Setter RO<sup>+</sup>, Harangody M<sup>+</sup>, Franklin EC, Kantar MB, Lucas M, Menzo ZM<sup>+</sup>, Spirandelli D, Schanzenbach D, Warr CC, Wong AE<sup>+</sup>, Businger S (2022). Global rainbow distribution under current and future climates. <em>Global Environmental Change</em> 77: 102604. <a href="https://doi.org/10.1016/j.gloenvcha.2022.102604">doi:10.1016/j.gloenvcha.2022.102604</a>
+    Carlson KM, Mora C, Xu J<sup>+</sup>, Setter RO<sup>+</sup>, Harangody M<sup>+</sup>, Franklin EC, Kantar MB, Lucas M, Menzo ZM<sup>+</sup>, Spirandelli D, Schanzenbach D, Warr CC, Wong AE<sup>+</sup>, Businger S (2022). Global rainbow distribution under current and future climates. <em>Global Environmental Change</em> 77: 102604. 
     
   <a href="#" class="badge badge-info" onclick="openModal('carlson2022')">Cite</a>
   <a href="https://doi.org/10.1016/j.gloenvcha.2022.102604" class="badge badge-info" target="_blank">DOI</a>
@@ -241,7 +299,7 @@ authors:
 
 
 <div class="publication-entry journal 2022">
-    Setter RO<sup>+</sup>, Franklin EC, Mora C (2022). Co-occurring anthropogenic stressors reduce the timeframe of environmental viability for the world’s coral reefs. <em>PLoS Biology</em> 20: e3001821. <a href="https://doi.org/10.1371/journal.pbio.3001821">doi:10.1371/journal.pbio.3001821</a>
+    Setter RO<sup>+</sup>, Franklin EC, Mora C (2022). Co-occurring anthropogenic stressors reduce the timeframe of environmental viability for the world’s coral reefs. <em>PLoS Biology</em> 20: e3001821. 
     
   <a href="#" class="badge badge-info" onclick="openModal('setter2022')">Cite</a>
   <a href="https://doi.org/10.1371/journal.pbio.3001821" class="badge badge-info" target="_blank">DOI</a>
@@ -270,7 +328,7 @@ authors:
 
 
 <div class="publication-entry journal 2022">
-    Barkley YM*, Sakai T, Oleson EM, Franklin EC (2022). Examining distribution patterns of foraging and non-foraging sperm whales in Hawaiian waters using visual and passive acoustic data. <em>Frontiers in Remote Sensing</em> 3: 940186. <a href="https://doi.org/10.3389/frsen.2022.940186">doi:10.3389/frsen.2022.940186</a>
+    Barkley YM*, Sakai T, Oleson EM, Franklin EC (2022). Examining distribution patterns of foraging and non-foraging sperm whales in Hawaiian waters using visual and passive acoustic data. <em>Frontiers in Remote Sensing</em> 3: 940186. 
     
   <a href="#" class="badge badge-info" onclick="openModal('barkley2022')">Cite</a>
   <a href="https://doi.org/10.3389/frsen.2022.940186" class="badge badge-info" target="_blank">DOI</a>
@@ -299,7 +357,7 @@ authors:
 
 
 <div class="publication-entry journal 2022">
-    Akiona AK*, Popp BN, Toonen RJ, Siple MC, Kotubetey K, Kawelo H, Franklin EC (2022). Predatory fish diets shift toward an invasive mullet in a traditional Hawaiian aquaculture system. <em>Aquaculture, Fish and Fisheries</em>. <a href="https://doi.org/10.1002/aff2.68">doi:10.1002/aff2.68</a>
+    Akiona AK*, Popp BN, Toonen RJ, Siple MC, Kotubetey K, Kawelo H, Franklin EC (2022). Predatory fish diets shift toward an invasive mullet in a traditional Hawaiian aquaculture system. <em>Aquaculture, Fish and Fisheries</em>. 
     
   <a href="#" class="badge badge-info" onclick="openModal('akiona2022')">Cite</a>
   <a href="https://doi.org/10.1002/aff2.68" class="badge badge-info" target="_blank">DOI</a>
@@ -326,7 +384,7 @@ authors:
 
 
 <div class="publication-entry journal 2022">
-    Mora C, McKenzie T, Gaw IM<sup>+</sup>, Dean JM<sup>+</sup>, von Hammerstein H<sup>+</sup>, Knudson TA<sup>+</sup>, Setter RO<sup>+</sup>, Smith CZ<sup>+</sup>, Webster KM<sup>+</sup>, Patz JA, Franklin EC (2022). Over half of known human pathogenic diseases can be aggravated by climate change. <em>Nature Climate Change</em> 12: 869-875. <a href="https://doi.org/10.1038/s41558-022-01426-1">doi:10.1038/s41558-022-01426-1</a>
+    Mora C, McKenzie T, Gaw IM<sup>+</sup>, Dean JM<sup>+</sup>, von Hammerstein H<sup>+</sup>, Knudson TA<sup>+</sup>, Setter RO<sup>+</sup>, Smith CZ<sup>+</sup>, Webster KM<sup>+</sup>, Patz JA, Franklin EC (2022). Over half of known human pathogenic diseases can be aggravated by climate change. <em>Nature Climate Change</em> 12: 869-875. 
     
   <a href="#" class="badge badge-info" onclick="openModal('mora2022')">Cite</a>
   <a href="https://doi.org/10.1038/s41558-022-01426-1" class="badge badge-info" target="_blank">DOI</a>
@@ -355,7 +413,7 @@ authors:
 
 
 <div class="publication-entry journal 2022">
-    Nichols RS*, DeMartini EE, Franklin EC (2022). No butts about it: using urogenital disparity in a deep water snapper, <em>Etelis carbunculus</em> (Lutjanidae), for field based sexual identification. <em>Journal of Fish Biology</em>. <a href="https://doi.org/10.1111/jfb.15166">doi:10.1111/jfb.15166</a>
+    Nichols RS*, DeMartini EE, Franklin EC (2022). No butts about it: using urogenital disparity in a deep water snapper, <em>Etelis carbunculus</em> (Lutjanidae), for field based sexual identification. <em>Journal of Fish Biology</em>. 
     
   <a href="#" class="badge badge-info" onclick="openModal('nichols2022')">Cite</a>
   <a href="https://doi.org/10.1111/jfb.15166" class="badge badge-info" target="_blank">DOI</a>
@@ -382,7 +440,7 @@ authors:
 
 
 <div class="publication-entry journal 2022">
-    Andrade P, Morishige K, Mau A, Kapono L, Franklin EC (2022). Re-imagining contemporary conservation to support ʻĀina Momona: Productive and thriving communities of people, place, and natural resources. <em>Parks Stewardship Forum</em> 38: 186–198. <a href="https://doi.org/10.5070/P538257511">doi: 10.5070/P538257511</a>
+    Andrade P, Morishige K, Mau A, Kapono L, Franklin EC (2022). Re-imagining contemporary conservation to support ʻĀina Momona: Productive and thriving communities of people, place, and natural resources. <em>Parks Stewardship Forum</em> 38: 186–198. 
     
   <a href="#" class="badge badge-info" onclick="openModal('andrade2022')">Cite</a>
   <a href="https://doi.org/10.5070/P538257511" class="badge badge-info" target="_blank">DOI</a>
@@ -411,7 +469,7 @@ authors:
 
 
 <div class="publication-entry journal 2022">
-    Purwanto, Franklin EC, Mardiani SR, White AT (2022). Stock assessment and overexploitation risk of small pelagic fish in Fisheries Management Area 715 of Indonesia. <em>Asian Fisheries Science</em> 35: 76-89. <a href="https://doi.org/10.33997/j.afs.2022.35.1.007">doi:10.33997/j.afs.2022.35.1.007</a>
+    Purwanto, Franklin EC, Mardiani SR, White AT (2022). Stock assessment and overexploitation risk of small pelagic fish in Fisheries Management Area 715 of Indonesia. <em>Asian Fisheries Science</em> 35: 76-89. 
     
   <a href="#" class="badge badge-info" onclick="openModal('purwanto2022')">Cite</a>
   <a href="https://doi.org/10.33997/j.afs.2022.35.1.007" class="badge badge-info" target="_blank">DOI</a>
@@ -440,7 +498,7 @@ authors:
 
 
 <div class="publication-entry journal 2022">
-    Jaya I, Satria F, Wudianto, Nugroho D, Sadiyah L, Buchary EA, White AT, Franklin EC, Courtney CA, Green G, Green S (2022). Are the working principles of fisheries management at work in Indonesia? <em>Marine Policy</em> 140: 105047. <a href="https://doi.org/10.1016/j.marpol.2022.105047">doi:10.1016/j.marpol.2022.105047</a>
+    Jaya I, Satria F, Wudianto, Nugroho D, Sadiyah L, Buchary EA, White AT, Franklin EC, Courtney CA, Green G, Green S (2022). Are the working principles of fisheries management at work in Indonesia? <em>Marine Policy</em> 140: 105047. 
     
   <a href="#" class="badge badge-info" onclick="openModal('jaya2022')">Cite</a>
   <a href="https://doi.org/10.1016/j.marpol.2022.105047" class="badge badge-info" target="_blank">DOI</a>
@@ -469,7 +527,7 @@ authors:
 
 
 <div class="publication-entry journal 2022">
-    Longenecker K, Franklin EC, Hill-Lewenilovo R<sup>+</sup>, Lalavanua W, Langston R, Mangubhai, Piovano S (2022). Many immature individuals and largest size classes lacked females from three coral reef fishes (Actinopterygii) in Fiji market surveys: Implications for fishery management. <em>Acta Ichthyologica et Piscatoria</em> 52: 53-65. <a href="https://doi.org/10.3897/aiep.52.80586">doi:10.3897/aiep.52.80586</a>
+    Longenecker K, Franklin EC, Hill-Lewenilovo R<sup>+</sup>, Lalavanua W, Langston R, Mangubhai, Piovano S (2022). Many immature individuals and largest size classes lacked females from three coral reef fishes (Actinopterygii) in Fiji market surveys: Implications for fishery management. <em>Acta Ichthyologica et Piscatoria</em> 52: 53-65. 
     
   <a href="#" class="badge badge-info" onclick="openModal('longenecker2022')">Cite</a>
   <a href="https://doi.org/10.3897/aiep.52.80586" class="badge badge-info" target="_blank">DOI</a>
@@ -498,7 +556,7 @@ authors:
 
 
 <div class="publication-entry journal 2022">
-    Johannsen T<sup>+</sup>, Franklin EC, Hunter CL (2022). A short-term winner? Dramatic increases in the population of mushroom coral <em>Lobactis scutaria</em> (Anthozoa: Fungiidae) in Kaneohe Bay, Hawaii from 2000 to 2018. <em>Pacific Science</em> 76: 79-93. <a href="https://doi.org/10.2984/76.1.7">doi:10.2984/76.1.7</a>
+    Johannsen T<sup>+</sup>, Franklin EC, Hunter CL (2022). A short-term winner? Dramatic increases in the population of mushroom coral <em>Lobactis scutaria</em> (Anthozoa: Fungiidae) in Kaneohe Bay, Hawaii from 2000 to 2018. <em>Pacific Science</em> 76: 79-93. 
     
   <a href="#" class="badge badge-info" onclick="openModal('johannsen2022')">Cite</a>
   <a href="https://doi.org/10.2984/76.1.7" class="badge badge-info" target="_blank">DOI</a>
@@ -527,7 +585,7 @@ authors:
 
 
 <div class="publication-entry journal 2022">
-    Counsell CWW<sup>+</sup>, Coleman RR<sup>+</sup>, Lal SS<sup>+</sup>, Bowen BW, Franklin EC, Neuheimer AB, Powell BS, Toonen RJ, Donahue MJ, Hixon MA, McManus MA (2022). Interdisciplinary analysis of larval dispersal for a coral reef fish: opening the black box. <em>Marine Ecology Progress Series</em> 684: 117-132. <a href="https://doi.org/10.3354/meps13971">doi: 10.3354/meps13971</a>
+    Counsell CWW<sup>+</sup>, Coleman RR<sup>+</sup>, Lal SS<sup>+</sup>, Bowen BW, Franklin EC, Neuheimer AB, Powell BS, Toonen RJ, Donahue MJ, Hixon MA, McManus MA (2022). Interdisciplinary analysis of larval dispersal for a coral reef fish: opening the black box. <em>Marine Ecology Progress Series</em> 684: 117-132. 
     
   <a href="#" class="badge badge-info" onclick="openModal('counsell2022')">Cite</a>
   <a href="https://doi.org/10.3354/meps13971" class="badge badge-info" target="_blank">DOI</a>
@@ -556,7 +614,7 @@ authors:
 
 
 <div class="publication-entry journal 2022">
-    Limmon GV, Longenecker KL, Langston R, Franklin EC (2022). Capacity development in reproductive life history studies of tropical fishes in Ambon, Maluku, Indonesia for data-limited fisheries. <em>Marine Policy</em> 136: 104948. <a href="https://doi.org/10.1016/j.marpol.2021/104948">doi: 10.1016/j.marpol.2021/104948</a>
+    Limmon GV, Longenecker KL, Langston R, Franklin EC (2022). Capacity development in reproductive life history studies of tropical fishes in Ambon, Maluku, Indonesia for data-limited fisheries. <em>Marine Policy</em> 136: 104948. 
     
   <a href="#" class="badge badge-info" onclick="openModal('limmon2022')">Cite</a>
   <a href="https://doi.org/10.1016/j.marpol.2021/104948" class="badge badge-info" target="_blank">DOI</a>
@@ -585,7 +643,7 @@ authors:
 
 
 <div class="publication-entry 2022">
-    Hixon MA, Bowen BW, Coleman RR<sup>+</sup>, Counsell CW<sup>+</sup>, Donahue MJ, Franklin EC, Kittinger JN, McManus MA, Toonen RJ (2022). Fish flow: following fisheries from spawning to supper. <em>Frontiers in Ecology and the Environment</em> 20: 247-254. <a href="https://doi.org/10.1002/fee.2449">doi: 10.1002/fee.2449</a>
+    Hixon MA, Bowen BW, Coleman RR<sup>+</sup>, Counsell CW<sup>+</sup>, Donahue MJ, Franklin EC, Kittinger JN, McManus MA, Toonen RJ (2022). Fish flow: following fisheries from spawning to supper. <em>Frontiers in Ecology and the Environment</em> 20: 247-254. 
     
   <a href="#" class="badge badge-info" onclick="openModal('hixon2022')">Cite</a>
   <a href="https://doi.org/10.1002/fee.2449" class="badge badge-info" target="_blank">DOI</a>
@@ -614,7 +672,7 @@ authors:
 
 
 <div class="publication-entry journal 2021">
-    Mau A<sup>+</sup>, Franklin EC, Huss GR, Nagashima K, Nicodemus P, Valdez A, Bingham J-P (2021). Near-daily reconstruction of tropical intertidal SST from limpet shells to infer their growth rates. <em>Nature Communications Earth & Environment</em> 2, 171. <a href="https://doi.org/10.1038/s43247-021-00251-2">doi: 10.1038/s43247-021-00251-2</a>
+    Mau A<sup>+</sup>, Franklin EC, Huss GR, Nagashima K, Nicodemus P, Valdez A, Bingham J-P (2021). Near-daily reconstruction of tropical intertidal SST from limpet shells to infer their growth rates. <em>Nature Communications Earth & Environment</em> 2, 171. 
     
   <a href="#" class="badge badge-info" onclick="openModal('mau2021')">Cite</a>
   <a href="https://doi.org/10.1038/s43247-021-00251-2" class="badge badge-info" target="_blank">DOI</a>
@@ -643,7 +701,7 @@ authors:
 
 
 <div class="publication-entry journal 2021">
-    Carlson B, Awai M, Saunders WB, Franklin EC (2021). Nautilus belauensis population demographics and trap yields in Palau were similar between surveys in 1982 and 2015. <em>Marine Ecology Progress Series</em> 670: 239-245. <a href="https://doi.org/10.3354/meps13773">doi: 10.3354/meps13773</a>
+    Carlson B, Awai M, Saunders WB, Franklin EC (2021). Nautilus belauensis population demographics and trap yields in Palau were similar between surveys in 1982 and 2015. <em>Marine Ecology Progress Series</em> 670: 239-245. 
     
   <a href="#" class="badge badge-info" onclick="openModal('carlson2021')">Cite</a>
   <a href="https://doi.org/10.3354/meps13773" class="badge badge-info" target="_blank">DOI</a>
@@ -672,7 +730,7 @@ authors:
 
 
 <div class="publication-entry journal 2021">
-    Gill A<sup>+</sup>, Franklin EC, Donaldson TJ (2021). Fore reef location influences spawning success and egg predation in lek-like mating territories of the bird wrasse Gomphosus varius. <em>Journal of Fish Biology</em>. <a href="https://doi.org/10.1007/s10641-021-01084-w">doi: 10.1007/s10641-021-01084-w</a>
+    Gill A<sup>+</sup>, Franklin EC, Donaldson TJ (2021). Fore reef location influences spawning success and egg predation in lek-like mating territories of the bird wrasse Gomphosus varius. <em>Journal of Fish Biology</em>. 
     
   <a href="#" class="badge badge-info" onclick="openModal('gill2021')">Cite</a>
   <a href="https://doi.org/10.1007/s10641-021-01084-w" class="badge badge-info" target="_blank">DOI</a>
@@ -699,7 +757,7 @@ authors:
 
 
 <div class="publication-entry journal 2021">
-    Altman-Kurosaki NT*, Smith CM, Franklin EC (2021). Oahu's marine protected areas have limited success in protecting coral reef herbivore functional assemblages. <em>Coral Reefs</em>. <a href="https://doi.org/10.1007/s00338-021-02054-5">doi: 10.1007/s00338-021-02054-5</a>
+    Altman-Kurosaki NT*, Smith CM, Franklin EC (2021). Oahu's marine protected areas have limited success in protecting coral reef herbivore functional assemblages. <em>Coral Reefs</em>. 
     
   <a href="#" class="badge badge-info" onclick="openModal('altman2021')">Cite</a>
   <a href="https://doi.org/10.1007/s00338-021-02054-5" class="badge badge-info" target="_blank">DOI</a>
@@ -726,7 +784,7 @@ authors:
 
 
 <div class="publication-entry journal 2021">
-    Scherrer SR<sup>+</sup>, Kobayashi DR, Weng KC, Okamoto HY, Oishi FG, Franklin EC (2021). Estimation of growth parameters integrating tag-recapture, length-frequency, and direct aging data using likelihood and Bayesian methods for the tropical deepwater snapper <em>Pristipomoides filamentous</em> in Hawaii. <em>Fisheries Research</em> 233: 105753. <a href="https://doi.org/10.1016/j.fishres.2020.105753">doi: 10.1016/j.fishres.2020.105753</a>
+    Scherrer SR<sup>+</sup>, Kobayashi DR, Weng KC, Okamoto HY, Oishi FG, Franklin EC (2021). Estimation of growth parameters integrating tag-recapture, length-frequency, and direct aging data using likelihood and Bayesian methods for the tropical deepwater snapper <em>Pristipomoides filamentous</em> in Hawaii. <em>Fisheries Research</em> 233: 105753. 
     
   <a href="#" class="badge badge-info" onclick="openModal('scherrer2021')">Cite</a>
   <a href="https://doi.org/10.1016/j.fishres.2020.105753" class="badge badge-info" target="_blank">DOI</a>
@@ -755,7 +813,7 @@ authors:
 
 
 <div class="publication-entry journal 2020">
-    Longenecker K, Langston R, Gill A<sup>+</sup>, Kelokelo M<sup>+</sup>, Donaldson TJ, Franklin EC (2020). Rapid reproductive analysis and weight-length relation of the humpnose big-eye bream <em>Monotaxis grandoculis</em> (Actinopterygii: Perciformes: Lethrinidae) from Micronesia with implications for fisheries. <em>Acta Ichthyologica et Piscatoria</em> 50(4): 493–500. <a href="https://doi.org/10.3750/AIEP/02965">doi: 10.3750/AIEP/02965</a>
+    Longenecker K, Langston R, Gill A<sup>+</sup>, Kelokelo M<sup>+</sup>, Donaldson TJ, Franklin EC (2020). Rapid reproductive analysis and weight-length relation of the humpnose big-eye bream <em>Monotaxis grandoculis</em> (Actinopterygii: Perciformes: Lethrinidae) from Micronesia with implications for fisheries. <em>Acta Ichthyologica et Piscatoria</em> 50(4): 493–500. 
     
   <a href="#" class="badge badge-info" onclick="openModal('longenecker2020')">Cite</a>
   <a href="https://doi.org/10.3750/AIEP/02965" class="badge badge-info" target="_blank">DOI</a>
@@ -785,7 +843,7 @@ authors:
 
 
 <div class="publication-entry journal 2020">
-    Winter KB, Rii YM, Reppun FAWL, Hintzen KD, Alegado R, Bowen BW, Bremer LL, Coffman M, Deenik JL, Donahue MJ, Falinski FA, Frank K, Franklin EC, Kurashima N, Lincoln NK, Madin E, McManus MA, Nelson CE, Okano R, Olegario A, Pascua P, Oleson KLL, Price MR, Rivera MAJ, Rodgers KS, Ticktin T, Sabine C, Smith CM, Hewett A, Kaluhiwa R, Cypher M, Thomas B, Leong J, Kekuewa K, Tanimoto J, Kukea-Shultz K, Kawelo H, Kotubetey K, Neilson B, Lee T, Toonen RJ (2020). Collaborative research to inform adaptive co-management: A framework for the Heʻeia National Estuarine Research Reserve. <em>Ecology and Society</em> 25(4): 15. <a href="https://doi.org/10.5751/ES-11895-27750415">doi: 10.5751/ES-11895-27750415</a>
+    Winter KB, Rii YM, Reppun FAWL, Hintzen KD, Alegado R, Bowen BW, Bremer LL, Coffman M, Deenik JL, Donahue MJ, Falinski FA, Frank K, Franklin EC, Kurashima N, Lincoln NK, Madin E, McManus MA, Nelson CE, Okano R, Olegario A, Pascua P, Oleson KLL, Price MR, Rivera MAJ, Rodgers KS, Ticktin T, Sabine C, Smith CM, Hewett A, Kaluhiwa R, Cypher M, Thomas B, Leong J, Kekuewa K, Tanimoto J, Kukea-Shultz K, Kawelo H, Kotubetey K, Neilson B, Lee T, Toonen RJ (2020). Collaborative research to inform adaptive co-management: A framework for the Heʻeia National Estuarine Research Reserve. <em>Ecology and Society</em> 25(4): 15. 
     
   <a href="#" class="badge badge-info" onclick="openModal('winter2020')">Cite</a>
   <a href="https://doi.org/10.5751/ES-11895-27750415" class="badge badge-info" target="_blank">DOI</a>
@@ -815,7 +873,7 @@ authors:
 
 
 <div class="publication-entry journal 2020">
-    Winter KB, Lincoln NK, Berkes F, Kawelo H, Kotubetey K, Kukea-Shultz K, Alegado R, Kurashima N, Frank K, Pascua P, Rii Y, Reppun F, Knapp I, McClatchey W, Ticktin T, Smith C, Franklin EC, Oleson K, Price M, McManus M, Donahue M, Rodgers K, Bowen B, Nelson C, Beilson B, Thomas B, Leong J-A, Madin E, Rivera MA, Falinski K, Bremer L, Deenik J, Gon III S, Okano R, Olegario A, Toonen R (2020). Eco-mimicry in indigenous resource management: optimizing ecosystem services to achieve resource abundance in Hawai'i. <em>Ecology and Society</em> 25: 26. <a href="https://doi.org/10.5751/ES-11539-250226">doi: 10.5751/ES-11539-250226</a>
+    Winter KB, Lincoln NK, Berkes F, Kawelo H, Kotubetey K, Kukea-Shultz K, Alegado R, Kurashima N, Frank K, Pascua P, Rii Y, Reppun F, Knapp I, McClatchey W, Ticktin T, Smith C, Franklin EC, Oleson K, Price M, McManus M, Donahue M, Rodgers K, Bowen B, Nelson C, Beilson B, Thomas B, Leong J-A, Madin E, Rivera MA, Falinski K, Bremer L, Deenik J, Gon III S, Okano R, Olegario A, Toonen R (2020). Eco-mimicry in indigenous resource management: optimizing ecosystem services to achieve resource abundance in Hawai'i. <em>Ecology and Society</em> 25: 26. 
     
   <a href="#" class="badge badge-info" onclick="openModal('winter2020b')">Cite</a>
   <a href="https://doi.org/10.5751/ES-11539-250226" class="badge badge-info" target="_blank">DOI</a>
@@ -844,7 +902,7 @@ authors:
 
 
 <div class="publication-entry journal 2020">
-    Oyafuso ZS*, Leung PS, Franklin EC (2020). Evaluating biological and socioeconomic tradeoffs of marine reserve planning via a flexible integer linear programming approach. <em>Biological Conservation</em> 241: 108319. <a href="https://doi.org/10.1016/j.biocon.2019.108319">doi: 10.1016/j.biocon.2019.108319</a>
+    Oyafuso ZS*, Leung PS, Franklin EC (2020). Evaluating biological and socioeconomic tradeoffs of marine reserve planning via a flexible integer linear programming approach. <em>Biological Conservation</em> 241: 108319. 
     
   <a href="#" class="badge badge-info" onclick="openModal('oyafuso2020')">Cite</a>
   <a href="https://doi.org/10.1016/j.biocon.2019.108319" class="badge badge-info" target="_blank">DOI</a>
@@ -873,7 +931,7 @@ authors:
 
 
 <div class="publication-entry journal 2019">
-    Franklin EC, Gray AE, Mundy BC (2019). Three new records of coastal fishes in the Hawaiian Islands. <em>Journal of the Ocean Science Foundation</em> 33: 99–106. <a href="https://doi.org/10.5281/zenodo.3572888">doi: 10.5281/zenodo.3572888</a>
+    Franklin EC, Gray AE, Mundy BC (2019). Three new records of coastal fishes in the Hawaiian Islands. <em>Journal of the Ocean Science Foundation</em> 33: 99–106. 
     
   <a href="#" class="badge badge-info" onclick="openModal('franklin2019')">Cite</a>
   <a href="https://doi.org/10.5281/zenodo.3572888" class="badge badge-info" target="_blank">DOI</a>
@@ -901,7 +959,7 @@ authors:
 </div>
 
 <div class="publication-entry journal 2019">
-    Barkley YM*, Oleson EM, Oswald JN, Franklin EC (2019). Whistle classification of sympatric false killer whale populations in Hawaiian waters yields low accuracy rates. <em>Frontiers in Marine Science</em> 6: 645. <a href="https://doi.org/10.3389/fmars.2019.00645">doi: 10.3389/fmars.2019.00645</a>
+    Barkley YM*, Oleson EM, Oswald JN, Franklin EC (2019). Whistle classification of sympatric false killer whale populations in Hawaiian waters yields low accuracy rates. <em>Frontiers in Marine Science</em> 6: 645. 
     
   <a href="#" class="badge badge-info" onclick="openModal('barkley2019')">Cite</a>
   <a href="https://doi.org/10.3389/fmars.2019.00645" class="badge badge-info" target="_blank">DOI</a>
@@ -930,7 +988,7 @@ authors:
 
 
 <div class="publication-entry journal 2019">
-    Mora C, Rollins R<sup>+</sup>, Taladay K<sup>+</sup>, Kantar M, Chock M<sup>+</sup>, Shimada M<sup>+</sup>, Franklin EC (2019). Mora et al. reply. <em>Nature Climate Change</em> 9: 658-659. <a href="https://doi.org/10.1038/s41558-019-0538-1">doi: 10.1038/s41558-019-0538-1</a>
+    Mora C, Rollins R<sup>+</sup>, Taladay K<sup>+</sup>, Kantar M, Chock M<sup>+</sup>, Shimada M<sup>+</sup>, Franklin EC (2019). Mora et al. reply. <em>Nature Climate Change</em> 9: 658-659. 
     
   <a href="#" class="badge badge-info" onclick="openModal('mora2019')">Cite</a>
   <a href="https://doi.org/10.1038/s41558-019-0538-1" class="badge badge-info" target="_blank">DOI</a>
@@ -959,7 +1017,7 @@ authors:
 
 
 <div class="publication-entry journal 2019">
-    Darling ES, McClanahan TR, Maina J, Gurney G, Graham NAJ, Januchowski-Hartley F, Cinner JE, Mora C, Hicks CC, Maire E, Puotinen M, Skirving WJ, Adjeroud M, Ahmadia G, Arthur R, Bauman AG, Beger M, Berumen ML, Bigot L, Bouwmeester, Brenier, Bridge T, Brown E, Campbell SJ, Cannon S, Cauvin B, Chen AC, Claudet J, Denis V, Donner S, Estradivari, Fadli N, Feary DA, Fenner D, Fox H, Franklin EC, Friedlander A, Gilmour J, Goiran C, Guest J, Hobbs, J-PA, Hoey AS, Houk P, Johnson S, Jupiter S, Kayal M, Kuo C-Y, Lamb J, Lee MAC, Low J, Muthiga N, Muttaqin, Nand Y, Nash KL, Nedlic O, Pandolfi JM, Pardede S, Patankar V, Penin L, Ribas-Deulofeu L, Richards Z, Roberts TE, Rodgers KS, Safuari CDM, Sala E, Shedrawi G, Sin TM, Smallhorn-West P, Smith JE, Sommer B, Steinberg PD, Sutthacheep M, Tan CHJ, Williams GJ, Wilson S, Yeemin T, Bruno JF, Fortin MJ, Krkosek M, Mouillot D (2019). Social-environmental drivers inform strategic management of coral reefs in the Anthropocene. <em>Nature Ecology and Evolution</em> 3: 1341–1350. <a href="https://doi.org/10.1038/s41559-019-0953-8">doi: 10.1038/s41559-019-0953-8</a>
+    Darling ES, McClanahan TR, Maina J, Gurney G, Graham NAJ, Januchowski-Hartley F, Cinner JE, Mora C, Hicks CC, Maire E, Puotinen M, Skirving WJ, Adjeroud M, Ahmadia G, Arthur R, Bauman AG, Beger M, Berumen ML, Bigot L, Bouwmeester, Brenier, Bridge T, Brown E, Campbell SJ, Cannon S, Cauvin B, Chen AC, Claudet J, Denis V, Donner S, Estradivari, Fadli N, Feary DA, Fenner D, Fox H, Franklin EC, Friedlander A, Gilmour J, Goiran C, Guest J, Hobbs, J-PA, Hoey AS, Houk P, Johnson S, Jupiter S, Kayal M, Kuo C-Y, Lamb J, Lee MAC, Low J, Muthiga N, Muttaqin, Nand Y, Nash KL, Nedlic O, Pandolfi JM, Pardede S, Patankar V, Penin L, Ribas-Deulofeu L, Richards Z, Roberts TE, Rodgers KS, Safuari CDM, Sala E, Shedrawi G, Sin TM, Smallhorn-West P, Smith JE, Sommer B, Steinberg PD, Sutthacheep M, Tan CHJ, Williams GJ, Wilson S, Yeemin T, Bruno JF, Fortin MJ, Krkosek M, Mouillot D (2019). Social-environmental drivers inform strategic management of coral reefs in the Anthropocene. <em>Nature Ecology and Evolution</em> 3: 1341–1350. 
     
   <a href="#" class="badge badge-info" onclick="openModal('darling2019')">Cite</a>
   <a href="https://doi.org/10.1038/s41559-019-0953-8" class="badge badge-info" target="_blank">DOI</a>
@@ -1074,7 +1132,7 @@ authors:
 
 
 <div class="publication-entry journal 2018">
-    Mora C, Spirandelli D, Franklin EC, Lynham J, Kantar MB, Miles W, Smith CZ<sup>+</sup>, Freel K, Moy J<sup>+</sup>, Louis LV<sup>+</sup>, Barba EW<sup>+</sup>, Bettinger K, Frazier AG, Colburn IX JF<sup>+</sup>, Hanasaki N, Hawkins E, Hirabayashi Y, Knorr W, Little CM, Emanuel K, Sheffield J, Patz JA, Hunter CL (2018). Broad threat to humanity from cumulative climate hazards intensified by greenhouse gas emissions. <em>Nature Climate Change</em> 8: 1062-1071. <a href="https://doi.org/10.1038/s41558-018-0315-6">doi: 10.1038/s41558-018-0315-6</a>
+    Mora C, Spirandelli D, Franklin EC, Lynham J, Kantar MB, Miles W, Smith CZ<sup>+</sup>, Freel K, Moy J<sup>+</sup>, Louis LV<sup>+</sup>, Barba EW<sup>+</sup>, Bettinger K, Frazier AG, Colburn IX JF<sup>+</sup>, Hanasaki N, Hawkins E, Hirabayashi Y, Knorr W, Little CM, Emanuel K, Sheffield J, Patz JA, Hunter CL (2018). Broad threat to humanity from cumulative climate hazards intensified by greenhouse gas emissions. <em>Nature Climate Change</em> 8: 1062-1071. 
     
   <a href="#" class="badge badge-info" onclick="openModal('mora2018')">Cite</a>
   <a href="https://doi.org/10.1038/s41558-018-0315-6" class="badge badge-info" target="_blank">DOI</a>
@@ -1103,7 +1161,7 @@ authors:
 
 
 <div class="publication-entry journal 2018">
-    Mora C, Rollins R<sup>+</sup>, Taladay K<sup>+</sup>, Kantar MB, Chock MK<sup>+</sup>, Shimada M<sup>+</sup>, Franklin EC (2018). Bitcoin emissions alone could push global warming above 2°C. <em>Nature Climate Change</em> 8: 931-933. <a href="https://doi.org/10.1038/s41558-018-0321-8">doi: 10.1038/s41558-018-0321-8</a>
+    Mora C, Rollins R<sup>+</sup>, Taladay K<sup>+</sup>, Kantar MB, Chock MK<sup>+</sup>, Shimada M<sup>+</sup>, Franklin EC (2018). Bitcoin emissions alone could push global warming above 2°C. <em>Nature Climate Change</em> 8: 931-933. 
     
   <a href="#" class="badge badge-info" onclick="openModal('mora2018b')">Cite</a>
   <a href="https://doi.org/10.1038/s41558-018-0321-8" class="badge badge-info" target="_blank">DOI</a>
@@ -1132,7 +1190,7 @@ authors:
 
 
 <div class="publication-entry journal 2018">
-    Geronimo, R<sup>+</sup>, Franklin EC, Brainard RE, Elvidge CD, Santos MD, Venegas R, Mora C (2018). Mapping fishing activities and suitable fishing grounds using nighttime satellite images and maximum entropy modelling. <em>Remote Sensing</em> 10: 1604. <a href="https://doi.org/10.3390/rs10101064">doi: 10.3390/rs10101064</a>
+    Geronimo, R<sup>+</sup>, Franklin EC, Brainard RE, Elvidge CD, Santos MD, Venegas R, Mora C (2018). Mapping fishing activities and suitable fishing grounds using nighttime satellite images and maximum entropy modelling. <em>Remote Sensing</em> 10: 1604. 
     
   <a href="#" class="badge badge-info" onclick="openModal('geronimo2018')">Cite</a>
   <a href="https://doi.org/10.3390/rs10101064" class="badge badge-info" target="_blank">DOI</a>
@@ -1161,7 +1219,7 @@ authors:
 
 
 <div class="publication-entry journal 2018">
-    Forsman ZH, Maurin P, Parry M, Chung A<sup>+</sup>, Sartor C, Hixon MA, Hughes K, Rodgers K, Knapp I, Gulko DA, Franklin EC, Del Rio Torres L, Chan NT, Wolke CS, Gates RD, Toonen RJ (2018). The First Hawai‘i Workshop For Coral Restoration & Nurseries. <em>Marine Policy</em> 96: 133-135. <a href="https://doi.org/10.1016/j.marpol.2018.08.009">doi: 10.1016/j.marpol.2018.08.009</a>
+    Forsman ZH, Maurin P, Parry M, Chung A<sup>+</sup>, Sartor C, Hixon MA, Hughes K, Rodgers K, Knapp I, Gulko DA, Franklin EC, Del Rio Torres L, Chan NT, Wolke CS, Gates RD, Toonen RJ (2018). The First Hawai‘i Workshop For Coral Restoration & Nurseries. <em>Marine Policy</em> 96: 133-135. 
     
   <a href="#" class="badge badge-info" onclick="openModal('forsman2018')">Cite</a>
   <a href="https://doi.org/10.1016/j.marpol.2018.08.009" class="badge badge-info" target="_blank">DOI</a>
@@ -1190,7 +1248,7 @@ authors:
 
 
 <div class="publication-entry journal 2018">
-    Counsell CWW<sup>+</sup>, Donahue MJ, Edwards K, Franklin EC, Hixon MA (2018). Variation in coral-associated cryptofaunal communities along spatial scales and environmental gradients. <em>Coral Reefs</em> 37: 827-840. <a href="https://doi.org/10.1007/s00338-018-1709-7">doi: 10.1007/s00338-018-1709-7</a>
+    Counsell CWW<sup>+</sup>, Donahue MJ, Edwards K, Franklin EC, Hixon MA (2018). Variation in coral-associated cryptofaunal communities along spatial scales and environmental gradients. <em>Coral Reefs</em> 37: 827-840. 
     
   <a href="#" class="badge badge-info" onclick="openModal('counsell2018')">Cite</a>
   <a href="https://doi.org/10.1007/s00338-018-1709-7" class="badge badge-info" target="_blank">DOI</a>
@@ -1219,7 +1277,7 @@ authors:
 
 
 <div class="publication-entry journal 2018">
-    Levy J<sup>+</sup>, Hunter C, Lukaczyk, Franklin EC (2018). Assessing the spatial distribution of coral bleaching using small unmanned aerial systems. <em>Coral Reefs</em> 37: 373-387. <a href="https://doi.org/10.1007/s00338-018-1662-5">doi: 10.1007/s00338-018-1662-5</a>
+    Levy J<sup>+</sup>, Hunter C, Lukaczyk, Franklin EC (2018). Assessing the spatial distribution of coral bleaching using small unmanned aerial systems. <em>Coral Reefs</em> 37: 373-387. 
     
   <a href="#" class="badge badge-info" onclick="openModal('levy2018')">Cite</a>
   <a href="https://doi.org/10.1007/s00338-018-1662-5" class="badge badge-info" target="_blank">DOI</a>
@@ -1248,7 +1306,7 @@ authors:
 
 
 <div class="publication-entry journal 2017">
-    Franklin EC (2017). Vagrancy in paradise: documentation of the chevron butterflyfish <em>Chaetodon trifascialis</em> in Kaneohe Bay, Oahu, Hawaiian Islands. <em>Marine Biodiversity Records</em> 10:22. <a href="https://doi.org/10.1186/s41200-017-0124-z">doi: 10.1186/s41200-017-0124-z</a>
+    Franklin EC (2017). Vagrancy in paradise: documentation of the chevron butterflyfish <em>Chaetodon trifascialis</em> in Kaneohe Bay, Oahu, Hawaiian Islands. <em>Marine Biodiversity Records</em> 10:22. 
     
   <a href="#" class="badge badge-info" onclick="openModal('franklin2017')">Cite</a>
   <a href="https://doi.org/10.1186/s41200-017-0124-z" class="badge badge-info" target="_blank">DOI</a>
@@ -1277,7 +1335,7 @@ authors:
 
 
 <div class="publication-entry journal 2017">
-    Longenecker K, Langston R, Bolick H, Crane M, Donaldson TJ, Franklin EC, Kelokelo M, Kondio U, Potuku T (2017). Rapid reproductive analysis and length–weight relations for five species of coral-reef fishes from Papua New Guinea: <em>Nemipterus isacanthus</em>, <em>Parupeneus barberinus</em>, <em>Kyphosus cinerascens</em>, <em>Ctenochaetus striatus</em>, and <em>Balistapus undulatus</em>. <em>Acta Ichthyologica et Piscatoria</em> 47:107-124. <a href="https://doi.org/10.3750/AIEP/02146">doi: 10.3750/AIEP/02146</a>
+    Longenecker K, Langston R, Bolick H, Crane M, Donaldson TJ, Franklin EC, Kelokelo M, Kondio U, Potuku T (2017). Rapid reproductive analysis and length–weight relations for five species of coral-reef fishes from Papua New Guinea: <em>Nemipterus isacanthus</em>, <em>Parupeneus barberinus</em>, <em>Kyphosus cinerascens</em>, <em>Ctenochaetus striatus</em>, and <em>Balistapus undulatus</em>. <em>Acta Ichthyologica et Piscatoria</em> 47:107-124. 
     
   <a href="#" class="badge badge-info" onclick="openModal('longenecker2017')">Cite</a>
   <a href="https://doi.org/10.3750/AIEP/02146" class="badge badge-info" target="_blank">DOI</a>
@@ -1306,7 +1364,7 @@ authors:
 
 
 <div class="publication-entry journal 2017">
-    Oyafuso ZS*, Drazen JC, Moore CH, Franklin EC (2017). Habitat-based species distribution modelling of the Hawaiian deepwater snapper-grouper complex. <em>Fisheries Research</em> 195: 19-27. <a href="https://doi.org/10.1016/j.fishres.2017.06.011">doi: 10.1016/j.fishres.2017.06.011</a>
+    Oyafuso ZS*, Drazen JC, Moore CH, Franklin EC (2017). Habitat-based species distribution modelling of the Hawaiian deepwater snapper-grouper complex. <em>Fisheries Research</em> 195: 19-27. 
     
   <a href="#" class="badge badge-info" onclick="openModal('oyafuso2017')">Cite</a>
   <a href="https://doi.org/10.1016/j.fishres.2017.06.011" class="badge badge-info" target="_blank">DOI</a>
@@ -1335,7 +1393,7 @@ authors:
 
 
 <div class="publication-entry journal 2017">
-    Winston MS*, Taylor B, Franklin EC (2017). Intraspecific variability in the life history of endemic coral reef fishes between photic and mesophotic populations. <em>Coral Reefs</em> 36: 663-674. <a href="https://doi.org/10.1007/s00338-017-1559-8">doi: 10.1007/s00338-017-1559-8</a>
+    Winston MS*, Taylor B, Franklin EC (2017). Intraspecific variability in the life history of endemic coral reef fishes between photic and mesophotic populations. <em>Coral Reefs</em> 36: 663-674. 
     
   <a href="#" class="badge badge-info" onclick="openModal('winston2017')">Cite</a>
   <a href="https://doi.org/10.1007/s00338-017-1559-8" class="badge badge-info" target="_blank">DOI</a>
@@ -1364,7 +1422,7 @@ authors:
 
 
 <div class="publication-entry journal 2017">
-    Kapur MR*, Franklin EC (2017). Predicting climate impacts on tropical fisheries: are contemporary spatial management strategies sufficient? <em>Canadian Journal of Fisheries and Aquatic Sciences</em>. <a href="https://doi.org/10.1139/cjfas-2016-0200">doi: 10.1139/cjfas-2016-0200</a>
+    Kapur MR*, Franklin EC (2017). Predicting climate impacts on tropical fisheries: are contemporary spatial management strategies sufficient? <em>Canadian Journal of Fisheries and Aquatic Sciences</em>. 
     
   <a href="#" class="badge badge-info" onclick="openModal('kapur2017')">Cite</a>
   <a href="https://doi.org/10.1139/cjfas-2016-0200" class="badge badge-info" target="_blank">DOI</a>
@@ -1391,7 +1449,7 @@ authors:
 
 
 <div class="publication-entry journal 2016">
-    Veazey LM<sup>+</sup>, Franklin EC, Kelley C, Rooney J, Frazer NL, Toonen RJ (2016). The implementation of rare events logistic regression to predict the distribution of mesophotic hard corals across the main Hawaiian Islands. <em>PeerJ</em> 4:e2189. <a href="https://doi.org/10.7717/peerj.2189">doi: 10.7717/peerj.2189</a>
+    Veazey LM<sup>+</sup>, Franklin EC, Kelley C, Rooney J, Frazer NL, Toonen RJ (2016). The implementation of rare events logistic regression to predict the distribution of mesophotic hard corals across the main Hawaiian Islands. <em>PeerJ</em> 4:e2189. 
     
   <a href="#" class="badge badge-info" onclick="openModal('veazey2016')">Cite</a>
   <a href="https://doi.org/10.7717/peerj.2189" class="badge badge-info" target="_blank">DOI</a>
@@ -1710,7 +1768,7 @@ authors:
 
 
 <div class="publication-entry journal 2013">
-    Stat M, Pochon X, Franklin EC, Bruno JF, Casey KS, Selig ER, Gates RD (2013). The distribution of the thermally tolerant symbiont lineage (Symbiodinium clade D) in corals from Hawaii: correlations with host and the history of ocean thermal stress. <em>Ecology and Evolution</em> 3:1317-1329. <a href="https://doi.org/10.1002/ece3.556">doi:10.1002/ece3.556</a>
+    Stat M, Pochon X, Franklin EC, Bruno JF, Casey KS, Selig ER, Gates RD (2013). The distribution of the thermally tolerant symbiont lineage (Symbiodinium clade D) in corals from Hawaii: correlations with host and the history of ocean thermal stress. <em>Ecology and Evolution</em> 3:1317-1329. 
     
   <a href="#" class="badge badge-info" onclick="openModal('stat2013')">Cite</a>
   <a href="https://doi.org/10.1002/ece3.556" class="badge badge-info" target="_blank">DOI</a>
@@ -1739,7 +1797,7 @@ authors:
 
 
 <div class="publication-entry journal 2012">
-    Fabina NS, Putnam HM, Franklin EC, Stat M, Gates RD (2012). Transmission mode predicts specificity and interaction patterns in coral-Symbiodinium networks. <em>PLoS ONE</em> 7(9): e44970. <a href="https://doi.org/10.1371/journal.pone.0044970">doi:10.1371/journal.pone.0044970</a>
+    Fabina NS, Putnam HM, Franklin EC, Stat M, Gates RD (2012). Transmission mode predicts specificity and interaction patterns in coral-Symbiodinium networks. <em>PLoS ONE</em> 7(9): e44970. 
     
   <a href="#" class="badge badge-info" onclick="openModal('fabina2012')">Cite</a>
   <a href="https://doi.org/10.1371/journal.pone.0044970" class="badge badge-info" target="_blank">DOI</a>
@@ -1795,7 +1853,7 @@ authors:
 
 
 <div class="publication-entry journal 2012">
-    van Woesik R, Franklin EC, O’Leary J, McClanahan TR, Klaus JS, Budd AF (2012). Hosts of the Plio-Pleistocene past reflect modern-day coral vulnerability. <em>Proceedings of the Royal Society B</em>. <a href="https://doi.org/10.1098/rspb.2011.2621">doi:10.1098/rspb.2011.2621</a>
+    van Woesik R, Franklin EC, O’Leary J, McClanahan TR, Klaus JS, Budd AF (2012). Hosts of the Plio-Pleistocene past reflect modern-day coral vulnerability. <em>Proceedings of the Royal Society B</em>. 
     
   <a href="#" class="badge badge-info" onclick="openModal('vanWoesik2012')">Cite</a>
   <a href="https://doi.org/10.1098/rspb.2011.2621" class="badge badge-info" target="_blank">DOI</a>
@@ -1822,7 +1880,7 @@ authors:
 
 
 <div class="publication-entry journal 2012">
-    Franklin EC, Stat M, Pochon X, Putnam HM, Gates RD (2012). GeoSymbio: A hybrid, cloud-based web application of global geospatial bioinformatics and ecoinformatics for Symbiodinium-host symbioses. <em>Molecular Ecology Resources</em> 12(2): 369-373. <a href="https://doi.org/10.1111/j.1755-0998.2011.03081.x">doi:10.1111/j.1755-0998.2011.03081.x</a>
+    Franklin EC, Stat M, Pochon X, Putnam HM, Gates RD (2012). GeoSymbio: A hybrid, cloud-based web application of global geospatial bioinformatics and ecoinformatics for Symbiodinium-host symbioses. <em>Molecular Ecology Resources</em> 12(2): 369-373. 
     
   <a href="#" class="badge badge-info" onclick="openModal('Franklin2012GeoSymbio')">Cite</a>
   <a href="https://doi.org/10.1111/j.1755-0998.2011.03081.x" class="badge badge-info" target="_blank">DOI</a>
@@ -1852,7 +1910,7 @@ authors:
 
 
 <div class="publication-entry book 2011">
-    Franklin EC, Stat M, Pochon X, Putnam HM, Gates RD (2011). "Rapid Development of a Hybrid Web Application for Synthesis Science of Symbiodinium with Google Apps." In Jones, MB, Gries C (eds.) Proceedings of Environmental Information Management Conference 2011 (EIM 2011), Sep 28-29, 2011, UCSB, California, pp 44-48. <a href="https://doi.org/10.5060/D2NC5Z4X">doi:10.5060/D2NC5Z4X</a>
+    Franklin EC, Stat M, Pochon X, Putnam HM, Gates RD (2011). "Rapid Development of a Hybrid Web Application for Synthesis Science of Symbiodinium with Google Apps." In Jones, MB, Gries C (eds.) Proceedings of Environmental Information Management Conference 2011 (EIM 2011), Sep 28-29, 2011, UCSB, California, pp 44-48. 
 
   <a href="#" class="badge badge-info" onclick="openModal('Franklin2011HybridApp')">Cite</a>
   <a href="https://doi:10.5060/D2NC5Z4X" class="badge badge-info" target="_blank">DOI</a>
@@ -1907,7 +1965,7 @@ authors:
 
 
 <div class="publication-entry journal 2011">
-    Aeby GS, Williams GJ, Franklin EC, Kenyon J, Cox EF, Coles S, Work TM (2011). Patterns of coral disease across the Hawaiian Archipelago: relating disease to environment. <em>PLoS ONE</em> 6(5): e20370. <a href="https://doi.org/10.1371/journal.pone.0020370">doi:10.1371/journal.pone.0020370</a>
+    Aeby GS, Williams GJ, Franklin EC, Kenyon J, Cox EF, Coles S, Work TM (2011). Patterns of coral disease across the Hawaiian Archipelago: relating disease to environment. <em>PLoS ONE</em> 6(5): e20370. 
 
   <a href="#" class="badge badge-info" onclick="openModal('Aeby2011CoralDisease')">Cite</a>
   <a href="https://doi:10.1371/journal.pone.0020370" class="badge badge-info" target="_blank">DOI</a>
@@ -1936,7 +1994,7 @@ authors:
 
 
 <div class="publication-entry journal 2011">
-    Aeby GS, Williams GJ, Franklin EC, Haapkyla J, Harvell CD, Neale S, Page CA, Raymundo L, Vargas-Angel B, Willis BL, Work TM, Davy SK (2011). Growth anomalies on the coral genera Acropora and Porites are strongly associated with host density and human population size across the Indo-Pacific. <em>PLoS ONE</em> 6(2): e16887. <a href="https://doi.org/10.1371/journal.pone.0016887">doi:10.1371/journal.pone.0016887</a>
+    Aeby GS, Williams GJ, Franklin EC, Haapkyla J, Harvell CD, Neale S, Page CA, Raymundo L, Vargas-Angel B, Willis BL, Work TM, Davy SK (2011). Growth anomalies on the coral genera Acropora and Porites are strongly associated with host density and human population size across the Indo-Pacific. <em>PLoS ONE</em> 6(2): e16887. 
 
   <a href="#" class="badge badge-info" onclick="openModal('Aeby2011GrowthAnomalies')">Cite</a>
   <a href="https://doi:10.1371/journal.pone.0016887" class="badge badge-info" target="_blank">DOI</a>
@@ -1992,7 +2050,7 @@ authors:
 
 
 <div class="publication-entry journal 2010">
-    Concepcion GT, Kahng SE, Crepeau MW, Franklin EC, Coles SL, Toonen RJ (2010). Resolving natural ranges and marine invasions in a globally distributed octocoral (genus Carijoa). <em>Marine Ecology Progress Series</em> 401:113-127. <a href="https://doi.org/10.3354/meps08364">doi:10.3354/meps08364</a>
+    Concepcion GT, Kahng SE, Crepeau MW, Franklin EC, Coles SL, Toonen RJ (2010). Resolving natural ranges and marine invasions in a globally distributed octocoral (genus Carijoa). <em>Marine Ecology Progress Series</em> 401:113-127. 
     
   <a href="#" class="badge badge-info" onclick="openModal('Concepcion2010ResolvingRanges')">Cite</a>
   <a href="https://doi.org/10.3354/meps08364" class="badge badge-info" target="_blank">DOI</a>
@@ -2079,7 +2137,7 @@ authors:
 
 
 <div class="publication-entry journal 2008">
-    Franklin EC (2008). An assessment of vessel traffic patterns in the Northwestern Hawaiian Islands between 1994-2004. <em>Marine Pollution Bulletin</em> 56:150-153. <a href="https://doi.org/10.1016/j.marpolbul.2007.07.002">doi:10.1016/j.marpolbul.2007.07.002</a>
+    Franklin EC (2008). An assessment of vessel traffic patterns in the Northwestern Hawaiian Islands between 1994-2004. <em>Marine Pollution Bulletin</em> 56:150-153. 
     
   <a href="#" class="badge badge-info" onclick="openModal('Franklin2008VesselTraffic')">Cite</a>
   <a href="https://doi.org/10.1016/j.marpolbul.2007.07.002" class="badge badge-info" target="_blank">DOI</a>
@@ -2162,7 +2220,7 @@ authors:
 
 
 <div class="publication-entry conference 2005">
-    Hudson JH, Franklin EC (2005). Structural Reef Restoration and Coral Transplantation to the R/V Columbus Iselin Grounding Site in the Florida Keys National Marine Sanctuary. In: Proceedings of the OCEANS 2005 Americas MTS/IEEE Conference, Washington, DC, September 19-23, 2005. <a href="https://doi.org/10.1109/OCEANS.2005.1639763">doi:10.1109/OCEANS.2005.1639763</a>
+    Hudson JH, Franklin EC (2005). Structural Reef Restoration and Coral Transplantation to the R/V Columbus Iselin Grounding Site in the Florida Keys National Marine Sanctuary. In: Proceedings of the OCEANS 2005 Americas MTS/IEEE Conference, Washington, DC, September 19-23, 2005. 
     
   <a href="#" class="badge badge-info" onclick="openModal('Hudson2005CoralRestoration')">Cite</a>
   <a href="https://doi.org/10.1109/OCEANS.2005.1639763" class="badge badge-info" target="_blank">DOI</a>
@@ -2192,7 +2250,7 @@ authors:
 
 
 <div class="publication-entry journal 2003">
-    Franklin EC, Ault JS, Smith SG, Luo J, Meester GA, Diaz GA, Chiappone M, Swanson DW, Miller SL, Bohnsack JA (2003). Benthic habitat mapping in the Tortugas region, Florida. <em>Marine Geodesy</em> 26(1-2):19-34. <a href="https://doi.org/10.1080/01490410306706">doi:10.1080/01490410306706</a>
+    Franklin EC, Ault JS, Smith SG, Luo J, Meester GA, Diaz GA, Chiappone M, Swanson DW, Miller SL, Bohnsack JA (2003). Benthic habitat mapping in the Tortugas region, Florida. <em>Marine Geodesy</em> 26(1-2):19-34. 
 
   <a href="#" class="badge badge-info" onclick="openModal('franklin2003')">Cite</a>
   <a href="https://doi.org/10.1080/01490410306706" class="badge badge-info" target="_blank">DOI</a>
