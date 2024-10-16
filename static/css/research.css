@@ -3,7 +3,7 @@ body {
   padding: 0; /* Ensure no padding around the body */
 }
 
-.research-project {
+.project {
   padding: 20px; /* Space inside each section */
   margin: 0; /* Remove margins */
   width: calc(100vw + 20px); /* Make width a bit larger than viewport to counteract any margin */
