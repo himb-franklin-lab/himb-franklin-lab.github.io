@@ -1,7 +1,14 @@
-main {
+html, body {
+  margin: 0; /* Remove any default body margin */
+  padding: 0; /* Remove any default body padding */
   width: 100%;
-  margin: 0;
-  padding: 0;
+  overflow-x: hidden; /* Prevent horizontal scroll if needed */
+}
+
+main {
+  width: 100vw; /* Ensure main is 100% of the viewport width */
+  margin: 0; /* Remove margins */
+  padding: 0; /* Remove any padding */
 }
 
 .research-project {
@@ -11,6 +18,10 @@ main {
   border-radius: 0; /* Remove rounded corners for full width */
   color: #000000;
   font-family: Arial, sans-serif;
+  background-color: inherit; /* Use the parent's background color */
+  position: relative; /* Enable positioning */
+  left: 0; /* Align to the left */
+  right: 0; /* Align to the right */
 }
 
 #project1 {
