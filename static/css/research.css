@@ -1,5 +1,5 @@
 .research-project {
-  padding: 20px;
+  padding: 40px;
   margin-bottom: 30px;
   border-radius: 10px;
   color: #fff;
@@ -7,7 +7,7 @@
 }
 
 #project1 {
-  background-color: #3498db; 
+  background-color: #02b9fb; 
 }
 
 #project2 {
@@ -15,23 +15,23 @@
 }
 
 #project3 {
-  background-color: #fdfdfd; 
+  background-color: #0083b7; 
 }
 
 #project4 {
-  background-color: #b1b1b1; 
+  background-color: #02b9fb; 
 }
 
 #project5 {
-  background-color: #3498db; /* Purple */
+  background-color: #3cbce794; /* Purple */
 }
 
 #project6 {
-  background-color: #3cbce794; /* Turquoise */
+  background-color: #0083b7; /* Turquoise */
 }
 
 #project7 {
-  background-color: #fdfdfd; /* Dark blue */
+  background-color: #02b9fb; /* Dark blue */
 }
 
 /* Add more spacing between each project */
