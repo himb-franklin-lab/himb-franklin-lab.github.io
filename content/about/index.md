@@ -22,3 +22,7 @@
     </div>
 </body>
 </html>
+
+<div class="photo-credit">
+    Photo Credit: UH Mānoa Admissions
+</div>

@@ -32,3 +32,14 @@ p {
     margin-bottom: 15px; /* Add spacing below paragraphs */
 }
 
+.photo-credit {
+    position: fixed;
+    bottom: 10px; /* Position at the bottom */
+    left: 0;
+    right: 0;
+    text-align: center; /* Center the text */
+    font-size: 12px; /* Adjust the size */
+    color: #fff; /* White text for contrast */
+    background-color: rgba(0, 0, 0, 0.5); /* Optional: semi-transparent background */
+    padding: 5px; /* Padding around the text */
+}
