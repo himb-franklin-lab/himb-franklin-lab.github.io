@@ -1,13 +1,14 @@
 .research-project {
-  padding: 40px;
-  margin-bottom: 30px;
-  border-radius: 10px;
-  color: #fff;
+  padding: 20px;
+  margin: 0; /* Remove margins */
+  width: 100%; /* Make section full width */
+  border-radius: 0; /* Remove rounded corners for full width */
+  color: #000000;
   font-family: Arial, sans-serif;
 }
 
 #project1 {
-  background-color: #02b9fb; 
+  background-color: #d2ecf7; 
 }
 
 #project2 {
@@ -19,19 +20,19 @@
 }
 
 #project4 {
-  background-color: #02b9fb; 
+  background-color: #d2ecf7; 
 }
 
 #project5 {
-  background-color: #3cbce794; /* Purple */
+  background-color: #3cbce794; 
 }
 
 #project6 {
-  background-color: #0083b7; /* Turquoise */
+  background-color: #0083b7; 
 }
 
 #project7 {
-  background-color: #02b9fb; /* Dark blue */
+  background-color: #d2ecf7; /
 }
 
 /* Add more spacing between each project */
