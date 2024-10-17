@@ -6,18 +6,17 @@ html, body {
   background: linear-gradient(135deg, #106fa6 0%, #e6f5fd 100%);
   background-size: cover; /* Ensures the gradient covers the entire area */
   background-attachment: fixed; /* Makes the background fixed when scrolling */
-  color: #fff; /* Change text color for better contrast */
+  color: #000000; /* Change text color for better contrast */
 }
 
 /* Style the content inside the page */
 .content {
-  text-align: center;
+  text-align: left;
   max-width: 1200px;
   margin: 0 auto;
   font-size: 19px;
   line-height: 1.6;
   padding: 10px;
-  background-color: rgba(255, 255, 255, 0.7); /* Optional semi-transparent background */
   border-radius: 10px;
 }
 
