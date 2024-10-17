@@ -34,7 +34,6 @@ banner:
     font-size: 24px;  /* Adjust title size */
     color: #333;  /* Title color */
     margin-bottom: 10px; /* Space below the title */
-    flex: 1;
   }
 
 /* Style for the news article date */
