@@ -4,16 +4,16 @@ html, body {
 }
 
 main {
-  width: 100vw; /* Ensure main is 100% of the viewport width */
-  margin: 0; /* Remove margins */
-  padding: 0; /* Remove any padding */
+  display: flex;
+  flex-direction: column;
+  width: 100%;
 }
 
 .research-project {
   padding: 20px;
   margin: 0; /* Remove margins */
   left: -20px; /* Adjust to align with the viewport */
-  position: relative;
+  flex: 0 0 auto;
   border-radius: 0; /* Remove rounded corners for full width */
   color: #000000;
   font-family: Arial, sans-serif;
