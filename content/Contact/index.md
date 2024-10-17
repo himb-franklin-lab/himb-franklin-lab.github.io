@@ -43,10 +43,9 @@ sections:
     design:
       columns: '1'
   
-  - block: image
+  - block: custom
     content:
-      image: /images/Papio.jpg
-      alt: 'Description of the image'  # Replace with an appropriate alt text
+      html: '<img src="/images/Papio.jpg" alt="Description of the image" style="width:100%;">'
     design:
       columns: '1'
 
