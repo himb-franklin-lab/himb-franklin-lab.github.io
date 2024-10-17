@@ -19,11 +19,10 @@ banner:
     text-align: right;
   }
 
-  img {
-    width: 100%;
-    height: auto;
-    border-radius: 5px;
-    align: right;
+  .news-image {
+    width: 150px; /* Set a fixed width for the image */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Rounded corners for images */
   }
 
   h2, h3, h4 {
@@ -31,11 +30,13 @@ banner:
   }
 
   /* Style for the news article title */
-h3 {
+  h3 {
     font-size: 24px;  /* Adjust title size */
     color: #333;  /* Title color */
     margin-bottom: 10px; /* Space below the title */
-}
+    flex: 1;
+    margin-right: 20px;
+  }
 
 /* Style for the news article date */
 .news-date {
@@ -46,9 +47,10 @@ h3 {
 
 /* Shadowed box style for each news article */
 .news-box {
+    display: flex;
     padding: 20px;
     margin: 20px 0;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Box shadow */
     border-radius: 8px; /* Rounded corners */
     background-color: #fff; /* Box background color */
 }
@@ -66,7 +68,7 @@ h3 {
 <div class="news-box">
     <h3>More chances to win prizes by catching tagged pāpio</h3>
     <p class="news-date">Date: 2024-02-27</p>
-    <img src="/images/manoa-himb-papio-maui-9.jpeg" alt="papio in net" style="width:100%; max-width:300px;">
+    <img src="/images/manoa-himb-papio-maui-9.jpeg" alt="papio in net" class="news-image">
     <p class="photo-credit">Photo credit: Maui Ocean Center</p>
     <p class="description">Brief description of the news article. [Read more](https://www.hawaii.edu/news/2024/02/27/more-chances-win-prizes-catch-papio/)</p>
 </div>
@@ -74,7 +76,7 @@ h3 {
 <div class="news-box">
     <h3>Hawaiʻi fishermen can win prizes for reporting catches of newly released pāpio</h3>
     <p class="news-date">Date: 2023-10-19</p>
-    <img src="/images/Spencer_papio.jpeg" alt="Spencer with papio" style="width:100%; max-width:300px;">
+    <img src="/images/Spencer_papio.jpeg" alt="Spencer with papio" class="news-image"> 
     <p class="photo-credit">Photo credit: Maui Ocean Center</p>
     <p class="description">Brief description of the news article. [Read more](https://www.hawaii.edu/news/2023/10/19/released-papio-himb/)</p>
 </div>
