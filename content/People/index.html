@@ -13,7 +13,6 @@
     </header>
     <main>
         <section id="team">
-            <h1>Meet the Team</h1>
             <!-- Principal Investigators -->
             <section class="team-group">
                 <h2>Principal Investigators</h2>
@@ -22,7 +21,6 @@
                     <div class="team-info">
                         <h3>Dr. Erik C. Franklin</h3>
                         <p>Role: Associate Research Professor</p>
-                        <p>Bio: Brief bio of Dr. Erik C. Franklin.</p>
                         <div class="social-links">
                             <a href="https://twitter.com/erikfranklin" target="_blank">Twitter</a>
                             <a href="https://linkedin.com/in/erikfranklin" target="_blank">LinkedIn</a>
@@ -38,7 +36,6 @@
                     <div class="team-info">
                         <h3>Researcher Name</h3>
                         <p>Role: Researcher</p>
-                        <p>Bio: Brief bio of the researcher.</p>
                         <div class="social-links">
                             <a href="#" target="_blank">Twitter</a>
                             <a href="#" target="_blank">LinkedIn</a>
@@ -54,7 +51,6 @@
                     <div class="team-info">
                         <h3>Spencer Davis</h3>
                         <p>Role: Doctorate student</p>
-                        <p>Bio: Brief bio of the student.</p>
                         <div class="social-links">
                             <a href="#" target="_blank">Twitter</a>
                             <a href="#" target="_blank">LinkedIn</a>
@@ -83,6 +79,7 @@
 
         .team-member {
             display: flex;
+            flex-direction: column;
             align-items: center;
             background-color: #f9f9f9;
             padding: 20px;
@@ -95,12 +92,12 @@
             width: 150px;
             height: 150px;
             border-radius: 50%;
-            margin-right: 20px;
+            margin-bottom: 20px;
             object-fit: cover;
         }
 
         .team-info {
-            flex: 1;
+            text-align: center;
         }
 
         .social-links a {
