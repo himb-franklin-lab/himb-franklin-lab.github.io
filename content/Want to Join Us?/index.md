@@ -6,7 +6,7 @@
     <title>Want to Join Us?</title>
     
   <!-- Link to your CSS file -->
-  <link rel="stylesheet" href="/css/resources.css">
+  <link rel="stylesheet" href="/css/team.css">
 </head>
 
 <body>
