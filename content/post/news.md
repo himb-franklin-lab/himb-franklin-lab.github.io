@@ -23,7 +23,6 @@ banner:
     width: 100%;
     height: auto;
     border-radius: 5px;
-    align: right;
   }
 
   h2, h3, h4 {
@@ -50,14 +49,20 @@ banner:
     display: flex;
     padding: 20px;
     margin: 20px 0;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Box shadow */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Box shadow */
     border-radius: 8px; /* Rounded corners */
     background-color: #fff; /* Box background color */
+    transition: transform 0.2s; /* Animation effect */
 }
+
+/* Hover effect for news box */
+  .news-box:hover {
+    transform: translateY(-2px); /* Lift effect */
+  }
 
 /* Style for the news article description */
 .description {
-    font-size: 20px;  /* Adjust date size */
+    font-size: 16px;  /* Adjust date size */
     color: #333;  /* Date color */
     margin-bottom: 7px;  /* Space below the date */
 }
