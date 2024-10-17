@@ -1,28 +1,25 @@
 html, body {
   margin: 0; /* Remove any default body margin */
   padding: 0; /* Remove any default body padding */
-  width: 100%;
-  overflow-x: hidden; /* Prevent horizontal scroll if needed */
 }
 
 main {
-  width: 100%; /* Ensure main is 100% of the viewport width */
+  width: 100vw; /* Ensure main is 100% of the viewport width */
   margin: 0; /* Remove margins */
   padding: 0; /* Remove any padding */
 }
 
 .research-project {
-  padding: 20px; /* Space inside each section */
+  padding: 20px;
   margin: 0; /* Remove margins */
-  width: 100%; /* Make width 100% */
+  width: calc(100% + 40px); /* Extend the width to exceed the viewport */
+  left: -20px; /* Adjust to align with the viewport */
   border-radius: 0; /* Remove rounded corners for full width */
   color: #000000;
   font-family: Arial, sans-serif;
-  background-color: inherit; /* Use the parent's background color */
-  position: relative; /* Enable positioning */
-  left: 0; /* Align to the left */
-  right: 0; /* Align to the right */
+  box-sizing: border-box; /* Include padding in the total width */
 }
+
 
 #project1 {
   background-color: #d2ecf7; 
