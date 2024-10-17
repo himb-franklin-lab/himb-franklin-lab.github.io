@@ -42,11 +42,13 @@ sections:
           captcha: false
     design:
       columns: '1'
-  
-  - block: custom
-    content:
-      html: '<img src="/images/Papio.jpg" alt="Description of the image" style="width:100%;">'
-    design:
-      columns: '1'
 
+  - block: markdown
+    content: |
+      <div style="text-align: center; margin-top: 40px;">
+        <img src="/images/Papio.jpg" alt="Description of the image" style="max-width: 100%; height: auto;">
+      </div>
+    spacing:
+        padding: ['20px', '0', '20px', '0']
+      css_class: fullscreen
 ---
