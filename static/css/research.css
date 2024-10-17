@@ -6,7 +6,7 @@ html, body {
 }
 
 main {
-  width: 100vw; /* Ensure main is 100% of the viewport width */
+  width: 100%; /* Ensure main is 100% of the viewport width */
   margin: 0; /* Remove margins */
   padding: 0; /* Remove any padding */
 }
