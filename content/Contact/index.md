@@ -42,24 +42,13 @@ sections:
           captcha: false
     design:
       columns: '1'
-
-  - block: markdown
+  
+  - block: image
     content:
-      title:
-      subtitle: ''
-      text:
+      title: 'Our Team'
+      image: /images/Papio/jpg
+      alt: 'Description of the image'  # Replace with an appropriate alt text
     design:
       columns: '1'
-      background:
-        image: 
-          filename: /images/Papio.jpg
-          filters:
-            brightness: 1
-          parallax: false
-          position: center
-          size: cover
-          text_color_light: true
-      spacing:
-        padding: ['20px', '0', '20px', '0']
-      css_class: fullscreen
+
 ---
