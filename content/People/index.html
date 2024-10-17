@@ -113,7 +113,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="alumni-memberr">
+                <div class="alumni-member">
                     <img src="/images/blank.jpeg" alt="Noam Altman-Kurosaki" class="team-photo">
                     <div class="team-info">
                         <h3>Noam Altman-Kurosaki (2019)</h3>
@@ -226,6 +226,10 @@
 
         .team-group {
             margin-bottom: 20px;
+            flex: 1 1 30%; /* Makes each alumni profile take up 30% of the width */
+            text-align: center;
+            max-width: 250px; /* Optional: Limits the max width for each profile */
+        }
         }
 
         h1 {
@@ -265,7 +269,7 @@
             width: 200px;
             height: 200px;
             border-radius: 50%;
-            margin-bottom: 0px;
+            margin-bottom: -10px;
             object-fit: cover;
         }
 
