@@ -3,7 +3,7 @@ html, body {
   height: 100%; /* Ensures that the body covers the entire height of the page */
   margin: 0; /* Remove any default margins */
   padding: 0; /* Remove any default padding */
-  background: linear-gradient(135deg, #ffffff 0%, #2cd2e4 50%, #218b6d 100%);
+  background: linear-gradient(0deg, #ffffff 0%, #2cd2e4 50%, #218b6d 100%);
   background-size: cover; /* Ensures the gradient covers the entire area */
   background-attachment: fixed; /* Makes the background fixed when scrolling */
   color: #000000; /* Change text color for better contrast */
