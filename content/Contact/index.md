@@ -45,9 +45,9 @@ sections:
 
   - block: markdown
     content: |
-      <div style="text-align: center; margin-top: 40px;">
+     <div style="text-align: center; margin-top: 40px;">
         <img src="/images/Papio.jpg" alt="Description of the image" style="max-width: 100%; height: auto;">
-      </div>
+       </div>
     spacing:
         padding: ['20px', '0', '20px', '0']
       css_class: fullscreen
