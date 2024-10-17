@@ -128,7 +128,7 @@ authors:
 
 <!-- Citations -->
 <div class="publication-entry journal 2024">
-    Longenecker K, Langston R, Mamesah J, Natan Y, Pattinasarany M, Radjab AW, Romdon A, Ruli F, Simanjuntak P<sup>+</sup>, Sinaga FL<sup>+</sup>, Limmon GV, Franklin EC (2024). Errors in estimating reproductive parameters with macroscopic methods: a case study on the protogynous blacktip grouper <em>Epinephelus fasciatus</em> (Forsskål 1775). <em>Journal of Fish Biology</em>, 105(4), 1256–1267.
+    Longenecker K, Langston R, Mamesah J, Natan Y, Pattinasarany M, Radjab AW, Romdon A, Ruli F, Simanjuntak P<sup>+</sup>, Sinaga FL<sup>+</sup>, Limmon GV, Franklin EC (2024). Errors in estimating reproductive parameters with macroscopic methods: a case study on the protogynous blacktip grouper <em>Epinephelus fasciatus</em> (Forsskål 1775). <em>Journal of Fish Biology</em> 105(4): 1256–1267.
 
   <a href="#" class="badge badge-info" onclick="openModal('longenecker2024')">Cite</a>
   <a href="https://doi.org/10.1111/jfb.15644" class="badge badge-info" target="_blank">DOI</a>
@@ -157,7 +157,7 @@ authors:
 </div>
 
 <div class="publication-entry journal 2024">
-    Möhlenkamp P<sup>+</sup>, Franklin EC, McManus MA (2024). Nuʻupia Ponds’ Water Circulation Characteristics: Exploring Water Exchange and Residence Time for Marine Ecosystem Management. <em>Sustainability</em>, 16(16): 7159.
+    Möhlenkamp P<sup>+</sup>, Franklin EC, McManus MA (2024). Nuʻupia Ponds’ Water Circulation Characteristics: Exploring Water Exchange and Residence Time for Marine Ecosystem Management. <em>Sustainability</em> 16(16): 7159.
 
   <a href="#" class="badge badge-info" onclick="openModal('mohlenkamp2024')">Cite</a>
   <a href="https://doi.org/10.3390/su16167159" class="badge badge-info" target="_blank">DOI</a>
@@ -186,7 +186,7 @@ authors:
 </div>
 
 <div class="publication-entry journal 2024">
-    Franklin EC, Platt MT*, Andrade P (2024). Increased occurrence of the rare golden color morph of Pacific chub Kyphosus sandwicensis in a no-take marine reserve. <em>Journal of Fish Biology</em>, 104: 1237–1240.
+    Franklin EC, Platt MT*, Andrade P (2024). Increased occurrence of the rare golden color morph of Pacific chub Kyphosus sandwicensis in a no-take marine reserve. <em>Journal of Fish Biology</em> 104: 1237–1240.
 
   <a href="#" class="badge badge-info" onclick="openModal('franklin2024')">Cite</a>
   <a href="https://doi.org/10.1111/jfb.15644" class="badge badge-info" target="_blank">DOI</a>
@@ -214,7 +214,7 @@ authors:
 </div>
 
 <div class="publication-entry journal 2023">
-    Winans WR<sup>+</sup>, Chen Q, Qiang Y, Franklin EC (2023). Large-area automatic detection of shoreline stranded marine debris using deep learning. <em>International Journal of Applied Earth Observation and Geoinformation</em>. 
+    Winans WR<sup>+</sup>, Chen Q, Qiang Y, Franklin EC (2023). Large-area automatic detection of shoreline stranded marine debris using deep learning. <em>International Journal of Applied Earth Observation and Geoinformation</em> 124: 103515.
     
   <a href="#" class="badge badge-info" onclick="openModal('winans2023')">Cite</a>
   <a href="https://doi.org/10.1016/j.jag.2023.103515" class="badge badge-info" target="_blank">DOI</a>
@@ -230,6 +230,8 @@ authors:
   title = {Large-area automatic detection of shoreline stranded marine debris using deep learning},
   journal = {International Journal of Applied Earth Observation and Geoinformation},
   year = {2023},
+  volume = {124},
+  pages = {103515},
   doi = {10.1016/j.jag.2023.103515},
   url = {https://doi.org/10.1016/j.jag.2023.103515}
 }
@@ -357,7 +359,7 @@ authors:
 
 
 <div class="publication-entry journal 2022">
-    Akiona AK*, Popp BN, Toonen RJ, Siple MC, Kotubetey K, Kawelo H, Franklin EC (2022). Predatory fish diets shift toward an invasive mullet in a traditional Hawaiian aquaculture system. <em>Aquaculture, Fish and Fisheries</em>. 
+    Akiona AK*, Popp BN, Toonen RJ, Siple MC, Kotubetey K, Kawelo H, Franklin EC (2022). Predatory fish diets shift toward an invasive mullet in a traditional Hawaiian aquaculture system. <em>Aquaculture, Fish and Fisheries</em> 2: 307-320. 
     
   <a href="#" class="badge badge-info" onclick="openModal('akiona2022')">Cite</a>
   <a href="https://doi.org/10.1002/aff2.68" class="badge badge-info" target="_blank">DOI</a>
@@ -373,6 +375,8 @@ authors:
   title = {Predatory fish diets shift toward an invasive mullet in a traditional Hawaiian aquaculture system},
   journal = {Aquaculture, Fish and Fisheries},
   year = {2022},
+  volume = {2},
+  pages = {307-320},
   doi = {10.1002/aff2.68},
   url = {https://doi.org/10.1002/aff2.68}
 }
@@ -399,9 +403,9 @@ authors:
   author = {Mora, C. and McKenzie, T. and Gaw, I.M. and Dean, J.M. and von Hammerstein, H. and Knudson, T.A. and Setter, R.O. and Smith, C.Z. and Webster, K.M. and Patz, J.A. and Franklin, E.C.},
   title = {Over half of known human pathogenic diseases can be aggravated by climate change},
   journal = {Nature Climate Change},
+  year = {2022},
   volume = {12},
   pages = {869--875},
-  year = {2022},
   doi = {10.1038/s41558-022-01426-1},
   url = {https://doi.org/10.1038/s41558-022-01426-1}
 }
@@ -413,7 +417,7 @@ authors:
 
 
 <div class="publication-entry journal 2022">
-    Nichols RS*, DeMartini EE, Franklin EC (2022). No butts about it: using urogenital disparity in a deep water snapper, <em>Etelis carbunculus</em> (Lutjanidae), for field based sexual identification. <em>Journal of Fish Biology</em>. 
+    Nichols RS*, DeMartini EE, Franklin EC (2022). No butts about it: using urogenital disparity in a deep water snapper, <em>Etelis carbunculus</em> (Lutjanidae), for field based sexual identification. <em>Journal of Fish Biology</em> 101: 1092-1097
     
   <a href="#" class="badge badge-info" onclick="openModal('nichols2022')">Cite</a>
   <a href="https://doi.org/10.1111/jfb.15166" class="badge badge-info" target="_blank">DOI</a>
@@ -429,6 +433,8 @@ authors:
   title = {No butts about it: using urogenital disparity in a deep water snapper, Etelis carbunculus (Lutjanidae), for field based sexual identification},
   journal = {Journal of Fish Biology},
   year = {2022},
+  volume = {101},
+  pages = {1092-1097},
   doi = {10.1111/jfb.15166},
   url = {https://doi.org/10.1111/jfb.15166}
 }
@@ -455,9 +461,9 @@ authors:
   author = {Andrade, P. and Morishige, K. and Mau, A. and Kapono, L. and Franklin, E.C.},
   title = {Re-imagining contemporary conservation to support ʻĀina Momona: Productive and thriving communities of people, place, and natural resources},
   journal = {Parks Stewardship Forum},
+  year = {2022},
   volume = {38},
   pages = {186--198},
-  year = {2022},
   doi = {10.5070/P538257511},
   url = {https://doi.org/10.5070/P538257511}
 }
@@ -484,9 +490,9 @@ authors:
   author = {Purwanto and Franklin, E.C. and Mardiani, S.R. and White, A.T.},
   title = {Stock assessment and overexploitation risk of small pelagic fish in Fisheries Management Area 715 of Indonesia},
   journal = {Asian Fisheries Science},
+  year = {2022},
   volume = {35},
   pages = {76--89},
-  year = {2022},
   doi = {10.33997/j.afs.2022.35.1.007},
   url = {https://doi.org/10.33997/j.afs.2022.35.1.007}
 }
@@ -730,7 +736,7 @@ authors:
 
 
 <div class="publication-entry journal 2021">
-    Gill A<sup>+</sup>, Franklin EC, Donaldson TJ (2021). Fore reef location influences spawning success and egg predation in lek-like mating territories of the bird wrasse Gomphosus varius. <em>Journal of Fish Biology</em>. 
+    Gill A<sup>+</sup>, Franklin EC, Donaldson TJ (2021). Fore reef location influences spawning success and egg predation in lek-like mating territories of the bird wrasse Gomphosus varius. <em>Journal of Fish Biology</em> 104: 451-461.  
     
   <a href="#" class="badge badge-info" onclick="openModal('gill2021')">Cite</a>
   <a href="https://doi.org/10.1007/s10641-021-01084-w" class="badge badge-info" target="_blank">DOI</a>
@@ -746,6 +752,8 @@ authors:
   title = {Fore reef location influences spawning success and egg predation in lek-like mating territories of the bird wrasse Gomphosus varius},
   journal = {Journal of Fish Biology},
   year = {2021},
+  volume = {104},
+  pages = {451-461},
   doi = {10.1007/s10641-021-01084-w},
   url = {https://doi.org/10.1007/s10641-021-01084-w}
 }
@@ -757,7 +765,7 @@ authors:
 
 
 <div class="publication-entry journal 2021">
-    Altman-Kurosaki NT*, Smith CM, Franklin EC (2021). Oahu's marine protected areas have limited success in protecting coral reef herbivore functional assemblages. <em>Coral Reefs</em>. 
+    Altman-Kurosaki NT*, Smith CM, Franklin EC (2021). Oahu's marine protected areas have limited success in protecting coral reef herbivore functional assemblages. <em>Coral Reefs</em> 40: 305-322.
     
   <a href="#" class="badge badge-info" onclick="openModal('altman2021')">Cite</a>
   <a href="https://doi.org/10.1007/s00338-021-02054-5" class="badge badge-info" target="_blank">DOI</a>
@@ -773,6 +781,8 @@ authors:
   title = {Oahu's marine protected areas have limited success in protecting coral reef herbivore functional assemblages},
   journal = {Coral Reefs},
   year = {2021},
+  volume = {40},
+  pages = {305-322},
   doi = {10.1007/s00338-021-02054-5},
   url = {https://doi.org/10.1007/s00338-021-02054-5}
 }
@@ -1105,7 +1115,7 @@ authors:
 
 
 <div class="publication-entry journal 2018">
-    Oyafuso ZS*, Leung PS, Franklin EC (2018). Evaluating bioeconomic tradeoffs of fishing reserves via spatial optimization. <em>Marine Policy</em>. <a href="doi.org/10.1016/j.marpol.2018.11.016">doi: 10.1016/j.marpol.2018.11.016</a>
+    Oyafuso ZS*, Leung PS, Franklin EC (2018). Evaluating bioeconomic tradeoffs of fishing reserves via spatial optimization. <em>Marine Policy</em>. 
     
   <a href="#" class="badge badge-info" onclick="openModal('oyafuso2018')">Cite</a>
   <a href="doi.org/10.1016/j.marpol.2018.11.016" class="badge badge-info" target="_blank">DOI</a>
