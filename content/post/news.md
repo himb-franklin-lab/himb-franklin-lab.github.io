@@ -19,10 +19,11 @@ banner:
     text-align: right;
   }
 
-  .news-image {
-    width: 150px; /* Set a fixed width for the image */
-    height: auto; /* Maintain aspect ratio */
-    border-radius: 10px; /* Rounded corners for images */
+  img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    align: right;
   }
 
   h2, h3, h4 {
@@ -35,7 +36,6 @@ banner:
     color: #333;  /* Title color */
     margin-bottom: 10px; /* Space below the title */
     flex: 1;
-    margin-right: 20px;
   }
 
 /* Style for the news article date */
@@ -68,7 +68,7 @@ banner:
 <div class="news-box">
     <h3>More chances to win prizes by catching tagged pāpio</h3>
     <p class="news-date">Date: 2024-02-27</p>
-    <img src="/images/manoa-himb-papio-maui-9.jpeg" alt="papio in net" class="news-image">
+    <img src="/images/manoa-himb-papio-maui-9.jpeg" alt="papio in net" style="width:100%; max-width:300px;">
     <p class="photo-credit">Photo credit: Maui Ocean Center</p>
     <p class="description">Brief description of the news article. [Read more](https://www.hawaii.edu/news/2024/02/27/more-chances-win-prizes-catch-papio/)</p>
 </div>
@@ -76,7 +76,7 @@ banner:
 <div class="news-box">
     <h3>Hawaiʻi fishermen can win prizes for reporting catches of newly released pāpio</h3>
     <p class="news-date">Date: 2023-10-19</p>
-    <img src="/images/Spencer_papio.jpeg" alt="Spencer with papio" class="news-image"> 
+    <img src="/images/Spencer_papio.jpeg" alt="Spencer with papio" style="width:100%; max-width:300px;">
     <p class="photo-credit">Photo credit: Maui Ocean Center</p>
     <p class="description">Brief description of the news article. [Read more](https://www.hawaii.edu/news/2023/10/19/released-papio-himb/)</p>
 </div>
