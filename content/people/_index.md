@@ -1,5 +1,5 @@
 ---
-title: Meet the Team
+title: "Meet the Team"
 date: 2024-01-01
 type: landing
 ---
