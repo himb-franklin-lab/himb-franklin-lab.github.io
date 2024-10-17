@@ -1,5 +1,6 @@
 ---
 title: Latest News
+url: news
 
 # Listing view
 view: compact
