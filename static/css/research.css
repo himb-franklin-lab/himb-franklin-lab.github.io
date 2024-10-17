@@ -17,7 +17,7 @@ main {
 }
 
 .research-project {
-  flex: 0 1 calc(33.33% - 20px); /* Three boxes per row, minus margin */
+  flex: 0 1 calc(50% - 20px); /* Two boxes per row, minus margin */
   margin-bottom: 20px; /* Space between rows */
   border-radius: 10px; /* Rounded corners */
   background-color: #f9f9f9; /* Optional: background color */
@@ -26,4 +26,16 @@ main {
   color: #000000;
   font-family: Arial, sans-serif;
   box-sizing: border-box; /* Include padding in total width */
+}
+h1 {
+  margin-bottom: 20px; /* Add spacing below headers */
+  font-size: 45px;
+}
+h2 {
+  margin-bottom: 20px; /* Add spacing below headers */
+  font-size: 30px;
+}
+p {
+  margin-bottom: 15px; /* Add spacing below paragraphs */
+  font-size: 20px;
 }
