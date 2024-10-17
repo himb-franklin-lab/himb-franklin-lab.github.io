@@ -6,10 +6,9 @@
     <title>Want to Join Us?</title>
     
   <!-- Link to your CSS file -->
-  <link rel="stylesheet" href="/css/team.css">
+  <link rel="stylesheet" href="/css/resources.css">
 </head>
 
-<section class ="join-team">
 <body>
     <div class="content">
         <h1>Want to Join Us?</h1>
@@ -26,7 +25,7 @@
         <p>Please contact Dr. Franklin directly if you are interested in postdoctoral work in the lab. Note that we do not currently have funding to support post-doctoral fellows.</p>
     </div>
 </body>
-</section>
+
 </html>
 
 

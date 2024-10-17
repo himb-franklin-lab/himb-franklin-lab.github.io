@@ -1,3 +1,26 @@
+/* Apply gradient to the entire webpage */
+html, body {
+  height: 100%; /* Ensures that the body covers the entire height of the page */
+  margin: 0; /* Remove any default margins */
+  padding: 0; /* Remove any default padding */
+  background: linear-gradient(135deg, #106fa6 0%, #e6f5fd 100%);
+  background-size: cover; /* Ensures the gradient covers the entire area */
+  background-attachment: fixed; /* Makes the background fixed when scrolling */
+  color: #fff; /* Change text color for better contrast */
+}
+
+/* Style the content inside the page */
+.content {
+  text-align: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  font-size: 19px;
+  line-height: 1.6;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.7); /* Optional semi-transparent background */
+  border-radius: 10px;
+}
+
 .resources-page {
     text-align: left; /* Align text to the left */
     padding: 20px; /* Add some padding for better spacing */
