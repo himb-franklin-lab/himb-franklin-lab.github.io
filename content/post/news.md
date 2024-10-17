@@ -14,9 +14,9 @@ banner:
 
 <style>
   .photo-credit {
-    font-size: 12px;
+    font-size: 10px;
     color: #888;
-    text-align: right;
+    text-align: left;
   }
 
   img {
@@ -38,9 +38,9 @@ h3 {
 
 /* Style for the news article date */
 .news-date {
-    font-size: 16px;  /* Adjust date size */
+    font-size: 14px;  /* Adjust date size */
     color: #777;  /* Date color */
-    margin-bottom: 15px;  /* Space below the date */
+    margin-bottom: 7px;  /* Space below the date */
 }
 
 /* Shadowed box style for each news article */
@@ -55,24 +55,23 @@ h3 {
 
 <!-- Main content -->
 
-### More chances to win prizes by catching tagged pāpio
-*Date: 2024-02-27*
+<div class="news-box">
+    <h3>More chances to win prizes by catching tagged pāpio</h3>
+    <p class="news-date">Date: 2024-02-27</p>
+    <img src="/images/manoa-himb-papio-maui-9.jpeg" alt="papio in net" style="width:100%; max-width:300px;">
+    <p class="photo-credit">Photo credit: Maui Ocean Center</p>
+    <p>Brief description of the news article. [Read more](https://www.hawaii.edu/news/2024/02/27/more-chances-win-prizes-catch-papio/)</p>
+</div>
 
-![papio in net](/images/manoa-himb-papio-maui-9.jpeg)  <!-- Add your article image path here -->
-*<span class="photo-credit">Photo credit: [Maui Ocean Center]</span>*  <!-- Add your photo credit here -->
-Brief description of the news article. [Read more](https://www.hawaii.edu/news/2024/02/27/more-chances-win-prizes-catch-papio/)
+<div class="news-box">
+    <h3>Hawaiʻi fishermen can win prizes for reporting catches of newly released pāpio</h3>
+    <p class="news-date">Date: 2023-10-19</p>
+    <img src="/images/Spencer_papio.jpeg" alt="Spencer with papio" style="width:100%; max-width:300px;">
+    <p class="photo-credit">Photo credit: Maui Ocean Center</p>
+    <p>Brief description of the news article. [Read more](https://www.hawaii.edu/news/2023/10/19/released-papio-himb/)</p>
+</div>
 
-### Hawaiʻi fishermen can win prizes for reporting catches of newly released pāpio
-*Date: 2023-10-19*
+<!--Article 3-->
 
-![Spencer with papio](/images/Spencer_papio.jpeg)  <!-- Add your article image path here -->
-Brief description of the news article. [Read more](https://www.hawaii.edu/news/2023/10/19/released-papio-himb/)
-
-### Article Title 3
-*Date: YYYY-MM-DD*
-
-![alt text](img path)  <!-- Add your article image path here -->
-*<span class="photo-credit">Photo credit: []</span>*  <!-- Add your photo credit here -->
-Brief description of the news article. [Read more](link-to-article)
 
 
