@@ -45,8 +45,7 @@ sections:
   
   - block: image
     content:
-      title: 'Our Team'
-      image: /images/Papio/jpg
+      image: /images/Papio.jpg
       alt: 'Description of the image'  # Replace with an appropriate alt text
     design:
       columns: '1'
