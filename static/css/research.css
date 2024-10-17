@@ -12,8 +12,8 @@ main {
 .research-project {
   padding: 20px;
   margin: 0; /* Remove margins */
-  width: calc(100% + 40px); /* Extend the width to exceed the viewport */
   left: -20px; /* Adjust to align with the viewport */
+  position: relative;
   border-radius: 0; /* Remove rounded corners for full width */
   color: #000000;
   font-family: Arial, sans-serif;
