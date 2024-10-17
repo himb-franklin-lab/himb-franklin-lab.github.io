@@ -22,9 +22,6 @@ sections:
       coordinates:
         latitude: '21.433400466507358'
         longitude: '-157.788233967327'
-      office_hours:
-        - '?'
-        - '?'
       appointment_url: 'https://calendly.com'
       #contact_links:
       #  - icon: comments
@@ -55,7 +52,7 @@ sections:
       columns: '1'
       background:
         image: 
-          filename: contact.jpg
+          filename: /images/Papio.jpg
           filters:
             brightness: 1
           parallax: false
