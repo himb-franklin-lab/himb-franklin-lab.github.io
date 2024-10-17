@@ -1,8 +1,17 @@
----
-title: "Meet the Team"
-date: 2024-01-01
-type: landing
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Meet the Team</title>
+    <link rel="stylesheet" href="/css/team.css"> <!-- Add your stylesheet link here -->
+</head>
+
+<body>
+    <header>
+        <h1>Meet the Team</h1>
+    </header>
 <main>
     <section id="team">
         <h1>Meet the Team</h1>
