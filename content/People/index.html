@@ -12,9 +12,9 @@
         <h1>Meet the Lab</h1>
     </header>
     <main>
-        <section id="team">
+        <section id="team" class=""team-section>
             <!-- Principal Investigators -->
-            <section class="team-group">
+            <div class="team-group">
                 <h2>Principal Investigators</h2>
                 <div class="team-member">
                     <img src="/images/erik_franklin.jpeg" alt="Dr. Erik C. Franklin" class="team-photo">
@@ -33,7 +33,7 @@
                 </div>
             </section>
             <!-- Grad Students -->
-            <section class="team-group">
+            <div class="team-group">
                 <h2>Grad Students</h2>
                 <div class="team-member">
                     <img src="/images/blank.jpeg" alt="Student Name" class="team-photo">
@@ -59,7 +59,7 @@
                 </div>
             </section>
             <!-- Technicians -->
-            <section class="team-group">
+            <div class="team-group">
                 <h2>Technicians</h2>
                 <div class="team-member">
                     <img src="/images/meredith-pfennig.jpeg" alt="Meredith Pfennig" class="team-photo">
@@ -74,7 +74,7 @@
                 </div>
             </section>
             <!-- Undergrad Students -->
-            <section class="team-group">
+            <div class="team-group">
                 <h2>Undergrad Students</h2>
                 <div class="team-member">
                     <img src="/images/blank.jpeg" alt="Student Name" class="team-photo">
@@ -223,12 +223,16 @@
             margin: 0 auto;
             padding: 20px;
         }
-
+        .team-section {
+            display: flex;
+            flex-wrap: wrap; /* Ensure profiles wrap onto new rows if needed */
+            justify-content: center; /* Center-align the team members */
+            gap: 20px; /* Adds space between each team member */
+        }
         .team-group {
             text-align: center;
             max-width: 250px; /* Optional: Limits the max width for each profile */
         }
-        
 
         h1 {
             text-align: center;

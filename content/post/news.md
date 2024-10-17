@@ -31,11 +31,11 @@ banner:
   }
 
   /* Style for the news article title */
-h3 {
+  h3 {
     font-size: 24px;  /* Adjust title size */
     color: #333;  /* Title color */
     margin-bottom: 10px; /* Space below the title */
-}
+  }
 
 /* Style for the news article date */
 .news-date {
