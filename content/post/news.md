@@ -16,13 +16,14 @@ banner:
   .photo-credit {
     font-size: 10px;
     color: #888;
-    text-align: left;
+    text-align: right;
   }
 
   img {
     width: 100%;
     height: auto;
     border-radius: 5px;
+    align: right;
   }
 
   h2, h3, h4 {
@@ -51,6 +52,13 @@ h3 {
     border-radius: 8px; /* Rounded corners */
     background-color: #fff; /* Box background color */
 }
+
+/* Style for the news article description */
+.description {
+    font-size: 20px;  /* Adjust date size */
+    color: #333;  /* Date color */
+    margin-bottom: 7px;  /* Space below the date */
+}
 </style>
 
 <!-- Main content -->
@@ -60,7 +68,7 @@ h3 {
     <p class="news-date">Date: 2024-02-27</p>
     <img src="/images/manoa-himb-papio-maui-9.jpeg" alt="papio in net" style="width:100%; max-width:300px;">
     <p class="photo-credit">Photo credit: Maui Ocean Center</p>
-    <p>Brief description of the news article. [Read more](https://www.hawaii.edu/news/2024/02/27/more-chances-win-prizes-catch-papio/)</p>
+    <p class="description">Brief description of the news article. [Read more](https://www.hawaii.edu/news/2024/02/27/more-chances-win-prizes-catch-papio/)</p>
 </div>
 
 <div class="news-box">
@@ -68,7 +76,7 @@ h3 {
     <p class="news-date">Date: 2023-10-19</p>
     <img src="/images/Spencer_papio.jpeg" alt="Spencer with papio" style="width:100%; max-width:300px;">
     <p class="photo-credit">Photo credit: Maui Ocean Center</p>
-    <p>Brief description of the news article. [Read more](https://www.hawaii.edu/news/2023/10/19/released-papio-himb/)</p>
+    <p class="description">Brief description of the news article. [Read more](https://www.hawaii.edu/news/2023/10/19/released-papio-himb/)</p>
 </div>
 
 <!--Article 3-->
