@@ -10,7 +10,7 @@ sections:
       title: |
         Welcome to the Franklin Lab!
       image:
-        filename: team_selfie.JPG
+        filename: /images/team_selfie.JPG
       text: |
         <br>
         
@@ -44,7 +44,7 @@ sections:
       columns: '1'
       background:
         image: 
-          filename: Papio-tagging.jpg
+          filename: /images/Papio-tagging.jpg
           filters:
             brightness: 1
           parallax: false
