@@ -14,7 +14,7 @@ sections:
       text: |
         <br>
         
-        The **Franklin Lab** at the Hawai'i Institute of Marine Biology is focused on ____. Take a look through our website to learn more about us and what we have been up to!
+        The **Franklin Lab** at the Hawaii Institute of Marine Biology is focused on ____. Take a look through our website to learn more about us and what we have been up to!
   
   - block: collection
     content:
@@ -30,7 +30,7 @@ sections:
         tag: ''
       offset: 0
       order: desc
-      page_type: news
+      page_type: post
     design:
       view: card
       columns: '1'
@@ -55,19 +55,6 @@ sections:
         padding: ['20px', '0', '20px', '0']
       css_class: fullscreen
 
-  - block: collection
-    content:
-      title: Latest Preprints
-      text: ""
-      count: 5
-      filters:
-        folders:
-          - publication
-        publication_type: 'article'
-    design:
-      view: citation
-      columns: '1'
-
   - block: markdown
     content:
       title:
@@ -77,3 +64,18 @@ sections:
     design:
       columns: '1'
 ---
+
+<style>
+  .cta {
+  color: #ffffff; /* Change this to your desired text color */
+  background-color: #008080; /* Change this to your desired background color */
+  padding: 10px 20px; /* Optional: adjust padding */
+  border-radius: 5px; /* Optional: rounded corners */
+  text-decoration: none; /* Optional: remove underline */
+}
+
+/* Optional: Change color on hover */
+.cta:hover {
+  background-color: #1c8c99; /* Change to a darker shade for hover effect */
+}
+</style>
