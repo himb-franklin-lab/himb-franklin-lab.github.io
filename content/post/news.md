@@ -35,6 +35,11 @@ h3 {
     color: #333;  /* Title color */
     margin-bottom: 10px; /* Space below the title */
 }
+p {
+    font-size: 16px;  /* Adjust title size */
+    color: #333;  /* Title color */
+    margin-bottom: 10px; /* Space below the title */
+}
 
 /* Style for the news article date */
 .news-date {
@@ -45,7 +50,7 @@ h3 {
 
 /* Shadowed box style for each news article */
 .news-box {
-    width: 80%;
+    width: 120%;
     max-width: 800px;
     padding: 20px;
     margin: 20px 0;
@@ -69,7 +74,7 @@ h3 {
     <h3>More chances to win prizes by catching tagged pāpio</h3>
     <p class="news-date">Date: 2024-02-27</p>
     <p class="photo-credit">Photo credit: Maui Ocean Center</p>
-    <p>Brief description of the news article. [Read more](https://www.hawaii.edu/news/2024/02/27/more-chances-win-prizes-catch-papio/)</p>
+    <p>Brief description of the news article. <a href="https://www.hawaii.edu/news/2024/02/27/more-chances-win-prizes-catch-papio/" target="_blank">[Read more]</a></p>
 </div>
 
 <div class="news-box">
@@ -77,7 +82,7 @@ h3 {
     <h3>Hawaiʻi fishermen can win prizes for reporting catches of newly released pāpio</h3>
     <p class="news-date">Date: 2023-10-19</p>
     <p class="photo-credit">Photo credit: Maui Ocean Center</p>
-    <p>Brief description of the news article. [Read more](https://www.hawaii.edu/news/2023/10/19/released-papio-himb/)</p>
+    <p>Brief description of the news article. <a href="https://www.hawaii.edu/news/2023/10/19/released-papio-himb/" target="_blank">[Read more]</a></p>
 </div>
 
 <!--Article 3-->
