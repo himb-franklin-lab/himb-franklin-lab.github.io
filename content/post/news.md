@@ -18,9 +18,10 @@ banner:
     text-align: left;
   }
 
-  img {
+  .news-box img {
     width: 100%;
     height: auto;
+    display: block;
     border-radius: 5px;
     margin-top: 5px;
   }
@@ -74,6 +75,7 @@ p {
     <h3><a href="https://www.linkedin.com/feed/update/urn:li:activity:7212162136247001089" target="_blank">CliRAIM x HATCH workshop</a></h3>
     <p class="news-date">Date: 2024-6-20</p>
     <p class="photo-credit"></p>
+    <p>Brief description of the news article. </p>
 </div>
 
 <div class="news-box">
@@ -81,6 +83,7 @@ p {
     <h3><a href="https://www.hawaii.edu/news/2024/02/27/more-chances-win-prizes-catch-papio/" target="_blank">More chances to win prizes by catching tagged pāpio</a></h3>
     <p class="news-date">Date: 2024-02-27</p>
     <p class="photo-credit">Photo credit: Maui Ocean Center</p>
+    <p>Brief description of the news article. </p>
 </div>
 
 <div class="news-box">
@@ -88,6 +91,7 @@ p {
     <h3><a href="https://www.hawaii.edu/news/2023/10/19/released-papio-himb/" target="_blank">Hawaiʻi fishermen can win prizes for reporting catches of newly released pāpio</a></h3>
     <p class="news-date">Date: 2023-10-19</p>
     <p class="photo-credit">Photo credit: Maui Ocean Center</p>
+    <p>Brief description of the news article. </p>
 </div>
 
 <!--Article 3-->
