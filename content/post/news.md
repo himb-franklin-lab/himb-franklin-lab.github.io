@@ -57,7 +57,7 @@ p {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow */
     border-radius: 8px; /* Rounded corners */
     background-color: #fafafa; /* Box background color */
-    transition: transform 0.2s; /* Animation effect */
+    transition: transform 0.3s; /* Animation effect */
     overflow-wrap: break-word;
   }
 

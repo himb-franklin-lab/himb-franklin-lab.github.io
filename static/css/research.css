@@ -14,10 +14,11 @@ main {
   flex-wrap: wrap; /* Allow items to wrap to the next line */
   justify-content: space-between; /* Distribute space between boxes */
   padding: 20px;
+  width: 100%;
 }
 
 .research-project {
-  flex: 0 1 calc(70% - 10px); /* Two boxes per row, minus margin */
+  flex: 0 1 calc(60% - 10px); /* Two boxes per row, minus margin */
   margin-bottom: 20px; /* Space between rows */
   border-radius: 10px; /* Rounded corners */
   background-color: #b3dce8; /* Optional: background color */
@@ -26,6 +27,7 @@ main {
   color: #000000;
   font-family: Arial, sans-serif;
   box-sizing: border-box; /* Include padding in total width */
+  transition: transform 0.3s; /* Animation effect */
 }
 h1 {
   margin-bottom: 20px; /* Add spacing below headers */
