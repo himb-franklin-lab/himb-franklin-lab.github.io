@@ -23,6 +23,7 @@ banner:
     width: 100%;
     height: auto;
     border-radius: 5px;
+    margin-top: 5px;
   }
 
   h2, h3, h4 {
