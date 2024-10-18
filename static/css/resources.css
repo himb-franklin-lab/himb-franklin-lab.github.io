@@ -54,4 +54,43 @@ html, body {
     font-size: 18px; /* Adjust paragraph size as needed */
     line-height: 1.5; /* Improve readability */
   }
+
+  .gallery-container {
+    position: relative;
+    width: 100%;
+    max-width: 800px; /* Adjust as needed */
+    margin: auto;
+    overflow: hidden;
+}
+
+  .gallery {
+    display: flex;
+    transition: transform 0.5s ease;
+    width: 100%;
+  }
+
+  .gallery img {
+    width: 100%;
+    max-width: 800px; /* Adjust as needed */
+    flex-shrink: 0; /* Prevent images from shrinking */
+  }
+
+  .prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(255, 255, 255, 0.8);
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    z-index: 10;
+  }
+
+  .prev {
+    left: 10px;
+  }
+
+  .next {
+    right: 10px;
+  }
   
