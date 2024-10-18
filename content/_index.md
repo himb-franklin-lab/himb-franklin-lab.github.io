@@ -10,11 +10,11 @@ sections:
       title: |
         Welcome to the Franklin Lab!
       image:
-        filename: welcome.jpg
+        filename: team_selfie.JPG
       text: |
         <br>
         
-        The **Franklin Lab** has been _____
+        The **Franklin Lab** at the Hawai'i Institute of Marine Biology is focused on ____. Take a look through our website to learn more about us and what we have been up to!
   
   - block: collection
     content:
@@ -30,7 +30,7 @@ sections:
         tag: ''
       offset: 0
       order: desc
-      page_type: post
+      page_type: news
     design:
       view: card
       columns: '1'
@@ -44,7 +44,7 @@ sections:
       columns: '1'
       background:
         image: 
-          filename: coders.jpg
+          filename: Papio-tagging.jpg
           filters:
             brightness: 1
           parallax: false
