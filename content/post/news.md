@@ -50,14 +50,15 @@ p {
 
 /* Shadowed box style for each news article */
 .news-box {
-    width: 120%;
-    max-width: 800px;
+    width: 100%;
+    max-width: 1200px;
     padding: 20px;
     margin: 20px 0;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow */
     border-radius: 8px; /* Rounded corners */
     background-color: #fafafa; /* Box background color */
     transition: transform 0.2s; /* Animation effect */
+    overflow-wrap: break-word;
   }
 
   /* Hover effect for news box */
