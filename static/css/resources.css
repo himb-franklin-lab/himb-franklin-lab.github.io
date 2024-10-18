@@ -3,7 +3,7 @@ html, body {
   height: 100%; /* Ensures that the body covers the entire height of the page */
   margin: 0; /* Remove any default margins */
   padding: 0; /* Remove any default padding */
-  background: linear-gradient(360deg, #ffffff 0%, #2cd2e4 50%, #1c8c99 100%);
+  background: linear-gradient(0deg, #1c8c99 100%, #2cd2e4 50%, #ffffff 0%);
   background-size: cover; /* Ensures the gradient covers the entire area */
   background-attachment: fixed; /* Makes the background fixed when scrolling */
   color: #000000; /* Change text color for better contrast */
@@ -33,8 +33,24 @@ html, body {
     font-size: 26px; /* Adjust header size as needed */
     margin-bottom: 10px; /* Space below header */
   }
-  
+  .hero h2 {
+    font-size: 22px; /* Adjust header size as needed */
+    margin-bottom: 10px; /* Space below header */
+  }
   .hero p {
+    font-size: 18px; /* Adjust paragraph size as needed */
+    line-height: 1.5; /* Improve readability */
+  }
+
+  .h1 {
+    font-size: 26px; /* Adjust header size as needed */
+    margin-bottom: 10px; /* Space below header */
+  }
+  .h2 {
+    font-size: 22px; /* Adjust header size as needed */
+    margin-bottom: 10px; /* Space below header */
+  }
+  .p {
     font-size: 18px; /* Adjust paragraph size as needed */
     line-height: 1.5; /* Improve readability */
   }
