@@ -1,6 +1,5 @@
 ---
 title: Latest News
-date: 2024-10-17
 url: news
 
 # Listing view
@@ -70,21 +69,25 @@ p {
 </style>
 
 <!-- Main content -->
+<div class="news-box">
+    <img src="/images/CliRAIM-workshop-620.JPG" alt="Hatch workshop" style="width:100%; max-width:300px;">
+    <h3><a href="https://www.linkedin.com/feed/update/urn:li:activity:7212162136247001089" target="_blank">CliRAIM x HATCH workshop</a></h3>
+    <p class="news-date">Date: 2024-6-20</p>
+    <p class="photo-credit"></p>
+</div>
 
 <div class="news-box">
     <img src="/images/manoa-himb-papio-maui-9.jpeg" alt="papio in net" style="width:100%; max-width:300px;">
-    <h3>More chances to win prizes by catching tagged pāpio</h3>
+    <h3><a href="https://www.hawaii.edu/news/2024/02/27/more-chances-win-prizes-catch-papio/" target="_blank">More chances to win prizes by catching tagged pāpio</a></h3>
     <p class="news-date">Date: 2024-02-27</p>
     <p class="photo-credit">Photo credit: Maui Ocean Center</p>
-    <p>Brief description of the news article. <a href="https://www.hawaii.edu/news/2024/02/27/more-chances-win-prizes-catch-papio/" target="_blank">[Read more]</a></p>
 </div>
 
 <div class="news-box">
     <img src="/images/Spencer_papio.jpeg" alt="Spencer with papio" style="width:100%; max-width:300px;">
-    <h3>Hawaiʻi fishermen can win prizes for reporting catches of newly released pāpio</h3>
+    <h3><a href="https://www.hawaii.edu/news/2023/10/19/released-papio-himb/" target="_blank">Hawaiʻi fishermen can win prizes for reporting catches of newly released pāpio</a></h3>
     <p class="news-date">Date: 2023-10-19</p>
     <p class="photo-credit">Photo credit: Maui Ocean Center</p>
-    <p>Brief description of the news article. <a href="https://www.hawaii.edu/news/2023/10/19/released-papio-himb/" target="_blank">[Read more]</a></p>
 </div>
 
 <!--Article 3-->
