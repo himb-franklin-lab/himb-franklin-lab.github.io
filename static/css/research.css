@@ -11,14 +11,13 @@ main {
 
 .research-container {
   display: flex; /* Use flexbox for layout */
-  flex-wrap: wrap; /* Allow items to wrap to the next line */
-  justify-content: space-between; /* Distribute space between boxes */
+  flex-direction: column;
   padding: 20px;
   width: 100%;
 }
 
 .research-project {
-  flex: 0 1 calc(50% - 10px); /* Two boxes per row, minus margin */
+  width: 100%;
   margin-bottom: 20px; /* Space between rows */
   border-radius: 10px; /* Rounded corners */
   background-color: #b3dce8; /* Optional: background color */
