@@ -134,32 +134,27 @@
 </div>
 
 <section class="gallery-container">
-    <h1>Photo Gallery</h1>
-    <div class="gallery" id="gallery">
-        <img src="/images/Papio-tagging.jpeg" alt="Description of photo 1" class="gallery-photo">
-        <img src="/images/erik_franklin.jpeg" alt="Description of photo 2" class="gallery-photo">
-        <img src="/images/meredith-pfennig.jpeg" alt="Description of photo 3" class="gallery-photo">
-        <img src="/images/Spencer_papio.jpeg" alt="Description of photo 4" class="gallery-photo">
-        <!-- Add more images as needed -->
+            <div class="gallery" id="gallery">
+                <img src="/images/Papio-tagging.jpeg" alt="Image 1">
+                <img src="/images/erik_franklin.jpeg" alt="Image 2">
+                <img src="/images/meredith-pfennig.jpeg" alt="Image 3">
+                <!-- Add more images as needed -->
+            </div>
+            <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+            <button class="next" onclick="moveSlide(1)">&#10095;</button>
+        </section>
     </div>
-    <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
-    <button class="next" onclick="moveSlide(1)">&#10095;</button>    
-</section>
-</div>
-
-<script>
-    let currentSlide = 0;
-    function moveSlide(direction) {
-    const slides = document.querySelectorAll('.gallery img');
-    currentSlide += direction;
-
-    if (currentSlide < 0) {
-      currentSlide = slides.length - 1; // Wrap around to the last image
-    } else if (currentSlide >= slides.length) {
-      currentSlide = 0; // Wrap around to the first image
-    }
-
-    const gallery = document.getElementById('gallery');
-    gallery.style.transform = `translateX(-${currentSlide * 100}%)`;
-  }
-</script>
+    <script>
+        let currentSlide = 0;
+        function moveSlide(direction) {
+            const slides = document.querySelectorAll('.gallery img');
+            currentSlide += direction;
+            if (currentSlide < 0) {
+                currentSlide = slides.length - 1; // Wrap around to the last image
+            } else if (currentSlide >= slides.length) {
+                currentSlide = 0; // Wrap around to the first image
+            }
+            const gallery = document.getElementById('gallery');
+            gallery.style.transform = `translateX(-${currentSlide * 100}%)`;
+        }
+    </script>
