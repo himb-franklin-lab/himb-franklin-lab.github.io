@@ -15,7 +15,7 @@
   <section class="hero">
     <h1>Published Data</h1>
     <p>
-      * = Franklin lab graduate student or post-doc, + = UH graduate student or undergraduate student
+      &ast; = Franklin lab graduate student or post-doc, <sup>+</sup> = UH graduate student or undergraduate student
     </p>
     <div class="citation">
       <p>
