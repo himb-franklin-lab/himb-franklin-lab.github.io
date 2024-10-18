@@ -133,3 +133,13 @@
   </section>
 </div>
 
+<section class="gallery">
+    <h1>Photo Gallery</h1>
+    <div class="gallery-container">
+        <img src="/images/Papio-tagging" alt="Description of photo 1" class="gallery-photo">
+        <img src="/images/photo2.jpg" alt="Description of photo 2" class="gallery-photo">
+        <img src="/images/photo3.jpg" alt="Description of photo 3" class="gallery-photo">
+        <img src="/images/photo4.jpg" alt="Description of photo 4" class="gallery-photo">
+        <!-- Add more images as needed -->
+    </div>
+</section>
