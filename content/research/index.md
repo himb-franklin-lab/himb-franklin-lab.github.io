@@ -60,46 +60,48 @@ sections:
       Brief description of the project. Provide an overview of the research, objectives, and significance of the project.
 ---
 <style>
-    html, body {
-  margin: 0;
-  padding: 0;
-}
+   html, body {
+     margin: 0;
+     padding: 0;
+    }
+   main {
+     display: flex;
+     flex-direction: column;
+     width: 100%;
+    }
 
-main {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-}
+   .research-container {
+     display: flex; /* Use flexbox for layout */
+     flex-direction: column;
+     padding: 20px;
+     width: 100%;
+    }
 
-.research-container {
-  display: flex; /* Use flexbox for layout */
-  flex-direction: column;
-  padding: 20px;
-  width: 100%;
-}
+   .research-project {
+     width: 100%;
+     margin-bottom: 20px; /* Space between rows */
+     border-radius: 10px; /* Rounded corners */
+     background-color: #b3dce8; /* Optional: background color */
+     padding: 20px; /* Padding inside each box */
+     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Optional: box shadow for effect */
+     color: #000000;
+     font-family: Arial, sans-serif;
+     box-sizing: border-box; /* Include padding in total width */
+     transition: transform 0.3s; /* Animation effect */
+    }
 
-.research-project {
-  width: 100%;
-  margin-bottom: 20px; /* Space between rows */
-  border-radius: 10px; /* Rounded corners */
-  background-color: #b3dce8; /* Optional: background color */
-  padding: 20px; /* Padding inside each box */
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Optional: box shadow for effect */
-  color: #000000;
-  font-family: Arial, sans-serif;
-  box-sizing: border-box; /* Include padding in total width */
-  transition: transform 0.3s; /* Animation effect */
-}
-h1 {
-  margin-bottom: 20px; /* Add spacing below headers */
-  font-size: 45px;
-}
-h2 {
-  margin-bottom: 20px; /* Add spacing below headers */
-  font-size: 26px;
-}
-p {
-  margin-bottom: 15px; /* Add spacing below paragraphs */
-  font-size: 18px;
-}
+   h1 {
+     margin-bottom: 20px; /* Add spacing below headers */
+     font-size: 45px;
+    }
+
+   h2 {
+     margin-bottom: 20px; /* Add spacing below headers */
+     font-size: 26px;
+    }
+
+   p {
+     margin-bottom: 15px; /* Add spacing below paragraphs */
+     font-size: 18px;
+    }
 </style>
