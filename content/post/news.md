@@ -29,7 +29,8 @@ sections:
       title: |
        "More chances to win prizes by catching tagged pāpio"
       date: "2024-02-27"
-      image: "/images/manoa-himb-papio-maui-9.jpeg"
+      image: |
+       filename: "/images/manoa-himb-papio-maui-9.jpeg"
       link: "https://www.hawaii.edu/news/2024/02/27/more-chances-win-prizes-catch-papio/"
       description: |
        "Brief description of the news article."
@@ -40,7 +41,8 @@ sections:
      title: |
       "Hawaiʻi fishermen can win prizes for reporting catches of newly released pāpio"
     date: "2023-10-19"
-    image: "/images/Spencer_papio.jpeg"
+    image: |
+     filename: "/images/Spencer_papio.jpeg"
     link: "https://www.hawaii.edu/news/2023/10/19/released-papio-himb/"
     description: |
      "Brief description of the news article."
