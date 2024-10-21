@@ -52,39 +52,39 @@ sections:
     font-size: 10px;
     color: #888;
     text-align: left;
-}
+  }
 
-.news-box img {
+  .news-box img {
     width: 100%;
     height: auto;
     display: block;
     border-radius: 5px;
     margin-top: 5px;
-}
+  }
 
-h2, h3, h4 {
+  h2, h3, h4 {
     text-align: left;
-}
+  }
 
-h3 {
+  h3 {
     font-size: 24px;
     color: #333;
     margin-bottom: 10px;
-}
+  }
 
-p {
+  p {
     font-size: 16px;
     color: #333;
     margin-bottom: 10px;
-}
+  }
 
-.news-date {
+  .news-date {
     font-size: 14px;
     color: #777;
     margin-bottom: 7px;
-}
+  }
 
-.news-box {
+  .news-box {
     width: 100%;
     max-width: 1200px;
     padding: 20px;
@@ -94,9 +94,9 @@ p {
     background-color: #fafafa;
     transition: transform 0.3s;
     overflow-wrap: break-word;
-}
+  }
 
-.news-box:hover {
+  .news-box:hover {
     transform: translateY(-2px);
-}
+  }
 </style>
