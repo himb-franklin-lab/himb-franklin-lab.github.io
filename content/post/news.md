@@ -1,5 +1,6 @@
 ---
 title: Latest News
+date: 2024-10-18
 url: news
 
 # Listing view
