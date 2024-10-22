@@ -6,6 +6,7 @@ layout: "person"  # Ensure you have a matching layout in your theme
 image: "/images/erik_franklin.jpeg"  # Path to Dr. Franklin's image
 email: "erik.franklin@hawaii.edu"  # Dr. Franklin's email
 cv: "/static/files/FranklinEC_cv.pdf"  # Link to the CV file
+url: /People/erik-franklin.md/
 ---
 
 Dr. Erik C. Franklin is an Associate Research Professor at the Univerity of Hawai'i at Mānoa, Institute of Marine Biology.  specializing in coral reef ecosystems and fisheries science.
