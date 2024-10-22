@@ -56,7 +56,7 @@
 <main>
     <div class="research-container">
         <div class="research-project">
-            <h2>Pacific Fishes: Reproductive capacity of Pacific fishes: improving understanding of sustainable fisheries</h2>
+            <h2><a href="/research/pacific-fishes/"><strong>Pacific Fishes: Reproductive capacity of Pacific fishes</strong></a></h2>
             <p><strong>Duration:</strong> Start Date - End Date</p>
             <p>Brief description of the project. Provide an overview of the research, objectives, and significance of the project.</p>
         </div>
