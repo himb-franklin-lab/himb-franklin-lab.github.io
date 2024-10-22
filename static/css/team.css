@@ -6,11 +6,16 @@ h1 {
 }
 h2 {
     text-align: center; /* Centers the text */
-    font-size: 36px; /* Adjust the font size as needed */
-    margin-top: 20px; /* Optional: Add spacing above the title */
-    margin-bottom: 20px; /* Optional: Add spacing below the title */
+    font-size: 32px; /* Adjust the font size as needed */
+    margin-top: 2px; /* Optional: Add spacing above the title */
+    margin-bottom: 2px; /* Optional: Add spacing below the title */
 }
-
+h3 {
+    text-align: center; /* Centers the text */
+    font-size: 26px; /* Adjust the font size as needed */
+    margin-top: 2px; /* Optional: Add spacing above the title */
+    margin-bottom: 2px; /* Optional: Add spacing below the title */
+}
 body {
     background-size: cover;
     background-position: center;
@@ -29,11 +34,11 @@ body {
     border-radius: 10px; /* Optional: Add rounded corners */
 }
 
-h1, h2, h3 {
-    margin-bottom: 20px; /* Add spacing below headers */
-}
 
 p {
-    margin-bottom: 15px; /* Add spacing below paragraphs */
+    text-align: center; /* Centers the text */
+    font-size: 18px; /* Adjust the font size as needed */
+    margin-top: 2px; /* Optional: Add spacing above the title */
+    margin-bottom: 2px; /* Optional: Add spacing below the title */
 }
 
