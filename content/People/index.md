@@ -18,7 +18,7 @@
                 <div class="team-member">
                     <img src="/images/erik_franklin.jpeg" alt="Dr. Erik C. Franklin" class="team-photo">
                     <div class="team-info">
-                        <h3><a href="/People/erik-franklin.html">Dr. Erik C. Franklin</a></h3>
+                        <h3><a href="./erik-franklin/">Dr. Erik C. Franklin</a></h3>
                         <p class="role-text">Associate Research Professor</p>
                         <div class="social-links">
                             <a href="mailto:erik.franklin@hawaii.edu" target="_blank"> <!-- Link to email -->
@@ -220,18 +220,15 @@
             <!-- Add more sections for Admin, Visitors, Alumni as needed -->
         </section>
     </main>
-
     <style>
         #team {
             max-width: 1200px;
             margin: 0 auto;
             padding: 5px;
         }
-
         .team-group {
             margin-bottom: 5px;
         }
-
         h1 {
             text-align: center;
             font-size: 45px;
@@ -257,7 +254,6 @@
             color: #919191;
             line-height: 1.2;
         }
-
         .team-member {
             display: flex;
             flex-direction: column;
@@ -267,7 +263,6 @@
             margin-bottom: 2px;
             border-radius: 2px;
         }
-
         .team-photo {
             width: 175px;
             height: 175px;
@@ -276,13 +271,11 @@
             object-fit: cover;
             padding: 0px;
         }
-
         .team-info {
             text-align: center;
             padding: 0px;
             margin-bottom: 0px;
         }
-
         .social-links  {
             display: flex;
             align-items: center;
@@ -291,12 +284,10 @@
             margin-bottom: 0px;
             padding: 0px;
         }
-
         .social-links a {
             margin-right: 3px;
             padding: 0px;
         }
-
         .social-icon {
             width: 20px;
             height: 20px;
@@ -304,11 +295,9 @@
             vertical-align: middle;
             padding: 0px;
         }
-
         .social-links a:hover {
             text-decoration: underline;
         }
-
         .alumni-container {
          display: flex;
          flex-wrap: wrap; /* Ensures alumni wrap to a new line if needed */
@@ -321,7 +310,6 @@
          text-align: center;
          max-width: 300px; /* Optional: Limits the max width for each profile */
         }
-
     </style>
 </body>
 </html>
