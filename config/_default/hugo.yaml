@@ -41,8 +41,8 @@ permalinks:
   tags: '/tag/:slug/'
   categories: '/category/:slug/'
   publication_types: '/publication-type/:slug/'
-  research: '/research/:slug/'
-  people: '/people/:slug/'
+  research: '/research/:title/'
+  people: '/people/:title/'
 disableAliases: true
 outputs:
   home: [HTML, RSS, JSON, WebAppManifest, headers, redirects]
