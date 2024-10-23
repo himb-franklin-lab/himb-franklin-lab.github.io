@@ -13,6 +13,7 @@ html, body {
     flex: 1; /* Allow this column to grow */
     min-width: 300px; /* Minimum width for small screens */
     padding: 20px; /* Add padding for spacing */
+    vertical-align: center;
 }
 
 .right-column {
@@ -32,7 +33,6 @@ html, body {
     display: flex;
     flex-wrap: wrap;
     width: 100%; /* Full width */
-    max-width: 1400px; /* Optional max-width for larger screens */
     padding: 20px; /* Add padding for spacing */
     margin: 0 auto; /* Centers the container */
     min-height: 100vh; /* Ensures it fills at least the viewport height */
@@ -54,6 +54,7 @@ html, body {
     flex-wrap: wrap; /* Allow wrapping on smaller screens */
     justify-content: space-between; /* Space between items */
     margin-top: 30px; /* Space above this section */
+    gap: 20px;
 }
 
 /* Individual columns for Research Interests and Education */
@@ -78,7 +79,6 @@ html, body {
 
 /* Education list styles */
 .education ul {
-    list-style-type: none; /* Removes default bullet points */
     padding-left: 0; /* Remove default padding from list */
     font-size: 16px; /* Font size for education list items */
 }
@@ -131,7 +131,7 @@ h2 {
 }
 
 p {
-    font-size: 14px;
+    font-size: 16px;
     margin-bottom: 3px;
 }
 
@@ -139,7 +139,7 @@ h3 {
    font-size: 20px;
 }
 .bio {
-    font-size: 18px;
+    font-size: 16px;
 }
 
 /* Responsive design adjustments for smaller screens */
