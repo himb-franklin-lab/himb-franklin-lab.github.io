@@ -13,20 +13,24 @@
 /* Main container for the left and right columns */
 .container {
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
     width: 100%;
     max-width: 1400px;
+    padding: 10px;
     margin: 0 auto; /* Centers the container */
 }
 
 /* Left column for image, name, role, and contact */
 .left-column {
-    flex: 40%; /* Adjust as needed */
+    flex: 0 0 30%; /* Adjust as needed */
+    padding: 20px;
+    text-align: center;
 }
 
 /* Right column for biography, interests, and education */
 .right-column {
-    flex: 55%; /* Adjust as needed */
+    flex: 0 0 70%; /* Adjust as needed */
+    padding: 20px;
 }
 
 /* For Research Interests and Education side by side */
@@ -38,15 +42,16 @@
 
 /* Individual columns for Research Interests and Education */
 .interests, .education {
-    width: 48%; /* Adjust for spacing between columns */
+    flex: 1;
 }
 
 /* Style for circular image */
 img {
     border-radius: 50%;
-    width: 400px;
-    height: 400px;
+    width: 200px;
+    height: 200px;
     object-fit: cover;
+    margin: 0 auto 20px;
 }
 
 /* Education list styles */
@@ -68,9 +73,7 @@ img {
 .graduation-icon {
     width: 10px; /* Adjust size as needed */
     height: 10px;
-    object-fit: contain;
     margin-right: 10px;
-    vertical-align: middle;
 }
 
 /* Social icons styles */
@@ -82,8 +85,8 @@ img {
 }
 
 .social-icon {
-    width: 30px; /* Adjust the size of the icons */
-    height: auto; /* Maintain aspect ratio */
+    width: 25px; /* Adjust the size of the icons */
+    height: 25; /* Maintain aspect ratio */
     object-fit: contain;
 }
 
@@ -93,7 +96,8 @@ h2 {
 }
 
 .role {
-    font-size: 28px;
+    font-size: 1.2em;
+    margin-bottom: 10px;
 }
 
 p {
@@ -104,4 +108,11 @@ h3 {
     font-size: 30px;
 }
 
-
+@media (max-width: 768px) {
+    .left-column, .right-column {
+      flex: 0 0 100%;
+    }
+    .interests-education {
+      flex-direction: column;
+    }
+  }
