@@ -1,0 +1,107 @@
+.h2 {
+    font-size: 40px;
+}
+.role {
+    font-size: 28px;
+}
+.p {
+    font-size: 26px;
+}
+.h3 {
+    font-size: 30px;
+}
+/* Main container for the left and right columns */
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto; /* Centers the container */
+}
+
+/* Left column for image, name, role, and contact */
+.left-column {
+    flex: 40%; /* Adjust as needed */
+}
+
+/* Right column for biography, interests, and education */
+.right-column {
+    flex: 55%; /* Adjust as needed */
+}
+
+/* For Research Interests and Education side by side */
+.interests-education {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+/* Individual columns for Research Interests and Education */
+.interests, .education {
+    width: 48%; /* Adjust for spacing between columns */
+}
+
+/* Style for circular image */
+img {
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+}
+
+/* Education list styles */
+.education ul {
+    list-style-type: none; /* Removes default bullet points */
+    padding-left: 0;
+}
+
+.education li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.university {
+    font-size: 0.8em; /* Smaller font size */
+    color: gray; /* Gray color for the university names */
+    margin-top: 2px; /* Adds some space above the university name */
+}
+.graduation-icon {
+    width: 10px; /* Adjust size as needed */
+    height: 10px;
+    object-fit: contain;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+/* Social icons styles */
+.social-icons {
+    display: flex; /* This will line up the icons next to each other */
+    justify-content: flex-start; /* Aligns items to the start */
+    gap: 10px; /* Adds space between icons; adjust as needed */
+    margin: 10px 0; /* Adds space above and below the icons */
+}
+
+.social-icon {
+    width: 30px; /* Adjust the size of the icons */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: contain;
+}
+
+/* Font size adjustments */
+h2 {
+    font-size: 40px;
+}
+
+.role {
+    font-size: 28px;
+}
+
+p {
+    font-size: 26px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+
