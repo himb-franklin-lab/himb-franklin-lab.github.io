@@ -48,18 +48,33 @@ slug: "erik-franklin"
                 </ul>
             </div>
             <div class="education">
-              <h3>Education</h3>
-              <ul>
-                 <li><img src="/images/graduation-cap.png" alt="Graduation Cap" class="graduation-icon" /> <strong>Ph.D., Zoology, 2012</strong></li>
-                 <li><img src="/images/graduation-cap.png" alt="Graduation Cap" class="graduation-icon" /> University of Hawai'i at Mānoa</li>
-                 <li><img src="/images/graduation-cap.png" alt="Graduation Cap" class="graduation-icon" /> <strong>M.S., Marine Biology and Fisheries, 2004</strong></li>
-                 <li><img src="/images/graduation-cap.png" alt="Graduation Cap" class="graduation-icon" /> University of Miami</li>
-                 <li><img src="/images/graduation-cap.png" alt="Graduation Cap" class="graduation-icon" /> <strong>B.S., Ecology, Behavior, and Evolution with a minor in Environmental Studies, 1996</strong></li>
-                 <li><img src="/images/graduation-cap.png" alt="Graduation Cap" class="graduation-icon" /> University of California, San Diego</li>
-                 <li><img src="/images/graduation-cap.png" alt="Graduation Cap" class="graduation-icon" /> <strong>University of California-Education Abroad Program (UC-EAP), Sustainable Agroforestry and Tropical Ecology, 1995</strong></li>
-                 <li><img src="/images/graduation-cap.png" alt="Graduation Cap" class="graduation-icon" /> Jardin Botanico Wilson, Costa Rica</li>
-                 <li><img src="/images/graduation-cap.png" alt="Graduation Cap" class="graduation-icon" /> <strong>UC-EAP, Ecology, 1994</strong></li>
-                 <li><img src="/images/graduation-cap.png" alt="Graduation Cap" class="graduation-icon" /> The Flinders University, Australia</li>
+                <h3>Education</h3>
+                <ul>
+                    <li>
+                        <img src="/images/graduation-cap.png" alt="Graduation Cap" class="graduation-icon" /> 
+                        <strong>Ph.D., Zoology, 2012</strong>
+                        <div class="university">University of Hawai'i at Mānoa</div>
+                    </li>
+                    <li>
+                        <img src="/images/graduation-cap.png" alt="Graduation Cap" class="graduation-icon" /> 
+                        <strong>M.S., Marine Biology and Fisheries, 2004</strong>
+                        <div class="university">University of Miami</div>
+                    </li>
+                    <li>
+                        <img src="/images/graduation-cap.png" alt="Graduation Cap" class="graduation-icon" /> 
+                        <strong>B.S., Ecology, Behavior, and Evolution with a minor in Environmental Studies, 1996</strong>
+                        <div class="university">University of California, San Diego</div>
+                    </li>
+                    <li>
+                        <img src="/images/graduation-cap.png" alt="Graduation Cap" class="graduation-icon" /> 
+                        <strong>University of California-Education Abroad Program (UC-EAP), Sustainable Agroforestry and Tropical Ecology, 1995</strong>
+                        <div class="university">Jardin Botanico Wilson, Costa Rica</div>
+                    </li>
+                    <li>
+                        <img src="/images/graduation-cap.png" alt="Graduation Cap" class="graduation-icon" /> 
+                        <strong>UC-EAP, Ecology, 1994</strong>
+                        <div class="university">The Flinders University, Australia</div>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -67,26 +82,38 @@ slug: "erik-franklin"
 </div>
 
 <style>
+.h2 {
+    font-size: 40px;
+}
+.role {
+    font-size: 28px;
+}
+.p {
+    font-size: 26px;
+}
+.h3 {
+    font-size: 30px;
+}
 /* Main container for the left and right columns */
 .container {
     display: flex;
     justify-content: space-between;
     padding: 10px;
     width: 100%;
-    max-width: 1200px;
+    max-width: 1400px;
     margin: 0 auto; /* Centers the container */
 }
 
 /* Left column for image, name, role, and contact */
 .left-column {
-    width: 35%; /* Adjust as needed */
-    padding: 10px;
+    flex: 0 0 35%; /* Adjust as needed */
+    padding: 5px;
 }
 
 /* Right column for biography, interests, and education */
 .right-column {
-    width: 60%; /* Adjust as needed */
-    padding: 10px;
+    flex: 0 0 60%; /* Adjust as needed */
+    padding: 5px;
 }
 
 /* For Research Interests and Education side by side */
@@ -119,7 +146,11 @@ img {
     align-items: center;
     margin-bottom: 10px;
 }
-
+.university {
+    font-size: 0.8em; /* Smaller font size */
+    color: gray; /* Gray color for the university names */
+    margin-top: 2px; /* Adds some space above the university name */
+}
 .graduation-icon {
     width: 20px; /* Adjust size as needed */
     margin-right: 10px;
