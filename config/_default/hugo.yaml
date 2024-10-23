@@ -6,7 +6,6 @@
 title: Franklin Lab at HIMB # Website name
 baseURL: 'https://himb-franklin-lab.github.io/' # Website URL
 params:
-  custom_css:["css/people.css"]
   enableAuthors: true  # Ensure this is set if applicable
   author:
     display_name: true
@@ -28,6 +27,7 @@ params:
     show_role: true
   assets:
     scssPipeline: true # Enable SCSS processing
+  custom_css: ["css/people.css"]
 
 ############################
 ## LANGUAGE
