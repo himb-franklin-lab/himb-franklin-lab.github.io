@@ -53,28 +53,38 @@ date: ""
                 <h3>Education</h3>
                 <ul>
                     <li>
-                        <img src="/images/graduation-cap.png" alt="Graduation Cap" class="graduation-icon" />
-                        <strong>Ph.D., Zoology, 2012</strong>
+                        <div>
+                            <img src="/images/graduation-cap.png" alt="Graduation Cap" class="graduation-icon" />
+                            <strong>Ph.D., Zoology, 2012</strong>
+                        </div>
                         <div class="university">University of Hawai'i at Mānoa</div>
                     </li>
                     <li>
-                        <img src="/images/graduation-cap.png" alt="Graduation Cap" class="graduation-icon" /> 
-                        <strong>M.S., Marine Biology and Fisheries, 2004</strong>
+                        <div>
+                            <img src="/images/graduation-cap.png" alt="Graduation Cap" class="graduation-icon" />
+                            <strong>M.S., Marine Biology and Fisheries, 2004</strong>
+                        </div>
                         <div class="university">University of Miami</div>
                     </li>
                     <li>
-                        <img src="/images/graduation-cap.png" alt="Graduation Cap" class="graduation-icon" /> 
-                        <strong>B.S., Ecology, Behavior, and Evolution with a minor in Environmental Studies, 1996</strong>
+                        <div>
+                            <img src="/images/graduation-cap.png" alt="Graduation Cap" class="graduation-icon" />
+                            <strong>B.S., Ecology, Behavior, and Evolution with a minor in Environmental Studies, 1996</strong>
+                        </div>
                         <div class="university">University of California, San Diego</div>
                     </li>
                     <li>
-                        <img src="/images/graduation-cap.png" alt="Graduation Cap" class="graduation-icon" /> 
-                        <strong>University of California-Education Abroad Program (UC-EAP), Sustainable Agroforestry and Tropical Ecology, 1995</strong>
+                        <div>
+                            <img src="/images/graduation-cap.png" alt="Graduation Cap" class="graduation-icon" />
+                            <strong>University of California-Education Abroad Program (UC-EAP), Sustainable Agroforestry and Tropical Ecology, 1995</strong>
+                        </div>
                         <div class="university">Jardin Botanico Wilson, Costa Rica</div>
                     </li>
                     <li>
-                        <img src="/images/graduation-cap.png" alt="Graduation Cap" class="graduation-icon" /> 
-                        <strong>UC-EAP, Ecology, 1994</strong>
+                        <div>
+                            <img src="/images/graduation-cap.png" alt="Graduation Cap" class="graduation-icon" />
+                            <strong>UC-EAP, Ecology, 1994</strong>
+                        </div>
                         <div class="university">The Flinders University, Australia</div>
                     </li>
                 </ul>

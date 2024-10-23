@@ -8,7 +8,6 @@ body {
 .container {
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
     max-width: 1400px;
     padding: 20px;
     margin: 0 auto; /* Centers the container */
@@ -16,14 +15,14 @@ body {
 
 /* Left column for image, name, role, and contact */
 .left-column {
-    flex: 0 0 30%; /* Adjust as needed */
-    padding: 20px;
+    flex: 0 0 35%; /* Adjust as needed */
+    padding: 10px;
     text-align: center;
 }
 
 /* Right column for biography, interests, and education */
 .right-column {
-    flex: 0 0 70%; /* Adjust as needed */
+    flex: 0 0 60%; /* Adjust as needed */
     padding: 20px;
 }
 
@@ -48,10 +47,15 @@ body {
     margin: 0 auto 20px;
 }
 
+.interests ul {
+    padding-left: 0;
+    font-size: 17px;
+}
 /* Education list styles */
 .education ul {
     list-style-type: none; /* Removes default bullet points */
     padding-left: 0;
+    font-size: 17px;
 }
 
 .education li {
@@ -59,18 +63,27 @@ body {
     flex-direction: column;
     margin-bottom: 15px;
 }
-
+.education li > div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.education li strong {
+    display: inline-block; /* This helps with line breaks for long titles */
+}
 .university {
     font-size: 0.9em; /* Smaller font size */
     color: #666; /* Gray color for the university names */
     margin-top: 5px; /* Adds some space above the university name */
+    margin-left: 30px;
 }
 
 .graduation-icon {
-    width: 20px; /* Adjust size as needed */
-    height: 20px;
+    width: 30px; /* Adjust size as needed */
+    height: 30px;
     margin-right: 10px;
     flex-shrink: 0;
+    vertical-align: middle;
 }
 
 /* Social icons styles */
@@ -89,23 +102,23 @@ body {
 
 /* Font size adjustments */
 h2 {
-    font-size: 40px;
+    font-size: 30px;
     margin-bottom: 10px;
 }
 
 .role {
-    font-size: 28px;
+    font-size: 20px;
     margin-bottom: 15px;
     color: #555;
 }
 
 p {
-    font-size: 26px;
+    font-size: 17px;
     margin-bottom: 20px;
 }
 
 h3 {
-    font-size: 30px;
+    font-size: 20px;
     margin-bottom: 15px;
 }
 
