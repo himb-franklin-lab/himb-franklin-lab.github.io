@@ -12,7 +12,7 @@
     </header>
     <main>
         <section id="team">
-            <!-- Principal Investigators -->
+            <!-- Principal Investigator -->
             <section class="team-group">
                 <h2>Principal Investigator</h2>
                 <div class="team-member">
