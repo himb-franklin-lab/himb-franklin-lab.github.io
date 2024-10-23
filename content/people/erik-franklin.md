@@ -9,9 +9,13 @@ date: ""
         <h2>Dr. Erik C. Franklin</h2>
         <div class="role">Associate Research Professor</div>
         <p>
-         <a href="https://www.himb.hawaii.edu/">Hawaii Institute of Marine Biology</a> 
-         <a href="https://www.soest.hawaii.edu/soestwp/">School of Ocean and Earth Science and Technology</a> 
-         <a href="https://manoa.hawaii.edu/">University of Hawai'i at Mānoa</a>
+            <a href="https://www.himb.hawaii.edu/">Hawaii Institute of Marine Biology</a>
+        </p>
+        <p>
+            <a href="https://www.soest.hawaii.edu/soestwp/">School of Ocean and Earth Science and Technology</a>
+        </p>
+        <p>
+            <a href="https://manoa.hawaii.edu/">University of Hawai'i at Mānoa</a>
         </p>
         <div class="contact">
             <div class="social-icons">
