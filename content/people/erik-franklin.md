@@ -2,6 +2,7 @@
 slug: "erik-franklin"
 date: ""
 ---
+<link rel="stylesheet" href="/css/people.css">
 <div class="container">
     <div class="left-column">
         <img src="/images/erik_franklin.jpeg" alt="Dr. Erik C. Franklin" class="img"/>
