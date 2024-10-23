@@ -1,3 +1,8 @@
+html, body {
+    height: 100%; /* Ensures both elements fill the viewport */
+    margin: 0; /* Removes default margin */
+    padding: 0; /* Removes default padding */
+}
 .profile-bio {
     display: flex;
     flex-wrap: wrap;
@@ -27,9 +32,10 @@
     display: flex;
     flex-wrap: wrap;
     width: 100%; /* Full width */
-    max-width: 1400px; /* Set a max-width for larger screens */
+    max-width: 1400px; /* Optional max-width for larger screens */
     padding: 20px; /* Add padding for spacing */
     margin: 0 auto; /* Centers the container */
+    min-height: 100vh; /* Ensures it fills at least the viewport height */
 }
 
 /* Optional full-width class if needed */
@@ -80,13 +86,13 @@
 .education li {
     display: flex;
     flex-direction: column; /* Stack items vertically */
-    margin-bottom: 6px; /* Space between education items */
+    margin-bottom: 15px; /* Space between education items */
 }
 
 .education li > div {
     display: flex;
     align-items: baseline; /* Align items vertically in the center */
-    margin-bottom: 3px;
+    margin-bottom: 5px;
 }
 
 .education li strong {
@@ -139,7 +145,7 @@ h3 {
    font-size: 20px;
 }
 .bio {
-    font-size: 22px;
+    font-size: 20px;
 }
 
 /* Responsive design adjustments for smaller screens */
