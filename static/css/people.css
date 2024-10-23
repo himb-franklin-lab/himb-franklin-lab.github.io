@@ -80,7 +80,7 @@
 .education li {
     display: flex;
     flex-direction: column; /* Stack items vertically */
-    margin-bottom: 10px; /* Space between education items */
+    margin-bottom: 6px; /* Space between education items */
 }
 
 .education li > div {
@@ -110,7 +110,7 @@
     display: flex;
     justify-content: center; /* Center social icons horizontally */
     gap: 15px; 
-    margin: 20px 0; 
+    margin: 10px 0; 
 }
 
 .social-icon {
@@ -126,11 +126,12 @@ h2 {
 .role {
     font-size: 18px;
     margin-bottom: 5px;
+    margin-top: 3px;
     color: #666;
 }
 
 p {
-    font-size: 16px;
+    font-size: 18px;
 }
 
 h3 {
