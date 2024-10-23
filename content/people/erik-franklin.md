@@ -8,7 +8,11 @@ date: no date
         <img src="/images/erik_franklin.jpeg" alt="Dr. Erik C. Franklin" class="img"/>
         <h2>Dr. Erik C. Franklin</h2>
         <p><strong>Role:</strong> Associate Research Professor</p>
-        <p><strong>Institution:</strong> <a href="https://www.himb.hawaii.edu/">Hawaii Institute of Marine Biology</a> \ <a href="https://www.soest.hawaii.edu/soestwp/">School of Ocean and Earth Science and Technology</a> \ <a href="https://manoa.hawaii.edu/">University of Hawai'i at Mānoa</a></p>
+        <p>
+         <a href="https://www.himb.hawaii.edu/">Hawaii Institute of Marine Biology</a> 
+         <a href="https://www.soest.hawaii.edu/soestwp/">School of Ocean and Earth Science and Technology</a> 
+         <a href="https://manoa.hawaii.edu/">University of Hawai'i at Mānoa</a>
+        </p>
         <h3>Contact</h3>
         <ul>
             <li><a href="mailto:erik.franklin@hawaii.edu">
