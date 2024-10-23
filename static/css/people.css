@@ -11,16 +11,14 @@ html, body {
 
 .left-column {
     flex: 1; /* Allow this column to grow */
-    min-width: 300px; /* Minimum width for small screens */
     padding: 20px; /* Add padding for spacing */
     vertical-align: center;
 }
 
 .right-column {
     flex: 2; /* Make this column larger */
-    min-width: 300px; /* Minimum width for small screens */
     padding: 20px; /* Add padding for spacing */
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .interests, .education {
@@ -32,9 +30,8 @@ html, body {
 .container {
     display: flex;
     flex-wrap: wrap;
-    width: 100%; /* Full width */
-    padding: 20px; /* Add padding for spacing */
-    margin: 0 auto; /* Centers the container */
+    width: 100vw!important; /* Full width */
+    padding: 0; /* Add padding for spacing */
     min-height: 100vh; /* Ensures it fills at least the viewport height */
 }
 
@@ -79,8 +76,9 @@ html, body {
 
 /* Education list styles */
 .education ul {
-    padding-left: 0; /* Remove default padding from list */
+    padding-left: 8px; /* Remove default padding from list */
     font-size: 16px; /* Font size for education list items */
+    list-style-type: none;
 }
 
 .education li {
