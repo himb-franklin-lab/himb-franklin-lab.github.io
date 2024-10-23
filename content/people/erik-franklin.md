@@ -13,7 +13,6 @@ date: no date
          <a href="https://www.soest.hawaii.edu/soestwp/">School of Ocean and Earth Science and Technology</a> 
          <a href="https://manoa.hawaii.edu/">University of Hawai'i at Mānoa</a>
         </p>
-        <h3>Contact</h3>
         <ul>
             <li><a href="mailto:erik.franklin@hawaii.edu">
              <img src="/images/email.png" alt="Email" class="social-icon" /></a></li>
