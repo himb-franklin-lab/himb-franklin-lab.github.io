@@ -7,6 +7,7 @@ title: Dr. Erik C. Franklin
 # Full name (for SEO)
 first_name: Erik
 last_name: Franklin
+avatar: "images/erik-franklin.jpeg"
 
 # Is this the primary user of the site?
 superuser: false
@@ -26,26 +27,6 @@ organizations:
 # Short bio (displayed in user profile at end of posts)
 bio: Dr. Erik Franklin is an Associate Research Professor at the University of Hawai'i at Mānoa. His lab focuses on quantitative marine ecology, fisheries science, and ecological restoration, particularly within coral reef ecosystems. Collaborating with the NOAA Pacific Island Fisheries Science Center, the Franklin Lab conducts essential studies on marine population dynamics and habitats across the US Pacific, including the Hawaiian and Mariana archipelagos. His research also emphasizes applied ecological analysis to support sustainable marine resource management, leveraging empirical data and geospatial technologies. Dr. Franklin's collaborative efforts span local, state, and international partnerships, providing sound resource management solutions.
 
-interests:
-  - Fisheries science
-  - Quantitative ecology and ecoinformatics of coral reefs
-  - Ecological restoration
-  - Fish life history and population
-  - Climate change
-
-education:
-  courses:
-    - course: Ph.D., Zoology
-      institution: University of Hawaii at Mānoa
-      year: 2012
-    - course: M.S., Marine Biology and Fisheries
-      institution: University of Miami
-      year: 2004
-    - course: B.S., Ecology, Behavior, and Evolution with a minor in 
-        Environmental Studies
-      institution: University of California, San Diego
-      year: 1996
-    - course: 
 
 # Social/Academic Networking
 social:
@@ -72,3 +53,23 @@ user_groups:
 
 Dr. Erik Franklin is an Associate Research Professor at the University of Hawai'i at Mānoa. His lab focuses on quantitative marine ecology, fisheries science, and ecological restoration, particularly within coral reef ecosystems. Collaborating with the NOAA Pacific Island Fisheries Science Center, the Franklin Lab conducts essential studies on marine population dynamics and habitats across the US Pacific, including the Hawaiian and Mariana archipelagos. His research also emphasizes applied ecological analysis to support sustainable marine resource management, leveraging empirical data and geospatial technologies. Dr. Franklin's collaborative efforts span local, state, and international partnerships, providing sound resource management solutions.
 
+## Research interests:
+  - Fisheries science
+  - Quantitative ecology and ecoinformatics of coral reefs
+  - Ecological restoration
+  - Fish life history and population
+  - Climate change
+
+## Education:
+  courses:
+    - course: Ph.D., Zoology
+      institution: University of Hawaii at Mānoa
+      year: 2012
+    - course: M.S., Marine Biology and Fisheries
+      institution: University of Miami
+      year: 2004
+    - course: B.S., Ecology, Behavior, and Evolution with a minor in 
+        Environmental Studies
+      institution: University of California, San Diego
+      year: 1996
+    - course: 

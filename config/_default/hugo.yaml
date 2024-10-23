@@ -8,10 +8,22 @@ baseURL: 'https://himb-franklin-lab.github.io/' # Website URL
 params:
   enableAuthors: true  # Ensure this is set if applicable
   author:
-    display: true
+    display_name: true
+    avatar: true
+    organization: true
+    social: true
     enable: true
     show_social: true
-    show_interests: false
+    show_interests: true
+    show_role: true
+  people:
+    display_name: true
+    avatar: true
+    organization: true
+    social: true
+    enable: true
+    show_social: true
+    show_interests: true
     show_role: true
   assets:
     scssPipeline: true # Enable SCSS processing
