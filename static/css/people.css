@@ -14,6 +14,7 @@
     flex: 2; /* Make this column larger */
     min-width: 300px; /* Minimum width for small screens */
     padding: 20px; /* Add padding for spacing */
+    font-size: 20px;
 }
 
 .interests, .education {
@@ -79,12 +80,13 @@
 .education li {
     display: flex;
     flex-direction: column; /* Stack items vertically */
-    margin-bottom: 5px; /* Space between education items */
+    margin-bottom: 10px; /* Space between education items */
 }
 
 .education li > div {
     display: flex;
     align-items: center; /* Align items vertically in the center */
+    margin-bottom: 3px;
 }
 
 .education li strong {
@@ -118,11 +120,13 @@
 
 /* Font size adjustments for headings and paragraphs */
 h2 {
-    font-size: 26px;
+    font-size: 24px;
 }
 
 .role {
     font-size: 18px;
+    margin-bottom: 5px;
+    color: #666;
 }
 
 p {
