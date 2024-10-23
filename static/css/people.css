@@ -1,9 +1,24 @@
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    color: #333;
-    margin: 0; /* Remove default margin */
-    padding: 0; /* Remove default padding */
+.profile-bio {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 30px; /* Space below this section */
+}
+
+.left-column {
+    flex: 1; /* Allow this column to grow */
+    min-width: 300px; /* Minimum width for small screens */
+    padding: 20px; /* Add padding for spacing */
+}
+
+.right-column {
+    flex: 2; /* Make this column larger */
+    min-width: 300px; /* Minimum width for small screens */
+    padding: 20px; /* Add padding for spacing */
+}
+
+.interests, .education {
+    flex: 0 0 48%; /* Adjust as needed for two columns */
+    min-width: 250px; /* Minimum width before wrapping */
 }
 
 /* Main container for the left and right columns */
@@ -24,21 +39,6 @@ body {
     right: 50%;
     margin-left: -50vw;
     margin-right: -50vw;
-}
-
-/* Left column for image, name, role, and contact */
-.left-column {
-    flex: 1; /* Allow it to grow */
-    min-width: 300px; /* Minimum width for small screens */
-    padding: 20px; /* Add padding for spacing */
-    text-align: center; /* Center text */
-}
-
-/* Right column for biography, interests, and education */
-.right-column {
-    flex: 2; /* Make this column larger */
-    min-width: 300px; /* Minimum width for small screens */
-    padding: 20px; /* Add padding for spacing */
 }
 
 /* For Research Interests and Education side by side */
