@@ -6,7 +6,7 @@ html, body {
 .profile-bio {
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: 30px; /* Space below this section */
+    margin-bottom: 10px; /* Space below this section */
 }
 
 .left-column {
