@@ -14,7 +14,7 @@
 
 <main>
     <div class="research-container">
-        <div class="research-project">
+        <div class="research-project" style="background-color: #f0f0f0">
             <h2>
              <a href="/research/pacific-fishes/">Pacific Fishes: Reproductive capacity of Pacific fishes</a>
             </h2>
