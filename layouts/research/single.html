@@ -1,0 +1,17 @@
+{{ define "main" }}
+<article class="research-project">
+    <h1>{{ .Title }}</h1>
+    {{ .Content }}
+</article>
+
+<style>
+    .research-project {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+    h1 {
+        color: #00a9e6;
+    }
+</style>
+{{ end }}

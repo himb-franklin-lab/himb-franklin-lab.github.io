@@ -1,0 +1,45 @@
+{{ define "main" }}
+<header>
+    <h1>{{ .Title }}</h1>
+</header>
+<main>
+    <section id="research-projects">
+        {{ .Content }}
+        
+        <!-- List of research projects -->
+        {{ range .Pages }}
+        <div class="research-project">
+            <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+            <p>{{ .Params.summary }}</p>
+        </div>
+        {{ end }}
+    </section>
+</main>
+
+<style>
+    #research-projects {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+    .research-project {
+        margin-bottom: 30px;
+    }
+    h1 {
+        text-align: center;
+        font-size: 45px;
+        margin-bottom: 20px;
+    }
+    h2 {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+    a {
+        color: #00a9e6;
+        text-decoration: none;
+    }
+    a:hover {
+        text-decoration: underline;
+    }
+</style>
+{{ end }}

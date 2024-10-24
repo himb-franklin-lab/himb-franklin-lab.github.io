@@ -1,5 +1,6 @@
 ---
 title: "Research Projects"
+layout: "research"
 ---
 
 Welcome to our Research Projects page. Here you'll find an overview of our current research initiatives:
