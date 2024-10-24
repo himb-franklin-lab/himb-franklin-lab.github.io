@@ -11,11 +11,13 @@ html, body {
 
 .left-column {
     flex: 1; /* Allow this column to grow */
+    min-width: 300px; /* Minimum width for small screens */
     padding: 20px; /* Add padding for spacing */
 }
 
 .right-column {
     flex: 2; /* Make this column larger */
+    min-width: 300px; /* Minimum width for small screens */
     padding: 20px; /* Add padding for spacing */
     font-size: 18px;
 }
@@ -30,10 +32,9 @@ html, body {
     display: flex;
     flex-wrap: wrap;
     width: 100%; /* Full width */
-    box-sizing: border-box;
+    max-width: 1400px; /* Optional max-width for larger screens */
     padding: 20px; /* Add padding for spacing */
     margin: 0 auto; /* Centers the container */
-    min-height: 100vh; /* Ensures it fills at least the viewport height */
 }
 
 /* Optional full-width class if needed */
@@ -80,7 +81,6 @@ html, body {
 .education ul {
     padding-left: 8px; /* Remove default padding from list */
     font-size: 16px; /* Font size for education list items */
-    list-style-type:circle;
 }
 
 .education li {
@@ -106,7 +106,7 @@ html, body {
 
 }
 .university {
-    font-size: 14px; /* Smaller font size for university names */
+    font-size: 16px; /* Smaller font size for university names */
     color: #666; /* Gray color for university names */
     margin-top: 0px; /* Space above university name */
 }
@@ -153,6 +153,9 @@ h3 {
    }
    .left-column, .right-column {
        flex-basis: 100%; 
+   }
+   .interests-education {
+       flex-direction: column;
    }
    .interests, .education {
        flex-basis: 100%; 
