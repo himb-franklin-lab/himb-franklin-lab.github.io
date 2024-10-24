@@ -1,6 +1,6 @@
 ---
 slug: "erik-franklin"
-date: null
+date:  
 ---
 <!DOCTYPE html>
 <html lang="en">
@@ -32,7 +32,7 @@ date: null
                 <a href="https://www.researchgate.net/profile/Erik-Franklin">
                     <img src="/images/research-gate.png" alt="ResearchGate" class="social-icon" />
                 </a>
-                <a href="https://linkedin.com/in/erikfranklin">
+                <a href="https://linkedin.com/in/erikcfranklin">
                     <img src="/images/linkedin-icon.png" alt="LinkedIn" class="social-icon" />
                 </a>
                 <a href="/files/FranklinEC_cv.pdf">
@@ -75,18 +75,6 @@ date: null
                                 <strong>B.S., Ecology, Behavior, and Evolution with a minor in Environmental Studies, 1996</strong>
                             </div>
                             <div class="university">University of California, San Diego</div>
-                        </li>   
-                        <li> 
-                            <div>
-                                <strong>University of California-Education Abroad Program (UC-EAP), Sustainable Agroforestry and Tropical Ecology, 1995</strong>
-                            </div>
-                            <div class="university">Jardin Botanico Wilson, Costa Rica</div>
-                        </li>   
-                        <li> 
-                            <div>
-                                <strong>UC-EAP, Ecology, 1994</strong>
-                            </div>
-                            <div class="university">The Flinders University, Australia</div>
                         </li>
                     </ul>
                 </div>
