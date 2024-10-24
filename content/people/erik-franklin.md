@@ -1,6 +1,6 @@
 ---
 slug: "erik-franklin"
-date: "null" 
+date: 2024-10-23 
 ---
 <!DOCTYPE html>
 <html lang="en">
