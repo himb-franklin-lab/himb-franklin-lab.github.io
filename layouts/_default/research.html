@@ -6,40 +6,97 @@
     <section id="research-projects">
         {{ .Content }}
         
-        <!-- List of research projects -->
-        {{ range .Pages }}
-        <div class="research-project">
-            <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
-            <p>{{ .Params.summary }}</p>
+        <div class="project-grid">
+            <div class="project-item">
+                <h2><a href="/research/pacific-fishes/">Pacific Fishes: Reproductive capacity of Pacific fishes</a></h2>
+                <p>This project focuses on studying the reproductive capacity of various Pacific fish species.</p>
+            </div>
+            <div class="project-item">
+                <h2><a href="/research/coral-reef-ecology/">Coral Reef Ecology</a></h2>
+                <p>Investigating the complex ecosystems of coral reefs and their responses to environmental changes.</p>
+            </div>
+            <div class="project-item">
+                <h2><a href="/research/marine-protected-areas/">Marine Protected Areas</a></h2>
+                <p>Evaluating the effectiveness of marine protected areas in conserving biodiversity and supporting fisheries.</p>
+            </div>
+            <div class="project-item">
+                <h2><a href="/research/climate-change-impacts/">Climate Change Impacts on Marine Ecosystems</a></h2>
+                <p>Assessing how climate change affects marine life and ecosystems in the Pacific region.</p>
+            </div>
+            <div class="project-item">
+                <h2><a href="/research/fisheries-management/">Sustainable Fisheries Management</a></h2>
+                <p>Developing strategies for sustainable fisheries management in the face of changing ocean conditions.</p>
+            </div>
+            <div class="project-item">
+                <h2><a href="/research/marine-spatial-planning/">Marine Spatial Planning</a></h2>
+                <p>Using geospatial technologies to inform marine resource management and conservation planning.</p>
+            </div>
         </div>
-        {{ end }}
     </section>
 </main>
 
 <style>
+    body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        color: #333;
+        background-color: #f4f4f4;
+        margin: 0;
+        padding: 0;
+    }
+
+    header {
+        background-color: #005a87;
+        color: #fff;
+        text-align: center;
+        padding: 1rem;
+    }
+
     #research-projects {
         max-width: 1200px;
         margin: 0 auto;
         padding: 20px;
     }
-    .research-project {
-        margin-bottom: 30px;
+
+    .project-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        gap: 20px;
     }
-    h1 {
-        text-align: center;
-        font-size: 45px;
-        margin-bottom: 20px;
+
+    .project-item {
+        background-color: #fff;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        padding: 1.5rem;
+        margin-bottom: 2rem;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        transition: transform 0.3s ease-in-out;
     }
-    h2 {
-        font-size: 24px;
-        margin-bottom: 10px;
+
+    .project-item:hover {
+        transform: translateY(-5px);
     }
-    a {
-        color: #00a9e6;
+
+    .project-item h2 {
+        margin-top: 0;
+        font-size: 1.2rem;
+    }
+
+    .project-item a {
+        color: #005a87;
         text-decoration: none;
     }
-    a:hover {
+
+    .project-item a:hover {
         text-decoration: underline;
     }
+
+    @media (max-width: 768px) {
+      .project-item {
+          width: 100%;
+      }
+    }
 </style>
+
 {{ end }}
