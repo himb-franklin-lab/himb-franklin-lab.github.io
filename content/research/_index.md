@@ -5,47 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Research Projects</title>
     <link rel="stylesheet" href="/css/research.css">
-    <style>
-        html, body {
-            margin: 0;
-            padding: 0;
-        }
-        main {
-            display: flex;
-            flex-direction: column;
-            width: 100%;
-        }
-        .research-container {
-            display: flex;
-            flex-direction: column;
-            padding: 20px;
-            width: 100%;
-        }
-        .research-project {
-            width: 100%;
-            margin-bottom: 20px;
-            border-radius: 10px;
-            background-color: #b3dce8;
-            padding: 20px;
-            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-            color: #000000;
-            font-family: Arial, sans-serif;
-            box-sizing: border-box;
-            transition: transform 0.3s;
-        }
-        h1 {
-            margin-bottom: 20px;
-            font-size: 45px;
-        }
-        h2 {
-            margin-bottom: 20px;
-            font-size: 26px;
-        }
-        p {
-            margin-bottom: 15px;
-            font-size: 18px;
-        }
-    </style>
 </head>
 <body>
 
@@ -80,6 +39,5 @@
         </div>
     </div>
 </main>
-
 </body>
 </html>
