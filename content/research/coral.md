@@ -1,5 +1,6 @@
 ---
 title: "Hawaii Coral Reef Condition Index and Watershed Health Indices"
+slug: "coral"
 summary: "This project focuses on..."
 ---
 

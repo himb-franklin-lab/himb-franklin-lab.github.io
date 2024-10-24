@@ -1,5 +1,6 @@
 ---
 title: "CAMEO"
+slug: "cameo"
 summary: "This project focuses on..."
 ---
 
