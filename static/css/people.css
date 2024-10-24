@@ -30,9 +30,8 @@ html, body {
 .container {
     display: flex;
     flex-wrap: wrap;
-    width: 100vw!important; /* Full width */
+    width: 100%; /* Full width */
     padding: 0; /* Add padding for spacing */
-    min-height: 100vh; /* Ensures it fills at least the viewport height */
 }
 
 /* Optional full-width class if needed */
@@ -57,7 +56,7 @@ html, body {
 /* Individual columns for Research Interests and Education */
 .interests, .education {
     flex: 0 0 48%; /* Adjust as needed for two columns */
-    min-width: 250px; /* Minimum width before wrapping */
+    min-width: 300px; /* Minimum width before wrapping */
 }
 
 /* Style for circular image */
@@ -96,7 +95,12 @@ html, body {
 .education li strong {
     display: inline-block; /* Helps with line breaks for long titles */
 }
+.graduation-icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 8px;
 
+}
 .university {
     font-size: 0.9em; /* Smaller font size for university names */
     color: #666; /* Gray color for university names */
@@ -136,9 +140,7 @@ p {
 h3 {
    font-size: 20px;
 }
-.bio {
-    font-size: 16px;
-}
+
 
 /* Responsive design adjustments for smaller screens */
 @media (max-width: 768px) {
