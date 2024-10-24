@@ -94,31 +94,25 @@
             </div>
         </section>
 
-        <!-- Alumni -->
-        <h2>Alumni</h2>
-        <section class="alumni-container">
-
-            <!-- List of alumni members -->
-            {% for alumni in site.alumni %}
-            <div class="alumni-member">
-                <div class="team-info">
-                    <h3>{{ alumni.name }} ({{ alumni.year }})</h3>
-                    <p class="role-text">{{ alumni.role }}</p>
-
-                    {% if alumni.social_links %}
-                    <div class="social-links">
-                        {% for link in alumni.social_links %}
-                        <a href="{{ link.url }}" target="_blank"><img src="{{ link.icon }}" alt="{{ link.alt }}" class="social-icon"></a>
-                        {% endfor %}
+                    <!-- Alumni -->
+            <h2>Alumni</h2>
+            <section class="alumni-container">
+                {{ range .Site.Data.alumni }}
+                <div class="alumni-member">
+                    <div class="team-info">
+                        <h3>{{ .name }} ({{ .year }})</h3>
+                        <p class="role-text">{{ .role }}</p>
+                        {{ if .social_links }}
+                        <div class="social-links">
+                            {{ range .social_links }}
+                            <a href="{{ .url }}" target="_blank"><img src="{{ .icon }}" alt="{{ .alt }}" class="social-icon"></a>
+                            {{ end }}
+                        </div>
+                        {{ end }}
                     </div>
-                    {% endif %}
                 </div>
-            </div>
-            {% endfor %}
-            
-        </section>
-
-    </section>
+                {{ end }}
+            </section>
 
     <!-- CSS Styles -->
     <style>

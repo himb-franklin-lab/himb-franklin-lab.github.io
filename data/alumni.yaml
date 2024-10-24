@@ -1,0 +1,87 @@
+- name: "Keena Leon-Guerrero"
+  year: "2023"
+  role: "Masters student"
+
+- name: "Yvonne Barkley"
+  year: "2020"
+  role: "Ph.D. student"
+  social_links:
+    - url: "https://scholar.google.com/citations?user=crguAzEAAAAJ&hl=en"
+      icon: "/images/google-scholar.png"
+      alt: "Google Scholar"
+
+- name: "Noam Altman-Kurosaki"
+  year: "2019"
+  role: "Masters student"
+  social_links:
+    - url: "https://scholar.google.com/citations?user=VsQHCFUAAAAJ&hl=en"
+      icon: "/images/google-scholar.png"
+      alt: "Google Scholar"
+    - url: "https://www.researchgate.net/profile/Noam-Altman-Kurosaki"
+      icon: "/images/research-gate.png"
+      alt: "ResearchGate"
+
+- name: "Zack Oyafuso"
+  year: "2019"
+  role: "MS & Ph.D. student"
+  social_links:
+    - url: "https://www.researchgate.net/profile/Zack-Oyafuso"
+      icon: "/images/research-gate.png"
+      alt: "ResearchGate"
+
+- name: "Ryan Nichols"
+  year: "2019"
+  role: "Masters student"
+  social_links:
+    - url: "https://www.researchgate.net/profile/Ryan-Nichols-2"
+      icon: "/images/research-gate.png"
+      alt: "ResearchGate"
+
+- name: "Mark W. Miller, Ph.D."
+  year: "2018"
+  role: "Postdoctoral researcher"
+  social_links:
+    - url: "https://www.researchgate.net/profile/Mark-Miller-32"
+      icon: "/images/research-gate.png"
+      alt: "ResearchGate"
+
+- name: "Iain R. Caldwell, Ph.D."
+  year: "2018"
+  role: "Postdoctoral researcher"
+  social_links:
+    - url: "https://orcid.org/0000-0001-8148-8762"
+      icon: "/images/orcid.png"
+      alt: "ORCID"
+    - url: "https://scholar.google.ca/citations?user=ux08bCQAAAAJ&hl=en"
+      icon: "/images/google-scholar.png"
+      alt: "Google Scholar"
+
+- name: "Anela Akiona"
+  year: "2018"
+  role: "Masters student"
+  social_links:
+    - url: "https://www.researchgate.net/profile/Anela-Akiona"
+      icon: "/images/research-gate.png"
+      alt: "ResearchGate"
+
+- name: "Maia Kapur"
+  year: "2016"
+  role: "Masters student"
+  social_links:
+    - url: "https://www.researchgate.net/profile/Maia-Kapur"
+      icon: "/images/research-gate.png"
+      alt: "ResearchGate"
+
+- name: "Morgan Winston"
+  year: "2016"
+  role: "Masters student"
+
+- name: "Katie Lubarsky"
+  year: "2016"
+  role: "Masters student"
+  social_links:
+    - url: "https://scholar.google.com/citations?user=PfuXlA4AAAAJ&hl=en"
+      icon: "/images/google-scholar.png"
+      alt: "Google Scholar"
+
+# Add more alumni as needed...
