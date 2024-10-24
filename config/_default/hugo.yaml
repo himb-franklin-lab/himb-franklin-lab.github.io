@@ -27,7 +27,6 @@ params:
     show_role: true
   assets:
     scssPipeline: true # Enable SCSS processing
-  custom_css: ["css/people.css"]
 
 ############################
 ## LANGUAGE
