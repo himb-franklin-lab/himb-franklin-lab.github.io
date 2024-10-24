@@ -1,4 +1,6 @@
 ---
-title: "PISC: Future coral reef community projections for the main Hawaiian Islands"
+title: "PISC"
+summary: "This project focuses on..."
 ---
-Hi
+
+Detailed content about the goes here.

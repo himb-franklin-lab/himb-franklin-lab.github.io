@@ -1,4 +1,6 @@
 ---
-title: Hawaii coral reef condition index and watershed health indices
+title: "Hawaii Coral Reef Condition Index and Watershed Health Indices"
+summary: "This project focuses on..."
 ---
-Hi
+
+Detailed content about the Coral Reef Condition Index goes here.

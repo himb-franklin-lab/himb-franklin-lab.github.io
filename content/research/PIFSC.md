@@ -1,4 +1,6 @@
 ---
-title: "NOAA Pacific Island Fisheries Science Center Collaboration: Graduate student training in Marine Fisheries and Stock Assessment"
+title: "PIFSC"
+summary: "This project focuses on..."
 ---
-Hi
+
+Detailed content about the goes here.

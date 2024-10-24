@@ -1,4 +1,6 @@
 ---
-title: "CAMEO: Multiscale models of Hawaii's coral reef communities"
+title: "CAMEO"
+summary: "This project focuses on..."
 ---
-Hi
+
+Detailed content about the goes here.
