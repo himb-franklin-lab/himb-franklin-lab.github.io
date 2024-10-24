@@ -1,4 +1,4 @@
 ---
-title: CAMEO: Multiscale models of Hawaii's coral reef communities
+title: "CAMEO: Multiscale models of Hawaii's coral reef communities"
 ---
 Hi
