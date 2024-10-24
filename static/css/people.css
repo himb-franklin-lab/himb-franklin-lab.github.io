@@ -11,14 +11,15 @@ html, body {
 
 .left-column {
     flex: 1; /* Allow this column to grow */
+    min-width: 300px; /* Minimum width for small screens */
     padding: 20px; /* Add padding for spacing */
-    vertical-align: center;
 }
 
 .right-column {
     flex: 2; /* Make this column larger */
+    min-width: 300px; /* Minimum width for small screens */
     padding: 20px; /* Add padding for spacing */
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .interests, .education {
@@ -31,7 +32,10 @@ html, body {
     display: flex;
     flex-wrap: wrap;
     width: 100%; /* Full width */
-    padding: 0; /* Add padding for spacing */
+    max-width: 1400px; /* Optional max-width for larger screens */
+    padding: 20px; /* Add padding for spacing */
+    margin: 0 auto; /* Centers the container */
+    min-height: 100vh; /* Ensures it fills at least the viewport height */
 }
 
 /* Optional full-width class if needed */
@@ -71,13 +75,14 @@ html, body {
 .interests ul {
     padding-left: 0; /* Remove default padding from list */
     font-size: 17px; /* Font size for interests list items */
+    list-style-type:circle;
 }
 
 /* Education list styles */
 .education ul {
     padding-left: 8px; /* Remove default padding from list */
     font-size: 16px; /* Font size for education list items */
-    list-style-type: none;
+    list-style-type:circle;
 }
 
 .education li {
