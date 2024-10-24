@@ -1,3 +1,7 @@
+---
+slug: "erik-franklin"
+date: "null" 
+---
 <!DOCTYPE html>
 <html lang="en">
 <head>
