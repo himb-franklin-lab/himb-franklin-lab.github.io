@@ -49,12 +49,12 @@ enableRobotsTXT: true
 footnotereturnlinkcontents: <sup>^</sup>
 ignoreFiles: [\.ipynb$, .ipynb_checkpoints$, \.Rmd$, \.Rmarkdown$, _cache$]
 permalinks:
-  authors: '/author/:slug/'
+  authors: '/authors/:slug/'
   tags: '/tag/:slug/'
   categories: '/category/:slug/'
   publication_types: '/publication-type/:slug/'
   research: '/research/:slug/'
-  people: '/People/:slug/'
+  people: '/people/:slug/'
 disableAliases: true
 outputs:
   home: [HTML, RSS, JSON, WebAppManifest, headers, redirects]
