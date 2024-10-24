@@ -33,7 +33,7 @@
                             <a href="https://www.researchgate.net/profile/Erik-Franklin" target="_blank">
                                 <img src="/images/research-gate.png" alt="RG" class="social-icon">
                             </a>
-                            <a href="https://linkedin.com/in/erikfranklin" target="_blank">
+                            <a href="https://linkedin.com/in/erikcfranklin" target="_blank">
                                 <img src="/images/linkedin-icon.png" alt="LinkedIn" class="social-icon">
                             </a>
                             <a href="/files/FranklinEC_cv.pdf" target="_blank">
