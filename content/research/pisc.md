@@ -1,5 +1,5 @@
 ---
-title: "PISC"
+title: "PISC: Future coral reef community projections for the main Hawaiian Islands"
 summary: "This project focuses on..."
 ---
 
