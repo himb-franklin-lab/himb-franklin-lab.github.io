@@ -1,4 +1,6 @@
 ---
-title: Vessel tracking and invasive species in US Marine National Monuments
+title: "vessel"
+summary: "This project focuses on..."
 ---
-Hi
+
+Detailed content about the goes here.
