@@ -1,7 +1,7 @@
 ---
 # Display name
 title: Dr. Erik C. Franklin
-
+slug: "erik-franklin"
 # Full name (for SEO)
 first_name: Erik
 last_name: Franklin
