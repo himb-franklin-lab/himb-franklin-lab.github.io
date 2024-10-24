@@ -52,7 +52,7 @@ html, body {
     display: flex;
     flex-wrap: wrap; /* Allow wrapping on smaller screens */
     justify-content: space-between; /* Space between items */
-    margin-top: 20px; /* Space above this section */
+    margin-top: 10px; /* Space above this section */
     gap: 30px;
 }
 
