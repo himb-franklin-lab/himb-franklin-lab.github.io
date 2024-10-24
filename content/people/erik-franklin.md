@@ -1,7 +1,3 @@
----
-slug: "erik-franklin"
-date:  
----
 <!DOCTYPE html>
 <html lang="en">
 <head>
