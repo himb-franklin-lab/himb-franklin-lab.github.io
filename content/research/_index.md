@@ -61,32 +61,32 @@
             <p>Brief description of the project. Provide an overview of the research, objectives, and significance of the project.</p>
         </div>
         <div class="research-project">
-            <h2>Hawaii coral reef condition index and watershed health indices</h2>
+            <h2><a href="/research/coral/">Hawaii coral reef condition index and watershed health indices</a></h2>
             <p><strong>Duration:</strong> Start Date - End Date</p>
             <p>Brief description of the project. Provide an overview of the research, objectives, and significance of the project.</p>
         </div>
         <div class="research-project">
-            <h2>PISC: Future coral reef community projections for the main Hawaiian Islands</h2>
+            <h2><a href="/research/PISC/">PISC: Future coral reef community projections for the main Hawaiian Islands</a></h2>
             <p><strong>Duration:</strong> Start Date - End Date</p>
             <p>Brief description of the project. Provide an overview of the research, objectives, and significance of the project.</p>
         </div>
         <div class="research-project">
-            <h2>CAMEO: Multiscale models of Hawaii's coral reef communities</h2>
+            <h2><a href="/research/CAMEO/">CAMEO: Multiscale models of Hawaii's coral reef communities</a></h2>
             <p><strong>Duration:</strong> Start Date - End Date</p>
             <p>Brief description of the project. Provide an overview of the research, objectives, and significance of the project.</p>
         </div>
         <div class="research-project">
-            <h2>GeoSymbio: A hybrid web application of global geospatial bioinformatics and ecoinformatics for <em>Symbiodinium</em>-host symbioses</h2>
+            <h2><a href="/research/GeoSymbio/">GeoSymbio: A hybrid web application of global geospatial bioinformatics and ecoinformatics for <em>Symbiodinium</em>-host symbioses</a></h2>
             <p><strong>Duration:</strong> Start Date - End Date</p>
             <p>Brief description of the project. Provide an overview of the research, objectives, and significance of the project.</p>
         </div>
         <div class="research-project">
-            <h2>NOAA Pacific Island Fisheries Science Center Collaboration: Graduate student training in Marine Fisheries and Stock Assessment</h2>
+            <h2><a href="/research/PIFSC/">NOAA Pacific Island Fisheries Science Center Collaboration: Graduate student training in Marine Fisheries and Stock Assessment</a></h2>
             <p><strong>Duration:</strong> Start Date - End Date</p>
             <p>Brief description of the project. Provide an overview of the research, objectives, and significance of the project.</p>
         </div>
         <div class="research-project">
-            <h2>Vessel tracking and invasive species in US Marine National Monuments</h2>
+            <h2><a href="/research/Vessel/">Vessel tracking and invasive species in US Marine National Monuments</a></h2>
             <p><strong>Duration:</strong> Start Date - End Date</p>
             <p>Brief description of the project. Provide an overview of the research, objectives, and significance of the project.</p>
         </div>
