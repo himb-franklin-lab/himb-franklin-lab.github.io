@@ -22,6 +22,7 @@ organizations:
     - name: School of Ocean and Earth Science and Technology
       url: https://www.soest.hawaii.edu/soestwp/
     - name: University of Hawaii at Mānoa
+      url: https://manoa.hawaii.edu/
 
 # short bio
 bio: Dr. Erik Franklin is an Associate Research Professor at the University of Hawai'i at Mānoa. His lab focuses on quantitative marine ecology, fisheries science, and ecological restoration, particularly within coral reef ecosystems. Collaborating with the NOAA Pacific Island Fisheries Science Center, the Franklin Lab conducts essential studies on marine population dynamics and habitats across the US Pacific, including the Hawaiian and Mariana archipelagos. His research also emphasizes applied ecological analysis to support sustainable marine resource management, leveraging empirical data and geospatial technologies. Dr. Franklin's collaborative efforts span local, state, and international partnerships, providing sound resource management solutions.
