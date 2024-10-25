@@ -16,11 +16,12 @@
                 <div class="card-simple mb-3">
                     {{ if .Params.image }}
                     <div class="article-header">
-                        {{ $image := .Resources.GetMatch .Params.image }}
-                        {{ if $image }}
-                        <img src="{{ $image.RelPermalink }}" class="article-banner" alt="">
+                        {{ if reflect.IsMap .Params.image }}
+                            {{ with .Params.image.filename }}
+                                <img src="{{ . | relURL }}" class="article-banner" alt="{{ $.Title }}">
+                            {{ end }}
                         {{ else }}
-                        <img src="{{ .Params.image | relURL }}" class="article-banner" alt="">
+                            <img src="{{ .Params.image | relURL }}" class="article-banner" alt="{{ .Title }}">
                         {{ end }}
                     </div>
                     {{ end }}
