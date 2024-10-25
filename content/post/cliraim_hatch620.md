@@ -1,7 +1,8 @@
 ---
 title: "CliRAIM x HATCH workshop"
 date: 2024-06-20
-image: "/images/CliRAIM-workshop-620.JPG"  
+image: 
+   filename: "/images/CliRAIM-workshop-620.JPG" 
 ---
 ![CliRAIM x HATCH workshop](/images/CliRAIM-workshop-620.JPG)
 
