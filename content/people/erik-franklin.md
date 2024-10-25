@@ -45,15 +45,23 @@ education:
 
 #Social
 profiles:
-  - icon: at-symbol
+  - icon: "fas fa-envelope" 
     url: 'mailto:erik.franklin@hawaii.edu'
-  - icon: brands/linkedin
-    url: https://www.linkedin.com/erikcfranklin
-  - icon: academicons/google-scholar
-    url: https://scholar.google.com/citations?user=aPMTCK8AAAAJ&hl=en
-  - icon: academicons/orcid
-    url: https://orcid.org/0000-0002-8660-3085
-  - icon: academicons/researchgate
-    url: https://www.researchgate.net/profile/Erik-Franklin
-  - icon: academicons/CV  
+    label: "Email"
+  - icon: "fab fa-linkedin" 
+    url: "https://www.linkedin.com/in/erikcfranklin"
+    label: "LinkedIn"
+  - icon: "ai ai-google-scholar" 
+    url: "https://scholar.google.com/citations?user=aPMTCK8AAAAJ&hl=en"
+    label: "Google Scholar"
+  - icon: "ai ai-orcid" 
+    url: "https://orcid.org/0000-0002-8660-3085"
+    label: "ORCID"
+  - icon: "ai ai-researchgate" 
+    url: "https://www.researchgate.net/profile/Erik-Franklin"
+    label: "ResearchGate"
+  - icon: "ai ai-cv"  
+    url: "/files/FranklinEC_cv_202410.pdf"
+    label: "CV"
+
 ---
