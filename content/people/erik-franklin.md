@@ -22,6 +22,7 @@ organizations:
     - name: School of Ocean and Earth Science and Technology
       url: https://www.soest.hawaii.edu/soestwp/
     - name: University of Hawaii at Mānoa
+      url: https://manoa.hawaii.edu/
 
 # short bio
 bio: Dr. Erik Franklin is an Associate Research Professor at the University of Hawai'i at Mānoa. His lab focuses on quantitative marine ecology, fisheries science, and ecological restoration, particularly within coral reef ecosystems. Collaborating with the NOAA Pacific Island Fisheries Science Center, the Franklin Lab conducts essential studies on marine population dynamics and habitats across the US Pacific, including the Hawaiian and Mariana archipelagos. His research also emphasizes applied ecological analysis to support sustainable marine resource management, leveraging empirical data and geospatial technologies. Dr. Franklin's collaborative efforts span local, state, and international partnerships, providing sound resource management solutions.
@@ -45,15 +46,23 @@ education:
 
 #Social
 profiles:
-  - icon: at-symbol
+  - icon: "fas fa-envelope" 
     url: 'mailto:erik.franklin@hawaii.edu'
-  - icon: brands/linkedin
-    url: https://www.linkedin.com/erikcfranklin
-  - icon: academicons/google-scholar
-    url: https://scholar.google.com/citations?user=aPMTCK8AAAAJ&hl=en
-  - icon: academicons/orcid
-    url: https://orcid.org/0000-0002-8660-3085
-  - icon: academicons/researchgate
-    url: https://www.researchgate.net/profile/Erik-Franklin
-  - icon: academicons/CV  
+    label: "Email"
+  - icon: "fab fa-linkedin" 
+    url: "https://www.linkedin.com/in/erikcfranklin"
+    label: "LinkedIn"
+  - icon: "ai ai-google-scholar" 
+    url: "https://scholar.google.com/citations?user=aPMTCK8AAAAJ&hl=en"
+    label: "Google Scholar"
+  - icon: "ai ai-orcid" 
+    url: "https://orcid.org/0000-0002-8660-3085"
+    label: "ORCID"
+  - icon: "ai ai-researchgate" 
+    url: "https://www.researchgate.net/profile/Erik-Franklin"
+    label: "ResearchGate"
+  - icon: "ai ai-cv"  
+    url: "/files/FranklinEC_cv_202410.pdf"
+    label: "CV"
+
 ---
