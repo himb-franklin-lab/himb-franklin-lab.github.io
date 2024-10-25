@@ -1,0 +1,55 @@
+{{ define "main" }}
+<div class="container">
+  <h1>News</h1>
+  <div class="post-list">
+    {{ range .Pages.ByPublishDate.Reverse }}
+    <div class="post-item">
+      <span class="post-date">{{ .Date.Format "Jan 2, 2006" }}</span>
+      <h2 class="post-title">
+        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+      </h2>
+      <div class="post-summary">
+        {{ .Summary }}
+      </div>
+    </div>
+    {{ end }}
+  </div>
+</div>
+
+<style>
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  h1 {
+    text-align: center;
+    color: #00a9e6;
+  }
+  .post-list {
+    margin-top: 30px;
+  }
+  .post-item {
+    margin-bottom: 30px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 20px;
+  }
+  .post-date {
+    font-size: 0.9em;
+    color: #666;
+  }
+  .post-title {
+    margin: 10px 0;
+  }
+  .post-title a {
+    color: #333;
+    text-decoration: none;
+  }
+  .post-title a:hover {
+    color: #00a9e6;
+  }
+  .post-summary {
+    color: #666;
+  }
+</style>
+{{ end }}
