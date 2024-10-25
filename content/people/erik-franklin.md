@@ -64,5 +64,17 @@ profiles:
   - icon: "ai ai-cv"  
     url: "/files/FranklinEC_cv_202410.pdf"
     label: "CV"
-
 ---
+<!-- Include CSS for Font Awesome and Academicons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@latest/css/academicons.min.css">
+
+<ul class="network-icon" aria-hidden="true">
+    {{ range .Params.profiles }}
+    <li>
+        <a href="{{ .url }}" target="_blank" rel="noopener" aria-label="{{ .label }}">
+            <i class="{{ .icon }}"></i>
+        </a>
+    </li>
+    {{ end }}
+</ul>
