@@ -25,14 +25,6 @@
                         <a href="{{ .RelPermalink }}">{{ .Title }}</a>
                     </h3>
 
-                    {{ with .Params.subtitle }}
-                    <h4 class="article-subtitle mb-1">{{ . }}</h4>
-                    {{ end }}
-
-                    <div class="article-metadata">
-                        {{ partial "page_metadata" . }}
-                    </div>
-
                     {{ with .Params.summary }}
                     <div class="article-style">
                         {{ . | plainify | emojify }}
