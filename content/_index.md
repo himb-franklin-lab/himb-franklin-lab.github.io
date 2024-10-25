@@ -40,8 +40,11 @@ sections:
       title:
       subtitle: ''
       text: |
-          <div style="position: absolute; bottom: 10px; right: 10px; background-color: rgba(0,0,0,0.5); color: white; padding: 5px 10px; font-size: 12px; border-radius: 3px;">
-          Photo credit: [Andrew Shoemaker]
+          <div style="position: relative; display: inline-block;">
+              <img src="your-image-url.jpg" alt="Image description" style="width: 100%; height: auto;">
+              <div style="position: absolute; bottom: 5px; right: 5px; background-color: rgba(0,0,0,0.5); color: white; padding: 5px 8px; font-size: 12px; border-radius: 3px;">
+                  Photo credit: [Andrew Shoemaker]
+              </div>
           </div>
     design:
       columns: '1'
