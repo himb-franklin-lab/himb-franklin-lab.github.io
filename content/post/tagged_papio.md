@@ -1,6 +1,7 @@
 ---
 title: "More chances to win prizes by catching tagged pāpio"
 date: 2024-02-27
+image: "/images/manoa-himb-papio-maui-9.jpeg"
 ---
 
 ![Tagged pāpio in net](/images/manoa-himb-papio-maui-9.jpeg)
