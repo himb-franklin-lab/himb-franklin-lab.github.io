@@ -2,6 +2,7 @@
 # Display name
 title: Dr. Erik C. Franklin
 layout: "single"
+slug: "erik-franklin"
 avatar: /images/EF.jpg
 
 # Full name (for SEO)
