@@ -136,7 +136,7 @@
 <section class="gallery-container">
             <div class="gallery" id="gallery">
                 <img src="/images/Papio-tagging.jpg" alt="Image 1">
-                <img src="/images/erik_franklin.jpeg" alt="Image 2">
+                <img src="/images/EF.jpeg" alt="Image 2">
                 <img src="/images/meredith-pfennig.jpeg" alt="Image 3">
                 <!-- Add more images as needed -->
             </div>
