@@ -1,4 +1,8 @@
 {{ define "main" }}
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css">
+</head>
 <div class="container-fluid">
     <div class="row">
         <div class="col-12 col-lg-4">
@@ -63,13 +67,9 @@
         width: 250px;
         height: 250px;
     }
-    .role-text {
-        font-size: 22px;
-        color: #919191;
-    }
     .org-text {
-        font-size: 20px;
-        color: #919191;
+        margin-top: 5px;
+        margin-bottom: 5px;
     }
     .network-icon {
         list-style: none;
@@ -77,20 +77,35 @@
         display: flex;
         justify-content: center;
     }
+    .article-style {
+        margin-top: 20px;
+    }
+    .profile {
+        margin-top: 25px
+    }
     .network-icon li {
         margin: 0 5px;
     }
     .ul-interests {
-        list-style: circle;
+        list-style:disc;
         padding: 0;
     }
     .ul-edu {
         list-style: none;
-        padding: 5px;
+        padding-left: 0;
+    }
+    .ul-edu li {
+        position: relative;
+        padding-left: 2em;
+        margin-bottom: 10px;
     }
     .fa-li {
-        position: relative;
-        left: -1.5em;
+        position: absolute;
+        left: 0;
+        top: 0.25em;
+    }
+    .description {
+        display: inline-block;
     }
 </style>
 {{ end }}
