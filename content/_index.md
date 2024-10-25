@@ -15,6 +15,21 @@ sections:
         <br>
         
         Take a look through our website to learn more about us and what we have been up to!
+
+  - block: markdown
+    content:
+      title:
+      subtitle:
+      text: |
+        {{% cta cta_link="./research/" cta_text="See what we do →" %}}
+    design:
+      columns: '1'
+      background:
+        image: 
+          filename: mushroom_coral.webp
+          filters:
+            brightness: 1
+          size: banner
   
   - block: collection
     content:
@@ -60,20 +75,6 @@ sections:
         padding: ['20px', '0', '20px', '0']
       css_class: fullscreen
 
-  - block: markdown
-    content:
-      title:
-      subtitle:
-      text: |
-        {{% cta cta_link="./research/" cta_text="Take a look at our research →" %}}
-    design:
-      columns: '1'
-      background:
-        image: 
-          filename: mushroom_coral.webp
-          filters:
-            brightness: 1
-          size: banner
 ---
 
 <style>
