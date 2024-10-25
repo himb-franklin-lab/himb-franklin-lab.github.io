@@ -1,76 +1,85 @@
 {{ define "main" }}
-<article class="author-profile">
-    <header>
-        <h1>{{ .Title }}</h1>
-    </header>
-    <section class="author-details">
-        <img src="{{ .Params.avatar }}" alt="{{ .Title }}" class="author-photo">
-        <div class="author-info">
-            <h3>{{ .Title }}</h3>
-            <p class="role-text">{{ .Params.role }}</p> <!-- Assuming role is in front matter -->
-            <div class="social-links">
-                {{ range .Params.profiles }}
-                    <a href="{{ .url }}" target="_blank" aria-label="{{ .label }}">
-                        <i class="{{ .icon }}"></i> <!-- Assuming you're using Font Awesome or similar for icons -->
-                    </a>
-                {{ end }}
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-12 col-lg-4">
+            <div id="profile">
+                <img class="avatar avatar-circle" src="{{ .Params.avatar }}" alt="{{ .Title }}">
+                <div class="portrait-title">
+                    <h2>{{ .Title }}</h2>
+                    <h3>{{ .Params.role }}</h3>
+                    {{ range .Params.organizations }}
+                    <h3>
+                        <a href="{{ .url }}" target="_blank" rel="noopener">
+                            <span>{{ .name }}</span>
+                        </a>
+                    </h3>
+                    {{ end }}
+                </div>
+                <ul class="network-icon" aria-hidden="true">
+                    {{ range .Params.profiles }}
+                    <li>
+                        <a href="{{ .url }}" target="_blank" rel="noopener" aria-label="{{ .label }}">
+                            <i class="{{ .icon }}"></i>
+                        </a>
+                    </li>
+                    {{ end }}
+                </ul>
             </div>
         </div>
-    </section>
-    <section class="author-bio">
-        <h3>Bio</h3>
-        <p>{{ .Params.bio }}</p>
-    </section>
-    <section class="author-organizations">
-        <h3>Organizations</h3>
-        <ul>
-            {{ range .Params.organizations }}
-                <li><a href="{{ .url }}">{{ .name }}</a></li>
-            {{ end }}
-        </ul>
-    </section>
-    <section class="author-interests">
-        <h3>Research Interests</h3>
-        <ul>
-            {{ range .Params.interests }}
-                <li>{{ . }}</li>
-            {{ end }}
-        </ul>
-    </section>    
-</article>
+        <div class="col-12 col-lg-8">
+            <div class="article-style">
+                <h1>Biography</h1>
+                <p>{{ .Params.bio }}</p>
+            </div>
+            <div class="row">
+                <div class="col-md-5">
+                    <h3>Interests</h3>
+                    <ul class="ul-interests">
+                        {{ range .Params.interests }}
+                        <li>{{ . }}</li>
+                        {{ end }}
+                    </ul>
+                </div>
+                <div class="col-md-7">
+                    <h3>Education</h3>
+                    <ul class="ul-edu fa-ul">
+                        {{ range .Params.education }}
+                        <li>
+                            <i class="fa-li fas fa-graduation-cap"></i>
+                            <div class="description">
+                                <p class="course">{{ .area }}</p>
+                                <p class="institution">{{ .institution }}</p>
+                            </div>
+                        </li>
+                        {{ end }}
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
 <style>
-    .author-profile {
-        max-width: 800px;
-        margin: 0 auto;
-        padding: 20px;
-        text-align: center;
+    .avatar {
+        width: 250px;
+        height: 250px;
     }
-    .author-photo {
-        width: 175px;
-        height: 175px;
-        border-radius: 50%;
-        object-fit: cover;
-    }
-    .author-bio, .author-organizations, .author-interests {
-        margin: 20px 0;
-        padding: 10px;
-        background-color: #f9f9f9; /* Use light backgrounds for sections */
-        border-radius: 8px;
-    }
-    .role-text {
-        font-size: 14px; /* Adjust as needed */
-        color: #919191;
-    }
-    .social-links {
+    .network-icon {
+        list-style: none;
+        padding: 0;
         display: flex;
         justify-content: center;
-        margin-top: 10px;
     }
-    .social-icon {
-        width: 20px;
-        height: 20px;
-        margin-right: 10px; /* Space between icons */
+    .network-icon li {
+        margin: 0 5px;
+    }
+    .ul-interests, .ul-edu {
+        list-style: none;
+        padding: 0;
+    }
+    .fa-li {
+        position: relative;
+        left: -1.5em;
     }
 </style>
 {{ end }}

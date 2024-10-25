@@ -47,7 +47,6 @@ education:
 profiles:
   - icon: at-symbol
     url: 'mailto:erik.franklin@hawaii.edu'
-    label: E-mail Me
   - icon: brands/linkedin
     url: https://www.linkedin.com/erikcfranklin
   - icon: academicons/google-scholar
