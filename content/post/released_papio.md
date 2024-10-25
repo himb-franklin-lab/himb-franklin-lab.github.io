@@ -1,7 +1,8 @@
 ---
 title: "Hawaiʻi fishermen can win prizes for reporting catches of newly released pāpio"
 date: 2023-10-19
-image: "/images/Spencer_papio.jpeg"
+image: 
+   filename: "/images/Spencer_papio.jpeg"
 ---
 
 ![Spencer with pāpio](/images/Spencer_papio.jpeg)
