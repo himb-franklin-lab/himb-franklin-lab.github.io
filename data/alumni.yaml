@@ -2,6 +2,14 @@
   year: "2023"
   role: "Masters student"
 
+- name: "Johnoel Ancheta"
+  year: "2019-2022"
+  role: "Technician"
+
+- name: "Kenneth Longenecker, Ph.D."
+  year: "2019-2020"
+  role: "Technician"
+
 - name: "Yvonne Barkley"
   year: "2020"
   role: "Ph.D. student"
@@ -58,7 +66,7 @@
 
 - name: "Anela Akiona"
   year: "2018"
-  role: "Masters student"
+  role: "Masters student & technician (2015-2016)"
   social_links:
     - url: "https://www.researchgate.net/profile/Anela-Akiona"
       icon: "/images/research-gate.png"
@@ -83,5 +91,13 @@
     - url: "https://scholar.google.com/citations?user=PfuXlA4AAAAJ&hl=en"
       icon: "/images/google-scholar.png"
       alt: "Google Scholar"
+
+- name: "Frank Mancini"
+  year: "2014-2015"
+  role: "Technician"
+
+- name: "Allexa Dow"
+  year: "2013-2014"
+  role: "Technician"
 
 # Add more alumni as needed...
