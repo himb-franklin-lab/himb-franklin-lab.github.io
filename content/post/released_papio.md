@@ -2,7 +2,7 @@
 title: "Hawaiʻi fishermen can win prizes for reporting catches of newly released pāpio"
 date: 2023-10-19
 image: 
-   filename: "/images/Spencer_papio.jpeg"
+  filename: "/images/Spencer_papio.jpeg"
 summary: "Check out Spencer Davis (from the Franklin lab) and how he has released pāpio around Oahu. [Read more here!](https://www.hawaii.edu/news/2023/10/19/released-papio-himb/)"
 ---
 
