@@ -1,5 +1,4 @@
 ---
 title: News
-layout: news
-slug: "news"
+layout: post
 ---

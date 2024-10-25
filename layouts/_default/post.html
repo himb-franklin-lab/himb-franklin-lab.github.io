@@ -4,6 +4,13 @@
   <div class="post-list">
     {{ range .Pages.ByPublishDate.Reverse }}
     <div class="post-item">
+      <!-- Display the image if it exists -->
+      {{ with .Params.image }}
+      <div class="post-image">
+        <img src="{{ . }}" alt="{{ $.Title }}" />
+      </div>
+      {{ end }}
+      
       <span class="post-date">{{ .Date.Format "Jan 2, 2006" }}</span>
       <h2 class="post-title">
         <a href="{{ .RelPermalink }}">{{ .Title }}</a>
@@ -33,6 +40,12 @@
     margin-bottom: 30px;
     border-bottom: 1px solid #eee;
     padding-bottom: 20px;
+  }
+  .post-image img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+    border-radius: 8px;
   }
   .post-date {
     font-size: 0.9em;
