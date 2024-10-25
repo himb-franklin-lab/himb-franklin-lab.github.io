@@ -4,32 +4,39 @@
         <h1>{{ .Title }}</h1>
     </header>
     <section class="author-details">
-        <img src="/images/erik_franklin.jpeg" alt="{{ .Title }}" class="author-photo">
+        <img src="{{ .Params.avatar }}" alt="{{ .Title }}" class="author-photo">
         <div class="author-info">
             <h3>{{ .Title }}</h3>
             <p class="role-text">{{ .Params.role }}</p> <!-- Assuming role is in front matter -->
             <div class="social-links">
-                <a href="mailto:erik.franklin@hawaii.edu" target="_blank">
-                    <img src="/images/email.png" alt="Email" class="social-icon"> 
-                </a>
-                <a href="https://scholar.google.com/citations?user=aPMTCK8AAAAJ&hl=en" target="_blank">
-                    <img src="/images/google-scholar.png" alt="Google Scholar" class="social-icon">
-                </a>
-                <a href="https://orcid.org/0000-0002-8660-3085" target="_blank">
-                    <img src="/images/orcid.png" alt="ORCID" class="social-icon">
-                </a>
-                <a href="https://www.researchgate.net/profile/Erik-Franklin" target="_blank">
-                    <img src="/images/research-gate.png" alt="ResearchGate" class="social-icon">
-                </a>
-                <a href="https://linkedin.com/in/erikcfranklin" target="_blank">
-                    <img src="/images/linkedin-icon.png" alt="LinkedIn" class="social-icon">
-                </a>
-                <a href="/files/FranklinEC_cv.pdf" target="_blank">
-                    <img src="/images/CV.png" alt="CV" class="social-icon">
-                </a>
+                {{ range .Params.profiles }}
+                    <a href="{{ .url }}" target="_blank" aria-label="{{ .label }}">
+                        <i class="{{ .icon }}"></i> <!-- Assuming you're using Font Awesome or similar for icons -->
+                    </a>
+                {{ end }}
             </div>
         </div>
     </section>
+    <section class="author-bio">
+        <h3>Bio</h3>
+        <p>{{ .Params.bio }}</p>
+    </section>
+    <section class="author-organizations">
+        <h3>Organizations</h3>
+        <ul>
+            {{ range .Params.organizations }}
+                <li><a href="{{ .url }}">{{ .name }}</a></li>
+            {{ end }}
+        </ul>
+    </section>
+    <section class="author-interests">
+        <h3>Research Interests</h3>
+        <ul>
+            {{ range .Params.interests }}
+                <li>{{ . }}</li>
+            {{ end }}
+        </ul>
+    </section>    
 </article>
 
 <style>
@@ -44,6 +51,12 @@
         height: 175px;
         border-radius: 50%;
         object-fit: cover;
+    }
+    .author-bio, .author-organizations, .author-interests {
+        margin: 20px 0;
+        padding: 10px;
+        background-color: #f9f9f9; /* Use light backgrounds for sections */
+        border-radius: 8px;
     }
     .role-text {
         font-size: 14px; /* Adjust as needed */
