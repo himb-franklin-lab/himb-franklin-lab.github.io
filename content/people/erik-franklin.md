@@ -39,7 +39,7 @@ education:
   - area: Ph.D., Zoology, 2016
     institution: University of Hawaii at Mānoa
   - area: M.S., Marine Biology and Fisheries, 2004
-    institution: Miami University
+    institution: University of Miami
   - area: B.S., Ecology, Behavior, and Evolution with a minor in Environmental Studies, 1996
     institution: University of California, San Diego
 
