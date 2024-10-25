@@ -65,16 +65,22 @@ sections:
       title:
       subtitle:
       text: |
-        {{% cta cta_link="./people/" cta_text="Meet the team →" %}}
+        {{% cta cta_link="./research/" cta_text="Take a look at our research →" %}}
     design:
       columns: '1'
+      background:
+        image: 
+          filename: mushroom_coral.webp
+          filters:
+            brightness: 1
+          size: banner
 ---
 
 <style>
   .cta {
   color: #ffffff; /* Change this to your desired text color */
   background-color: #008080; /* Change this to your desired background color */
-  padding: 10px 20px; /* Optional: adjust padding */
+  padding: 20px 20px; /* Optional: adjust padding */
   border-radius: 5px; /* Optional: rounded corners */
   text-decoration: none; /* Optional: remove underline */
 }
