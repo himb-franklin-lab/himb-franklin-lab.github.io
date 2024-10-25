@@ -1,7 +1,7 @@
 ---
 # Display name
 title: Dr. Erik C. Franklin
-layout: "single"
+layout: "people/single"
 
 # Full name (for SEO)
 first_name: Erik
