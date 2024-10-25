@@ -14,7 +14,7 @@ sections:
       text: |
         <br>
         
-        The **Franklin Lab** at the Hawaii Institute of Marine Biology is focused on ____. Take a look through our website to learn more about us and what we have been up to!
+        Take a look through our website to learn more about us and what we have been up to!
   
   - block: collection
     content:
@@ -39,12 +39,15 @@ sections:
     content:
       title:
       subtitle: ''
-      text:
+      text: |
+      <div style="position: absolute; bottom: 10px; right: 10px; background-color: rgba(0,0,0,0.5); color: white; padding: 5px 10px; font-size: 12px; border-radius: 3px;">
+      Photo credit: [Andrew Shoemaker]
+      </div>
     design:
       columns: '1'
       background:
         image: 
-          filename: Papio-tagging.jpg
+          filename: kaneohe-bay.jpg
           filters:
             brightness: 1
           parallax: false
