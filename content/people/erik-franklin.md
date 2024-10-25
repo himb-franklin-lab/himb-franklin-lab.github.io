@@ -1,7 +1,8 @@
 ---
 # Display name
 title: Dr. Erik C. Franklin
-layout: "people/single"
+layout: "single"
+avatar: /images/EF.jpg
 
 # Full name (for SEO)
 first_name: Erik
@@ -56,4 +57,3 @@ profiles:
     url: https://www.researchgate.net/profile/Erik-Franklin
   - icon: academicons/CV  
 ---
-why isnt this working
