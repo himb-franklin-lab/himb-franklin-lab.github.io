@@ -6,13 +6,13 @@
                 <img class="avatar avatar-circle" src="{{ .Params.avatar }}" alt="{{ .Title }}">
                 <div class="portrait-title">
                     <h2>{{ .Title }}</h2>
-                    <h3>{{ .Params.role }}</h3>
+                    <p class="role-text">{{ .Params.role }}</p>
                     {{ range .Params.organizations }}
-                    <h3>
+                    <p class="org-text">
                         <a href="{{ .url }}" target="_blank" rel="noopener">
                             <span>{{ .name }}</span>
                         </a>
-                    </h3>
+                    </p>
                     {{ end }}
                 </div>
                 <ul class="network-icon" aria-hidden="true">
@@ -28,12 +28,11 @@
         </div>
         <div class="col-12 col-lg-8">
             <div class="article-style">
-                <h1>Biography</h1>
                 <p>{{ .Params.bio }}</p>
             </div>
             <div class="row">
                 <div class="col-md-5">
-                    <h3>Interests</h3>
+                    <h3>Research Interests</h3>
                     <ul class="ul-interests">
                         {{ range .Params.interests }}
                         <li>{{ . }}</li>
@@ -64,6 +63,14 @@
         width: 250px;
         height: 250px;
     }
+    .role-text {
+        font-size: 22px;
+        color: #919191;
+    }
+    .org-text {
+        font-size: 20px;
+        color: #919191;
+    }
     .network-icon {
         list-style: none;
         padding: 0;
@@ -73,9 +80,13 @@
     .network-icon li {
         margin: 0 5px;
     }
-    .ul-interests, .ul-edu {
-        list-style: none;
+    .ul-interests {
+        list-style: circle;
         padding: 0;
+    }
+    .ul-edu {
+        list-style: none;
+        padding: 5px;
     }
     .fa-li {
         position: relative;
