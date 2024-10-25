@@ -40,10 +40,9 @@ sections:
       title:
       subtitle: ''
       text: |
-      <div style="position: absolute; bottom: 10px; right: 10px; 
-       background-color: rgba(0,0,0,0.5); color: white; padding: 5px 10px; font-size: 12px; border-radius: 3px;">
-       Photo credit: [Andrew Shoemaker]
-      </div>
+          <div style="position: absolute; bottom: 10px; right: 10px; background-color: rgba(0,0,0,0.5); color: white; padding: 5px 10px; font-size: 12px; border-radius: 3px;">
+          Photo credit: [Andrew Shoemaker]
+          </div>
     design:
       columns: '1'
       background:
