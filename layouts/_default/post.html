@@ -14,12 +14,7 @@
             <div class="post-summary">
                 {{ .Summary }}
             </div>
-            <div class="post-meta">
-                <span class="author">By {{ .Params.author }}</span>
-                {{ with .Params.tags }}
-                <span class="tags">Tags: {{ . | join ", " }}</span>
-                {{ end }}
-            </div>
+            <!-- Removed author and tags sections -->
         </div>
         {{ end }}
     </div>
@@ -40,8 +35,10 @@
     }
     .post-item {
         margin-bottom: 30px;
-        border-bottom: 1px solid #eee;
-        padding-bottom: 20px;
+        border: 1px solid #ddd; /* Add a border around each post */
+        border-radius: 5px; /* Rounded corners */
+        padding: 20px; /* Space inside the box */
+        background-color: #fff; /* White background */
     }
     .post-date {
         font-size: 0.9em;
@@ -66,11 +63,7 @@
         display: block;
         margin: 10px 0;
     }
-    .post-meta {
-        font-size: 0.8em;
-        color: #888;
-        margin-top: 10px;
-    }
 </style>
 {{ end }}
+
 
