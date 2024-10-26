@@ -1919,7 +1919,7 @@ authors:
 
 
 
-<div class="publication-entry book 2011">
+<div class="publication-entry conference 2011">
     Franklin EC, Stat M, Pochon X, Putnam HM, Gates RD (2011). "Rapid Development of a Hybrid Web Application for Synthesis Science of Symbiodinium with Google Apps." In Jones, MB, Gries C (eds.) Proceedings of Environmental Information Management Conference 2011 (EIM 2011), Sep 28-29, 2011, UCSB, California, pp 44-48. 
 
   <a href="#" class="badge badge-info" onclick="openModal('Franklin2011HybridApp')">Cite</a>

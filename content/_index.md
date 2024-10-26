@@ -21,7 +21,7 @@ sections:
       title:
       subtitle:
       text: |
-        {{% cta cta_link="./research/" cta_text="See what we do →" %}}
+        {{% cta cta_link="./research/" cta_text="See what we do →"%}}
     design:
       columns: '1'
       background:
@@ -82,7 +82,7 @@ sections:
 <style>
   .cta {
   color: #ffffff; /* Change this to your desired text color */
-  background-color: #008080; /* Change this to your desired background color */
+  background-color: #3bbcd9 /* Change this to your desired background color */
   padding: 20px 20px; /* Optional: adjust padding */
   border-radius: 5px; /* Optional: rounded corners */
   text-decoration: none; /* Optional: remove underline */
@@ -90,6 +90,6 @@ sections:
 
 /* Optional: Change color on hover */
 .cta:hover {
-  background-color: #1c8c99; /* Change to a darker shade for hover effect */
+  background-color: #2a8ca3; /* Change to a darker shade for hover effect */
 }
 </style>
