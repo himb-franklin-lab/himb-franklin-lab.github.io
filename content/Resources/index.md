@@ -136,8 +136,8 @@
 <section class="gallery-container">
             <div class="gallery" id="gallery">
                 <img src="/images/Papio-tagging.jpg" alt="Image 1">
-                <img src="/images/EF.jpeg" alt="Image 2">
-                <img src="/images/meredith-pfennig.jpeg" alt="Image 3">
+                <img src="/images/EF.jpg" alt="Image 2">
+                <img src="/images/mayo-olin.jpeg" alt="Image 3">
                 <!-- Add more images as needed -->
             </div>
             <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
