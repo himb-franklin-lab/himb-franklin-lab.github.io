@@ -213,6 +213,58 @@ authors:
     </div>
 </div>
 
+<div class="publication-entry report 2023">
+    Franklin EC (2023). Western Pacific Stock Assessment Review: Stock Assessment of American Samoa Bottomfish, 2023, Panel Summary Report. Report to Western Pacific Regional Fishery Management Council, NOAA Fisheries PIFSC, NOAA Fisheries PIRO. 5 pp.
+
+  <a href="#" class="badge badge-info" onclick="openModal('Franklin2023StockAssessment')">Cite</a>
+</div>
+
+<!-- Modal Structure -->
+<div id="Franklin2023StockAssessment" class="modal" style="display:none;">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <pre class="citation-text">
+@report{franklin_2023,
+  author = {Franklin, E.C.},
+  title = {Western Pacific Stock Assessment Review: Stock Assessment of American Samoa Bottomfish, 2023, Panel Summary Report},
+  journal = {Report to Western Pacific Regional Fishery Management Council, NOAA Fisheries PIFSC, NOAA Fisheries PIRO},
+  year = {2023},
+  volume = {105},
+  number = {4},
+  pages = {1--5}
+}
+        </pre>
+        <button class="button-outline" onclick="copyToClipboard()">Copy Citation</button>
+        <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
+    </div>
+</div>
+
+<div class="publication-entry report 2023">
+    Franklin EC (2023). Western Pacific Stock Assessment Review: Stock Assessment of American Samoa Bottomfish, 2023, Individual Reviewer Report. Report to Western Pacific Regional Fishery Management Council, NOAA Fisheries PIFSC, NOAA Fisheries PIRO. 30 pp.
+
+  <a href="#" class="badge badge-info" onclick="openModal('Franklin2023ReviewerReport')">Cite</a>
+</div>
+
+<!-- Modal Structure -->
+<div id="Franklin2023ReviewerReport" class="modal" style="display:none;">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <pre class="citation-text">
+@report{franklin_2023_reviewer,
+  author = {Franklin, E.C.},
+  title = {Western Pacific Stock Assessment Review: Stock Assessment of American Samoa Bottomfish, 2023, Individual Reviewer Report},
+  journal = {Report to Western Pacific Regional Fishery Management Council, NOAA Fisheries PIFSC, NOAA Fisheries PIRO},
+  year = {2023},
+  volume = {105},
+  number = {4},
+  pages = {1--30}
+}
+        </pre>
+        <button class="button-outline" onclick="copyToClipboard()">Copy Citation</button>
+        <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
+    </div>
+</div>
+
 <div class="publication-entry journal 2023">
     Winans WR<sup>+</sup>, Chen Q, Qiang Y, Franklin EC (2023). Large-area automatic detection of shoreline stranded marine debris using deep learning. <em>International Journal of Applied Earth Observation and Geoinformation</em> 124: 103515.
     
@@ -676,6 +728,57 @@ authors:
     </div>
 </div>
 
+<div class="publication-entry report 2021">
+    Franklin EC, Longenecker K, Langston R (2021). Specialist Training in Histology-based Reproductive Analysis of Tropical Fishes at Pattimura University, Ambon, Indonesia. Report prepared by the University of Hawaii at Manoa (UHM) for Tetra Tech’s Supplemental Technical Assistance to the USAID SEA Project and Walton Family Foundation. 26 pp.
+
+  <a href="#" class="badge badge-info" onclick="openModal('Franklin2021HistologyTraining')">Cite</a>
+</div>
+
+<!-- Modal Structure -->
+<div id="Franklin2021HistologyTraining" class="modal" style="display:none;">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <pre class="citation-text">
+@report{franklin_2021_histology,
+  author = {Franklin, E.C. and Longenecker, K. and Langston, R.},
+  title = {Specialist Training in Histology-based Reproductive Analysis of Tropical Fishes at Pattimura University, Ambon, Indonesia},
+  journal = {Report prepared by the University of Hawaii at Manoa (UHM) for Tetra Tech’s Supplemental Technical Assistance to the USAID SEA Project and Walton Family Foundation},
+  year = {2021},
+  volume = {105},
+  number = {4},
+  pages = {1--26}
+}
+        </pre>
+        <button class="button-outline" onclick="copyToClipboard()">Copy Citation</button>
+        <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
+    </div>
+</div>
+
+<div class="publication-entry report 2021">
+    Franklin EC (2021). Stock Assessment Review Report for the Small Pelagic Fishery in FMA 715, Indonesia. Report prepared by the University of Hawaii at Manoa (UHM) for Tetra Tech’s Supplemental Technical Assistance to the USAID SEA Project and Walton Family Foundation. 39 pp.
+
+  <a href="#" class="badge badge-info" onclick="openModal('Franklin2021SmallPelagic')">Cite</a>
+</div>
+
+<!-- Modal Structure -->
+<div id="Franklin2021SmallPelagic" class="modal" style="display:none;">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <pre class="citation-text">
+@report{franklin_2021_smallpelagic,
+  author = {Franklin, E.C.},
+  title = {Stock Assessment Review Report for the Small Pelagic Fishery in FMA 715, Indonesia},
+  journal = {Report prepared by the University of Hawaii at Manoa (UHM) for Tetra Tech’s Supplemental Technical Assistance to the USAID SEA Project and Walton Family Foundation},
+  year = {2021},
+  volume = {105},
+  number = {4},
+  pages = {1--39}
+}
+        </pre>
+        <button class="button-outline" onclick="copyToClipboard()">Copy Citation</button>
+        <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
+    </div>
+</div>
 
 <div class="publication-entry journal 2021">
     Mau A<sup>+</sup>, Franklin EC, Huss GR, Nagashima K, Nicodemus P, Valdez A, Bingham J-P (2021). Near-daily reconstruction of tropical intertidal SST from limpet shells to infer their growth rates. <em>Nature Communications Earth & Environment</em> 2, 171. 
@@ -821,6 +924,186 @@ authors:
     </div>
 </div>
 
+<div class="publication-entry report 2020">
+    Franklin EC, Indrajaya, Wudianto, Nugroho D, Satria F, Sadiyah L (2020). Stock Assessment Review Protocol for Indonesian Fisheries. Report prepared by the University of Hawaii at Manoa (UHM) for Tetra Tech’s Supplemental Technical Assistance to the USAID SEA Project and Walton Family Foundation. 11 pp.
+
+  <a href="#" class="badge badge-info" onclick="openModal('Franklin2020Protocol')">Cite</a>
+</div>
+
+<!-- Modal Structure -->
+<div id="Franklin2020Protocol" class="modal" style="display:none;">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <pre class="citation-text">
+@report{franklin_2020_protocol,
+  author = {Franklin, E.C. and Indrajaya and Wudianto and Nugroho, D. and Satria, F. and Sadiyah, L.},
+  title = {Stock Assessment Review Protocol for Indonesian Fisheries},
+  journal = {Report prepared by the University of Hawaii at Manoa (UHM) for Tetra Tech’s Supplemental Technical Assistance to the USAID SEA Project and Walton Family Foundation},
+  year = {2020},
+  volume = {105},
+  number = {4},
+  pages = {1--11}
+}
+        </pre>
+        <button class="button-outline" onclick="copyToClipboard()">Copy Citation</button>
+        <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
+    </div>
+</div>
+
+<div class="publication-entry report 2020">
+    Franklin EC (2020). US-Indonesia Stock Assessment Review Peer-to-Peer Exchange Report. Report prepared by the University of Hawaii at Manoa (UHM) for Tetra Tech’s Supplemental Technical Assistance to the USAID SEA Project and Walton Family Foundation. 56 pp.
+
+  <a href="#" class="badge badge-info" onclick="openModal('Franklin2020PeerExchange')">Cite</a>
+</div>
+
+<!-- Modal Structure -->
+<div id="Franklin2020PeerExchange" class="modal" style="display:none;">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <pre class="citation-text">
+@report{franklin_2020_peerexchange,
+  author = {Franklin, E.C.},
+  title = {US-Indonesia Stock Assessment Review Peer-to-Peer Exchange Report},
+  journal = {Report prepared by the University of Hawaii at Manoa (UHM) for Tetra Tech’s Supplemental Technical Assistance to the USAID SEA Project and Walton Family Foundation},
+  year = {2020},
+  volume = {105},
+  number = {4},
+  pages = {1--56}
+}
+        </pre>
+        <button class="button-outline" onclick="copyToClipboard()">Copy Citation</button>
+        <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
+    </div>
+</div>
+
+<div class="publication-entry report 2020">
+    Franklin EC (2020). Western Pacific Stock Assessment Review: Stock Assessment of Uku (<em>Aprion virescens</em>) in Hawaii, 2020, Panel Summary Report. Report to Western Pacific Regional Fishery Management Council, NOAA Fisheries PIFSC, NOAA Fisheries PIRO. 6 pp.
+
+  <a href="#" class="badge badge-info" onclick="openModal('Franklin2020UkuReport')">Cite</a>
+</div>
+
+<!-- Modal Structure -->
+<div id="Franklin2020UkuReport" class="modal" style="display:none;">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <pre class="citation-text">
+@report{franklin_2020_uku,
+  author = {Franklin, E.C.},
+  title = {Western Pacific Stock Assessment Review: Stock Assessment of Uku (Aprion virescens) in Hawaii, 2020, Panel Summary Report},
+  journal = {Report to Western Pacific Regional Fishery Management Council, NOAA Fisheries PIFSC, NOAA Fisheries PIRO},
+  year = {2020},
+  volume = {105},
+  number = {4},
+  pages = {1--6}
+}
+        </pre>
+        <button class="button-outline" onclick="copyToClipboard()">Copy Citation</button>
+        <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
+    </div>
+</div>
+<div class="publication-entry report 2020">
+    Franklin EC (2020). Western Pacific Stock Assessment Review: Stock Assessment of Uku (Aprion virescens) in Hawaii, 2020, Individual Reviewer Report. Report to Western Pacific Regional Fishery Management Council, NOAA Fisheries PIFSC, NOAA Fisheries PIRO. 22 pp.
+
+  <a href="#" class="badge badge-info" onclick="openModal('Franklin2020UkuReviewer')">Cite</a>
+</div>
+
+<!-- Modal Structure -->
+<div id="Franklin2020UkuReviewer" class="modal" style="display:none;">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <pre class="citation-text">
+@report{franklin_2020_uku_reviewer,
+  author = {Franklin, E.C.},
+  title = {Western Pacific Stock Assessment Review: Stock Assessment of Uku (<em>Aprion virescens</em>) in Hawaii, 2020, Individual Reviewer Report},
+  journal = {Report to Western Pacific Regional Fishery Management Council, NOAA Fisheries PIFSC, NOAA Fisheries PIRO},
+  year = {2020},
+  volume = {105},
+  number = {4},
+  pages = {1--22}
+}
+        </pre>
+        <button class="button-outline" onclick="copyToClipboard()">Copy Citation</button>
+        <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
+    </div>
+</div>
+
+<div class="publication-entry report 2020">
+    Franklin EC (2020). Western Pacific Stock Assessment Review: Stock Assessment Update for the Main Hawaiian Islands Deep 7 Bottomfish Complex in 2021, with Catch Projections through 2025, Panel Summary Report. Report to Western Pacific Regional Fishery Management Council, NOAA Fisheries PIFSC, NOAA Fisheries PIRO. 6 pp.
+
+  <a href="#" class="badge badge-info" onclick="openModal('Franklin2020Deep7Panel')">Cite</a>
+</div>
+
+<!-- Modal Structure -->
+<div id="Franklin2020Deep7Panel" class="modal" style="display:none;">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <pre class="citation-text">
+@report{franklin_2020_deep7_panel,
+  author = {Franklin, E.C.},
+  title = {Western Pacific Stock Assessment Review: Stock Assessment Update for the Main Hawaiian Islands Deep 7 Bottomfish Complex in 2021, with Catch Projections through 2025, Panel Summary Report},
+  journal = {Report to Western Pacific Regional Fishery Management Council, NOAA Fisheries PIFSC, NOAA Fisheries PIRO},
+  year = {2020},
+  volume = {105},
+  number = {4},
+  pages = {1--6}
+}
+        </pre>
+        <button class="button-outline" onclick="copyToClipboard()">Copy Citation</button>
+        <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
+    </div>
+</div>
+
+<div class="publication-entry report 2020">
+    Franklin EC (2020). Western Pacific Stock Assessment Review: Stock Assessment Update for the Main Hawaiian Islands Deep 7 Bottomfish Complex in 2021, with Catch Projections through 2025, Individual Reviewer Report. Report to Western Pacific Regional Fishery Management Council, NOAA Fisheries PIFSC, NOAA Fisheries PIRO. 22 pp.
+
+  <a href="#" class="badge badge-info" onclick="openModal('Franklin2020Deep7Reviewer')">Cite</a>
+</div>
+
+<!-- Modal Structure -->
+<div id="Franklin2020Deep7Reviewer" class="modal" style="display:none;">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <pre class="citation-text">
+@report{franklin_2020_deep7_reviewer,
+  author = {Franklin, E.C.},
+  title = {Western Pacific Stock Assessment Review: Stock Assessment Update for the Main Hawaiian Islands Deep 7 Bottomfish Complex in 2021, with Catch Projections through 2025, Individual Reviewer Report},
+  journal = {Report to Western Pacific Regional Fishery Management Council, NOAA Fisheries PIFSC, NOAA Fisheries PIRO},
+  year = {2020},
+  volume = {105},
+  number = {4},
+  pages = {1--22}
+}
+        </pre>
+        <button class="button-outline" onclick="copyToClipboard()">Copy Citation</button>
+        <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
+    </div>
+</div>
+
+<div class="publication-entry report 2020">
+    Longenecker K, Langston R, Franklin EC (2020). Standard operating procedure for histology-based rapid reproductive analysis of tropical fish. Technical Report for Walton Family Foundation.
+
+  <a href="#" class="badge badge-info" onclick="openModal('Longenecker2020HistologySOP')">Cite</a>
+</div>
+
+<!-- Modal Structure -->
+<div id="Longenecker2020HistologySOP" class="modal" style="display:none;">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <pre class="citation-text">
+@report{longenecker_2020_histology_sop,
+  author = {Longenecker, K. and Langston, R. and Franklin, E.C.},
+  title = {Standard operating procedure for histology-based rapid reproductive analysis of tropical fish},
+  journal = {Technical Report for Walton Family Foundation},
+  year = {2020},
+  volume = {105},
+  number = {4},
+  pages = {1--12}
+}
+        </pre>
+        <button class="button-outline" onclick="copyToClipboard()">Copy Citation</button>
+        <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
+    </div>
+</div>
 
 <div class="publication-entry journal 2020">
     Longenecker K, Langston R, Gill A<sup>+</sup>, Kelokelo M<sup>+</sup>, Donaldson TJ, Franklin EC (2020). Rapid reproductive analysis and weight-length relation of the humpnose big-eye bream <em>Monotaxis grandoculis</em> (Actinopterygii: Perciformes: Lethrinidae) from Micronesia with implications for fisheries. <em>Acta Ichthyologica et Piscatoria</em> 50(4): 493–500. 
@@ -939,6 +1222,31 @@ authors:
     </div>
 </div>
 
+<div class="publication-entry report 2019">
+    Longenecker K, Franklin EC, Hill-Lewenilovo R, Lalavanua W, Langston R, Mangubhai S, Naisilisili W, Piovano S, Tomanitoakula J (2019). Histology-based estimates of reproductive size and sexual pattern for four heavily exploited Fijian reef fishes. Report to National Geographic. 15 pp.
+
+  <a href="#" class="badge badge-info" onclick="openModal('Longenecker2019FijiReefFishes')">Cite</a>
+</div>
+
+<!-- Modal Structure -->
+<div id="Longenecker2019FijiReefFishes" class="modal" style="display:none;">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <pre class="citation-text">
+@report{longenecker_2019_fiji_reef_fishes,
+  author = {Longenecker, K. and Franklin, E.C. and Hill-Lewenilovo, R. and Lalavanua, W. and Langston, R. and Mangubhai, S. and Naisilisili, W. and Piovano, S. and Tomanitoakula, J.},
+  title = {Histology-based estimates of reproductive size and sexual pattern for four heavily exploited Fijian reef fishes},
+  journal = {Report to National Geographic},
+  year = {2019},
+  volume = {105},
+  number = {4},
+  pages = {1--15}
+}
+        </pre>
+        <button class="button-outline" onclick="copyToClipboard()">Copy Citation</button>
+        <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
+    </div>
+</div>
 
 <div class="publication-entry journal 2019">
     Franklin EC, Gray AE, Mundy BC (2019). Three new records of coastal fishes in the Hawaiian Islands. <em>Journal of the Ocean Science Foundation</em> 33: 99–106. 
@@ -1113,6 +1421,57 @@ authors:
     </div>
 </div>
 
+<div class="publication-entry report 2018">
+    Franklin EC (2018). Western Pacific Stock Assessment Review: Benchmark Review of the Stock Assessment of the Coral Reef Fishes of Guam, 2017, Consensus Panel Report. Report to Western Pacific Regional Fishery Management Council, NOAA Fisheries PIFSC, NOAA Fisheries PIRO. 8 pp.
+
+  <a href="#" class="badge badge-info" onclick="openModal('Franklin2018GuamCoralReef')">Cite</a>
+</div>
+
+<!-- Modal Structure -->
+<div id="Franklin2018GuamCoralReef" class="modal" style="display:none;">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <pre class="citation-text">
+@report{franklin_2018_guam_coral_reef,
+  author = {Franklin, E.C.},
+  title = {Western Pacific Stock Assessment Review: Benchmark Review of the Stock Assessment of the Coral Reef Fishes of Guam, 2017, Consensus Panel Report},
+  journal = {Report to Western Pacific Regional Fishery Management Council, NOAA Fisheries PIFSC, NOAA Fisheries PIRO},
+  year = {2018},
+  volume = {104},
+  number = {3},
+  pages = {1--8}
+}
+        </pre>
+        <button class="button-outline" onclick="copyToClipboard()">Copy Citation</button>
+        <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
+    </div>
+</div>
+
+<div class="publication-entry report 2018">
+    Franklin EC (2018). Western Pacific Stock Assessment Review: Benchmark Review of the Stock Assessment of the Coral Reef Fishes of Guam, 2017, Individual Reviewer Report. Report to Western Pacific Regional Fishery Management Council, NOAA Fisheries PIFSC, NOAA Fisheries PIRO. 27 pp.
+
+  <a href="#" class="badge badge-info" onclick="openModal('Franklin2018GuamReviewer')">Cite</a>
+</div>
+
+<!-- Modal Structure -->
+<div id="Franklin2018GuamReviewer" class="modal" style="display:none;">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <pre class="citation-text">
+@report{franklin_2018_guam_reviewer,
+  author = {Franklin, E.C.},
+  title = {Western Pacific Stock Assessment Review: Benchmark Review of the Stock Assessment of the Coral Reef Fishes of Guam, 2017, Individual Reviewer Report},
+  journal = {Report to Western Pacific Regional Fishery Management Council, NOAA Fisheries PIFSC, NOAA Fisheries PIRO},
+  year = {2018},
+  volume = {104},
+  number = {3},
+  pages = {1--27}
+}
+        </pre>
+        <button class="button-outline" onclick="copyToClipboard()">Copy Citation</button>
+        <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
+    </div>
+</div>
 
 <div class="publication-entry journal 2018">
     Oyafuso ZS*, Leung PS, Franklin EC (2018). Evaluating bioeconomic tradeoffs of fishing reserves via spatial optimization. <em>Marine Policy</em>. 
@@ -1314,6 +1673,30 @@ authors:
     </div>
 </div>
 
+<div class="publication-entry report 2017">
+    Grabowski TB, Franklin EC (2017). What can volunteer angler tagging data tell us about the status of the Giant Trevally (ulua aukea) Caranx ignobilis fishery in Hawaii: revisiting data collected during Hawaii’s Ulua and Papio Tagging Project 2000-2016. U.S. Department of Interior, Fish and Wildlife Service, Cooperator Science Series FWS/CSS-126-2017, Washington, D.C.
+
+  <a href="#" class="badge badge-info" onclick="openModal('Grabowski2017GiantTrevally')">Cite</a>
+</div>
+
+<!-- Modal Structure -->
+<div id="Grabowski2017GiantTrevally" class="modal" style="display:none;">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <pre class="citation-text">
+@report{grabowski_2017_giant_trevally,
+  author = {Grabowski, T.B. and Franklin, E.C.},
+  title = {What can volunteer angler tagging data tell us about the status of the Giant Trevally (ulua aukea) Caranx ignobilis fishery in Hawaii: revisiting data collected during Hawaii’s Ulua and Papio Tagging Project 2000-2016},
+  journal = {U.S. Department of Interior, Fish and Wildlife Service, Cooperator Science Series FWS/CSS-126-2017},
+  year = {2017},
+  pages = {1--15}
+}
+        </pre>
+        <button class="button-outline" onclick="copyToClipboard()">Copy Citation</button>
+        <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
+    </div>
+</div>
+
 
 <div class="publication-entry journal 2017">
     Franklin EC (2017). Vagrancy in paradise: documentation of the chevron butterflyfish <em>Chaetodon trifascialis</em> in Kaneohe Bay, Oahu, Hawaiian Islands. <em>Marine Biodiversity Records</em> 10:22. 
@@ -1457,6 +1840,80 @@ authors:
     </div>
 </div>
 
+<div class="publication-entry report 2016">
+    Franklin EC (2016). Western Pacific Stock Assessment Review: Benchmark Review of the 2016 Stock Assessment of the Main Hawaiian Islands Reef-Associated Fish, Consensus Review Panel Report. Report to Western Pacific Regional Fishery Management Council, NOAA Fisheries PIFSC, NOAA Fisheries PIRO. 26 pp.
+
+  <a href="#" class="badge badge-info" onclick="openModal('Franklin2016MHIReefFish')">Cite</a>
+</div>
+
+<!-- Modal Structure -->
+<div id="Franklin2016MHIReefFish" class="modal" style="display:none;">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <pre class="citation-text">
+@report{franklin_2016_mhi_reef_fish,
+  author = {Franklin, E.C.},
+  title = {Western Pacific Stock Assessment Review: Benchmark Review of the 2016 Stock Assessment of the Main Hawaiian Islands Reef-Associated Fish, Consensus Review Panel Report},
+  journal = {Report to Western Pacific Regional Fishery Management Council, NOAA Fisheries PIFSC, NOAA Fisheries PIRO},
+  year = {2016},
+  volume = {103},
+  number = {2},
+  pages = {1--26}
+}
+        </pre>
+        <button class="button-outline" onclick="copyToClipboard()">Copy Citation</button>
+        <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
+    </div>
+</div>
+
+<div class="publication-entry report 2016">
+    Franklin EC (2016). Western Pacific Stock Assessment Review: Benchmark Review of the Stock Assessment of the Coral Reef Fishes of Guam, 2017, Individual Reviewer Report. Report to Western Pacific Regional Fishery Management Council, NOAA Fisheries PIFSC, NOAA Fisheries PIRO. 26 pp.
+
+  <a href="#" class="badge badge-info" onclick="openModal('Franklin2016GuamCoralReef')">Cite</a>
+</div>
+
+<!-- Modal Structure -->
+<div id="Franklin2016GuamCoralReef" class="modal" style="display:none;">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <pre class="citation-text">
+@report{franklin_2016_guam_coral_reef,
+  author = {Franklin, E.C.},
+  title = {Western Pacific Stock Assessment Review: Benchmark Review of the Stock Assessment of the Coral Reef Fishes of Guam, 2017, Individual Reviewer Report},
+  journal = {Report to Western Pacific Regional Fishery Management Council, NOAA Fisheries PIFSC, NOAA Fisheries PIRO},
+  year = {2016},
+  volume = {103},
+  number = {2},
+  pages = {1--26}
+}
+        </pre>
+        <button class="button-outline" onclick="copyToClipboard()">Copy Citation</button>
+        <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
+    </div>
+</div>
+
+<div class="publication-entry report 2016">
+    Franklin EC (2016). Future Coral Reef Community Projections of DOI-Managed Coastal Assets in the Hawaiian Islands. Award #G13AC000395.
+
+  <a href="#" class="badge badge-info" onclick="openModal('Franklin2016CoralProjections')">Cite</a>
+</div>
+
+<!-- Modal Structure -->
+<div id="Franklin2016CoralProjections" class="modal" style="display:none;">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <pre class="citation-text">
+@report{franklin_2016_coral_projections,
+  author = {Franklin, E.C.},
+  title = {Future Coral Reef Community Projections of DOI-Managed Coastal Assets in the Hawaiian Islands},
+  journal = {Award #G13AC000395},
+  year = {2016}
+}
+        </pre>
+        <button class="button-outline" onclick="copyToClipboard()">Copy Citation</button>
+        <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
+    </div>
+</div>
 
 <div class="publication-entry journal 2016">
     Veazey LM<sup>+</sup>, Franklin EC, Kelley C, Rooney J, Frazer NL, Toonen RJ (2016). The implementation of rare events logistic regression to predict the distribution of mesophotic hard corals across the main Hawaiian Islands. <em>PeerJ</em> 4:e2189. 
@@ -1566,6 +2023,55 @@ authors:
   pages = {160017},
   doi = {10.1038/sdata.2016.17},
   url = {https://doi.org/10.1038/sdata.2016.17}
+}
+        </pre>
+        <button class="button-outline" onclick="copyToClipboard()">Copy Citation</button>
+        <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
+    </div>
+</div>
+
+<div class="publication-entry report 2015">
+    Franklin EC, Chaloupka M, Kobayashi DR (2015). WPSAR Tier 3 Panel Review of Stock Assessment Updates of the Bottomfish Management Unit Species of American Samoa, the Commonwealth of the Northern Mariana Islands, and Guam in 2015 Using Data through 2013, Panel Summary Report. Report to Western Pacific Regional Fishery Management Council, NOAA Fisheries PIFSC, NOAA Fisheries PIRO. 15 pp.
+
+  <a href="#" class="badge badge-info" onclick="openModal('Franklin2015WPSARReview')">Cite</a>
+</div>
+
+<!-- Modal Structure -->
+<div id="Franklin2015WPSARReview" class="modal" style="display:none;">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <pre class="citation-text">
+@report{franklin_2015_wpsar_review,
+  author = {Franklin, E.C. and Chaloupka, M. and Kobayashi, D.R.},
+  title = {WPSAR Tier 3 Panel Review of Stock Assessment Updates of the Bottomfish Management Unit Species of American Samoa, the Commonwealth of the Northern Mariana Islands, and Guam in 2015 Using Data through 2013, Panel Summary Report},
+  journal = {Report to Western Pacific Regional Fishery Management Council, NOAA Fisheries PIFSC, NOAA Fisheries PIRO},
+  year = {2015},
+  pages = {1--15}
+}
+        </pre>
+        <button class="button-outline" onclick="copyToClipboard()">Copy Citation</button>
+        <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
+    </div>
+</div>
+
+<div class="publication-entry report 2014">
+    Franklin EC, Dow AR (2014). Annotated bibliography of scientific literature for coral reef ecosystem management unit species. Report to Western Pacific Regional Fishery Management Council. Contract 14-SFFIII-05, 461 p.
+
+  <a href="#" class="badge badge-info" onclick="openModal('Franklin2014AnnotatedBibliography')">Cite</a>
+</div>
+
+<!-- Modal Structure -->
+<div id="Franklin2014AnnotatedBibliography" class="modal" style="display:none;">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <pre class="citation-text">
+@report{franklin_2014_annotated_bibliography,
+  author = {Franklin, E.C. and Dow, A.R.},
+  title = {Annotated bibliography of scientific literature for coral reef ecosystem management unit species},
+  journal = {Report to Western Pacific Regional Fishery Management Council},
+  year = {2014},
+  number = {Contract 14-SFFIII-05},
+  pages = {1--461}
 }
         </pre>
         <button class="button-outline" onclick="copyToClipboard()">Copy Citation</button>
@@ -1805,6 +2311,34 @@ authors:
     </div>
 </div>
 
+<div class="publication-entry report 2012">
+    Brainard RE, Asher J, Blyth-Skyrme V, Coccagna EF, Dennis K, Donovan MK,
+    Gove JM, Kenyon J, Looney EE, Miller JE, Timmers MA, Vargas-Ángel B,
+    Vroom PS, Vetter O, Zgliczynski B, Acoba T, DesRochers A, Dunlap MJ,
+    Franklin EC, Fisher-Pool PI, Braun CL, Richards BL, Schopmeyer SA,
+    Schroeder RE, Toperoff A, Weijerman M, Williams I, Withall RD (2012). Coral reef ecosystem monitoring report of the Mariana Archipelago: 2003–2007. NOAA Fisheries, Pacific Islands Fisheries Science Center, PIFSC Special Publication, SP-12-01, 1019 p.
+
+  <a href="#" class="badge badge-info" onclick="openModal('Brainard2012CoralMonitoring')">Cite</a>
+</div>
+
+<!-- Modal Structure -->
+<div id="Brainard2012CoralMonitoring" class="modal" style="display:none;">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <pre class="citation-text">
+@report{brainard_2012_coral_monitoring,
+  author = {Brainard, R.E. and Asher, J. and Blyth-Skyrme, V. and Coccagna, E.F. and Dennis, K. and Donovan, M.K. and Gove, J.M. and Kenyon, J. and Looney, E.E. and Miller, J.E. and Timmers, M.A. and Vargas-Ángel, B. and Vroom, P.S. and Vetter, O. and Zgliczynski, B. and Acoba, T. and DesRochers, A. and Dunlap, M.J. and Franklin, E.C. and Fisher-Pool, P.I. and Braun, C.L. and Richards, B.L. and Schopmeyer, S.A. and Schroeder, R.E. and Toperoff, A. and Weijerman, M. and Williams, I. and Withall, R.D.},
+  title = {Coral reef ecosystem monitoring report of the Mariana Archipelago: 2003–2007},
+  journal = {NOAA Fisheries, Pacific Islands Fisheries Science Center, PIFSC Special Publication, SP-12-01},
+  year = {2012},
+  pages = {1--1019}
+}
+        </pre>
+        <button class="button-outline" onclick="copyToClipboard()">Copy Citation</button>
+        <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
+    </div>
+</div>
+
 
 <div class="publication-entry journal 2012">
     Fabina NS, Putnam HM, Franklin EC, Stat M, Gates RD (2012). Transmission mode predicts specificity and interaction patterns in coral-Symbiodinium networks. <em>PLoS ONE</em> 7(9): e44970. 
@@ -1917,6 +2451,29 @@ authors:
     </div>
 </div>
 
+<div class="publication-entry report 2011">
+    Ault JS, Franklin EC (2011). Fisheries resource status and management alternatives for the southeast Florida Region. Report to Florida DEP. Miami Beach, FL. Pp 105.
+
+  <a href="#" class="badge badge-info" onclick="openModal('Ault2011FisheriesResourceStatus')">Cite</a>
+</div>
+
+<!-- Modal Structure -->
+<div id="Ault2011FisheriesResourceStatus" class="modal" style="display:none;">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <pre class="citation-text">
+@report{ault_2011_fisheries_resource_status,
+  author = {Ault, J.S. and Franklin, E.C.},
+  title = {Fisheries resource status and management alternatives for the southeast Florida Region},
+  journal = {Report to Florida DEP},
+  year = {2011},
+  pages = {1--105}
+}
+        </pre>
+        <button class="button-outline" onclick="copyToClipboard()">Copy Citation</button>
+        <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
+    </div>
+</div>
 
 
 <div class="publication-entry conference 2011">
@@ -2031,6 +2588,33 @@ authors:
     </div>
 </div>
 
+<div class="publication-entry report 2010">
+    Carvahlo K, Franklin EC (2010). "Stakeholder involvement case study: Hawaiian Islands Humpback Whales National Marine Sanctuary" in Lindholm J, Pavia R (eds). 2010. Examples of ecosystem-based management in national marine sanctuaries: moving from theory to practice. Marine Sanctuaries Conservation Series ONMS-10-02. USDOC, NOAA, ONMS, Silver Spring, MD. 33 pp.
+
+  <a href="#" class="badge badge-info" onclick="openModal('Carvahlo2010StakeholderInvolvement')">Cite</a>
+</div>
+
+<!-- Modal Structure -->
+<div id="Carvahlo2010StakeholderInvolvement" class="modal" style="display:none;">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <pre class="citation-text">
+@incollection{carvahlo_2010_stakeholder_involvement,
+  author = {Carvahlo, K. and Franklin, E.C.},
+  title = {Stakeholder involvement case study: Hawaiian Islands Humpback Whales National Marine Sanctuary},
+  booktitle = {Examples of ecosystem-based management in national marine sanctuaries: moving from theory to practice},
+  editor = {Lindholm, J. and Pavia, R.},
+  year = {2010},
+  series = {Marine Sanctuaries Conservation Series ONMS-10-02},
+  publisher = {USDOC, NOAA, ONMS},
+  address = {Silver Spring, MD},
+  pages = {1--33}
+}
+        </pre>
+        <button class="button-outline" onclick="copyToClipboard()">Copy Citation</button>
+        <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
+    </div>
+</div>
 
 <div class="publication-entry book 2010">
     Franklin EC (2010). Marine landscape ecology of coral reefs emerges from developments in seafloor mapping, GPS, and GIS. Pp 193-204 in Breman J, Ocean Globe. ESRI Press: Redlands, CA.
@@ -2145,6 +2729,61 @@ authors:
     </div>
 </div>
 
+<div class="publication-entry report 2008">
+    Friedlander A, Aeby G, Balwani S, Bowen B, Brainard R, Clark A, Kenyon J, Maragos J, Meyer C, Vroom P, Zamzow J, DeMartini E, Franklin EC, and 19 others (2008). The State of Coral Reef Ecosystems of the Northwestern Hawaiian Islands. pp. 263-306. In Waddell JE, Clarke AM (eds.) The State of Coral Reef Ecosystems of the United States and Pacific Freely Associated States: 2008. NOAA Technical Memorandum NOS NCCOS 73. NOAA/NCCOS Center for Coastal Monitoring and Assessment’s Biogeography Team. Silver Spring, MD. 569 pp.
+
+  <a href="#" class="badge badge-info" onclick="openModal('Friedlander2008CoralEcosystems')">Cite</a>
+</div>
+
+<!-- Modal Structure -->
+<div id="Friedlander2008CoralEcosystems" class="modal" style="display:none;">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <pre class="citation-text">
+@incollection{friedlander_2008_state_coral_ecosystems,
+  author = {Friedlander, A. and Aeby, G. and Balwani, S. and Bowen, B. and Brainard, R. and Clark, A. and Kenyon, J. and Maragos, J. and Meyer, C. and Vroom, P. and Zamzow, J. and DeMartini, E. and Franklin, E.C. and others},
+  title = {The State of Coral Reef Ecosystems of the Northwestern Hawaiian Islands},
+  booktitle = {The State of Coral Reef Ecosystems of the United States and Pacific Freely Associated States: 2008},
+  editor = {Waddell, J.E. and Clarke, A.M.},
+  year = {2008},
+  pages = {263--306},
+  series = {NOAA Technical Memorandum NOS NCCOS 73},
+  publisher = {NOAA/NCCOS Center for Coastal Monitoring and Assessment’s Biogeography Team},
+  address = {Silver Spring, MD},
+  pages = {1--569}
+}
+        </pre>
+        <button class="button-outline" onclick="copyToClipboard()">Copy Citation</button>
+        <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
+    </div>
+</div>
+
+<div class="publication-entry report 2008">
+    Hudson JH, Schittone J, Anderson J, Franklin EC, Stratton A (2008). M/V Alec Owen Maitland Coral Reef Restoration Monitoring Report, Monitoring Events 2004-2007. Florida Keys National Marine Sanctuary Monroe County, Florida. Marine Sanctuaries Conservation Series NMSP-08-01. U.S. Dept. of Commerce, NOAA, NMSP, Silver Spring, MD. 34 pp.
+
+  <a href="#" class="badge badge-info" onclick="openModal('Hudson2008MonitoringReport')">Cite</a>
+</div>
+
+<!-- Modal Structure -->
+<div id="Hudson2008MonitoringReport" class="modal" style="display:none;">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <pre class="citation-text">
+@report{hudson_2008_monitoring_report,
+  author = {Hudson, J.H. and Schittone, J. and Anderson, J. and Franklin, E.C. and Stratton, A.},
+  title = {M/V Alec Owen Maitland Coral Reef Restoration Monitoring Report, Monitoring Events 2004-2007},
+  journal = {Florida Keys National Marine Sanctuary},
+  year = {2008},
+  number = {Marine Sanctuaries Conservation Series NMSP-08-01},
+  publisher = {U.S. Dept. of Commerce, NOAA, NMSP},
+  address = {Silver Spring, MD},
+  pages = {1--34}
+}
+        </pre>
+        <button class="button-outline" onclick="copyToClipboard()">Copy Citation</button>
+        <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
+    </div>
+</div>
 
 <div class="publication-entry journal 2008">
     Franklin EC (2008). An assessment of vessel traffic patterns in the Northwestern Hawaiian Islands between 1994-2004. <em>Marine Pollution Bulletin</em> 56:150-153. 
@@ -2174,7 +2813,59 @@ authors:
     </div>
 </div>
 
+<div class="publication-entry report 2006">
+    Franklin EC, Hudson JH, Anderson J, Schittone J (2006). M/V Jacquelyn L Coral Reef Restoration Monitoring Report, Monitoring Events 2004-2005. Florida Keys National Sanctuary Monroe County, Florida. Marine Sanctuaries Conservation Series NMSP-06-09. USDOC, NOAA, NMSP, Silver Spring, MD. 25 pp.
 
+  <a href="#" class="badge badge-info" onclick="openModal('Franklin2006JacquelynL')">Cite</a>
+</div>
+
+<!-- Modal Structure -->
+<div id="Franklin2006JacquelynL" class="modal" style="display:none;">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <pre class="citation-text">
+@report{franklin_2006_jacquelyn_l,
+  author = {Franklin, E.C. and Hudson, J.H. and Anderson, J. and Schittone, J.},
+  title = {M/V Jacquelyn L Coral Reef Restoration Monitoring Report, Monitoring Events 2004-2005},
+  journal = {Florida Keys National Sanctuary},
+  year = {2006},
+  number = {Marine Sanctuaries Conservation Series NMSP-06-09},
+  publisher = {USDOC, NOAA, NMSP},
+  address = {Silver Spring, MD},
+  pages = {1--25}
+}
+        </pre>
+        <button class="button-outline" onclick="copyToClipboard()">Copy Citation</button>
+        <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
+    </div>
+</div>
+
+<div class="publication-entry report 2006">
+    Schittone J, Franklin EC, Hudson JH, Anderson J (2006). M/V Connected Coral Reef Restoration Monitoring Report, Monitoring Events 2004-2005. Florida Keys National Sanctuary Monroe County, Florida. Marine Sanctuaries Conservation Series NMSP-06-10. USDOC, NOAA, NMSP, Silver Spring, MD. 25 pp.
+
+  <a href="#" class="badge badge-info" onclick="openModal('Schittone2006Connected')">Cite</a>
+</div>
+
+<!-- Modal Structure -->
+<div id="Schittone2006Connected" class="modal" style="display:none;">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <pre class="citation-text">
+@report{schittone_2006_connected,
+  author = {Schittone, J. and Franklin, E.C. and Hudson, J.H. and Anderson, J.},
+  title = {M/V Connected Coral Reef Restoration Monitoring Report, Monitoring Events 2004-2005},
+  journal = {Florida Keys National Sanctuary},
+  year = {2006},
+  number = {Marine Sanctuaries Conservation Series NMSP-06-10},
+  publisher = {USDOC, NOAA, NMSP},
+  address = {Silver Spring, MD},
+  pages = {1--25}
+}
+        </pre>
+        <button class="button-outline" onclick="copyToClipboard()">Copy Citation</button>
+        <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
+    </div>
+</div>
 
 <div class="publication-entry journal 2006">
     Hudson JH, Franklin EC (2006). Structural Stabilization of a Large Montastrea faveolata (Ellis and Solander, 1786) Colony Damaged by Vessel Impact. <em>Caribbean Journal of Science</em> 42(2):252-254.
@@ -2228,6 +2919,32 @@ authors:
     </div>
 </div>
 
+<div class="publication-entry report 2005">
+    Franklin EC, Hudson JH, Anderson J (2005). M/V Wave Walker Coral Reef Restoration Monitoring Report, Monitoring Events 2004. Florida Keys National Sanctuary Monroe County, Florida. Marine Sanctuaries Conservation Series NMSP-06-08. USDOC, NOAA, NMSP, Silver Spring, MD. 15 pp.
+
+  <a href="#" class="badge badge-info" onclick="openModal('Franklin2005WaveWalker')">Cite</a>
+</div>
+
+<!-- Modal Structure -->
+<div id="Franklin2005WaveWalker" class="modal" style="display:none;">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <pre class="citation-text">
+@report{franklin_2005_wave_walker,
+  author = {Franklin, E.C. and Hudson, J.H. and Anderson, J.},
+  title = {M/V Wave Walker Coral Reef Restoration Monitoring Report, Monitoring Events 2004},
+  journal = {Florida Keys National Sanctuary},
+  year = {2005},
+  number = {Marine Sanctuaries Conservation Series NMSP-06-08},
+  publisher = {USDOC, NOAA, NMSP},
+  address = {Silver Spring, MD},
+  pages = {1--15}
+}
+        </pre>
+        <button class="button-outline" onclick="copyToClipboard()">Copy Citation</button>
+        <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
+    </div>
+</div>
 
 <div class="publication-entry conference 2005">
     Hudson JH, Franklin EC (2005). Structural Reef Restoration and Coral Transplantation to the R/V Columbus Iselin Grounding Site in the Florida Keys National Marine Sanctuary. In: Proceedings of the OCEANS 2005 Americas MTS/IEEE Conference, Washington, DC, September 19-23, 2005. 
@@ -2258,6 +2975,137 @@ authors:
     </div>
 </div>
 
+<div class="publication-entry thesis 2004">
+    Franklin EC (2004). Habitat-based assessment of the Florida Marine Aquaria Fishery with application to Gray Angelfish. MS thesis, Rosenstiel School of Marine and Atmospheric Science, University of Miami, Coral Gables, Florida.
+
+  <a href="#" class="badge badge-info" onclick="openModal('Franklin2004Thesis')">Cite</a>
+</div>
+
+<!-- Modal Structure -->
+<div id="Franklin2004Thesis" class="modal" style="display:none;">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <pre class="citation-text">
+@thesis{franklin_2004_habitat_assessment,
+  author = {Franklin, E.C.},
+  title = {Habitat-based assessment of the Florida Marine Aquaria Fishery with application to Gray Angelfish},
+  school = {Rosenstiel School of Marine and Atmospheric Science, University of Miami},
+  year = {2004},
+  address = {Coral Gables, Florida}
+}
+        </pre>
+        <button class="button-outline" onclick="copyToClipboard()">Copy Citation</button>
+        <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
+    </div>
+</div>
+<div class="publication-entry report 2004">
+    Ault JS, Zurcher N, Franklin EC, Smith SG, Luo J (2004). A strategy for managing marine ecological resources in Dry Tortugas National Park. Contract NPS CESU Grant No. NPS CA H5000 00 B494. 74 pp. Available from: JS Ault, University of Miami. Sponsored by National Park Service.
+
+  <a href="#" class="badge badge-info" onclick="openModal('Ault2004Strategy')">Cite</a>
+</div>
+
+<!-- Modal Structure -->
+<div id="Ault2004Strategy" class="modal" style="display:none;">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <pre class="citation-text">
+@report{ault_2004_strategy,
+  author = {Ault, J.S. and Zurcher, N. and Franklin, E.C. and Smith, S.G. and Luo, J.},
+  title = {A strategy for managing marine ecological resources in Dry Tortugas National Park},
+  year = {2004},
+  number = {Contract NPS CESU Grant No. NPS CA H5000 00 B494},
+  pages = {1--74},
+  publisher = {University of Miami},
+  address = {Miami},
+  note = {Sponsored by National Park Service}
+}
+        </pre>
+        <button class="button-outline" onclick="copyToClipboard()">Copy Citation</button>
+        <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
+    </div>
+</div>
+
+<div class="publication-entry report 2003">
+    Ault JS, Franklin EC, Smith SG (2003). Florida gray angelfish fishery stock assessment. Miami: University of Miami. Contract FFWCC-617573. 89 pp. Available from: JS Ault, University of Miami. Sponsored by Florida Fish & Wildlife Conservation Commission.
+
+  <a href="#" class="badge badge-info" onclick="openModal('Ault2003GrayAngelfish')">Cite</a>
+</div>
+
+<!-- Modal Structure -->
+<div id="Ault2003GrayAngelfish" class="modal" style="display:none;">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <pre class="citation-text">
+@report{ault_2003_gray_angelfish,
+  author = {Ault, J.S. and Franklin, E.C. and Smith, S.G.},
+  title = {Florida gray angelfish fishery stock assessment},
+  year = {2003},
+  number = {Contract FFWCC-617573},
+  pages = {1--89},
+  publisher = {University of Miami},
+  address = {Miami},
+  note = {Sponsored by Florida Fish & Wildlife Conservation Commission}
+}
+        </pre>
+        <button class="button-outline" onclick="copyToClipboard()">Copy Citation</button>
+        <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
+    </div>
+</div>
+
+<div class="publication-entry report 2003">
+    Ault JS, Smith SG, Diaz G, Franklin EC (2003). Florida hogfish fishery stock assessment. Miami: University of Miami. Contract FFWCC-617573. 85 pp. Available from: JS Ault, University of Miami. Sponsored by Florida Fish & Wildlife Conservation Commission.
+
+  <a href="#" class="badge badge-info" onclick="openModal('Ault2003Hogfish')">Cite</a>
+</div>
+
+<!-- Modal Structure -->
+<div id="Ault2003Hogfish" class="modal" style="display:none;">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <pre class="citation-text">
+@report{ault_2003_hogfish,
+  author = {Ault, J.S. and Smith, S.G. and Diaz, G. and Franklin, E.C.},
+  title = {Florida hogfish fishery stock assessment},
+  year = {2003},
+  number = {Contract FFWCC-617573},
+  pages = {1--85},
+  publisher = {University of Miami},
+  address = {Miami},
+  note = {Sponsored by Florida Fish & Wildlife Conservation Commission}
+}
+        </pre>
+        <button class="button-outline" onclick="copyToClipboard()">Copy Citation</button>
+        <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
+    </div>
+</div>
+
+<div class="publication-entry report 2003">
+    Ault JS, Smith SG, Franklin EC, Luo J, Bohnsack JA (2003). Sampling design analysis for coral reef fish stock assessment in Dry Tortugas National Park. Contract NPS H5000000494-0012. 93 pp. with appendices. Available from: JS Ault, University of Miami. Sponsored by National Park Service.
+
+  <a href="#" class="badge badge-info" onclick="openModal('Ault2003SamplingDesign')">Cite</a>
+</div>
+
+<!-- Modal Structure -->
+<div id="Ault2003SamplingDesign" class="modal" style="display:none;">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <pre class="citation-text">
+@report{ault_2003_sampling_design,
+  author = {Ault, J.S. and Smith, S.G. and Franklin, E.C. and Luo, J. and Bohnsack, J.A.},
+  title = {Sampling design analysis for coral reef fish stock assessment in Dry Tortugas National Park},
+  year = {2003},
+  number = {Contract NPS H5000000494-0012},
+  pages = {1--93},
+  appendices = {with appendices},
+  publisher = {University of Miami},
+  address = {Miami},
+  note = {Sponsored by National Park Service}
+}
+        </pre>
+        <button class="button-outline" onclick="copyToClipboard()">Copy Citation</button>
+        <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
+    </div>
+</div>
 
 <div class="publication-entry journal 2003">
     Franklin EC, Ault JS, Smith SG, Luo J, Meester GA, Diaz GA, Chiappone M, Swanson DW, Miller SL, Bohnsack JA (2003). Benthic habitat mapping in the Tortugas region, Florida. <em>Marine Geodesy</em> 26(1-2):19-34. 
@@ -2341,6 +3189,32 @@ authors:
     </div>
 </div>
 
+<div class="publication-entry report 2001">
+    Ault JS, Smith SG, Luo J, Meester GA, Bohnsack JA, Miller SL, Harper D, Franklin EC, Swanson DW, Chiappone M, McClellan DB, Fischel P, Schmidt T (2001). Baseline Multispecies Coral Reef Fish Stock Assessments for the Dry Tortugas. Miami: University of Miami. Contract NPS No. CA5280-00-032 and FKNMS No. NA67RJ0149. 123 pp. Available from: JS Ault, University of Miami. Sponsored by National Park Service and Florida Keys National Marine Sanctuary.
+
+  <a href="#" class="badge badge-info" onclick="openModal('Ault2001Baseline')">Cite</a>
+</div>
+
+<!-- Modal Structure -->
+<div id="Ault2001Baseline" class="modal" style="display:none;">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <pre class="citation-text">
+@report{ault_2001_baseline,
+  author = {Ault, J.S. and Smith, S.G. and Luo, J. and Meester, G.A. and Bohnsack, J.A. and Miller, S.L. and Harper, D. and Franklin, E.C. and Swanson, D.W. and Chiappone, M. and McClellan, D.B. and Fischel, P. and Schmidt, T.},
+  title = {Baseline Multispecies Coral Reef Fish Stock Assessments for the Dry Tortugas},
+  year = {2001},
+  number = {Contract NPS No. CA5280-00-032 and FKNMS No. NA67RJ0149},
+  pages = {1--123},
+  publisher = {University of Miami},
+  address = {Miami},
+  note = {Sponsored by National Park Service and Florida Keys National Marine Sanctuary}
+}
+        </pre>
+        <button class="button-outline" onclick="copyToClipboard()">Copy Citation</button>
+        <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
+    </div>
+</div>
 
 <div class="publication-entry journal 2001">
     Miller SL, Swanson DW, Chiappone M, Ault JS, Smith SG, Meester GA, Luo J, Franklin EC, Bohnsack JA, Harper DE, McClellan DB (2001). An extensive deep reef terrace on the Tortugas Bank, Florida Keys National Marine Sanctuary. <em>Coral Reefs</em> 20:299-300. 
@@ -2369,6 +3243,52 @@ authors:
     </div>
 </div>
 
+<div class="publication-entry report 2000">
+    [NOAA] National Oceanic and Atmospheric Administration (2000). Tortugas Ecological Reserve: Final Supplemental Environmental Impact Statement/Final Supplemental Management Plan. 315 pp.
+
+  <a href="#" class="badge badge-info" onclick="openModal('NOAA2000Tortugas')">Cite</a>
+</div>
+
+<!-- Modal Structure -->
+<div id="NOAA2000Tortugas" class="modal" style="display:none;">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <pre class="citation-text">
+@report{noaa_2000_tortugas,
+  author = {{National Oceanic and Atmospheric Administration}},
+  title = {Tortugas Ecological Reserve: Final Supplemental Environmental Impact Statement/Final Supplemental Management Plan},
+  year = {2000},
+  pages = {1--315}
+}
+        </pre>
+        <button class="button-outline" onclick="copyToClipboard()">Copy Citation</button>
+        <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
+    </div>
+</div>
+
+<div class="publication-entry article 1998">
+    Franklin EC (1998). Battling a coral disease in the Florida Keys National Marine Sanctuary. Oceanic Resources Foundation Newsletter. Winter 1998.
+
+  <a href="#" class="badge badge-info" onclick="openModal('Franklin1998CoralDisease')">Cite</a>
+</div>
+
+<!-- Modal Structure -->
+<div id="Franklin1998CoralDisease" class="modal" style="display:none;">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <pre class="citation-text">
+@article{franklin_1998_coral_disease,
+  author = {Franklin, E.C.},
+  title = {Battling a coral disease in the Florida Keys National Marine Sanctuary},
+  journal = {Oceanic Resources Foundation Newsletter},
+  year = {1998},
+  month = {Winter}
+}
+        </pre>
+        <button class="button-outline" onclick="copyToClipboard()">Copy Citation</button>
+        <button class="button-outline" onclick="downloadCitation()">Download Citation</button>
+    </div>
+</div>
 
 
 <script>
