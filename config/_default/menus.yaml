@@ -28,6 +28,4 @@ main:
   - name: Want to Join Us?
     url: /want-to-join-us
     weight: 80
-  - name: Funding
-    url: funding
-    weight: 90
+

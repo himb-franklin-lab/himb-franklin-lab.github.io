@@ -1,4 +1,0 @@
----
-title: Funding
-layout: "people"
----
