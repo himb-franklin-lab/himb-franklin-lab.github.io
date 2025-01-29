@@ -13,19 +13,13 @@ main:
   - name: People
     url: people
     weight: 30
-  - name: News
-    url: post
-    weight: 40
   - name: Publications
     url: publications
-    weight: 50
+    weight: 40
   - name: Resources
     url: resources
-    weight: 60
-  - name: Contact
-    url: contact
-    weight: 70
+    weight: 50
   - name: Want to Join Us?
     url: /want-to-join-us
-    weight: 80
+    weight: 60
 
