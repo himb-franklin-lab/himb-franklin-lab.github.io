@@ -5,7 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Welcome to The Franklin Lab!</title>
   <style>
-    /* Hero Section Styles */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    /* Hero Section */
     .hero {
       display: flex;
       flex-direction: column;
@@ -16,10 +21,7 @@
       height: 100vh;
       padding: 20px;
       position: relative;
-      background-image: url('/images/kaneohe-bay.jpg');
-      background-size: cover;
-      background-position: center;
-      background-repeat: no-repeat;
+      background-color: #2E3B4E; /* Temporarily set a solid color */
     }
     .hero .images {
       display: flex;
@@ -34,13 +36,13 @@
       height: auto;
       z-index: 2;
     }
-    /* CTA Links Section Styles */
+    /* CTA Links Section */
     .cta-links {
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
-      gap: 20px; /* Space between links */
-      margin-top: 40px; /* Add space between sections */
+      gap: 20px;
+      margin-top: 40px;
     }
     .cta-links .cta {
       display: inline-block;
@@ -51,27 +53,8 @@
       color: white;
       font-size: 16px;
       flex: 1 1 150px;
-      background-size: cover;
-      background-position: center;
-      height: 150px; /* Fixed height for the links */
-    }
-    .cta-links .cta:nth-child(1) {
-      background-image: url('images/Papio.jpeg');
-    }
-    .cta-links .cta:nth-child(2) {
-      background-image: url('images/Papio.jpeg');
-    }
-    .cta-links .cta:nth-child(3) {
-      background-image: url('images/Papio.jpeg');
-    }
-    .cta-links .cta:nth-child(4) {
-      background-image: url('images/Papio.jpeg');
-    }
-    .cta-links .cta:nth-child(5) {
-      background-image: url('images/Papio.jpeg');
-    }
-    .cta-links .cta:nth-child(6) {
-      background-image: url('images/Papio.jpeg');
+      background-color: #3BBCD9; /* Temporary color for the buttons */
+      height: 150px;
     }
     .cta-links .cta:hover {
       opacity: 0.8;
@@ -99,11 +82,12 @@
     <p>Research and Publications</p>
     <a href="./about/" class="cta">About</a>
     <a href="./research/" class="cta">Research</a>
-    <a href="./people/" class="cta">People</a>
-    <a href="./publications/" class="cta">Publications</a>
-    <a href="./resources/" class="cta">Resources</a>
-    <a href="./want-to-join-us/" class="cta">Want to Join Us?</a>
+    <a href="./research/" class="cta">People</a>
+    <a href="./research/" class="cta">Publications</a>
+    <a href="./research/" class="cta">Resources</a>
+    <a href="./research/" class="cta">Want to Join Us?</a>
   </section>
 
 </body>
 </html>
+
