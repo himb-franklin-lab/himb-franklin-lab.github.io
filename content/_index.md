@@ -40,7 +40,6 @@ sections:
         max-width: 100px;
         height: auto;
       }
-
 - block: markdown
   content:
     title:
