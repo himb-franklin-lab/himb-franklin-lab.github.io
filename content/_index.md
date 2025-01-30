@@ -13,9 +13,9 @@ sections:
         School of Ocean and Earth Science and Technology  
         University of Hawaii at Manoa
       images: 
-        - filename: images/HIMB_Icon_White.png
-        - filename: images/SOEST_logo.jpg
-        - filename: images/manoaseal_logo.png
+        - filename: /images/HIMB_Icon_White.png
+        - filename: /images/SOEST_logo.jpg
+        - filename: /images/manoaseal_logo.png
     style: |
       .hero {
         display: flex;
