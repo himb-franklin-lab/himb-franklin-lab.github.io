@@ -1,6 +1,4 @@
 ---
-# This is the front matter for Hugo
-
 title: "Welcome to The Franklin Lab!"
 date: 2022-10-24
 type: landing
@@ -28,7 +26,7 @@ sections:
         color: #ffffff;
         height: 100vh;
         padding: 20px;
-        background-image: url('images/kaneohe-bay.jpg'); /* Ensure this path is correct */
+        background-image: url('kaneohe-bay.jpg'); /* Ensure this path is correct */
         background-size: cover;
         background-position: center;
       }
@@ -55,26 +53,26 @@ sections:
         {{< cta cta_link="./resources/" cta_text="Resources" cta_image="/images/Papio.jpeg" >}}
         {{< cta cta_link="./want-to-join-us/" cta_text="Want to Join Us?" cta_image="/images/Papio.jpeg" >}}
       </div>
-    style: |
-      .cta-links {
-        display: flex;
-        justify-content: center;
-        gap: 20px;
-        margin-top: 40px;
-        flex-wrap: wrap;
-      }
-      .cta-links .cta {
-        display: inline-block;
-        padding: 20px 40px;
-        text-align: center;
-        border-radius: 5px;
-        text-decoration: none;
-        color: #ffffff;
-        font-size: 16px;
-        background-size: cover;
-        background-position: center;
-        width: 150px;
-        height: 150px;
-        box-sizing: border-box;
-      }
+  style: |
+    .cta-links {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      margin-top: 40px;
+      flex-wrap: wrap;
+    }
+    .cta-links .cta {
+      display: inline-block;
+      padding: 20px 40px;
+      text-align: center;
+      border-radius: 5px;
+      text-decoration: none;
+      color: #ffffff;
+      font-size: 16px;
+      background-size: cover;
+      background-position: center;
+      width: 150px;
+      height: 150px;
+      box-sizing: border-box;
+    }
 ---
