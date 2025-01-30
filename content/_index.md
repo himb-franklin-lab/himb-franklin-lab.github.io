@@ -28,7 +28,7 @@ sections:
         height: 100vh;
         padding: 20px;
         position: relative;
-        background-image: url('kaneohe-bay.jpg');
+        background-image: url('/images/kaneohe-bay.jpg');
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -67,6 +67,7 @@ sections:
         flex-wrap: nowrap;
         justify-content: center; /* Centers the links horizontally */
         gap: 20px; /* Space between the links */
+        overflow-x: auto;
       }
       .cta-links .cta {
         display: inline-block;
@@ -78,6 +79,7 @@ sections:
         font-size: 16px;
         flex: 0 1 auto; /* Ensure that each link takes up some space and is responsive */
         min-width: 150px;
+        height: 150px;
         background-size: cover; /* Ensure background covers the whole element */
         background-position: center; /* Position background in the center */
       }
