@@ -17,6 +17,8 @@ sections:
         - filename: /images/HIMB_Icon_White.png
         - filename: /images/SOEST_logo.jpg
         - filename: /images/manoaseal_logo.png
+      background: 
+        image: /images/kaneohe-bay.jpg
     style: |
       .hero {
         display: flex;
