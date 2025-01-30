@@ -28,7 +28,7 @@ sections:
         color: #ffffff;
         height: 100vh;
         padding: 20px;
-        background-image: url('/images/kaneohe-bay.jpg'); /* Ensure this path is correct */
+        background-image: url('kaneohe-bay.jpg'); /* Ensure this path is correct */
         background-size: cover;
         background-position: center;
       }
@@ -45,15 +45,15 @@ sections:
 
   - block: markdown
     content:
-      title: "Explore Our Work"
+      title: 
       text: |
         <div class="cta-links">
-          {{% cta cta_link="./about/" cta_text="About"%}}
-          {{% cta cta_link="./research/" cta_text="Research"%}}
-          {{% cta cta_link="./research/" cta_text="People"%}}
-          {{% cta cta_link="./research/" cta_text="Publications"%}}
-          {{% cta cta_link="./research/" cta_text="Resources"%}}
-          {{% cta cta_link="./research/" cta_text="Want to Join Us?"%}}
+          {{< cta cta_link="./about/" cta_text="About">}}
+          {{< cta cta_link="./research/" cta_text="Research">}}
+          {{< cta cta_link="./people/" cta_text="People">}}
+          {{< cta cta_link="./publications/" cta_text="Publications">}}
+          {{< cta cta_link="./resources/" cta_text="Resources">}}
+          {{< cta cta_link="./want-to-join-us/" cta_text="Want to Join Us?">}}
         </div>
     style: |
       .cta-links {
@@ -71,7 +71,6 @@ sections:
         text-decoration: none;
         color: white;
         font-size: 16px;
-        background-color: #3BBCD9;
         background-size: cover;
         background-position: center;
         width: 150px;
