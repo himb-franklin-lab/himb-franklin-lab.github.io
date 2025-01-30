@@ -55,12 +55,12 @@ sections:
       subtitle:
       text: |
         <div class="cta-links">
-          {{% cta cta_link="./about/" cta_text="About"%}}
-          {{% cta cta_link="./research/" cta_text="Research"%}}
-          {{% cta cta_link="./people/" cta_text="People"%}}
-          {{% cta cta_link="./publications/" cta_text="Publications"%}}
-          {{% cta cta_link="./resources/" cta_text="Resources"%}}
-          {{% cta cta_link="./want-to-join-us/" cta_text="Want to Join Us?"%}}
+          {{< cta cta_link="./about/" cta_text="About">}}
+          {{< cta cta_link="./research/" cta_text="Research">}}
+          {{< cta cta_link="./people/" cta_text="People">}}
+          {{< cta cta_link="./publications/" cta_text="Publications">}}
+          {{< cta cta_link="./resources/" cta_text="Resources">}}
+          {{< cta cta_link="./want-to-join-us/" cta_text="Want to Join Us?">}}
         </div>
     style: |
       .cta-links {
