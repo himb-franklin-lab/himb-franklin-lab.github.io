@@ -8,13 +8,30 @@ sections:
   - block: hero
     content:
       title: |
-        Welcome to the Franklin Lab!
-      image:
-        filename: team_selfie.JPG
+        Welcome to The Franklin Lab!
       text: |
         <br>
         
         Take a look through our website to learn more about us and what we have been up to!
+    design: 
+      background:
+        image:
+          filename: kaneohe-bay.jpg
+          filters:
+            brightness: 0.5
+          size: cover
+          position: center
+          parallax: false
+      css_class: fullscreen
+    style: |
+      .hero {
+        height: 100vh; /* Makes the hero block full height */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: white; /* White text color for contrast */
+      }  
 
   - block: markdown
     content:
@@ -31,52 +48,6 @@ sections:
             brightness: 1
           size: banner
   
-  - block: collection
-    content:
-      title: Latest News
-      subtitle:
-      text:
-      count: 5
-      filters:
-        folders: 
-          - post
-        author: ''
-        category: ''
-        exclude_featured: false
-        publication_type: ''
-        tag: ''
-      offset: 0
-      order: desc
-      page_type: post
-    design:
-      view: card
-      columns: '1'
-  
-  - block: markdown
-    content:
-      title:
-      subtitle: ''
-      text: |
-          <div style="position: relative; display: inline-block;
-               bottom: 5px; right: 5px; background-color: rgba(0,0,0,0.5); color: white; padding: 5px 8px; font-size: 12px; border-radius: 3px;">
-                  Photo credit: [Andrew Shoemaker]
-              </div>
-          </div>
-    design:
-      columns: '1'
-      background:
-        image: 
-          filename: kaneohe-bay.jpg
-          filters:
-            brightness: 1
-          parallax: false
-          position: center
-          size: cover
-          text_color_light: true
-      spacing:
-        padding: ['20px', '0', '20px', '0']
-      css_class: fullscreen
-
 ---
 
 <style>
