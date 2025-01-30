@@ -1,93 +1,104 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Welcome to The Franklin Lab!</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-    }
-    /* Hero Section */
-    .hero {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
-      color: #ffffff;
-      height: 100vh;
-      padding: 20px;
-      position: relative;
-      background-color: #2E3B4E; /* Temporarily set a solid color */
-    }
-    .hero .images {
-      display: flex;
-      justify-content: center;
-      gap: 20px;
-      margin-top: 20px;
-      position: relative;
-      z-index: 1;
-    }
-    .hero .images img {
-      max-width: 100px;
-      height: auto;
-      z-index: 2;
-    }
-    /* CTA Links Section */
-    .cta-links {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 20px;
-      margin-top: 40px;
-    }
-    .cta-links .cta {
-      display: inline-block;
-      padding: 15px 25px;
-      text-align: center;
-      border-radius: 5px;
-      text-decoration: none;
-      color: white;
-      font-size: 16px;
-      flex: 1 1 150px;
-      background-color: #3BBCD9; /* Temporary color for the buttons */
-      height: 150px;
-    }
-    .cta-links .cta:hover {
-      opacity: 0.8;
-    }
-  </style>
-</head>
-<body>
+---
+# This is the front matter for Hugo
 
-  <!-- Hero Section -->
-  <section class="hero">
-    <h1>Welcome to The Franklin Lab!</h1>
-    <p>Hawaii Institute of Marine Biology</p>
-    <p>School of Ocean and Earth Science and Technology</p>
-    <p>University of Hawaii at Manoa</p>
-    <div class="images">
-      <img src="images/HIMB_Icon_White.png" alt="HIMB Logo">
-      <img src="images/SOEST_logo.jpg" alt="SOEST Logo">
-      <img src="images/manoaseal_logo.png" alt="Manoaseal Logo">
-    </div>
-  </section>
+title: "Welcome to The Franklin Lab!"
+date: 2022-10-24
+type: landing
 
-  <!-- Links Section -->
-  <section class="cta-links">
-    <h2>Explore Our Work</h2>
-    <p>Research and Publications</p>
-    <a href="./about/" class="cta">About</a>
-    <a href="./research/" class="cta">Research</a>
-    <a href="./research/" class="cta">People</a>
-    <a href="./research/" class="cta">Publications</a>
-    <a href="./research/" class="cta">Resources</a>
-    <a href="./research/" class="cta">Want to Join Us?</a>
-  </section>
+sections:
+  - block: hero
+    content:
+      title: |
+        Welcome to The Franklin Lab!
+      text: |
+        Hawaii Institute of Marine Biology  
+        School of Ocean and Earth Science and Technology  
+        University of Hawaii at Manoa
+      images: 
+        - filename: images/HIMB_Icon_White.png
+        - filename: images/SOEST_logo.jpg
+        - filename: images/manoaseal_logo.png
+    style: |
+      .hero {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: #ffffff;
+        height: 100vh;
+        padding: 20px;
+        background-image: url('/images/kaneohe-bay.jpg'); /* Ensure this path is correct */
+        background-size: cover;
+        background-position: center;
+      }
+      .hero .images {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        margin-top: 20px;
+      }
+      .hero .images img {
+        max-width: 100px;
+        height: auto;
+      }
 
-</body>
-</html>
+  - block: markdown
+    content:
+      title: "Explore Our Work"
+      text: |
+        <div class="cta-links">
+          {{% cta cta_link="./about/" cta_text="About"%}}
+          {{% cta cta_link="./research/" cta_text="Research"%}}
+          {{% cta cta_link="./research/" cta_text="People"%}}
+          {{% cta cta_link="./research/" cta_text="Publications"%}}
+          {{% cta cta_link="./research/" cta_text="Resources"%}}
+          {{% cta cta_link="./research/" cta_text="Want to Join Us?"%}}
+        </div>
+    style: |
+      .cta-links {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        margin-top: 40px;
+        flex-wrap: wrap;
+      }
+      .cta-links .cta {
+        display: inline-block;
+        padding: 15px 25px;
+        text-align: center;
+        border-radius: 5px;
+        text-decoration: none;
+        color: white;
+        font-size: 16px;
+        background-color: #3BBCD9;
+        background-size: cover;
+        background-position: center;
+        width: 150px;
+        height: 150px;
+        box-sizing: border-box;
+      }
+      /* Optional: Add background images for each CTA button */
+      .cta-links .cta:nth-child(1) {
+        background-image: url('/images/Papio.jpeg');
+      }
+      .cta-links .cta:nth-child(2) {
+        background-image: url('/images/Papio.jpeg');
+      }
+      .cta-links .cta:nth-child(3) {
+        background-image: url('/images/Papio.jpeg');
+      }
+      .cta-links .cta:nth-child(4) {
+        background-image: url('/images/Papio.jpeg');
+      }
+      .cta-links .cta:nth-child(5) {
+        background-image: url('/images/Papio.jpeg');
+      }
+      .cta-links .cta:nth-child(6) {
+        background-image: url('/images/Papio.jpeg');
+      }
+      .cta-links .cta:hover {
+        opacity: 0.8;
+      }
 
+---
