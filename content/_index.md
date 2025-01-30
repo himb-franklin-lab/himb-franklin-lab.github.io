@@ -10,9 +10,9 @@ sections:
       title: |
         Franklin Lab at HIMB
       text: |
-        Hawaii Institute of Marine Biology
-        School of Ocean and Earth Science and Technology
-        University of Hawaii at Manoa
+        - Hawaii Institute of Marine Biology
+        - School of Ocean and Earth Science and Technology
+        - University of Hawaii at Manoa
       images: 
         - filename: images/HIMB_Icon_White.png
         - filename: images/SOEST_logo.jpg
@@ -27,16 +27,23 @@ sections:
         color: #ffffff; /* White text color for contrast */
         height: 100vh;
         padding: 20px;
+        position: relative;
+        background-image: url'(kaneohe-bay.jpg)
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
       } 
       .hero .images {
         display: flex;
         justify-content: center;
         gap: 20px; /* Space between images */
         margin-top: 20px; /* Space between text and images */
+        z-index: 1;
       }
       .hero .images img {
         max-width: 100px; /* Set max width for the images */
         height: auto;
+        z-index: 2;
       }
     design: 
       background:
@@ -77,7 +84,8 @@ sections:
         text-decoration: none; /* No underline */
         color: #ffffff; /* Text color */
         font-size: 16px;
-        flex: 1 1 150px; /* Ensure that each link takes up some space and is responsive */
+        flex: 0 1 auto; /* Ensure that each link takes up some space and is responsive */
+        min-width: 150px;
         background-size: cover; /* Ensure background covers the whole element */
         background-position: center; /* Position background in the center */
       }
