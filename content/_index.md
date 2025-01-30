@@ -14,9 +14,9 @@ sections:
         - School of Ocean and Earth Science and Technology
         - University of Hawaii at Manoa
       images: 
-        - filename: images/HIMB_Icon_White.png
-        - filename: images/SOEST_logo.jpg
-        - filename: images/manoaseal_logo.png
+        - filename: /images/HIMB_Icon_White.png
+        - filename: /images/SOEST_logo.jpg
+        - filename: /images/manoaseal_logo.png
     style: |
       .hero {
         display: flex;
@@ -47,16 +47,6 @@ sections:
         z-index: 3;
         position: relative;
       }
-    design: 
-      background:
-        image:
-          filename: kaneohe-bay.jpg
-          filters:
-            brightness: 0.5
-          size: cover
-          position: center
-          parallax: false
-      css_class: fullscreen
 
   - block: markdown
     content:
@@ -93,22 +83,22 @@ sections:
       }
       /* Specific Background Images for Each CTA */
       .cta-links .cta:nth-child(1) {
-        background-image: url('images/Papio.jpeg'); 
+        background-image: url('/images/Papio.jpeg'); 
       }
       .cta-links .cta:nth-child(2) {
-        background-image: url('images/Papio.jpeg');
+        background-image: url('/images/Papio.jpeg');
       }
       .cta-links .cta:nth-child(3) {
-        background-image: url('images/Papio.jpeg');
+        background-image: url('/images/Papio.jpeg');
       }
       .cta-links .cta:nth-child(4) {
-        background-image: url('images/Papio.jpeg');
+        background-image: url('/images/Papio.jpeg');
       }
       .cta-links .cta:nth-child(5) {
-        background-image: url('images/Papio.jpeg');
+        background-image: url('/images/Papio.jpeg');
       }
       .cta-links .cta:nth-child(6) {
-        background-image: url('images/Papio.jpeg');
+        background-image: url('/images/Papio.jpeg');
       }
       .cta-links .cta:hover {
         opacity: 0.8;
