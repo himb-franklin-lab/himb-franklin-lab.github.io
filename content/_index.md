@@ -8,7 +8,7 @@ sections:
   - block: hero
     content:
       title: |
-        Welcome to The Franklin Lab!
+        Franklin Lab at HIMB
       text: |
         Hawaii Institute of Marine Biology
         School of Ocean and Earth Science and Technology
@@ -75,25 +75,32 @@ sections:
         text-align: center;
         border-radius: 5px;
         text-decoration: none; /* No underline */
-        color: white; /* Text color */
+        color: #ffffff; /* Text color */
         font-size: 16px;
         flex: 1 1 150px; /* Ensure that each link takes up some space and is responsive */
         background-size: cover; /* Ensure background covers the whole element */
         background-position: center; /* Position background in the center */
       }
-    /* Specific Background Images for Each CTA */
+      /* Specific Background Images for Each CTA */
       .cta-links .cta:nth-child(1) {
-        background-image: url('images/Papio.jpeg'); }
+        background-image: url('images/Papio.jpeg'); 
+      }
       .cta-links .cta:nth-child(2) {
-        background-image: url('images/Papio.jpeg');}
+        background-image: url('images/Papio.jpeg');
+      }
       .cta-links .cta:nth-child(3) {
-        background-image: url('images/Papio.jpeg');}
+        background-image: url('images/Papio.jpeg');
+      }
       .cta-links .cta:nth-child(4) {
-        background-image: url('images/Papio.jpeg');}
+        background-image: url('images/Papio.jpeg');
+      }
       .cta-links .cta:nth-child(5) {
-        background-image: url('images/Papio.jpeg');}
+        background-image: url('images/Papio.jpeg');
+      }
       .cta-links .cta:nth-child(6) {
-        background-image: url('images/Papio.jpeg');}
+        background-image: url('images/Papio.jpeg');
+      }
       .cta-links .cta:hover {
-        opacity: 0.8;}
+        opacity: 0.8;
+      }
 ---
