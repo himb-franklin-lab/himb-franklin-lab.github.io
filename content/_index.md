@@ -28,7 +28,7 @@ sections:
         height: 100vh;
         padding: 20px;
         position: relative;
-        background-image: url'(kaneohe-bay.jpg)
+        background-image: url('kaneohe-bay.jpg');
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -38,12 +38,14 @@ sections:
         justify-content: center;
         gap: 20px; /* Space between images */
         margin-top: 20px; /* Space between text and images */
-        z-index: 1;
+        position: relative;
+        z-index: 2;
       }
       .hero .images img {
         max-width: 100px; /* Set max width for the images */
         height: auto;
-        z-index: 2;
+        z-index: 3;
+        position: relative;
       }
     design: 
       background:
@@ -72,7 +74,7 @@ sections:
     style: |
       .cta-links {
         display: flex;
-        flex-wrap: wrap; /* Allows links to wrap on smaller screens */
+        flex-wrap: nowrap;
         justify-content: center; /* Centers the links horizontally */
         gap: 20px; /* Space between the links */
       }
