@@ -10,34 +10,10 @@ sections:
       title: |
         Welcome to The Franklin Lab!
       text: |
-        Hawaii Institute of Marine Biology
-        School of Ocean and Earth Science and Technology
+        <br>
+        Hawaii Institute of Marine Biology<br>
+        School of Ocean and Earth Science and Technology<br>
         University of Hawaii at Manoa
-      images: 
-        - filename: images/HIMB_Icon_White.png
-        - filename: images/SOEST_logo.jpg
-        - filename: images/manoaseal_logo.png
-    style: |
-      .hero {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        color: #ffffff; /* White text color for contrast */
-        height: 100vh;
-        padding: 20px;
-      } 
-      .hero .images {
-        display: flex;
-        justify-content: center;
-        gap: 20px; /* Space between images */
-        margin-top: 20px; /* Space between text and images */
-      }
-      .hero .images img {
-        max-width: 100px; /* Set max width for the images */
-        height: auto;
-      }
     design: 
       background:
         image:
@@ -48,52 +24,54 @@ sections:
           position: center
           parallax: false
       css_class: fullscreen
+    style: |
+      .hero {
+        height: 100vh; /* Makes the hero block full height */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: white; /* White text color for contrast */
+      }  
 
   - block: markdown
     content:
       title:
       subtitle:
       text: |
-        <div class="cta-links">
-          {{% cta cta_link="./about/" cta_text="About"%}}
-          {{% cta cta_link="./research/" cta_text="Research"%}}
-          {{% cta cta_link="./research/" cta_text="People"%}}
-          {{% cta cta_link="./research/" cta_text="Publications"%}}
-          {{% cta cta_link="./research/" cta_text="Resources"%}}
-          {{% cta cta_link="./research/" cta_text="Want to Join Us?"%}}
-        </div>
-    style: |
-      .cta-links {
-        display: flex;
-        flex-wrap: wrap; /* Allows links to wrap on smaller screens */
-        justify-content: center; /* Centers the links horizontally */
-        gap: 20px; /* Space between the links */
-      }
-      .cta-links .cta {
-        display: inline-block;
-        padding: 15px 25px;
-        text-align: center;
-        border-radius: 5px;
-        text-decoration: none; /* No underline */
-        color: white; /* Text color */
-        font-size: 16px;
-        flex: 1 1 150px; /* Ensure that each link takes up some space and is responsive */
-        background-size: cover; /* Ensure background covers the whole element */
-        background-position: center; /* Position background in the center */
-      }
-    /* Specific Background Images for Each CTA */
-      .cta-links .cta:nth-child(1) {
-        background-image: url('images/Papio.jpeg'); }
-      .cta-links .cta:nth-child(2) {
-        background-image: url('images/Papio.jpeg');}
-      .cta-links .cta:nth-child(3) {
-        background-image: url('images/Papio.jpeg');}
-      .cta-links .cta:nth-child(4) {
-        background-image: url('images/Papio.jpeg');}
-      .cta-links .cta:nth-child(5) {
-        background-image: url('images/Papio.jpeg');}
-      .cta-links .cta:nth-child(6) {
-        background-image: url('images/Papio.jpeg');}
-      .cta-links .cta:hover {
-        opacity: 0.8;}
+        {{% cta cta_link="./about/" cta_text="About"%}}
+        {{% cta cta_link="./research/" cta_text="Research"%}}
+        {{% cta cta_link="./people/" cta_text="People"%}}
+        {{% cta cta_link="./publications/" cta_text="Publications"%}}
+        {{% cta cta_link="./resources/" cta_text="Resources"%}}
+        {{% cta cta_link="./want-to-join-us/" cta_text="Want to join us?"%}}
+    design:
+      columns: '6'
+      background:
+          background-color:rgb(43, 139, 57)
+          filters:
+            brightness: 1
+          size: banner
+      css_class: cta-buttons-row
+
+style: |
+  .cta-buttons-row {
+    display: flex;
+    justify-content: space-between; /* Distribute buttons evenly */
+    gap: 1rem; /* Add space between buttons */
+    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+  }
+
+  .cta-buttons-row .cta {
+    flex: 1 1 calc(16.666% - 1rem); /* Ensure each button takes up equal space in the row */
+    text-align: center; /* Center text in each button */
+    margin-bottom: 1rem; /* Add spacing below buttons */
+  }
+
+  @media (max-width: 768px) {
+    .cta-buttons-row .cta {
+      flex: 1 1 100%; /* Stack buttons on smaller screens */
+    }
+  }
+  
 ---
