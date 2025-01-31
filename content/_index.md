@@ -5,10 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Franklin Lab at HIMB</title>
     
-  <!-- Link to your CSS file -->
- <link rel="stylesheet" href="/css/homepage.css">
+    <!-- Link to your CSS file -->
+    <link rel="stylesheet" href="/css/homepage.css">
 </head>
-<body
+<body> 
     <!-- Hero Section -->
     <section class="hero">
         <div class="hero-content">
