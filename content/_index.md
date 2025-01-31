@@ -1,5 +1,6 @@
 ---
-title: 
+# Leave the homepage title empty to use the site title
+title:
 date: 2022-10-24
 type: landing
 
@@ -9,8 +10,8 @@ sections:
       title: |
         Welcome to The Franklin Lab!
       text: |
-        Hawaii Institute of Marine Biology<br>
-        School of Ocean and Earth Science and Technology<br>
+        Hawaii Institute of Marine Biology
+        School of Ocean and Earth Science and Technology
         University of Hawaii at Manoa
       images: 
         - filename: images/HIMB_Icon_White.png
@@ -26,11 +27,7 @@ sections:
         color: #ffffff; /* White text color for contrast */
         height: 100vh;
         padding: 20px;
-        background-color: rgba(0, 0, 0, 0.5); /* Optional: semi-transparent background for text readability */
-      }
-      .hero .text {
-        margin-bottom: 20px; /* Space between the text and images */
-      }
+      } 
       .hero .images {
         display: flex;
         justify-content: center;
@@ -41,41 +38,62 @@ sections:
         max-width: 100px; /* Set max width for the images */
         height: auto;
       }
+    design: 
+      background:
+        image:
+          filename: kaneohe-bay.jpg
+          filters:
+            brightness: 0.5
+          size: cover
+          position: center
+          parallax: false
+      css_class: fullscreen
 
-  - block: custom_cta_section
-    content: |
-      <div class="cta-section">
-        <div class="cta-buttons">
-          <a href="/learn-more" class="cta-button">Learn More</a>
-          <a href="/contact-us" class="cta-button">Contact Us</a>
+  - block: markdown
+    content:
+      title:
+      subtitle:
+      text: |
+        <div class="cta-links">
+          {{% cta cta_link="./about/" cta_text="About"%}}
+          {{% cta cta_link="./research/" cta_text="Research"%}}
+          {{% cta cta_link="./research/" cta_text="People"%}}
+          {{% cta cta_link="./research/" cta_text="Publications"%}}
+          {{% cta cta_link="./research/" cta_text="Resources"%}}
+          {{% cta cta_link="./research/" cta_text="Want to Join Us?"%}}
         </div>
-      </div>
     style: |
-      .cta-section {
-        background-color: #00bcd4; /* Blue background for CTA section */
-        padding: 40px 20px; /* Add padding for top and bottom */
-        text-align: center;
-        color: white;
-      }
-      .cta-buttons {
+      .cta-links {
         display: flex;
-        justify-content: center;
-        gap: 20px;
-        margin-top: 20px;
+        flex-wrap: wrap; /* Allows links to wrap on smaller screens */
+        justify-content: center; /* Centers the links horizontally */
+        gap: 20px; /* Space between the links */
       }
-      .cta-buttons a {
-        background-color: #ffffff; /* White button with blue text */
-        color: #00bcd4; /* Blue text */
-        text-decoration: none;
-        padding: 15px 30px;
-        font-size: 18px;
-        border-radius: 30px;
-        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-        transition: background-color 0.3s ease, transform 0.3s ease;
+      .cta-links .cta {
+        display: inline-block;
+        padding: 15px 25px;
+        text-align: center;
+        border-radius: 5px;
+        text-decoration: none; /* No underline */
+        color: white; /* Text color */
+        font-size: 16px;
+        flex: 1 1 150px; /* Ensure that each link takes up some space and is responsive */
+        background-size: cover; /* Ensure background covers the whole element */
+        background-position: center; /* Position background in the center */
       }
-      .cta-buttons a:hover {
-        background-color: #00bcd4; /* Blue background on hover */
-        color: white; /* White text on hover */
-        transform: translateY(-5px); /* Button lift effect */
-      }
+    /* Specific Background Images for Each CTA */
+      .cta-links .cta:nth-child(1) {
+        background-image: url('images/Papio.jpeg'); }
+      .cta-links .cta:nth-child(2) {
+        background-image: url('images/Papio.jpeg');}
+      .cta-links .cta:nth-child(3) {
+        background-image: url('images/Papio.jpeg');}
+      .cta-links .cta:nth-child(4) {
+        background-image: url('images/Papio.jpeg');}
+      .cta-links .cta:nth-child(5) {
+        background-image: url('images/Papio.jpeg');}
+      .cta-links .cta:nth-child(6) {
+        background-image: url('images/Papio.jpeg');}
+      .cta-links .cta:hover {
+        opacity: 0.8;}
 ---
