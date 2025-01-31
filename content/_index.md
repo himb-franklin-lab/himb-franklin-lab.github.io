@@ -1,13 +1,13 @@
 ---
 title: "Franklin Lab at HIMB"
 date: 2022-10-24
-type: "_index"  # You can change this to match your theme's structure (e.g., "home" or "landing")
+type: "homepage"  # You can change this to match your theme's structure (e.g., "home" or "landing")
 ---
 
 # Welcome to the Franklin Lab!
 
-Hawaii Institute of Marine Biology  
-School of Ocean and Earth Science and Technology  
+Hawaii Institute of Marine Biology<br> 
+School of Ocean and Earth Science and Technology <br> 
 University of Hawaii at Manoa
 
 <!-- Call to Action Buttons -->
