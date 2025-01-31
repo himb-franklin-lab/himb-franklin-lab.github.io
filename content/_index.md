@@ -1,7 +1,7 @@
 ---
 title: "Franklin Lab at HIMB"
 date: 2022-10-24
-type: "landing"  # You can change this to match your theme's structure (e.g., "home" or "landing")
+type: "_index"  # You can change this to match your theme's structure (e.g., "home" or "landing")
 ---
 
 # Welcome to the Franklin Lab!
