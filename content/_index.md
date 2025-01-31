@@ -9,14 +9,14 @@ sections:
     content:
       title: 
       text: |
-      <div class="centered-text">
-        <h1>Welcome to The Franklin Lab!</h1>
-        <p>
-          Hawaii Institute of Marine Biology<br>
-          School of Ocean and Earth Science and Technology<br>
-          University of Hawaii at Manoa
-        </p>
-      </div>
+        <div class="centered-text">
+          <h1>Welcome to The Franklin Lab!</h1>
+          <p>
+            Hawaii Institute of Marine Biology<br>
+            School of Ocean and Earth Science and Technology<br>
+            University of Hawaii at Manoa
+          </p>
+        </div>
     design: 
       background:
         image:
