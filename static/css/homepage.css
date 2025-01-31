@@ -1,9 +1,10 @@
 /* Basic Styling for the Content */
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #4c895d;
+    background-image: url('/images/kaneohe-bay.jpeg'); /* Update the path to your background image */
+    background-size: cover;
+    background-position: center;
+    color: #ffffff; /* Change text color if needed */
+    padding: 20px; /* Add padding around the body */
 }
 
 .content {
