@@ -7,13 +7,16 @@ type: landing
 sections:
   - block: hero
     content:
-      title: |
-        Welcome to The Franklin Lab!
-      text: |
-        <br>
-        Hawaii Institute of Marine Biology<br>
-        School of Ocean and Earth Science and Technology<br>
-        University of Hawaii at Manoa
+      title: 
+      text:
+      <div class="centered-text">
+        <h1>Welcome to The Franklin Lab!</h1>
+        <p>
+          Hawaii Institute of Marine Biology<br>
+          School of Ocean and Earth Science and Technology<br>
+          University of Hawaii at Manoa
+        </p>
+      </div>
     design: 
       background:
         image:
@@ -50,6 +53,21 @@ sections:
       css_class: cta-buttons-row
 
 style: |
+  .centered-text {
+    text-align: center; /* Center the text horizontally */
+    color: white; /* Ensure the text is white */
+  } 
+
+  h1 {
+    font-size: 2.5rem; /* Adjust title size */
+    margin-bottom: 1rem; /* Space below the title */
+  }
+
+  p {
+    font-size: 1.2rem; /* Adjust the size of the paragraph */
+    line-height: 1.5; /* Line height for readability */
+  }
+
   .cta-buttons-row {
     display: flex;
     justify-content: space-between; /* Distribute buttons evenly */
