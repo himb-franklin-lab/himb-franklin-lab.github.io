@@ -48,10 +48,10 @@ sections:
     design:
       columns: '6'
       background:
-          background-color:rgb(43, 139, 57)
-          filters:
-            brightness: 1
-          size: banner
+        background-color:rgb(43, 139, 57)
+        filters:
+          brightness: 1
+        size: banner
       css_class: cta-buttons-row
 
 style: |
