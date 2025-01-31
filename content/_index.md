@@ -4,13 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Franklin Lab at HIMB</title>
-    <link rel="stylesheet" href="/css/homepage.css"> <!-- Link to the CSS file -->
+    
+  <!-- Link to your CSS file -->
+ <link rel="stylesheet" href="/css/homepage.css">
 </head>
 <body
     <!-- Hero Section -->
     <section class="hero">
         <div class="hero-content">
-            <h1>Franklin Lab at HIMB</h1>
+            <h1>Welcome to the Franklin Lab!</h1>
             <p>
                 Hawaii Institute of Marine Biology <br>
                 School of Ocean and Earth Science and Technology <br>
