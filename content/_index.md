@@ -47,11 +47,6 @@ sections:
         {{% cta cta_link="./want-to-join-us/" cta_text="Want to join us?"%}}
     design:
       columns: '6'
-      background:
-        background-color:rgb(43, 139, 57)
-        filters:
-          brightness: 1
-        size: banner
       css_class: cta-buttons-row
 
 style: |
@@ -60,6 +55,7 @@ style: |
     justify-content: space-between; /* Distribute buttons evenly */
     gap: 1rem; /* Add space between buttons */
     flex-wrap: wrap; /* Allow wrapping on smaller screens */
+    background-color: rgb(43, 139, 57);
   }
 
   .cta-buttons-row .cta {
