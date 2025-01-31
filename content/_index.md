@@ -1,5 +1,4 @@
 ---
-# Leave the homepage title empty to use the site title
 title: 
 date: 2022-10-24
 type: landing
@@ -27,7 +26,11 @@ sections:
         color: #ffffff; /* White text color for contrast */
         height: 100vh;
         padding: 20px;
-      } 
+        background-color: rgba(0, 0, 0, 0.5); /* Optional: semi-transparent background for text readability */
+      }
+      .hero .text {
+        margin-bottom: 20px; /* Space between the text and images */
+      }
       .hero .images {
         display: flex;
         justify-content: center;
@@ -38,24 +41,15 @@ sections:
         max-width: 100px; /* Set max width for the images */
         height: auto;
       }
-    design: 
-      background:
-        image:
-          filename: kaneohe-bay.jpg
-          filters:
-            brightness: 0.5
-          size: cover
-          position: center
-          parallax: false
-      css_class: fullscreen
-      
-  - block: cta
-    content:
-      cta_buttons:
-        - text: "Learn More"
-          url: "/learn-more"
-        - text: "Contact Us"
-          url: "/contact-us"
+
+  - block: custom_cta_section
+    content: |
+      <div class="cta-section">
+        <div class="cta-buttons">
+          <a href="/learn-more" class="cta-button">Learn More</a>
+          <a href="/contact-us" class="cta-button">Contact Us</a>
+        </div>
+      </div>
     style: |
       .cta-section {
         background-color: #00bcd4; /* Blue background for CTA section */
