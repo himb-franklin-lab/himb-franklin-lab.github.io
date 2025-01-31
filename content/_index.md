@@ -6,6 +6,7 @@
     
   <!-- Link to your CSS file -->
  <link rel="stylesheet" href="/css/homepage.css">
+ <title>Franklin lab at HIMB</title>
 </head>
 
 <body>
@@ -17,7 +18,7 @@
           University of Hawaii at Manoa
         </p>
     </div>
-        <!-- Call to Action Buttons -->
+<!-- Call to Action Buttons -->
     <div class="cta-section">
         <div class="cta-buttons">
             <a href="./about" class="cta-button">About</a>
