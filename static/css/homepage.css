@@ -1,0 +1,58 @@
+/* Basic Styling for the Content */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #4c895d;
+}
+
+.content {
+    text-align: center;
+    padding: 50px 20px;
+    color: #ffffff;
+}
+
+/* Style for the Call-to-Action Buttons Container */
+.cta-section {
+    background-color: #4c895d; /* Green background for CTA section */
+    padding: 50px 20px;  /* Add padding around the CTA buttons */
+    text-align: center;
+}
+.cta-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;  /* Space between buttons */
+    flex-wrap: wrap;  /* Stack buttons on smaller screens */
+    margin-top: 30px;
+}
+
+/* Individual Button Styles */
+.cta-button {
+    background-color: #000000;  /* Green background */
+    color: white;  /* White text */
+    text-decoration: none;  /* Remove underline */
+    padding: 15px 30px;
+    border-radius: 5px;  /* Rounded corners */
+    font-size: 1.2rem;
+    text-transform: uppercase;  /* Make text uppercase */
+    transition: background-color 0.3s ease;  /* Smooth color transition */
+}
+
+/* Button Hover Effect */
+.cta-button:hover {
+    background-color: #545454; 
+}
+
+/* Button Focus Effect for Accessibility */
+.cta-button:focus {
+    outline: 2px solid #fff;
+    outline-offset: 4px;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    .cta-buttons {
+        flex-direction: column;  /* Stack the buttons vertically */
+        gap: 15px;
+    }
+}
