@@ -8,7 +8,7 @@ sections:
   - block: hero
     content:
       title: 
-      text:
+      text: |
       <div class="centered-text">
         <h1>Welcome to The Franklin Lab!</h1>
         <p>
@@ -55,7 +55,7 @@ sections:
 style: |
   .centered-text {
     text-align: center; /* Center the text horizontally */
-    color: white; /* Ensure the text is white */
+    color: #ffffff; /* Ensure the text is white */
   } 
 
   h1 {
