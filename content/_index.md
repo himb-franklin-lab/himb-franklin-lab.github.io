@@ -34,7 +34,7 @@ sections:
         justify-content: center;
         align-items: center;
         text-align: center;
-        color: white; /* White text color for contrast */
+        color: #ffffff; /* White text color for contrast */
       }  
 
   - block: markdown
