@@ -41,7 +41,7 @@ sections:
     design: 
       background:
         image:
-          filename: images/kaneohe-bay.jpg
+          filename: kaneohe-bay.jpg
           filters:
             brightness: 0.5
           size: cover
