@@ -1,6 +1,12 @@
 /* Basic Styling for the Content */
 h1 {
-    color: #ffffff
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 50px;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7);
+}
+p {
+    font-size: 30px;
 }
 .content {
     text-align: center;
@@ -22,7 +28,7 @@ body {
 }
 
 .logo-container img {
-    height: 120px; /* Adjust as needed */
+    height: 160px; /* Adjust as needed */
     width: auto; /* Maintains aspect ratio */
 }
 /* Style for the Call-to-Action Buttons Container */
@@ -31,7 +37,6 @@ body {
     background-size: cover;
     padding: 20px;  /* Add padding around the CTA buttons */
     text-align: center;
-    width: 100vw;
     background-position: center;
 }
 html, body {
