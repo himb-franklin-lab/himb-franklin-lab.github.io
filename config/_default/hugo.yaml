@@ -4,7 +4,7 @@
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 title:  # Website name
-baseURL: 'https://himb-franklin-lab.github.io/homepage' # Website URL
+baseURL: 'https://himb-franklin-lab.github.io/' # Website URL
 params:
   enableAuthors: true  # Ensure this is set if applicable
   author:
