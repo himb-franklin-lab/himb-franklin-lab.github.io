@@ -1,14 +1,22 @@
----
-title: "Homepage"
-date: 2022-10-24
-type: "landing"  # You can change this to match your theme's structure (e.g., "home" or "landing")
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    
+  <!-- Link to your CSS file -->
+ <link rel="stylesheet" href="/css/homepage.css">
+</head>
 
-# Welcome to the Franklin Lab!
-
-Hawaii Institute of Marine Biology<br> 
-School of Ocean and Earth Science and Technology <br> 
-University of Hawaii at Manoa
+<body>
+    <div class="content">
+        <h1>Welcome to the Franklin Lab at HIMB!</h1>
+          <p>Hawaii Institute of Marine Biology<br> 
+          School of Ocean and Earth Science and Technology <br> 
+          University of Hawaii at Manoa
+          </p>
+    </div>
 
 <!-- Call to Action Buttons -->
 <div class="cta-section">
