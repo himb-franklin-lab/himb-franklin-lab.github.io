@@ -1,18 +1,23 @@
 /* Basic Styling for the Content */
-body {
-    background-image: url('/images/kaneohe-bay.jpeg'); /* Update the path to your background image */
-    background-size: cover;
-    background-position: center;
-    color: #ffffff; /* Change text color if needed */
-    padding: 20px; /* Add padding around the body */
-}
-
 .content {
     text-align: center;
     padding: 50px 20px;
     color: #ffffff;
+    background-image: url('/images/kaneohe-bay.jpeg'); /* Update the path to your background image */
+    background-size: cover;
+    background-position: center;
+}
+.logo-container {
+    display: flex;
+    justify-content: center; /* Centers the logos */
+    gap: 20px; /* Adds spacing between logos */
+    margin-top: 10px; /* Adjusts spacing from the <h2> */
 }
 
+.logo-container img {
+    height: 100px; /* Adjust as needed */
+    width: auto; /* Maintains aspect ratio */
+}
 /* Style for the Call-to-Action Buttons Container */
 .cta-section {
     background-color: #4c895d; /* Green background for CTA section */
