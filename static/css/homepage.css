@@ -5,9 +5,10 @@
     color: #ffffff;
 }
 body {
-    background-image: url('/images/kaneohe-bay.jpeg'); /* Update the path to your background image */
+    background-image: url('/images/HIMB_aerial.jpeg'); /* Update the path to your background image */
     background-size: cover;
     background-position: center;
+    color: #ffffff; /* Change text color if needed */
     padding: 20px; /* Add padding around the body */
 }
 .logo-container {
@@ -25,10 +26,11 @@ body {
 .cta-section {
     background-color: #4c895d; /* Green background for CTA section */
     background-size: cover;
-    width: 100vw;
-    padding: 50px 20px;  /* Add padding around the CTA buttons */
+    padding: 20px;  /* Add padding around the CTA buttons */
     text-align: center;
+    background-position: center;
 }
+
 .cta-buttons {
     display: flex;
     justify-content: center;
