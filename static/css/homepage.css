@@ -52,7 +52,6 @@ html, body {
     gap: 20px;  /* Space between buttons */
     flex-wrap: wrap;  /* Stack buttons on smaller screens */
     margin-top: 5px;
-    font-size: 12px
 }
 
 /* Individual Button Styles */
@@ -62,7 +61,7 @@ html, body {
     text-decoration: none;  /* Remove underline */
     padding: 15px 30px;
     border-radius: 5px;  /* Rounded corners */
-    font-size: 1.2rem;
+    font-size: 0.8rem;
     text-transform: uppercase;  /* Make text uppercase */
     transition: background-color 0.3s ease;  /* Smooth color transition */
 }

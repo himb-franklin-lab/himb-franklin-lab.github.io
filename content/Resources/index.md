@@ -15,7 +15,7 @@
   <section class="hero">
     <h1>Image Gallery</h1>
     <p>
-      <a href="https://www.flickr.com/photos/himb-franklin-lab">Check our our lab's photos!</a>
+      <a href="https://www.flickr.com/photos/himb-franklin-lab">Check out our lab's photos!</a>
     </p>
   </section>
 </div>
