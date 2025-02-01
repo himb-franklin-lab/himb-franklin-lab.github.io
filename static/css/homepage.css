@@ -8,7 +8,7 @@ body {
     background-image: url('/images/kaneohe-bay.jpeg'); /* Update the path to your background image */
     background-size: cover;
     background-position: center;
-    min-height: 400px;
+    padding: 20px; /* Add padding around the body */
 }
 .logo-container {
     display: flex;
@@ -25,6 +25,7 @@ body {
 .cta-section {
     background-color: #4c895d; /* Green background for CTA section */
     background-size: cover;
+    width: 100vw;
     padding: 50px 20px;  /* Add padding around the CTA buttons */
     text-align: center;
 }
