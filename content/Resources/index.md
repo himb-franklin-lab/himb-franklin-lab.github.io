@@ -11,6 +11,15 @@
     <h1>Resources</h1>
   </header>
 
+<div class="image-gallery">
+  <section class="hero">
+    <h1>Image Gallery</h1>
+    <p>
+      <a href="https://www.flickr.com/photos/himb-franklin-lab">Check our our lab's photos!</a>
+    </p>
+  </section>
+</div>
+
 <div class="resources-page">
   <section class="hero">
     <h1>Published Data</h1>
