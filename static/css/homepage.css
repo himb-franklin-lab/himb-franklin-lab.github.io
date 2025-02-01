@@ -52,6 +52,7 @@ html, body {
     gap: 20px;  /* Space between buttons */
     flex-wrap: wrap;  /* Stack buttons on smaller screens */
     margin-top: 5px;
+    font-size: 12px
 }
 
 /* Individual Button Styles */
