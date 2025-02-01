@@ -22,6 +22,7 @@
             <img src="/images/manoaseal_logo.png" alt="Logo 3">
         </div>
     </div>
+</body>
 
 <!-- Call to Action Buttons -->
 <div class="cta-section">
