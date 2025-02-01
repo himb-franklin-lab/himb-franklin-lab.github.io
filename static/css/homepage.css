@@ -1,11 +1,14 @@
 /* Basic Styling for the Content */
+h1 {
+    color: #ffffff
+}
 .content {
     text-align: center;
     padding: 50px 20px;
     color: #ffffff;
 }
 body {
-    background-image: url('/images/HIMB_aerial.jpeg'); /* Update the path to your background image */
+    background-image: url('/images/kaneohe-bay.jpg'); /* Update the path to your background image */
     background-size: cover;
     background-position: center;
     color: #ffffff; /* Change text color if needed */
@@ -14,23 +17,28 @@ body {
 .logo-container {
     display: flex;
     justify-content: center; /* Centers the logos */
-    gap: 10px; /* Adds spacing between logos */
+    gap: 5px; /* Adds spacing between logos */
     margin-top: 10px; /* Adjusts spacing from the <h2> */
 }
 
 .logo-container img {
-    height: 100px; /* Adjust as needed */
+    height: 120px; /* Adjust as needed */
     width: auto; /* Maintains aspect ratio */
 }
 /* Style for the Call-to-Action Buttons Container */
 .cta-section {
-    background-color: #4c895d; /* Green background for CTA section */
+    background-color: #76C7C3; /*Pauley Green*/
     background-size: cover;
     padding: 20px;  /* Add padding around the CTA buttons */
     text-align: center;
+    width: 100vw;
     background-position: center;
 }
-
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
 .cta-buttons {
     display: flex;
     justify-content: center;
@@ -41,8 +49,8 @@ body {
 
 /* Individual Button Styles */
 .cta-button {
-    background-color: #000000;  /* Green background */
-    color: white;  /* White text */
+    background-color: #10616A;  /* patch reef background */
+    color: #C2E5DF;  /* sandbar text */
     text-decoration: none;  /* Remove underline */
     padding: 15px 30px;
     border-radius: 5px;  /* Rounded corners */
@@ -53,7 +61,7 @@ body {
 
 /* Button Hover Effect */
 .cta-button:hover {
-    background-color: #545454; 
+    background-color: #0c4c54; 
 }
 
 /* Button Focus Effect for Accessibility */
