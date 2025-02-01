@@ -11,7 +11,7 @@
 
 <body>
     <div class="content">
-        <h1>Welcome to the Franklin Lab at HIMB!</h1>
+        <h1>Welcome to the Franklin Lab</h1>
           <p>Hawaii Institute of Marine Biology<br> 
           School of Ocean and Earth Science and Technology <br> 
           University of Hawaii at Manoa
