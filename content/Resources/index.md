@@ -142,28 +142,3 @@
   </section>
 </div>
 
-<section class="gallery-container">
-            <div class="gallery" id="gallery">
-                <img src="/images/Papio-tagging.jpg" alt="Image 1">
-                <img src="/images/EF.jpg" alt="Image 2">
-                <img src="/images/mayo-olin.jpeg" alt="Image 3">
-                <!-- Add more images as needed -->
-            </div>
-            <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
-            <button class="next" onclick="moveSlide(1)">&#10095;</button>
-        </section>
-    </div>
-    <script>
-        let currentSlide = 0;
-        function moveSlide(direction) {
-            const slides = document.querySelectorAll('.gallery img');
-            currentSlide += direction;
-            if (currentSlide < 0) {
-                currentSlide = slides.length - 1; // Wrap around to the last image
-            } else if (currentSlide >= slides.length) {
-                currentSlide = 0; // Wrap around to the first image
-            }
-            const gallery = document.getElementById('gallery');
-            gallery.style.transform = `translateX(-${currentSlide * 100}%)`;
-        }
-    </script>

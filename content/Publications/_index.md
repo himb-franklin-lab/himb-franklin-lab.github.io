@@ -58,8 +58,8 @@ authors:
     /* New button styles */
     .button-outline {
         background-color: transparent; /* Clear background */
-        border: 2px solid teal; /* Blue outline */
-        color: teal; /* Text color */
+        border: 2px #10616A; /* Blue outline */
+        color: #10616A; /* Text color */
         padding: 8px 12px; /* Padding for the button */
         border-radius: 4px; /* Rounded corners */
         cursor: pointer; /* Pointer cursor on hover */

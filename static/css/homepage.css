@@ -56,8 +56,8 @@ html, body {
 
 /* Individual Button Styles */
 .cta-button {
-    background-color: #10616A;  /* patch reef background */
-    color: #C2E5DF;  /* sandbar text */
+    background-color: #4B682F;  /* Heritage tree background */
+    color: #EBD5AF;  /* shoreline text */
     text-decoration: none;  /* Remove underline */
     padding: 15px 30px;
     border-radius: 5px;  /* Rounded corners */
@@ -68,7 +68,7 @@ html, body {
 
 /* Button Hover Effect */
 .cta-button:hover {
-    background-color: #0c4c54; 
+    background-color: #2e411d; 
 }
 
 /* Button Focus Effect for Accessibility */
