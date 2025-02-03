@@ -23,7 +23,7 @@ body {
 .logo-container {
     display: flex;
     justify-content: center; /* Centers the logos */
-    gap: 5px; /* Adds spacing between logos */
+    gap: 10px; /* Adds spacing between logos */
     margin-top: 20px; /* Adjusts spacing from the <h2> */
 }
 
@@ -39,7 +39,7 @@ body {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    background-position: center;
+    background-position: cover;
 }
 html, body {
     margin: 0;
