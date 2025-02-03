@@ -33,7 +33,7 @@ body {
 }
 /* Style for the Call-to-Action Buttons Container */
 .cta-section {
-    background-color: #76C7C3; /*Pauley Green*/
+    background-color: #4B682F; /*Heritage tree*/
     background-size: cover;
     padding: 20px;  /* Add padding around the CTA buttons */
     text-align: center;
@@ -56,8 +56,8 @@ html, body {
 
 /* Individual Button Styles */
 .cta-button {
-    background-color: #4B682F;  /* Heritage tree background */
-    color: #EBD5AF;  /* shoreline text */
+    background-color: #C2E5DF;  /* sandbar background */
+    color: #10616A;  /* patch reef text */
     text-decoration: none;  /* Remove underline */
     padding: 15px 30px;
     border-radius: 5px;  /* Rounded corners */
