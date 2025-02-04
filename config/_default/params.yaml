@@ -120,3 +120,5 @@ publications:
 # Authors
 authors:
   enable: true
+
+favicon: "HIMB_favicon.png"

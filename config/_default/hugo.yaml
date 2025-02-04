@@ -13,7 +13,7 @@ params:
     organization: true
     social: true
     enable: true
-    show_social: false
+    show_social: true
     show_interests: true
     show_role: true
   people:
