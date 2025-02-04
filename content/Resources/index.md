@@ -1,144 +1,152 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Resources</title>
+---
+title: "Research Projects"
+layout: "resources"
+---
+page:
+  title: "Resources"
+  stylesheet: "/css/resources.css"
 
-<link rel="stylesheet" href="/css/resources.css">
-</head>
-<header>
-    <h1>Resources</h1>
-  </header>
+header:
+  title: "Resources"
 
-<div class="image-gallery">
-  <section class="hero">
-    <h1>Image Gallery</h1>
-    <p>
-      <a href="https://www.flickr.com/photos/himb-franklin-lab">Check out our lab's photos!</a>
-    </p>
-  </section>
-</div>
+image_gallery:
+  title: "Image Gallery"
+  description: "Check out our lab's photos!"
+  link: "https://www.flickr.com/photos/himb-franklin-lab"
 
-<div class="resources-page">
-  <section class="hero">
-    <h1>Published Data</h1>
-    <p>
-      &ast; = Franklin lab graduate student or post-doc, <sup>+</sup> = UH graduate student or undergraduate student
-    </p>
-    <div class="citation">
-      <p>
-        Oyafuso ZS*, Drazen JC, Moore CH, Franklin EC (2017). Data from: Habitat-based species
-        distribution modelling of the Hawaiian deepwater snapper-grouper complex. Dryad Digital
-        Repository. <a href="http://dx.doi.org/10.5061/dryad.f78r6">http://dx.doi.org/10.5061/dryad.f78r6</a>
-      </p>
-      <p>
-        Franklin EC, Jokiel PL, Donahue MJ (2013). Data from: Predictive modeling of coral
-        distribution and abundance in the Hawaiian Islands. Dryad Digital Repository.
-        <a href="http://dx.doi.org/10.5061/dryad.9vd0q">http://dx.doi.org/10.5061/dryad.9vd0q</a>
-      </p>
-      <p>
-        Franklin E and Craig M. Coral Reef Fishes Life History Data, Hawaiian Islands, USA,
-        1994-2008 ecfranklin.3.2. <a href="http://knb.ecoinformatics.org/knb/metacat/ecfranklin.3.2/knb">http://knb.ecoinformatics.org/knb/metacat/ecfranklin.3.2/knb</a>
-      </p>
-    </div>
-  </section>
+resources_page:
+  published_data:
+    title: "Published Data"
+    description: "* = Franklin lab graduate student or post-doc, + = UH graduate student or undergraduate student"
+    citations:
+      - authors: "Oyafuso ZS*, Drazen JC, Moore CH, Franklin EC"
+        year: 2017
+        title: "Data from: Habitat-based species distribution modelling of the Hawaiian deepwater snapper-grouper complex"
+        repository: "Dryad Digital Repository"
+        link: "http://dx.doi.org/10.5061/dryad.f78r6"
+      - authors: "Franklin EC, Jokiel PL, Donahue MJ"
+        year: 2013
+        title: "Data from: Predictive modeling of coral distribution and abundance in the Hawaiian Islands"
+        repository: "Dryad Digital Repository"
+        link: "http://dx.doi.org/10.5061/dryad.9vd0q"
+      - authors: "Franklin E and Craig M"
+        title: "Coral Reef Fishes Life History Data, Hawaiian Islands, USA, 1994-2008 ecfranklin.3.2"
+        repository: "KNB"
+        link: "http://knb.ecoinformatics.org/knb/metacat/ecfranklin.3.2/knb"
 
-  <section class="hero">
-    <h1>Computing</h1>
-    <p>
-      <a href="https://www.admb-project.org/">AD Model Builder</a> | 
-      <a href="https://www.jennessent.com/arcgis/surface_area.htm">DEM Surface Tools</a> | 
-      <a href="https://filezilla-project.org/">Filezilla</a> | 
-      <a href="https://gitforwindows.org/">GitforWindows</a> | 
-      <a href="https://github.com/">GitHub</a> | 
-      <a href="https://mcmc-jags.sourceforge.io/">JAGS</a> | 
-      <a href="https://laszip.org/">LASzip</a> | 
-      <a href="https://marxansolutions.org/">Marxan</a> | 
-      <a href="https://megasoftware.net/">MEGA</a> | 
-      <a href="https://www.mendeley.com/">Mendeley</a> | 
-      <a href="https://noaa-fisheries-integrated-toolbox.github.io/">NOAA Fisheries Toolbox</a> | 
-      <a href="https://www.csc.noaa.gov/digitalcoast/tools/opennspect">OpenNSPECT</a> | 
-      <a href="https://qgis.org/">QGIS</a> | 
-      <a href="https://posit.co/">RStudio</a> | 
-      <a href="https://www.python.org/">Python</a> | 
-      <a href="https://www.sqlite.org/">SQLite</a> | 
-      <a href="http://star.mit.edu/cluster/index.html">StarCluster</a> | 
-      <a href="http://bes-qsig.github.io/fge/docs/IntroWinBUGSwithR/">WinBUGS</a> | 
-      <a href="https://zonationteam.github.io/Zonation5/">Zonation</a>
-    </p>
-  </section>
+  computing:
+    title: "Computing"
+    tools:
+      - name: "AD Model Builder"
+        link: "https://www.admb-project.org/"
+      - name: "DEM Surface Tools"
+        link: "https://www.jennessent.com/arcgis/surface_area.htm"
+      - name: "Filezilla"
+        link: "https://filezilla-project.org/"
+      - name: "GitforWindows"
+        link: "https://gitforwindows.org/"
+      - name: "GitHub"
+        link: "https://github.com/"
+      - name: "JAGS"
+        link: "https://mcmc-jags.sourceforge.io/"
+      - name: "LASzip"
+        link: "https://laszip.org/"
+      - name: "Marxan"
+        link: "https://marxansolutions.org/"
+      - name: "MEGA"
+        link: "https://megasoftware.net/"
+      - name: "Mendeley"
+        link: "https://www.mendeley.com/"
+      - name: "NOAA Fisheries Toolbox"
+        link: "https://noaa-fisheries-integrated-toolbox.github.io/"
+      - name: "OpenNSPECT"
+        link: "https://www.csc.noaa.gov/digitalcoast/tools/opennspect"
+      - name: "QGIS"
+        link: "https://qgis.org/"
+      - name: "RStudio"
+        link: "https://posit.co/"
+      - name: "Python"
+        link: "https://www.python.org/"
+      - name: "SQLite"
+        link: "https://www.sqlite.org/"
+      - name: "StarCluster"
+        link: "http://star.mit.edu/cluster/index.html"
+      - name: "WinBUGS"
+        link: "http://bes-qsig.github.io/fge/docs/IntroWinBUGSwithR/"
+      - name: "Zonation"
+        link: "https://zonationteam.github.io/Zonation5/"
 
-  <section class="hero">
-    <h1>Funding</h1>
-    <p>
-      <a href="https://www.usaid.gov/partner-with-us/find-a-funding-opportunity">Agency for International Development</a> | 
-      <a href="https://www.commerce.gov/work-with-us/grants-and-contract-opportunities">Department of Commerce</a> | 
-      <a href="https://www.epa.gov/grants">Environmental Protection Agency</a> | 
-      <a href="https://www.nasa.gov/centers-and-facilities/grants-2/">National Aeronautics and Space Administration</a> | 
-      <a href="https://www.nationalgeographic.org/society/grants-and-investments/">National Geographic Society</a> | 
-      <a href="https://new.nsf.gov/funding/opportunities">National Science Foundation</a> | 
-      <a href="https://www.padi.com/aware/community-grants">PADI Foundation</a> | 
-      <a href="https://swbg-conservationfund.org/grant-seekers/">SeaWorld & Busch Gardens Conservation Fund</a> | 
-      <a href="https://serdp-estcp.mil/workwithus/fundingprocess">Strategic Environmental Research and Development Program</a> | 
-      <a href="https://sloan.org/grants/apply">Alfred P. Sloan Foundation Grants</a>
-    </p>
-  </section>
+  funding:
+    title: "Funding"
+    sources:
+      - name: "Agency for International Development"
+        link: "https://www.usaid.gov/partner-with-us/find-a-funding-opportunity"
+      - name: "Department of Commerce"
+        link: "https://www.commerce.gov/work-with-us/grants-and-contract-opportunities"
+      - name: "Environmental Protection Agency"
+        link: "https://www.epa.gov/grants"
+      - name: "National Aeronautics and Space Administration"
+        link: "https://www.nasa.gov/centers-and-facilities/grants-2/"
+      - name: "National Geographic Society"
+        link: "https://www.nationalgeographic.org/society/grants-and-investments/"
+      - name: "National Science Foundation"
+        link: "https://new.nsf.gov/funding/opportunities"
+      - name: "PADI Foundation"
+        link: "https://www.padi.com/aware/community-grants"
+      - name: "SeaWorld & Busch Gardens Conservation Fund"
+        link: "https://swbg-conservationfund.org/grant-seekers/"
+      - name: "Strategic Environmental Research and Development Program"
+        link: "https://serdp-estcp.mil/workwithus/fundingprocess"
+      - name: "Alfred P. Sloan Foundation Grants"
+        link: "https://sloan.org/grants/apply"
 
-  <section class="hero">
-    <h1>Student Grants & Fellowships</h1>
-    <p>
-      <a href="https://fisheries.org/about/awards-recognition/call-for-award-nominations-section-awards/frances-allen-scholarship-award/">American Fisheries Society Allen Scholarship Award</a> | 
-      <a href="https://mfs.fisheries.org/?page_id=155">American Fisheries Society Berkeley Marine Conservation Fellowship</a> | 
-      <a href="https://fisheries.org/about/awards-recognition/call-for-award-nominations/william-r-mote-fisheries-fellowship-award/">American Fisheries Society Mote Fisheries Fellowship</a> | 
-      <a href="https://www.borenawards.org/">Boren Awards for International Study</a> | 
-      <a href="https://fosterscholars.noaa.gov/">Dr. Nancy Foster Scholarship Program</a> | 
-      <a href="https://www.eastwestcenter.org/education/ewc-graduate-degree-fellowship">East-West Center Graduate Degree Fellowship</a> | 
-      <a href="https://www.epa.gov/research-fellowships/science-achieve-results-star-graduate-and-greater-research-opportunities-gro">EPA STAR Graduate Fellowship Program</a> | 
-      <a href="https://www.explorers.org/grants/">Explorers Club Student Grants</a> | 
-      <a href="https://www.fordfoundation.org/work/investing-in-individuals/the-ford-global-fellowship/">Ford Foundation Fellowship Program</a> | 
-      <a href="https://www.soest.hawaii.edu/soestwp/hauoli-mau-loa-graduate-fellowship/">Hauʻoli Mau Loa Graduate Fellowship</a> | 
-      <a href="https://coralreefs.org/student-travel-grants/graduate-fellowships/">International Society for Reef Studies Graduate Fellowship</a> | 
-      <a href="https://www.loreal.com/en/usa/pages/group/fwis/">L’Oréal USA For Women in Science fellowship program</a> | 
-      <a href="https://www.msc.org/what-we-are-doing/science-and-research/student-research-grant">Marine Stewardship Council Scholarship Research Program</a> | 
-      <a href="https://ndseg.sysplus.com/">National Defense Science & Engineering Graduate Fellowship</a> | 
-      <a href="https://seagrant.noaa.gov/communities/students/graduate-fellows/nmfs-sg-fellowship/">NOAA Fisheries/Sea Grant Population Dynamics Fellowship Program</a> | 
-      <a href="https://www.noaa.gov/office-education/hollings-scholarship">NOAA Hollings Scholarship Program</a> | 
-      <a href="https://www.nationalacademies.org/our-work/rap/for-applicants">NRC Research Associateship Program</a> | 
-      <a href="https://www.nsfgrfp.org/">NSF Graduate Research Fellowship Program</a> | 
-      <a href="https://www.justice.gov/enrd/pathways-students-and-recent-graduates-federal-careers">US Federal Opportunities for Graduate Students</a> | 
-      <a href="https://www.wdhof.org/scholarships/scholarship-descriptions">Women Divers Hall of Fame Scholarships and Training Grants</a>
-    </p>
-  </section>
+  student_grants:
+    title: "Student Grants & Fellowships"
+    sources:
+      - name: "American Fisheries Society Allen Scholarship Award"
+        link: "https://fisheries.org/about/awards-recognition/call-for-award-nominations-section-awards/frances-allen-scholarship-award/"
+      - name: "American Fisheries Society Berkeley Marine Conservation Fellowship"
+        link: "https://mfs.fisheries.org/?page_id=155"
+      - name: "Boren Awards for International Study"
+        link: "https://www.borenawards.org/"
+      - name: "Dr. Nancy Foster Scholarship Program"
+        link: "https://fosterscholars.noaa.gov/"
+      - name: "EPA STAR Graduate Fellowship Program"
+        link: "https://www.epa.gov/research-fellowships/science-achieve-results-star-graduate-and-greater-research-opportunities-gro"
+      - name: "NSF Graduate Research Fellowship Program"
+        link: "https://www.nsfgrfp.org/"
 
-  <section class="hero">
-    <h1>Training</h1>
-    <p>
-      <a href="https://datacarpentry.org/">Data Carpentry</a> | 
-      <a href="https://www.nimbios.org/">National Institute for Mathematical and Biological Synthesis Tutorials</a> | 
-      <a href="https://software-carpentry.org/">Software Carpentry</a>
-    </p>
-  </section>
+  training:
+    title: "Training"
+    sources:
+      - name: "Data Carpentry"
+        link: "https://datacarpentry.org/"
+      - name: "National Institute for Mathematical and Biological Synthesis Tutorials"
+        link: "https://www.nimbios.org/"
+      - name: "Software Carpentry"
+        link: "https://software-carpentry.org/"
 
-  <section class="hero">
-    <h1>Scientific Employment in Hawaii</h1>
-    <p>
-      <a href="https://www.aecos.com/">AECOS, Inc.</a> | 
-      <a href="https://www.aquaticbio.com/">Aquatic Biosciences</a> | 
-      <a href="https://cgh.org/">Cooperative Gulf of Mexico Estuarine Program</a> | 
-      <a href="https://www.hawaiianatolls.org/">Hawaiian Islands Humpback Whale National Marine Sanctuary</a> | 
-      <a href="http://www.hihid.org/">Hawaii Institute of Marine Biology</a> | 
-      <a href="https://www.hawaiiwildlife.org/">Hawaii Wildlife Fund</a> | 
-      <a href="https://www.marine.hawaii.edu/">Hawai'i Cooperative Fishery Research Unit</a> | 
-      <a href="http://www.mauiwildlife.org/">Maui Coastal Land Trust</a> | 
-      <a href="https://www.mauifisheries.org/">Maui Fisheries Division</a> | 
-      <a href="https://www.noaa.gov/">National Oceanic and Atmospheric Administration</a> | 
-      <a href="https://www.pifsc.noaa.gov/">NOAA Pacific Islands Fisheries Science Center</a> | 
-      <a href="https://www.pacificwhale.org/">Pacific Whale Foundation</a> | 
-      <a href="http://www.seagrant.soest.hawaii.edu/">Sea Grant College Program</a> | 
-      <a href="http://www.usgs.gov/">U.S. Geological Survey</a> | 
-      <a href="https://www.wetlands.org/">Wetlands International</a>
-    </p>
-  </section>
-</div>
+  employment_hawaii:
+    title: "Scientific Employment in Hawaii"
+    sources:
+      - name: "AECOS, Inc."
+        link: "https://www.aecos.com/"
+      - name: "Aquatic Biosciences"
+        link: "https://www.aquaticbio.com/"
+      - name: "Hawaiian Islands Humpback Whale National Marine Sanctuary"
+        link: "https://www.hawaiianatolls.org/"
+      - name: "Hawaii Institute of Marine Biology"
+        link: "http://www.hihid.org/"
+      - name: "Hawaii Wildlife Fund"
+        link: "https://www.hawaiiwildlife.org/"
+      - name: "Maui Fisheries Division"
+        link: "https://www.mauifisheries.org/"
+      - name: "NOAA Pacific Islands Fisheries Science Center"
+        link: "https://www.pifsc.noaa.gov/"
+      - name: "Pacific Whale Foundation"
+        link: "https://www.pacificwhale.org/"
+      - name: "U.S. Geological Survey"
+        link: "http://www.usgs.gov/"
+      - name: "Wetlands International"
+        link: "https://www.wetlands.org/"
 
