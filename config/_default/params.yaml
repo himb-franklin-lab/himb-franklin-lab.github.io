@@ -46,6 +46,7 @@ header:
 footer:
   enable_social_buttons: false
   enable_custom_links: false
+  social_links: false
   copyright:
     notice: '© {year} Franklin Lab at HIMB. All rights reserved.'
     license:
