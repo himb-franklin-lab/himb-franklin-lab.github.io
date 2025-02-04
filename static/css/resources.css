@@ -54,3 +54,6 @@ html, body {
     font-size: 18px; /* Adjust paragraph size as needed */
     line-height: 1.5; /* Improve readability */
   }
+  .social-buttons {
+    display: none;
+  }
