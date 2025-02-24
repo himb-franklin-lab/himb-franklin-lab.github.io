@@ -18,7 +18,7 @@
           </p>
         <div class="logo-container">
             <img src="/images/HIMB_Icon_White.png" alt="Logo 1">
-            <img src="/images/SOEST_logo.png" alt="Logo 2"> class="special-logo">
+            <img src="/images/SOEST_logo.png" alt="Logo 2" class="special-logo">
             <img src="/images/manoaseal_logo.png" alt="Logo 3">
         </div>
     </div>
