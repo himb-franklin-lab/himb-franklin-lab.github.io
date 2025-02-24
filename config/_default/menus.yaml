@@ -5,7 +5,7 @@
 
 main:
   - name: Homepage
-    url: homepage
+    url: 
     weight: 10
   - name: About
     url: about
