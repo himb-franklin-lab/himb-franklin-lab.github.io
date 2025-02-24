@@ -1,6 +1,12 @@
 - name: "Meredith Pfennig"
   year: "2025"
   role: "Research Technician"
+  social_links:
+    - url: "https://scholar.google.com/citations?user=WnA5HmAAAAAJ&hl=en"
+      icon: "/images/google-scholar.png"
+      alt: "Google Scholar"
+    - url: "https://orcid.org/0009-0001-5676-7759"
+      icon: "/images/orcid.png"
 
 - name: "Keena Leon-Guerrero"
   year: "2023"
