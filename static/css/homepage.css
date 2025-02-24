@@ -29,11 +29,11 @@ body {
 }
 
 .logo-container img {
-    height: 140px; /* Adjust as needed */
+    height: 160px; /* Adjust as needed */
     width: auto; /* Maintains aspect ratio */
 }
 .special-logo {
-    height: 350px; /* Custom height */
+    height: auto; /* 
     width: auto; /* Maintains aspect ratio */
 }
 /* Style for the Call-to-Action Buttons Container */
