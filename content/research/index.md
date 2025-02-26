@@ -11,6 +11,7 @@
 
 <body>
     <div class="content">
+        <section class ="hero">
         <h1>Research</h1>
         <p>Our lab combines field studies, experimental approaches, laboratory methods, and quantitative modeling to provide science to inform sustainable marine fisheries management under anthropogenic stressors throughout tropical seas.<p>
         <h2>Essential fish habitat and species distribution modeling<h2>
@@ -27,6 +28,7 @@
         <p>Global-scale stressors impact human society and the natural environment leading to changes in the dynamics of atmospheric and oceanic systems. We use outputs from general circulation models that represent physical processes of Earth to understand the impact that different stressors have on the global system. Past research examples include the influence on environmental hazards on human infectious diseases and the cryptocurrency Bitcoin.<p>
         <h2>Restoration aquaculture and responsible marine stock enhancement<h2>
         <p>Restoration aquaculture provides an economically-sustainable commercial aquaculture practice that has a positive ecological impact. Responsible marine stock enhancement uses effective, scientifically-based research to develop the technology for spawning and rearing fish for release to enhance or help restore coastal populations targeted by fisheries. This is a new area of research for the lab.<p>
+        </section>
         </div>
     </div>
 </body>
