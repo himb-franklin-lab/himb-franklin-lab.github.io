@@ -1,0 +1,50 @@
+/* Apply gradient to the entire webpage */
+html, body {
+    height: 100%; /* Ensures that the body covers the entire height of the page */
+    margin: 0; /* Remove any default margins */
+    padding: 0; /* Remove any default padding */
+    background-size: cover; /* Ensures the gradient covers the entire area */
+    background-attachment: fixed; /* Makes the background fixed when scrolling */
+    color: #000000; /* Change text color for better contrast */
+  }
+  
+  /* Style the content inside the page */
+  .content {
+    text-align: left;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-size: 19px;
+    line-height: 1.6;
+    padding: 10px;
+    border-radius: 10px;
+  }
+    .hero h1 {
+      font-size: 26px; /* Adjust header size as needed */
+      margin-bottom: 10px; /* Space below header */
+    }
+    .hero h2 {
+      font-size: 18px; /* Adjust header size as needed */
+      font-style: bold;
+      margin-bottom: 10px; /* Space below header */
+    }
+    .hero p {
+      font-size: 12px; /* Adjust paragraph size as needed */
+      line-height: 1.5; /* Improve readability */
+    }
+  
+    .h1 {
+      font-size: 26px; /* Adjust header size as needed */
+      margin-bottom: 10px; /* Space below header */
+    }
+    .h2 {
+      font-size: 18px; /* Adjust header size as needed */
+      font-style: bold;
+      margin-bottom: 10px; /* Space below header */
+    }
+    .p {
+      font-size: 12px; /* Adjust paragraph size as needed */
+      line-height: 1.5; /* Improve readability */
+    }
+    .social-buttons {
+      display: none;
+    }

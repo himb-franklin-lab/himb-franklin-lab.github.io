@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About</title>
+    <title>Research</title>
     
   <!-- Link to your CSS file -->
- <link rel="stylesheet" href="/css/resources.css">
+ <link rel="stylesheet" href="/css/research.css">
 </head>
 
 <body>
