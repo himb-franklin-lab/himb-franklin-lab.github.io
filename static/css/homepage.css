@@ -32,10 +32,7 @@ body {
     height: 160px; /* Adjust as needed */
     width: auto; /* Maintains aspect ratio */
 }
-.special-logo {
-    height: auto; /* 
-    width: auto; /* Maintains aspect ratio */
-}
+
 /* Style for the Call-to-Action Buttons Container */
 .cta-section {
     background-color: #4B682F; /*Heritage tree*/
