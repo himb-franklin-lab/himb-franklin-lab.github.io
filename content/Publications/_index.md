@@ -675,7 +675,7 @@ authors:
     Limmon GV, Longenecker KL, Langston R, Franklin EC (2022). Capacity development in reproductive life history studies of tropical fishes in Ambon, Maluku, Indonesia for data-limited fisheries. <em>Marine Policy</em> 136: 104948. 
     
   <a href="#" class="badge badge-info" onclick="openModal('limmon2022')">Cite</a>
-  <a href="https://doi.org/10.1016/j.marpol.2021/104948" class="badge badge-info" target="_blank">DOI</a>
+  <a href="https://doi.org/10.1016/j.marpol.2021.104948" class="badge badge-info" target="_blank">DOI</a>
 </div>
 
 <!-- Modal Structure -->
@@ -690,8 +690,8 @@ authors:
   volume = {136},
   pages = {104948},
   year = {2022},
-  doi = {10.1016/j.marpol.2021/104948},
-  url = {https://doi.org/10.1016/j.marpol.2021/104948}
+  doi = {10.1016/j.marpol.2021.104948},
+  url = {https://doi.org/10.1016/j.marpol.2021.104948}
 }
         </pre>
         <button class="button-outline" onclick="copyToClipboard()">Copy Citation</button>
@@ -1083,6 +1083,7 @@ authors:
     Longenecker K, Langston R, Franklin EC (2020). Standard operating procedure for histology-based rapid reproductive analysis of tropical fish. Technical Report for Walton Family Foundation.
 
   <a href="#" class="badge badge-info" onclick="openModal('Longenecker2020HistologySOP')">Cite</a>
+  <a href="https://doi.org/10.13140/RG.2.2.32587.21288/2" class="badge badge-info" target="_blank">DOI</a>
 </div>
 
 <!-- Modal Structure -->
@@ -1098,6 +1099,8 @@ authors:
   volume = {105},
   number = {4},
   pages = {1--12}
+  doi = {10.13140/RG.2.2.32587.21288/2},
+  url = {https://www.researchgate.net/publication/344445372_Standard_operating_procedure_for_histology-based_rapid_reproductive_analysis_of_tropical_fishes}
 }
         </pre>
         <button class="button-outline" onclick="copyToClipboard()">Copy Citation</button>
