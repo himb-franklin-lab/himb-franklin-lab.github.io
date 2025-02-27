@@ -28,7 +28,7 @@ html, body {
       margin-bottom: 10px; /* Space below header */
     }
     .hero p {
-      font-size: 15px; /* Adjust paragraph size as needed */
+      font-size: 16px; /* Adjust paragraph size as needed */
       line-height: 1.5; /* Improve readability */
     }
     .social-buttons {
