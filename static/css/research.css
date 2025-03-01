@@ -24,7 +24,7 @@ html, body {
     }
     .hero h2 {
       font-size: 18px; /* Adjust header size as needed */
-      font-style: bold;
+      font-weight: bold;
       margin-bottom: 10px; /* Space below header */
     }
     .hero p {
