@@ -19,7 +19,7 @@ html, body {
     border-radius: 10px;
   }
     .hero h1 {
-      font-size: 26px; /* Adjust header size as needed */
+      font-size: 32px; /* Adjust header size as needed */
       margin-bottom: 10px; /* Space below header */
     }
     .hero h2 {
